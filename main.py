@@ -11,14 +11,17 @@ from dotenv import load_dotenv
 from autogen import config_list_from_json
 from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent
 from autogen import UserProxyAgent
- 
+
+# Load environment variables
 load_dotenv()
 BROWSERLESS_API_KEY = os.getenv("BROWSERLESS_API_KEY")
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-config_list = config_list_from_json("OAI_CONFIG_LIST")
+assistant_id_1 = os.getenv("ASSISTANT_ID_1")
+assistant_id_2 = os.getenv("ASSISTANT_ID_2")
+assistant_id_3 = os.getenv("ASSISTANT_ID_3")
 
-brand_task = input("Please enter the brand or company name: ")
-user_task = input("Please enter the your goal, brief, or problem statement: ")
+# Configuration for GPT assistants
+config_list = config_list_from_json("OAI_CONFIG_LIST")
 
 # Function for google search
 def google_search(search_keyword):    
@@ -94,21 +97,22 @@ def web_scraping(objective: str, url: str):
     else:
         print(f"HTTP request failed with status code {response.status_code}")    
 
-        # ------------------ Create agent ------------------ #
-
 # Create user proxy agent
-user_proxy = UserProxyAgent(name="user_proxy",
+user_proxy = UserProxyAgent(
+    name="user_proxy",
+    system_message="Help the user to answer their question concisely and accurately",
     is_termination_msg=lambda msg: "TERMINATE" in msg["content"],
     human_input_mode="ALWAYS",
     max_consecutive_auto_reply=1
-    )
+)
+
 
 # Create researcher agent
 researcher = GPTAssistantAgent(
-    name = "researcher",
-    llm_config = {
+    name="researcher",
+    llm_config={
         "config_list": config_list,
-        "assistant_id": "asst_cHeIz4xErrE6gIaCDaJU3JJ1"
+        "assistant_id": assistant_id_1
     }
 )
 
@@ -122,28 +126,38 @@ researcher.register_function(
 # Create research manager agent
 research_manager = GPTAssistantAgent(
     name="research_manager",
-    llm_config = {
+    llm_config={
         "config_list": config_list,
-        "assistant_id": "asst_MlgKumQSJluKz1LfFiG9CV4e"
+        "assistant_id": assistant_id_2
     }
 )
 
 # Create director agent
 director = GPTAssistantAgent(
-    name = "director",
-    llm_config = {
+    name="director",
+    llm_config={
         "config_list": config_list,
-        "assistant_id": "asst_f8e01JTAXfzSTre5Ffz6lcON",
+        "assistant_id": assistant_id_3
     }
 )
 
 # Create group chat
-groupchat = autogen.GroupChat(agents=[user_proxy, researcher, research_manager, director], messages=[], max_round=15)
-group_chat_manager = autogen.GroupChatManager(groupchat=groupchat, llm_config={"config_list": config_list})
+groupchat = autogen.GroupChat(
+    agents=[user_proxy, researcher, research_manager, director],
+    messages=[],
+    max_round=5
+)
+group_chat_manager = autogen.GroupChatManager(
+    groupchat=groupchat, 
+    llm_config={"config_list": config_list}
+)
 
 # ------------------ start conversation ------------------ #
 
+brand_task = input("Please enter the brand or company name: ")
+user_task = input("Please enter your goal, brief, or problem statement: ")
+
 user_proxy.initiate_chat(
     group_chat_manager, 
-    message=user_task,
+    system_message=user_task
 )

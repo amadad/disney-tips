@@ -1,6 +1,9 @@
+import asyncio
 import autogen
 from user_proxy_webagent import UserProxyWebAgent
-import asyncio
+from autogen import config_list_from_json
+from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent
+from autogen import UserProxyAgent
 
 config_list = [
     {
@@ -82,8 +85,3 @@ class AutogenChat():
         return "Order status: delivered TERMINATE"
 
 
-
-# Migrated code from source.py
-from autogen import config_list_from_json
-from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent
-from autogen import UserProxyAgent

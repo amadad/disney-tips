@@ -65,8 +65,3 @@ class AutogenChat():
             clear_history=True,
             message=message
         )
-
-
-
-
-# Migrated code from source.py
