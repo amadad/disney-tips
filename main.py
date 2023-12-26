@@ -106,7 +106,6 @@ user_proxy = UserProxyAgent(
     max_consecutive_auto_reply=1
 )
 
-
 # Create researcher agent
 researcher = GPTAssistantAgent(
     name="researcher",
@@ -151,8 +150,6 @@ group_chat_manager = autogen.GroupChatManager(
     groupchat=groupchat, 
     llm_config={"config_list": config_list}
 )
-
-# ------------------ start conversation ------------------ #
 
 brand_task = input("Please enter the brand or company name: ")
 user_task = input("Please enter your goal, brief, or problem statement: ")
