@@ -2,3 +2,4 @@
 *workspace
 .env
 OAI*
+.DS_Store

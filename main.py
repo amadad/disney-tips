@@ -2,11 +2,13 @@ import os
 import requests
 import json
 import autogen
+import functools
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
 from langchain.chains.summarize import load_summarize_chain
 from bs4 import BeautifulSoup
 from langchain.chat_models import ChatOpenAI
+from langsmith.run_helpers import traceable
 from dotenv import load_dotenv
 from autogen import config_list_from_json
 from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent
@@ -23,8 +25,20 @@ assistant_id_3 = os.getenv("ASSISTANT_ID_3")
 # Configuration for GPT assistants
 config_list = config_list_from_json("OAI_CONFIG_LIST")
 
+# Tracing with Langsmith
+def traceable(run_type: str, name: str = None):
+    def decorator_traceable(func):
+        @functools.wraps(func)
+        def wrapper_traceable(*args, **kwargs):
+            print(f"Tracing {run_type} - {name if name else func.__name__}")
+            # You can add more sophisticated tracing logic here
+            return func(*args, **kwargs)
+        return wrapper_traceable
+    return decorator_traceable
+
 # Function for google search
-def google_search(search_keyword):    
+@traceable(run_type="tool", name="google_search")
+def google_search(search_keyword):     
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
@@ -41,6 +55,7 @@ def google_search(search_keyword):
     return response.text
 
 # Function for summarizing
+@traceable(run_type="tool", name="summary")
 def summary(objective, content):
     llm = ChatOpenAI(temperature = 0, model = "gpt-3.5-turbo-16k-0613")
 
@@ -67,6 +82,7 @@ def summary(objective, content):
     return output
 
 # Function for scraping
+@traceable(run_type="tool", name="web_scraping")
 def web_scraping(objective: str, url: str):
     print("Scraping website...")
     headers = {
@@ -103,17 +119,21 @@ user_proxy = UserProxyAgent(
     system_message="Help the user to answer their question concisely and accurately",
     is_termination_msg=lambda msg: "TERMINATE" in msg["content"],
     human_input_mode="ALWAYS",
-    max_consecutive_auto_reply=1
+    max_consecutive_auto_reply=10
 )
 
-# Create researcher agent
-researcher = GPTAssistantAgent(
-    name="researcher",
-    llm_config={
-        "config_list": config_list,
-        "assistant_id": assistant_id_1
-    }
-)
+@traceable(run_type="agent_creation", name="create_researcher_agent")
+def create_researcher_agent(config_list, assistant_id):
+    return GPTAssistantAgent(
+        name="researcher",
+        llm_config={
+            "config_list": config_list,
+            "assistant_id": assistant_id
+        }
+    )
+
+# Usage
+researcher = create_researcher_agent(config_list, assistant_id_1)
 
 researcher.register_function(
     function_map={
@@ -144,8 +164,9 @@ director = GPTAssistantAgent(
 groupchat = autogen.GroupChat(
     agents=[user_proxy, researcher, research_manager, director],
     messages=[],
-    max_round=5
+    max_round=20
 )
+
 group_chat_manager = autogen.GroupChatManager(
     groupchat=groupchat, 
     llm_config={"config_list": config_list}
@@ -156,5 +177,5 @@ user_task = input("Please enter your goal, brief, or problem statement: ")
 
 user_proxy.initiate_chat(
     group_chat_manager, 
-    system_message=user_task
+    message=user_task
 )
