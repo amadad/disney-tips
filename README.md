@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100px" src="./misc/logo.png" />
+<img width="100px" src="./output/logo.png" />
 
 # Disney World Trip Tips
 
