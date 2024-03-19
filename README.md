@@ -1,72 +1,77 @@
-# Agentcy: Multi-Agent Collaboration — AutoGen x OpenAI Assistants API
+<div align="center">
 
-<p align="center">
-  <img src='./misc/logo1.png' width=888>
+<img width="100px" src="./misc/logo.png" />
+
+# Disney World Trip Tips
+
+### Latest Updates and Recommendations for Disney World
+
+<p>
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/amadad/agentcy2" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amadad/agentcy2" />
+<img alt="Github Repo Size" src="https://img.shields.io/github/repo-size/amadad/agentcy2" />
+<img alt="GitHub Stars" src="https://img.shields.io/github/stars/amadad/agentcy2" />
+<img alt="GitHub Forks" src="https://img.shields.io/github/forks/amadad/agentcy2" />
+<img alt="Github License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+<img alt="Twitter" src="https://img.shields.io/twitter/follow/amadad?style=social" />
 </p>
 
-This code demonstrates the power of multi-agent collaboration using the [AutoGen library](https://github.com/microsoft/autogen) and [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview). Instead of relying on a single agent to handle tasks, multiple specialized agents work together, each bringing its expertise to the table.
+</div>
 
+-----
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-schema">Schema</a> •
+  <a href="#-tools">Tools</a> •
+  <a href="#-setup">Setup</a> • 
+  <a href="#-roadmap">Roadmap</a> •
+  <a href="#-license">License</a>
+</p>
+
+-----
+
+Get the latest updates and recommendations for Disney World from teams of experts. 
+
+-----
 
 ## 📖 Overview
 
-The code sets up a collaborative environment where multiple agents, each with its unique role and expertise, come together to discuss, plan, and execute tasks. This collaboration ensures that different aspects of a task are handled by the most qualified agent, leading to more efficient and accurate outcomes.
+Discover the best tips and tricks for planning your trip, from the most popular attractions to the most hidden gems. Using [PhiData](https://www.phidata.com) assistants, we analyze, extract and structure the data to provide you with the most accurate and up-to-date information.
 
-## 🕵🏽 Agents
+## 🕵🏽 Schema
 
-The agents involved in the collaboration include:
+Our schema includes the following fields:
 
-1. **Director**: Conducts research on user pain points, market opportunities, and prevailing market conditions.
-2. **Researcher**: Utilizes research and content writing functions to generate content.
-3. **Manager**: Drafts strategic briefs for effective brand positioning in the market.
+1. **Park Updates**: Provides the latest updates and changes to the Disney World parks.
+2. **Best Time to Visit**: Recommends the best time to visit Disney World.
+3. **Must-Do Attractions**: Lists the must-do attractions or rides at Disney World.
+4. **Dining Recommendations**: Provides recommendations for dining options at Disney World.
+5. **Premium Tips**: Offers tips and tricks for using Genie+ and Lightning Lane at Disney World.
+6. **Budget Tips**: Provides tips for saving money and sticking to a budget at Disney World.
+7. **Packing Essentials**: Lists essential items to pack for a Disney World trip.
+8. **Transportation Options**: Provides information on transportation options within Disney World.
+9. **Planning Resources**: Offers useful resources for planning a Disney World trip.
+10. **Publish Date**: Provides the publish date of the YouTube video.
+11. **Video URL**: Provides the URL of the YouTube video.
 
-## 🕵🏽 Key Features
+## 🕵🏽 Tools
 
-**Automated Google Search**: Utilizes the SERPER API to perform targeted Google searches based on user input.
-**Web Scraping**: Implements the BeautifulSoup library for scraping web content, combined with the Browserless API for seamless data extraction.
-Text Summarization: Employs the langchain library and GPT-3.5 models for generating concise summaries of large text blocks, tailored to specific objectives.
-**Interactive Chat Agents**: Integrates autogen and GPT-based agents to create an interactive research experience, allowing users to input their research goals and receive customized outputs.
+**YouTube Transcripts**: Extracts the transcripts from YouTube videos and aggregates them into a single document.
+**PyTube**: Utilizes the PyTube library to fetch YouTube videos and extract their metadata.
+**PhiData**: Uses PhiData to analyze and extract data from the YouTube transcripts.
 
-## ⚙️ Setup & Configuration
+## ⚙️ Setup
 
-1. Ensure required libraries are installed:
+Ensure required libraries are installed:
 ```
-pip install pyautogen==0.2.0b5
+pip install -r requirements.txt
 ```
-
-2. Set up the OpenAI configuration list by either providing an environment variable `OAI_CONFIG_LIST` or specifying a file path.
-```
-[
-    {
-        "model": "gpt-3.5-turbo", #or whatever model you prefer
-        "api_key": "INSERT_HERE"
-    }
-]
-```
-
-3. Setup api keys in .env:
-```
-OPENAI_API_KEY="XXX"
-SERPAPI_API_KEY="XXX"
-SERPER_API_KEY="XXX"
-BROWSERLESS_API_KEY="XXX"
-```
-
-4. Launch in CLI:
-```
-python3 main.py
-```
-
-## ⏯️ Conclusion
-
-In the realm of creative agencies, the multi-agent collaboration approach revolutionizes the way projects are handled. By tapping into the distinct expertise of various agency roles, from strategists to media planners, we can guarantee that each facet of a project is managed by those best suited for the task. This methodology not only ensures precision and efficiency but also showcases its versatility, as it can be tailored to suit diverse project requirements, whether it's brand positioning, content creation, or any other creative endeavor. 
 
 ## 📈 Roadmap
 
-1. Refine workflow and data pass through to agents
-2. Reduce unnecessaery back and forth
-3. Save files to local folder
-4. Implement other agents, see commented out agents
-6. Create and train fine-tuned agents for each domain specific task
+- [ ] Refine workflow and data pass through to agents
+- [ ] Modularize code
 
 ## 📝 License 
 

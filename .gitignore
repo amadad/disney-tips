@@ -3,3 +3,5 @@
 .env
 OAI*
 .DS_Store
+_archive
+phidata
