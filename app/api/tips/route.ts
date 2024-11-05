@@ -104,10 +104,9 @@ export async function GET() {
             });
 
             const response = completion.choices[0].message.parsed;
-            
             // Find closest timestamp for each tip
-            response.tips = response.tips.map(tip => {
-              // Find transcript segment that most likely contains this tip
+            const tips = response?.tips?.map(tip => {
+              // Find transcript segment that most likely contains this tip  
               const relevantSegment = transcriptWithTimestamps.find(t => 
                 t.text.toLowerCase().includes(tip.text.toLowerCase().slice(0, 30))
               ) || transcriptWithTimestamps[0];

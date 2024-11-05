@@ -155,11 +155,11 @@ export default function Home() {
             <div className="space-y-6">
               {loading ? (
                 Array.from({ length: 3 }).map((_, i) => (
-                  <div key={i} className="space-y-4">
+                  <div key={`skeleton-group-${i}`} className="space-y-4">
                     <Skeleton className="h-8 w-48" />
                     <div className="grid gap-4 md:grid-cols-2">
                       {Array.from({ length: 2 }).map((_, j) => (
-                        <Skeleton key={j} className="h-48" />
+                        <Skeleton key={`skeleton-item-${i}-${j}`} className="h-48" />
                       ))}
                     </div>
                   </div>
@@ -185,7 +185,10 @@ export default function Home() {
                     
                     <div className="grid gap-4 md:grid-cols-2">
                       {channelGroup.tips.map((tip, index) => (
-                        <TipCard key={`${channelGroup.channelName}-${index}`} tip={tip} />
+                        <TipCard 
+                          key={`${channelGroup.channelName}-${tip.timestamp}-${index}`} 
+                          tip={tip} 
+                        />
                       ))}
                     </div>
 
@@ -193,7 +196,12 @@ export default function Home() {
                       <h3 className="font-semibold mb-2">Key Takeaways:</h3>
                       <ul className="list-disc list-inside space-y-1">
                         {channelGroup.keyTakeaways.map((takeaway, index) => (
-                          <li key={index} className="text-muted-foreground">{takeaway}</li>
+                          <li 
+                            key={`${channelGroup.channelName}-takeaway-${index}`} 
+                            className="text-muted-foreground"
+                          >
+                            {takeaway}
+                          </li>
                         ))}
                       </ul>
                     </div>
