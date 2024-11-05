@@ -5,3 +5,4 @@ OAI*
 .DS_Store
 _archive
 phidata
+.env.development.local
