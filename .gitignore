@@ -6,3 +6,9 @@ OAI*
 _archive
 phidata
 .env.development.local
+node_modules
+.next
+.env.local
+.env.development
+.env.production
+.env.test
