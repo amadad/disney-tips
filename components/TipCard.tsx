@@ -13,10 +13,17 @@ interface TipCardProps {
   };
 }
 
+// Add date validation
+const formatDate = (dateStr: string) => {
+  try {
+    return new Date(dateStr).toLocaleDateString()
+  } catch {
+    return new Date().toLocaleDateString() // Fallback to current date
+  }
+}
+
 export default function TipCard({ tip }: TipCardProps) {
-  const formattedTime = new Date(Number(tip.timestamp) * 1000)
-    .toISOString()
-    .substr(11, 8);
+  const formattedTime = formatDate(tip.timestamp);
 
   return (
     <Card className="p-6 hover:shadow-lg transition-shadow">
