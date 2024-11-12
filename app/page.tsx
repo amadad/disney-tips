@@ -1,217 +1,163 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { Compass, Youtube, Clock, Search, Tag } from "lucide-react";
-import { Input } from "@/components/ui/input";
+import { DISNEY_CHANNELS } from '@/lib/constants';
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Badge } from "@/components/ui/badge";
-import TipCard from "@/components/TipCard";
+import { VideoCard } from "@/components/VideoCard";
+import { Tag } from 'lucide-react';
+import { Input } from "@/components/ui/input";
 
-interface Tip {
-  text: string;
-  category: 'ride' | 'dining' | 'planning' | 'savings' | 'general';
-  confidence: number;
-  timestamp: string;
-  videoTitle: string;
-  videoUrl: string;
-  channelTitle: string;
-}
-
-interface ChannelTips {
+type VideoType = {
+  id: string;
   channelName: string;
-  channelTitle: string;
-  videoSummary: string;
-  tips: Tip[];
-  keyTakeaways: string[];
-}
+  title: string;
+  description: string;
+  publishedAt: string;
+  thumbnail: string;
+  url: string;
+};
 
-const CATEGORIES = ['all', 'ride', 'dining', 'planning', 'savings', 'general'] as const;
+const CATEGORIES = [
+  'All',
+  'Parks',
+  'Hotels',
+  'Food',
+  'Money Saving',
+  'Planning',
+  'News'
+] as const;
 
 export default function Home() {
-  const [tips, setTips] = useState<ChannelTips[]>([]);
+  const [videos, setVideos] = useState<VideoType[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedChannel, setSelectedChannel] = useState<string | null>(null);
-  const [selectedCategory, setSelectedCategory] = useState<typeof CATEGORIES[number]>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   useEffect(() => {
-    fetchTips();
+    fetchVideos();
   }, []);
 
-  async function fetchTips() {
-    setLoading(true);
+  async function fetchVideos() {
     try {
+      setLoading(true);
       const response = await fetch("/api/tips");
       const data = await response.json();
-      console.log('Raw API Data:', data);
       
-      if (!Array.isArray(data)) {
-        console.error('Expected array, got:', typeof data);
-        setTips([]);
-        return;
+      if (Array.isArray(data)) {
+        setVideos(data);
+      } else {
+        console.error('Expected array of videos, got:', typeof data);
+        setVideos([]);
       }
-
-      setTips(data);
     } catch (error) {
-      console.error("Failed to fetch tips:", error);
-      setTips([]);
+      console.error("Failed to fetch videos:", error);
+      setVideos([]);
     } finally {
       setLoading(false);
     }
   }
 
-  const filteredTips = useMemo(() => {
-    if (!Array.isArray(tips)) return [];
-    
-    return tips
-      .map(channelGroup => ({
-        ...channelGroup,
-        tips: channelGroup.tips.filter(tip => 
-          tip.text.toLowerCase().includes(searchQuery.toLowerCase()) &&
-          (!selectedChannel || channelGroup.channelName === selectedChannel) &&
-          (selectedCategory === 'all' || tip.category === selectedCategory) &&
-          tip.confidence > 0.5 // Only show high-confidence tips
-        )
-      }))
-      .filter(channelGroup => channelGroup.tips.length > 0);
-  }, [tips, searchQuery, selectedChannel, selectedCategory]);
-
-  console.log('Filtered Tips:', filteredTips);
+  const filteredVideos = useMemo(() => {
+    return videos.filter((video) => {
+      const matchesSearch = !searchQuery || 
+        video.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        video.description.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesChannel = !selectedChannel || video.channelName === selectedChannel;
+      const matchesCategory = selectedCategory === 'All' || 
+        video.title.toLowerCase().includes(selectedCategory.toLowerCase());
+      return matchesSearch && matchesChannel && matchesCategory;
+    });
+  }, [videos, searchQuery, selectedChannel, selectedCategory]);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background to-secondary">
-      <div className="container mx-auto px-4 py-8">
-        <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-            Disney World Tips Tracker
+    <div className="min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        {/* Title */}
+        <div className="flex justify-center mb-20">
+          <h1 className="text-4xl font-bold text-[#4a62d8]">
+            Disney Trip Tips
           </h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover the latest Disney World tips and tricks from your favorite YouTube creators
-          </p>
-        </header>
+        </div>
 
-        <div className="grid gap-6 md:grid-cols-[250px_1fr]">
-          <aside className="space-y-6">
-            <div className="relative">
-              <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-              <Input
-                placeholder="Search tips..."
-                className="pl-9"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-            </div>
+        {/* Search */}
+        <div className="max-w-md mx-auto mb-12">
+          <Input
+            placeholder="Search videos..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full h-12 px-4 rounded-lg border border-gray-200 text-lg text-gray-500 focus:outline-none focus:border-[#4a62d8] focus:ring-0"
+          />
+        </div>
 
-            <Card className="p-4">
-              <h2 className="font-semibold mb-3 flex items-center gap-2">
-                <Tag className="h-4 w-4" />
-                Categories
-              </h2>
-              <div className="space-y-2">
-                {CATEGORIES.map((category) => (
-                  <Button
-                    key={category}
-                    variant={selectedCategory === category ? "secondary" : "ghost"}
-                    className="w-full justify-start capitalize"
-                    onClick={() => setSelectedCategory(category)}
-                  >
-                    {category}
-                  </Button>
-                ))}
+        {/* Category Tags */}
+        <div className="flex flex-wrap justify-center gap-3 mb-8">
+          {CATEGORIES.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`inline-flex items-center px-6 py-2 rounded-full text-base transition-colors ${
+                selectedCategory === category
+                  ? 'bg-[#4a62d8] text-white'
+                  : 'bg-[#F5F7FF] text-[#4a62d8] hover:bg-[#4a62d8]/10'
+              }`}
+            >
+              <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z" />
+              </svg>
+              {category}
+            </button>
+          ))}
+        </div>
+
+        {/* Channel Selection */}
+        <div className="flex flex-wrap justify-center gap-3">
+          <button
+            className={`px-6 py-3 rounded-lg transition-colors ${
+              selectedChannel === null 
+                ? 'bg-[#4a62d8] text-white' 
+                : 'bg-[#F5F7FF] text-[#4a62d8] hover:bg-[#4a62d8]/10'
+            }`}
+            onClick={() => setSelectedChannel(null)}
+          >
+            All Channels
+          </button>
+          {Object.keys(DISNEY_CHANNELS).map(channel => (
+            <button
+              key={channel}
+              className={`px-6 py-3 rounded-lg transition-colors ${
+                selectedChannel === channel 
+                  ? 'bg-[#4a62d8] text-white' 
+                  : 'bg-[#F5F7FF] text-[#4a62d8] hover:bg-[#4a62d8]/10'
+              }`}
+              onClick={() => setSelectedChannel(channel)}
+            >
+              {channel}
+            </button>
+          ))}
+        </div>
+
+        {/* Video Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {loading ? (
+            Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="space-y-4 animate-pulse">
+                <div className="aspect-video bg-[#76d0c0]/20 rounded-lg" />
+                <div className="h-4 bg-[#76d0c0]/20 rounded w-3/4" />
+                <div className="h-4 bg-[#76d0c0]/20 rounded w-1/2" />
               </div>
-            </Card>
-
-            <Card className="p-4">
-              <h2 className="font-semibold mb-3 flex items-center gap-2">
-                <Compass className="h-4 w-4" />
-                Channels
-              </h2>
-              <div className="space-y-2">
-                <Button
-                  variant={selectedChannel === null ? "secondary" : "ghost"}
-                  className="w-full justify-start"
-                  onClick={() => setSelectedChannel(null)}
-                >
-                  All Channels
-                </Button>
-                {tips.map((channelGroup) => (
-                  <Button
-                    key={channelGroup.channelName}
-                    variant={selectedChannel === channelGroup.channelName ? "secondary" : "ghost"}
-                    className="w-full justify-start"
-                    onClick={() => setSelectedChannel(channelGroup.channelName)}
-                  >
-                    {channelGroup.channelTitle}
-                  </Button>
-                ))}
-              </div>
-            </Card>
-          </aside>
-
-          <ScrollArea className="h-[calc(100vh-16rem)]">
-            <div className="space-y-6">
-              {loading ? (
-                Array.from({ length: 3 }).map((_, i) => (
-                  <div key={`skeleton-group-${i}`} className="space-y-4">
-                    <Skeleton className="h-8 w-48" />
-                    <div className="grid gap-4 md:grid-cols-2">
-                      {Array.from({ length: 2 }).map((_, j) => (
-                        <Skeleton key={`skeleton-item-${i}-${j}`} className="h-48" />
-                      ))}
-                    </div>
-                  </div>
-                ))
-              ) : filteredTips.length === 0 ? (
-                <div className="text-center py-12">
-                  <Clock className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">No tips found</h3>
-                  <p className="text-muted-foreground">
-                    Try adjusting your search or filter criteria
-                  </p>
-                </div>
-              ) : (
-                filteredTips.map((channelGroup) => (
-                  <div key={channelGroup.channelName} className="space-y-4">
-                    <div>
-                      <h2 className="text-2xl font-semibold mb-2 flex items-center gap-2">
-                        <Youtube className="h-5 w-5" />
-                        {channelGroup.channelTitle}
-                      </h2>
-                      <p className="text-muted-foreground mb-4">{channelGroup.videoSummary}</p>
-                    </div>
-                    
-                    <div className="grid gap-4 md:grid-cols-2">
-                      {channelGroup.tips.map((tip, index) => (
-                        <TipCard 
-                          key={`${channelGroup.channelName}-${tip.timestamp}-${index}`} 
-                          tip={tip} 
-                        />
-                      ))}
-                    </div>
-
-                    <div className="mt-4">
-                      <h3 className="font-semibold mb-2">Key Takeaways:</h3>
-                      <ul className="list-disc list-inside space-y-1">
-                        {channelGroup.keyTakeaways.map((takeaway, index) => (
-                          <li 
-                            key={`${channelGroup.channelName}-takeaway-${index}`} 
-                            className="text-muted-foreground"
-                          >
-                            {takeaway}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ))
-              )}
+            ))
+          ) : filteredVideos.length === 0 ? (
+            <div className="col-span-full text-center py-12">
+              <p className="text-gray-500">No videos found matching your criteria</p>
             </div>
-          </ScrollArea>
+          ) : (
+            filteredVideos.map(video => (
+              <VideoCard key={video.id} video={video} />
+            ))
+          )}
         </div>
       </div>
-    </main>
+    </div>
   );
 }
