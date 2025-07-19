@@ -60,7 +60,7 @@ protobuf==4.25.2
 psycopg==3.1.18
 psycopg-binary==3.1.18
 pyarrow==15.0.0
-pyautogen==0.2.0b5
+ag2==0.2.0b5
 pydantic==2.6.1
 pydantic-settings==2.1.0
 pydantic_core==2.16.2
