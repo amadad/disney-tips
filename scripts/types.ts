@@ -1,0 +1,65 @@
+export const DISNEY_CHANNELS = {
+  'AllEars.net': 'UCfzP_CiebRdveD9rRZv5Ndw',
+  'DFBGuide': 'UCnpWedLQdHpZqhgTLdB9Yyg',
+  'PixieDustedMom': 'UCnYjpNazZ0ixJCXxH7Z2B7g',
+  'MillennialOnMainStreet': 'UCe8XA4Z14D0gCg_LO65QaYw',
+  'DisneyInDetail': 'UCMy03Ou7q60HYfbzWvulQHQ'
+} as const;
+
+export type ChannelName = keyof typeof DISNEY_CHANNELS;
+
+export interface Video {
+  id: string;
+  channelName: ChannelName;
+  title: string;
+  description: string;
+  publishedAt: string;
+  thumbnail: string;
+  transcript?: string;
+}
+
+export type TipCategory =
+  | 'parks'
+  | 'dining'
+  | 'hotels'
+  | 'genie'
+  | 'budget'
+  | 'planning'
+  | 'transportation'
+  | 'general';
+
+export type Park =
+  | 'magic-kingdom'
+  | 'epcot'
+  | 'hollywood-studios'
+  | 'animal-kingdom'
+  | 'disney-springs'
+  | 'water-parks'
+  | 'general';
+
+export interface ExtractedTip {
+  id: string;
+  text: string;
+  category: TipCategory;
+  park?: Park;
+  tags: string[];
+  source: {
+    videoId: string;
+    channelName: ChannelName;
+    videoTitle: string;
+    publishedAt: string;
+  };
+  extractedAt: string;
+}
+
+export interface TipsData {
+  lastUpdated: string;
+  totalTips: number;
+  tips: ExtractedTip[];
+}
+
+export interface VideosData {
+  lastUpdated: string;
+  totalVideos: number;
+  videos: Video[];
+}

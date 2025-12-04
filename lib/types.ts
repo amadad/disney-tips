@@ -1,1 +1,0 @@
-export type TipCategory = 'ride' | 'dining' | 'planning' | 'savings' | 'general'; 

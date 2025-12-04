@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney World Tips</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --disney-blue: #006e99;
+      --disney-blue-dark: #005a7d;
+      --disney-gold: #c9a227;
+      --disney-purple: #5c4d9a;
+      --disney-pink: #e84393;
+      --disney-teal: #00b894;
+      --magic-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --castle-gradient: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+      min-height: 100vh;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    /* Magical header */
+    .hero {
+      background: var(--castle-gradient);
+      padding: 3rem 1rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='1' fill='%23ffffff' opacity='0.3'/%3E%3C/svg%3E");
+      background-size: 50px 50px;
+      animation: sparkle 3s ease-in-out infinite;
+    }
+
+    @keyframes sparkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      color: rgba(255,255,255,0.85);
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .stats span {
+      background: rgba(255,255,255,0.1);
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    /* Main content */
+    .container {
+      max-width: 1200px;
+      margin: -2rem auto 0;
+      padding: 0 1rem 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Search */
+    .search-wrapper {
+      max-width: 500px;
+      margin: 0 auto 2rem;
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-family: inherit;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+
+    .search-box:focus {
+      outline: none;
+      box-shadow: 0 4px 25px rgba(0,110,153,0.25);
+      transform: translateY(-1px);
+    }
+
+    .search-box::placeholder {
+      color: #aaa;
+    }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .filter-btn {
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      background: white;
+      color: #555;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: inherit;
+      transition: all 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .filter-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .filter-btn.active {
+      background: var(--magic-gradient);
+      color: white;
+      box-shadow: 0 4px 15px rgba(102,126,234,0.4);
+    }
+
+    /* Tips grid */
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tip-card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0,0,0,0.04);
+    }
+
+    .tip-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .tip-text {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #2d3436;
+      line-height: 1.7;
+    }
+
+    .tip-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      padding: 0.3rem 0.7rem;
+      background: #f8f9fa;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      color: #666;
+      font-weight: 600;
+    }
+
+    .category-tag {
+      background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+      color: var(--disney-purple);
+    }
+
+    .category-tag.parks { background: #e3f2fd; color: #1565c0; }
+    .category-tag.dining { background: #fff3e0; color: #e65100; }
+    .category-tag.hotels { background: #f3e5f5; color: #7b1fa2; }
+    .category-tag.genie { background: #e8f5e9; color: #2e7d32; }
+    .category-tag.budget { background: #fff8e1; color: #f9a825; }
+    .category-tag.planning { background: #e1f5fe; color: #0277bd; }
+    .category-tag.transportation { background: #fce4ec; color: #c2185b; }
+
+    .park-tag {
+      background: linear-gradient(135deg, #00b89415 0%, #00cec915 100%);
+      color: var(--disney-teal);
+    }
+
+    .tip-source {
+      font-size: 0.8rem;
+      color: #888;
+      border-top: 1px solid #f0f0f0;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .tip-source a {
+      color: var(--disney-blue);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .tip-source a:hover {
+      color: var(--disney-pink);
+    }
+
+    .no-results, .loading {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #888;
+      font-size: 1.1rem;
+    }
+
+    .loading::after {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ddd;
+      border-top-color: var(--disney-blue);
+      border-radius: 50%;
+      margin-left: 10px;
+      animation: spin 1s linear infinite;
+      vertical-align: middle;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--disney-blue);
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .logo { font-size: 2.5rem; }
+      .tips-grid { grid-template-columns: 1fr; }
+      .stats { flex-direction: column; gap: 0.5rem; }
+      .hero { padding: 2rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <div class="logo">🏰</div>
+      <h1>Disney World Tips</h1>
+      <p class="subtitle">Magical tips from top Disney YouTube creators</p>
+      <div class="stats">
+        <span id="tip-count">Loading...</span>
+        <span id="last-updated"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="search-wrapper">
+      <input type="text" class="search-box" id="search" placeholder="Search for tips...">
+    </div>
+
+    <div class="filters" id="category-filters"></div>
+
+    <div class="tips-grid" id="tips-container">
+      <div class="loading">Loading tips</div>
+    </div>
+  </div>
+
+  <footer>
+    Tips extracted from YouTube using AI
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
