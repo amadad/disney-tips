@@ -75,7 +75,7 @@ let searchQuery = '';
 
 async function loadTips(): Promise<void> {
   try {
-    const response = await fetch('/tips.json');
+    const response = await fetch(import.meta.env.BASE_URL + 'tips.json');
     const data: TipsData = await response.json();
 
     allTips = data.tips;
