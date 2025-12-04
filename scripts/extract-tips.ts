@@ -1,7 +1,29 @@
 import { GoogleGenAI, Type } from '@google/genai';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
+import { z } from 'zod';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
+
+// Zod schema for validating Gemini response
+const TipSchema = z.object({
+  text: z.string().min(10),
+  category: z.enum(['parks', 'dining', 'hotels', 'genie', 'budget', 'planning', 'transportation']),
+  park: z.enum(['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'disneyland', 'california-adventure', 'all-parks']),
+  tags: z.array(z.string()).min(1),
+  priority: z.enum(['high', 'medium', 'low']),
+  season: z.enum(['year-round', 'christmas', 'halloween', 'flower-garden', 'food-wine', 'festival-arts', 'summer'])
+});
+
+const GeminiResponseSchema = z.object({
+  tips: z.array(TipSchema)
+});
+
+// Processed videos ledger type
+interface ProcessedVideo {
+  videoId: string;
+  processedAt: string;
+  tipCount: number;
+}
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
@@ -100,48 +122,63 @@ ${transcript}
 
 Extract all Disney-specific actionable tips from this video.`;
 
-  try {
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash-lite',
-      contents: prompt,
-      config: {
-        responseMimeType: 'application/json',
-        responseSchema: tipsSchema
+  const maxRetries = 2;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.0-flash-lite',
+        contents: prompt,
+        config: {
+          responseMimeType: 'application/json',
+          responseSchema: tipsSchema
+        }
+      });
+
+      const text = response.text;
+      if (!text) return [];
+
+      const rawParsed = JSON.parse(text);
+
+      // Validate with Zod
+      const validated = GeminiResponseSchema.safeParse(rawParsed);
+
+      if (!validated.success) {
+        console.error(`  Validation failed (attempt ${attempt + 1}):`, validated.error.issues.slice(0, 3));
+        if (attempt < maxRetries) {
+          await new Promise(resolve => setTimeout(resolve, 1000));
+          continue;
+        }
+        return [];
       }
-    });
 
-    const text = response.text;
-    if (!text) return [];
-
-    const parsed = JSON.parse(text) as { tips: Array<{
-      text: string;
-      category: string;
-      park: string;
-      tags: string[];
-      priority: string;
-      season: string;
-    }> };
-
-    return parsed.tips.map((tip) => ({
-      id: randomUUID(),
-      text: tip.text,
-      category: tip.category as TipCategory,
-      park: tip.park as Park,
-      tags: tip.tags || [],
-      priority: tip.priority as 'high' | 'medium' | 'low',
-      season: tip.season as 'year-round' | 'christmas' | 'halloween' | 'flower-garden' | 'food-wine' | 'festival-arts' | 'summer',
-      source: {
-        videoId: video.id,
-        channelName: video.channelName as ChannelName,
-        videoTitle: video.title,
-        publishedAt: video.publishedAt
-      },
-      extractedAt: new Date().toISOString()
-    }));
-  } catch (error) {
-    console.error(`  Error extracting from ${video.title}:`, error);
-    return [];
+      return validated.data.tips.map((tip) => ({
+        id: randomUUID(),
+        text: tip.text,
+        category: tip.category as TipCategory,
+        park: tip.park as Park,
+        tags: tip.tags,
+        priority: tip.priority,
+        season: tip.season,
+        source: {
+          videoId: video.id,
+          channelName: video.channelName as ChannelName,
+          videoTitle: video.title,
+          publishedAt: video.publishedAt
+        },
+        extractedAt: new Date().toISOString()
+      }));
+    } catch (error) {
+      console.error(`  Error (attempt ${attempt + 1}):`, error instanceof Error ? error.message : error);
+      if (attempt < maxRetries) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        continue;
+      }
+      return [];
+    }
   }
+
+  return [];
 }
 
 async function main() {
@@ -156,42 +193,66 @@ async function main() {
   const videosData: VideosData = JSON.parse(readFileSync('data/videos.json', 'utf-8'));
   console.log(`Found ${videosData.totalVideos} videos\n`);
 
-  // Load existing tips to track which videos have been processed
+  // Load existing tips
   let existingTips: ExtractedTip[] = [];
-  const processedVideoIds = new Set<string>();
-
   if (existsSync('data/tips.json')) {
     const existing: TipsData = JSON.parse(readFileSync('data/tips.json', 'utf-8'));
     existingTips = existing.tips;
-    existingTips.forEach(tip => processedVideoIds.add(tip.source.videoId));
-    console.log(`Found ${existingTips.length} existing tips from ${processedVideoIds.size} videos\n`);
+    console.log(`Found ${existingTips.length} existing tips\n`);
   }
+
+  // Load processed videos ledger (tracks ALL processed videos, even 0-tip ones)
+  let processedVideos: ProcessedVideo[] = [];
+  if (existsSync('data/processed-videos.json')) {
+    processedVideos = JSON.parse(readFileSync('data/processed-videos.json', 'utf-8'));
+  }
+  const processedVideoIds = new Set(processedVideos.map(v => v.videoId));
+  console.log(`${processedVideoIds.size} videos already processed\n`);
 
   // Process new videos only
   const videosToProcess = videosData.videos.filter(v => !processedVideoIds.has(v.id) && v.transcript);
   console.log(`Processing ${videosToProcess.length} new videos with transcripts...\n`);
 
   const newTips: ExtractedTip[] = [];
+  const newlyProcessed: ProcessedVideo[] = [];
 
   for (const video of videosToProcess) {
     console.log(`Processing: ${video.title}`);
     const tips = await extractTipsFromVideo(video);
     newTips.push(...tips);
+
+    // Track this video as processed (even if 0 tips)
+    newlyProcessed.push({
+      videoId: video.id,
+      processedAt: new Date().toISOString(),
+      tipCount: tips.length
+    });
+
     console.log(`  Extracted ${tips.length} tips\n`);
 
     // Rate limit API calls
     await new Promise(resolve => setTimeout(resolve, 500));
   }
 
-  // Merge and deduplicate tips (simple text match)
+  // Save updated processed videos ledger
+  const allProcessed = [...processedVideos, ...newlyProcessed];
+  writeFileSync('data/processed-videos.json', JSON.stringify(allProcessed, null, 2));
+
+  // Improved deduplication: hash on text + park + priority to preserve distinct contexts
   const allTips = [...existingTips, ...newTips];
-  const seenTexts = new Set<string>();
-  const dedupedTips = allTips.filter(tip => {
-    const normalized = tip.text.toLowerCase().trim();
-    if (seenTexts.has(normalized)) return false;
-    seenTexts.add(normalized);
-    return true;
-  });
+  const tipsByKey = new Map<string, ExtractedTip>();
+
+  for (const tip of allTips) {
+    const key = `${tip.text.toLowerCase().trim()}|${tip.park}|${tip.priority}`;
+
+    if (!tipsByKey.has(key)) {
+      tipsByKey.set(key, tip);
+    }
+    // If we wanted to track multiple sources for same tip, we could merge here
+    // For now, keep the first (oldest) source
+  }
+
+  const dedupedTips = Array.from(tipsByKey.values());
 
   // Sort by publish date (newest first)
   dedupedTips.sort((a, b) =>
@@ -206,7 +267,7 @@ async function main() {
 
   writeFileSync('data/tips.json', JSON.stringify(data, null, 2));
 
-  console.log(`Done! ${newTips.length} new tips extracted.`);
+  console.log(`Done! ${newTips.length} new tips extracted from ${newlyProcessed.length} videos.`);
   console.log(`Total tips after deduplication: ${dedupedTips.length}`);
 }
 

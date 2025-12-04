@@ -80,17 +80,28 @@ async function getTranscript(yt: Innertube, videoId: string): Promise<string | u
   }
 }
 
-async function fetchChannelVideos(yt: Innertube, channelName: ChannelName, channelId: string): Promise<Video[]> {
+async function fetchChannelVideos(
+  yt: Innertube,
+  channelName: ChannelName,
+  channelId: string,
+  existingIds: Set<string>
+): Promise<Video[]> {
   console.log(`Fetching videos from ${channelName}...`);
 
   const xml = await fetchRSS(RSS_URL(channelId));
   const rssVideos = parseRSS(xml);
 
-  console.log(`  Found ${rssVideos.length} videos in RSS feed`);
+  // Filter to only new videos
+  const newRssVideos = rssVideos.filter(v => !existingIds.has(v.id));
+  console.log(`  Found ${rssVideos.length} videos in RSS, ${newRssVideos.length} new`);
+
+  if (newRssVideos.length === 0) {
+    return [];
+  }
 
   const videos: Video[] = [];
 
-  for (const rssVideo of rssVideos) {
+  for (const rssVideo of newRssVideos) {
     process.stdout.write(`  ${rssVideo.title.substring(0, 50)}... `);
 
     const transcript = await getTranscript(yt, rssVideo.id);
@@ -137,13 +148,8 @@ async function main() {
 
   for (const [channelName, channelId] of Object.entries(DISNEY_CHANNELS)) {
     try {
-      const videos = await fetchChannelVideos(yt, channelName as ChannelName, channelId);
-
-      for (const video of videos) {
-        if (!existingIds.has(video.id)) {
-          newVideos.push(video);
-        }
-      }
+      const videos = await fetchChannelVideos(yt, channelName as ChannelName, channelId, existingIds);
+      newVideos.push(...videos);
     } catch (error) {
       console.error(`  Error fetching ${channelName}:`, error);
     }

@@ -3,7 +3,12 @@ export const DISNEY_CHANNELS = {
   'DFBGuide': 'UCnpWedLQdHpZqhgTLdB9Yyg',
   'PixieDustedMom': 'UCnYjpNazZ0ixJCXxH7Z2B7g',
   'MillennialOnMainStreet': 'UCe8XA4Z14D0gCg_LO65QaYw',
-  'DisneyInDetail': 'UCMy03Ou7q60HYfbzWvulQHQ'
+  'DisneyInDetail': 'UCMy03Ou7q60HYfbzWvulQHQ',
+  'TheTimTracker': 'UCoocMG5lMACNKgpvqKay2lg',
+  'MickeyViews': 'UCRQvSjD0MT-EztE2iRqLQJA',
+  'ResortTV1': 'UCAjpFyA7FCRoGOuj5i4kq9g',
+  'PagingMrMorrow': 'UCscn2aSpMrS2U_mf7OF-UwQ',
+  'TPMvids': 'UCMddDi4iCT8Rz8L0JL-bH7Q'
 } as const;
 
 export type ChannelName = keyof typeof DISNEY_CHANNELS;

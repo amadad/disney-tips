@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disney World Tips</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
   <style>
     :root {
-      /* Magical Palette */
-      --magic-midnight: #1a0b2e;
-      --magic-purple: #4a1c6e;
-      --magic-gold: #ffd700;
-      --magic-teal: #00f2ff;
-      --magic-pink: #ff00cc;
-      --magic-white: #f0f8ff;
-      
-      /* Gradients */
-      --bg-gradient: linear-gradient(135deg, #1a0b2e 0%, #2d1b4e 50%, #1a0b2e 100%);
-      --card-gradient: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-      --accent-gradient: linear-gradient(45deg, #ff00cc, #3333ff);
-      
+      /* Minimal Disney Blue Palette */
+      --disney-blue: #002366;
+      /* Deep Royal Blue */
+      --disney-blue-light: #1c39bb;
+      /* Brighter Blue for accents */
+      --platinum: #e5e7eb;
+      --soft-gold: #fcd34d;
+      --white: #ffffff;
+
       /* Functional Colors */
-      --high-priority: #ff4757;
-      --medium-priority: #ffa502;
-      --low-priority: #2ed573;
+      --bg-color: #021024;
+      --card-bg: #051630;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+
+      --high-priority: #ef4444;
+      --medium-priority: #f59e0b;
+      --low-priority: #10b981;
     }
 
     * {
@@ -35,293 +39,267 @@
     }
 
     body {
-      font-family: 'Quicksand', sans-serif;
-      background: var(--bg-gradient);
+      font-family: 'Lato', sans-serif;
+      background-color: var(--bg-color);
       min-height: 100vh;
-      color: var(--magic-white);
+      color: var(--text-main);
       line-height: 1.6;
       overflow-x: hidden;
-    }
-
-    /* Magical Background Effect */
-    body::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: 
-        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 3px),
-        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 2px),
-        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 3px);
-      background-size: 550px 550px, 350px 350px, 250px 250px;
-      background-position: 0 0, 40px 60px, 130px 270px;
-      animation: twinkle 20s linear infinite;
-      z-index: -1;
-      pointer-events: none;
-    }
-
-    @keyframes twinkle {
-      from { transform: translateY(0); }
-      to { transform: translateY(-550px); }
     }
 
     /* Hero Section */
     .hero {
       text-align: center;
       padding: 4rem 1rem 2rem;
-      position: relative;
     }
 
     .logo {
-      font-size: 4rem;
-      margin-bottom: 1rem;
-      animation: float 6s ease-in-out infinite;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
       display: inline-block;
-      filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
+      opacity: 0.9;
     }
 
     h1 {
-      font-family: 'Mouse Memoirs', sans-serif;
-      font-size: 4.5rem;
-      color: var(--magic-gold);
-      text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 2px 2px 0 #000;
-      margin-bottom: 0.5rem;
-      letter-spacing: 2px;
-      line-height: 1.1;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: var(--white);
+      margin-bottom: 0.25rem;
+      font-weight: 400;
+      letter-spacing: 1px;
     }
 
     .subtitle {
-      font-size: 1.2rem;
-      color: rgba(255, 255, 255, 0.9);
-      font-weight: 500;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-style: italic;
+      font-weight: 400;
     }
 
     .stats {
       display: flex;
       justify-content: center;
       gap: 2rem;
-      margin-top: 2rem;
-      font-size: 1rem;
-    }
-
-    .stats span {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 0.5rem 1.2rem;
-      border-radius: 50px;
-      backdrop-filter: blur(5px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--text-muted);
     }
 
     /* Main Content */
     .container {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 2rem 1rem 4rem;
+      padding: 0 1.5rem 4rem;
     }
 
     /* Search Box */
     .search-wrapper {
-      max-width: 600px;
+      max-width: 500px;
       margin: 0 auto 2.5rem;
-      position: relative;
     }
 
     .search-box {
       width: 100%;
-      padding: 1.2rem 2rem;
-      border: 2px solid rgba(255, 255, 255, 0.2);
-      border-radius: 50px;
+      padding: 1rem 0;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 0;
       font-size: 1.1rem;
-      font-family: 'Quicksand', sans-serif;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      color: white;
-      transition: all 0.3s ease;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      font-family: 'Playfair Display', serif;
+      background: transparent;
+      color: var(--white);
+      transition: border-color 0.3s ease;
+      text-align: center;
     }
 
     .search-box:focus {
       outline: none;
-      background: rgba(255, 255, 255, 0.15);
-      border-color: var(--magic-gold);
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
-      transform: scale(1.02);
+      border-bottom-color: var(--soft-gold);
     }
 
     .search-box::placeholder {
-      color: rgba(255, 255, 255, 0.6);
+      color: rgba(255, 255, 255, 0.3);
+      font-style: italic;
     }
 
-    /* Filters */
-    .filter-section {
-      margin-bottom: 1.5rem;
-      text-align: center;
-    }
-
-    .filter-label {
-      font-family: 'Mouse Memoirs', sans-serif;
-      font-size: 1.4rem;
-      color: var(--magic-teal);
-      margin-bottom: 0.8rem;
-      letter-spacing: 1px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-
-    .filters {
+    /* Filter Controls */
+    .filter-controls {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.8rem;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 2rem;
+    }
+
+    .category-scroll {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+
+    .category-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .secondary-filters {
+      display: flex;
+      gap: 2rem;
       justify-content: center;
     }
 
-    .filter-btn {
-      padding: 0.6rem 1.2rem;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 20px;
-      background: rgba(255, 255, 255, 0.05);
-      color: white;
+    .filter-select {
+      appearance: none;
+      background: transparent;
+      border: none;
+      padding: 0.5rem 1.5rem 0.5rem 0;
+      color: var(--text-muted);
+      font-family: 'Lato', sans-serif;
+      font-size: 0.85rem;
       cursor: pointer;
-      font-family: 'Quicksand', sans-serif;
-      font-weight: 600;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      backdrop-filter: blur(5px);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%239ca3af' d='M5 7.5L1 3.5h8z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right center;
+      transition: color 0.2s;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .filter-select:hover,
+    .filter-select:focus {
+      color: var(--white);
+      outline: none;
+    }
+
+    .filter-btn {
+      padding: 0.5rem 0;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      transition: color 0.2s ease;
+      position: relative;
     }
 
     .filter-btn:hover {
-      background: rgba(255, 255, 255, 0.15);
-      transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      color: var(--white);
     }
 
     .filter-btn.active {
-      background: var(--accent-gradient);
-      border-color: transparent;
-      box-shadow: 0 0 15px rgba(255, 0, 204, 0.5);
-      transform: scale(1.05);
+      color: var(--white);
+      font-weight: 700;
+    }
+
+    .filter-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: var(--soft-gold);
     }
 
     .filtered-count {
       text-align: center;
-      color: rgba(255, 255, 255, 0.6);
-      margin: 2rem 0;
+      color: var(--text-muted);
+      margin-bottom: 3rem;
+      font-size: 0.85rem;
       font-style: italic;
     }
 
     /* Tips Grid */
     .tips-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2.5rem;
     }
 
     .tip-card {
-      background: var(--card-gradient);
-      border-radius: 24px;
-      padding: 1.8rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .tip-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: transform 0.4s ease, border-color 0.3s ease;
     }
 
     .tip-card:hover {
-      transform: translateY(-10px) rotate(1deg);
-      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
-      border-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-5px);
     }
-
-    .tip-card.priority-high { border-top: 4px solid var(--high-priority); }
-    .tip-card.priority-medium { border-top: 4px solid var(--medium-priority); }
-    .tip-card.priority-low { border-top: 4px solid var(--low-priority); }
 
     .tip-header {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       margin-bottom: 1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
     }
 
     .priority-badge {
-      font-size: 0.75rem;
-      padding: 0.3rem 0.8rem;
-      border-radius: 12px;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
 
-    .priority-badge.high { background: rgba(255, 71, 87, 0.2); color: #ff6b81; border: 1px solid rgba(255, 71, 87, 0.3); }
-    .priority-badge.medium { background: rgba(255, 165, 2, 0.2); color: #ffc048; border: 1px solid rgba(255, 165, 2, 0.3); }
-    .priority-badge.low { background: rgba(46, 213, 115, 0.2); color: #7bed9f; border: 1px solid rgba(46, 213, 115, 0.3); }
+    .priority-badge.high {
+      color: var(--high-priority);
+    }
+
+    .priority-badge.medium {
+      color: var(--medium-priority);
+    }
+
+    .priority-badge.low {
+      color: var(--low-priority);
+    }
 
     .season-badge {
-      font-size: 0.75rem;
-      padding: 0.3rem 0.8rem;
-      border-radius: 12px;
-      background: rgba(255, 255, 255, 0.1);
-      color: var(--magic-gold);
-      border: 1px solid rgba(255, 215, 0, 0.2);
+      color: var(--soft-gold);
     }
 
     .tip-text {
-      font-size: 1.1rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
       margin-bottom: 1.5rem;
-      color: rgba(255, 255, 255, 0.95);
-      line-height: 1.7;
+      color: var(--white);
+      line-height: 1.6;
+      font-weight: 400;
     }
 
     .tip-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
-      margin-bottom: 1.2rem;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     .tag {
-      padding: 0.3rem 0.8rem;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 8px;
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.7);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      transition: all 0.2s;
-    }
-
-    .tag:hover {
-      background: rgba(255, 255, 255, 0.15);
-      color: white;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
 
     .category-tag {
-      background: rgba(74, 28, 110, 0.4);
-      color: #d1a3ff;
-      border-color: rgba(147, 112, 219, 0.3);
-    }
-
-    .park-tag {
-      background: rgba(0, 242, 255, 0.1);
-      color: #00f2ff;
-      border-color: rgba(0, 242, 255, 0.2);
+      color: var(--disney-blue-light);
+      font-weight: 700;
     }
 
     .tip-source {
-      font-size: 0.85rem;
-      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8rem;
+      color: var(--text-muted);
       border-top: 1px solid rgba(255, 255, 255, 0.1);
       padding-top: 1rem;
       display: flex;
@@ -330,100 +308,200 @@
     }
 
     .tip-source a {
-      color: var(--magic-gold);
+      color: var(--text-muted);
       text-decoration: none;
-      font-weight: 600;
-      transition: all 0.2s;
+      transition: color 0.2s;
+      font-style: italic;
     }
 
     .tip-source a:hover {
-      color: #fff;
-      text-shadow: 0 0 5px var(--magic-gold);
+      color: var(--soft-gold);
     }
 
-    .no-results, .loading {
+    /* Copy Button */
+    .tip-card {
+      position: relative;
+    }
+
+    .action-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 0.5rem;
+      opacity: 0;
+      transition: opacity 0.2s, color 0.2s;
+    }
+
+    .tip-card:hover .action-btn {
+      opacity: 1;
+    }
+
+    .action-btn:hover {
+      color: var(--soft-gold);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--soft-gold);
+      color: var(--bg-color);
+      padding: 0.5rem 1.5rem;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      z-index: 1000;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Search Highlight */
+    mark {
+      background-color: rgba(252, 211, 77, 0.2);
+      color: var(--white);
+      padding: 0 2px;
+      border-radius: 2px;
+      border-bottom: 1px solid var(--soft-gold);
+    }
+
+    .no-results {
       grid-column: 1 / -1;
       text-align: center;
       padding: 4rem 2rem;
-      color: rgba(255, 255, 255, 0.6);
+      color: var(--text-muted);
+      font-family: 'Playfair Display', serif;
       font-size: 1.2rem;
-    }
-
-    .loading::after {
-      content: '✨';
-      display: inline-block;
-      margin-left: 10px;
-      animation: spin 2s linear infinite;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-15px); }
+      font-style: italic;
     }
 
     footer {
       text-align: center;
-      padding: 3rem;
-      color: rgba(255, 255, 255, 0.4);
-      font-size: 0.9rem;
+      padding: 4rem 2rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      opacity: 0.6;
+      transition: opacity 0.2s, color 0.2s;
+    }
+
+    footer a:hover {
+      opacity: 1;
+      color: var(--soft-gold);
+    }
+
+    /* Skeleton loading */
+    .skeleton-card {
+      height: 200px;
+      background: linear-gradient(90deg, var(--card-bg) 25%, rgba(255,255,255,0.05) 50%, var(--card-bg) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 8px;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
     }
 
     @media (max-width: 768px) {
-      h1 { font-size: 3rem; }
-      .logo { font-size: 3rem; }
-      .tips-grid { grid-template-columns: 1fr; }
-      .container { padding: 1rem; }
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .container {
+        padding: 0 1.5rem 4rem;
+      }
+
+      .filter-controls {
+        gap: 1rem;
+      }
+
+      .category-scroll {
+        justify-content: flex-start;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+
+      .secondary-filters {
+        justify-content: space-between;
+        padding: 0 0.5rem;
+      }
+
+      .action-btn {
+        opacity: 1;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="hero">
     <div class="hero-content">
       <div class="logo">🏰</div>
       <h1>Disney World Tips</h1>
-      <p class="subtitle">Magical tips from top Disney YouTube creators</p>
+      <p class="subtitle">Insider tips for your next adventure</p>
       <div class="stats">
-        <span id="tip-count">Loading magic...</span>
+        <span id="tip-count">Loading...</span>
         <span id="last-updated"></span>
+        <span id="next-update"></span>
       </div>
     </div>
   </div>
 
   <div class="container">
     <div class="search-wrapper">
-      <input type="text" class="search-box" id="search" placeholder="✨ Search for magical tips...">
+      <input type="text" class="search-box" id="search" placeholder="Search the collection...">
     </div>
 
-    <div class="filter-section">
-      <div class="filter-label">Explore by Category</div>
-      <div class="filters" id="category-filters"></div>
-    </div>
-
-    <div class="filter-section">
-      <div class="filter-label">Impact Level</div>
-      <div class="filters" id="priority-filters"></div>
-    </div>
-
-    <div class="filter-section">
-      <div class="filter-label">Season</div>
-      <div class="filters" id="season-filters"></div>
+    <div class="filter-controls">
+      <div class="category-scroll" id="category-filters">
+        <!-- Categories injected here -->
+      </div>
+      <div class="secondary-filters">
+        <select id="priority-select" class="filter-select" aria-label="Filter by Impact">
+          <option value="all">All Impact Levels</option>
+        </select>
+        <select id="season-select" class="filter-select" aria-label="Filter by Season">
+          <option value="all">Any Season</option>
+        </select>
+      </div>
     </div>
 
     <div class="filtered-count" id="filtered-count"></div>
 
     <div class="tips-grid" id="tips-container">
-      <div class="loading">Summoning tips...</div>
+      <!-- Skeletons will be injected here by JS -->
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
     </div>
   </div>
 
+  <div id="toast" class="toast">Copied to clipboard</div>
+
   <footer>
-    Tips extracted from YouTube using AI ✨
+    <a href="about.html">How it works</a>
   </footer>
 
   <script type="module" src="/src/main.ts"></script>
 </body>
+
 </html>
