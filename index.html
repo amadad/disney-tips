@@ -6,20 +6,26 @@
   <title>Disney World Tips</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --disney-blue: #006e99;
-      --disney-blue-dark: #005a7d;
-      --disney-gold: #c9a227;
-      --disney-purple: #5c4d9a;
-      --disney-pink: #e84393;
-      --disney-teal: #00b894;
-      --magic-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      --castle-gradient: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-      --high-color: #e74c3c;
-      --medium-color: #f39c12;
-      --low-color: #3498db;
+      /* Magical Palette */
+      --magic-midnight: #1a0b2e;
+      --magic-purple: #4a1c6e;
+      --magic-gold: #ffd700;
+      --magic-teal: #00f2ff;
+      --magic-pink: #ff00cc;
+      --magic-white: #f0f8ff;
+      
+      /* Gradients */
+      --bg-gradient: linear-gradient(135deg, #1a0b2e 0%, #2d1b4e 50%, #1a0b2e 100%);
+      --card-gradient: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+      --accent-gradient: linear-gradient(45deg, #ff00cc, #3333ff);
+      
+      /* Functional Colors */
+      --high-priority: #ff4757;
+      --medium-priority: #ffa502;
+      --low-priority: #2ed573;
     }
 
     * {
@@ -29,289 +35,294 @@
     }
 
     body {
-      font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+      font-family: 'Quicksand', sans-serif;
+      background: var(--bg-gradient);
       min-height: 100vh;
-      color: #1a1a2e;
+      color: var(--magic-white);
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
-    /* Magical header */
-    .hero {
-      background: var(--castle-gradient);
-      padding: 3rem 1rem 4rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero::before {
+    /* Magical Background Effect */
+    body::before {
       content: '';
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
-      right: 0;
-      bottom: 0;
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='1' fill='%23ffffff' opacity='0.3'/%3E%3C/svg%3E");
-      background-size: 50px 50px;
-      animation: sparkle 3s ease-in-out infinite;
+      width: 100%;
+      height: 100%;
+      background-image: 
+        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 3px),
+        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 2px),
+        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 3px);
+      background-size: 550px 550px, 350px 350px, 250px 250px;
+      background-position: 0 0, 40px 60px, 130px 270px;
+      animation: twinkle 20s linear infinite;
+      z-index: -1;
+      pointer-events: none;
     }
 
-    @keyframes sparkle {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 0.6; }
+    @keyframes twinkle {
+      from { transform: translateY(0); }
+      to { transform: translateY(-550px); }
     }
 
-    .hero-content {
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
       position: relative;
-      z-index: 1;
     }
 
     .logo {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      animation: float 6s ease-in-out infinite;
+      display: inline-block;
+      filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
     }
 
     h1 {
-      font-size: 2.8rem;
-      font-weight: 800;
-      color: white;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      font-family: 'Mouse Memoirs', sans-serif;
+      font-size: 4.5rem;
+      color: var(--magic-gold);
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 2px 2px 0 #000;
       margin-bottom: 0.5rem;
-      letter-spacing: -0.5px;
+      letter-spacing: 2px;
+      line-height: 1.1;
     }
 
     .subtitle {
-      color: rgba(255,255,255,0.85);
-      font-size: 1.15rem;
-      font-weight: 600;
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
     }
 
     .stats {
       display: flex;
       justify-content: center;
       gap: 2rem;
-      margin-top: 1.5rem;
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.7);
+      margin-top: 2rem;
+      font-size: 1rem;
     }
 
     .stats span {
-      background: rgba(255,255,255,0.1);
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.5rem 1.2rem;
+      border-radius: 50px;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
 
-    /* Main content */
+    /* Main Content */
     .container {
       max-width: 1200px;
-      margin: -2rem auto 0;
-      padding: 0 1rem 3rem;
-      position: relative;
-      z-index: 2;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
     }
 
-    /* Search */
+    /* Search Box */
     .search-wrapper {
-      max-width: 500px;
-      margin: 0 auto 1.5rem;
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+      position: relative;
     }
 
     .search-box {
       width: 100%;
-      padding: 1rem 1.5rem;
-      border: none;
+      padding: 1.2rem 2rem;
+      border: 2px solid rgba(255, 255, 255, 0.2);
       border-radius: 50px;
-      font-size: 1rem;
-      font-family: inherit;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      transition: all 0.3s;
+      font-size: 1.1rem;
+      font-family: 'Quicksand', sans-serif;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      color: white;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
 
     .search-box:focus {
       outline: none;
-      box-shadow: 0 4px 25px rgba(0,110,153,0.25);
-      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.15);
+      border-color: var(--magic-gold);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+      transform: scale(1.02);
     }
 
     .search-box::placeholder {
-      color: #aaa;
+      color: rgba(255, 255, 255, 0.6);
     }
 
-    /* Filter sections */
+    /* Filters */
     .filter-section {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
     }
 
     .filter-label {
-      text-align: center;
-      font-size: 0.75rem;
-      text-transform: uppercase;
+      font-family: 'Mouse Memoirs', sans-serif;
+      font-size: 1.4rem;
+      color: var(--magic-teal);
+      margin-bottom: 0.8rem;
       letter-spacing: 1px;
-      color: #888;
-      margin-bottom: 0.5rem;
-      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     }
 
     .filters {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.8rem;
       justify-content: center;
     }
 
     .filter-btn {
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 25px;
-      background: white;
-      color: #555;
+      padding: 0.6rem 1.2rem;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      color: white;
       cursor: pointer;
-      font-size: 0.85rem;
+      font-family: 'Quicksand', sans-serif;
       font-weight: 600;
-      font-family: inherit;
-      transition: all 0.2s;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      backdrop-filter: blur(5px);
     }
 
     .filter-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
 
     .filter-btn.active {
-      background: var(--magic-gradient);
-      color: white;
-      box-shadow: 0 4px 15px rgba(102,126,234,0.4);
+      background: var(--accent-gradient);
+      border-color: transparent;
+      box-shadow: 0 0 15px rgba(255, 0, 204, 0.5);
+      transform: scale(1.05);
     }
 
-    /* Filtered count */
     .filtered-count {
       text-align: center;
-      color: #888;
-      font-size: 0.9rem;
-      margin-bottom: 1.5rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin: 2rem 0;
+      font-style: italic;
     }
 
-    /* Tips grid */
+    /* Tips Grid */
     .tips-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
     }
 
     .tip-card {
-      background: white;
-      border-radius: 16px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-      transition: all 0.3s ease;
-      border: 1px solid rgba(0,0,0,0.04);
+      background: var(--card-gradient);
+      border-radius: 24px;
+      padding: 1.8rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       position: relative;
+      overflow: hidden;
+    }
+
+    .tip-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
     }
 
     .tip-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      transform: translateY(-10px) rotate(1deg);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+      border-color: rgba(255, 255, 255, 0.3);
     }
 
-    .tip-card.priority-high {
-      border-left: 4px solid var(--high-color);
-    }
-
-    .tip-card.priority-medium {
-      border-left: 4px solid var(--medium-color);
-    }
-
-    .tip-card.priority-low {
-      border-left: 4px solid var(--low-color);
-    }
+    .tip-card.priority-high { border-top: 4px solid var(--high-priority); }
+    .tip-card.priority-medium { border-top: 4px solid var(--medium-priority); }
+    .tip-card.priority-low { border-top: 4px solid var(--low-priority); }
 
     .tip-header {
       display: flex;
-      gap: 0.5rem;
-      margin-bottom: 0.75rem;
-      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
     }
 
     .priority-badge {
-      font-size: 0.7rem;
-      padding: 0.25rem 0.6rem;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.8rem;
       border-radius: 12px;
       font-weight: 700;
       text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
 
-    .priority-badge.high {
-      background: #fdeaea;
-      color: var(--high-color);
-    }
-
-    .priority-badge.medium {
-      background: #fef5e7;
-      color: #d68910;
-    }
-
-    .priority-badge.low {
-      background: #eaf2f8;
-      color: var(--low-color);
-    }
+    .priority-badge.high { background: rgba(255, 71, 87, 0.2); color: #ff6b81; border: 1px solid rgba(255, 71, 87, 0.3); }
+    .priority-badge.medium { background: rgba(255, 165, 2, 0.2); color: #ffc048; border: 1px solid rgba(255, 165, 2, 0.3); }
+    .priority-badge.low { background: rgba(46, 213, 115, 0.2); color: #7bed9f; border: 1px solid rgba(46, 213, 115, 0.3); }
 
     .season-badge {
-      font-size: 0.7rem;
-      padding: 0.25rem 0.6rem;
+      font-size: 0.75rem;
+      padding: 0.3rem 0.8rem;
       border-radius: 12px;
-      background: #f0f0f0;
-      color: #666;
-      font-weight: 600;
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--magic-gold);
+      border: 1px solid rgba(255, 215, 0, 0.2);
     }
 
     .tip-text {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      color: #2d3436;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: rgba(255, 255, 255, 0.95);
       line-height: 1.7;
     }
 
     .tip-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
+      gap: 0.6rem;
+      margin-bottom: 1.2rem;
     }
 
     .tag {
-      padding: 0.3rem 0.7rem;
-      background: #f8f9fa;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      color: #666;
-      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.2s;
+    }
+
+    .tag:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: white;
     }
 
     .category-tag {
-      background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-      color: var(--disney-purple);
+      background: rgba(74, 28, 110, 0.4);
+      color: #d1a3ff;
+      border-color: rgba(147, 112, 219, 0.3);
     }
 
-    .category-tag.parks { background: #e3f2fd; color: #1565c0; }
-    .category-tag.dining { background: #fff3e0; color: #e65100; }
-    .category-tag.hotels { background: #f3e5f5; color: #7b1fa2; }
-    .category-tag.genie { background: #e8f5e9; color: #2e7d32; }
-    .category-tag.budget { background: #fff8e1; color: #f9a825; }
-    .category-tag.planning { background: #e1f5fe; color: #0277bd; }
-    .category-tag.transportation { background: #fce4ec; color: #c2185b; }
-
     .park-tag {
-      background: linear-gradient(135deg, #00b89415 0%, #00cec915 100%);
-      color: var(--disney-teal);
+      background: rgba(0, 242, 255, 0.1);
+      color: #00f2ff;
+      border-color: rgba(0, 242, 255, 0.2);
     }
 
     .tip-source {
-      font-size: 0.8rem;
-      color: #888;
-      border-top: 1px solid #f0f0f0;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
       padding-top: 1rem;
       display: flex;
       justify-content: space-between;
@@ -319,61 +330,53 @@
     }
 
     .tip-source a {
-      color: var(--disney-blue);
+      color: var(--magic-gold);
       text-decoration: none;
       font-weight: 600;
-      transition: color 0.2s;
+      transition: all 0.2s;
     }
 
     .tip-source a:hover {
-      color: var(--disney-pink);
+      color: #fff;
+      text-shadow: 0 0 5px var(--magic-gold);
     }
 
     .no-results, .loading {
       grid-column: 1 / -1;
       text-align: center;
       padding: 4rem 2rem;
-      color: #888;
-      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1.2rem;
     }
 
     .loading::after {
-      content: '';
+      content: '✨';
       display: inline-block;
-      width: 20px;
-      height: 20px;
-      border: 2px solid #ddd;
-      border-top-color: var(--disney-blue);
-      border-radius: 50%;
       margin-left: 10px;
-      animation: spin 1s linear infinite;
-      vertical-align: middle;
+      animation: spin 2s linear infinite;
     }
 
     @keyframes spin {
       to { transform: rotate(360deg); }
     }
 
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 2rem;
-      color: #888;
-      font-size: 0.85rem;
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
     }
 
-    footer a {
-      color: var(--disney-blue);
-      text-decoration: none;
+    footer {
+      text-align: center;
+      padding: 3rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.9rem;
     }
 
     @media (max-width: 768px) {
-      h1 { font-size: 2rem; }
-      .logo { font-size: 2.5rem; }
+      h1 { font-size: 3rem; }
+      .logo { font-size: 3rem; }
       .tips-grid { grid-template-columns: 1fr; }
-      .stats { flex-direction: column; gap: 0.5rem; }
-      .hero { padding: 2rem 1rem 3rem; }
-      .filter-btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+      .container { padding: 1rem; }
     }
   </style>
 </head>
@@ -384,7 +387,7 @@
       <h1>Disney World Tips</h1>
       <p class="subtitle">Magical tips from top Disney YouTube creators</p>
       <div class="stats">
-        <span id="tip-count">Loading...</span>
+        <span id="tip-count">Loading magic...</span>
         <span id="last-updated"></span>
       </div>
     </div>
@@ -392,11 +395,11 @@
 
   <div class="container">
     <div class="search-wrapper">
-      <input type="text" class="search-box" id="search" placeholder="Search tips, parks, tags...">
+      <input type="text" class="search-box" id="search" placeholder="✨ Search for magical tips...">
     </div>
 
     <div class="filter-section">
-      <div class="filter-label">Category</div>
+      <div class="filter-label">Explore by Category</div>
       <div class="filters" id="category-filters"></div>
     </div>
 
@@ -413,12 +416,12 @@
     <div class="filtered-count" id="filtered-count"></div>
 
     <div class="tips-grid" id="tips-container">
-      <div class="loading">Loading tips</div>
+      <div class="loading">Summoning tips...</div>
     </div>
   </div>
 
   <footer>
-    Tips extracted from YouTube using AI
+    Tips extracted from YouTube using AI ✨
   </footer>
 
   <script type="module" src="/src/main.ts"></script>
