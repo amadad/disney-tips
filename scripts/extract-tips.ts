@@ -20,21 +20,31 @@ const tipsSchema = {
           },
           category: {
             type: Type.STRING,
-            enum: ['parks', 'dining', 'hotels', 'genie', 'budget', 'planning', 'transportation', 'general'],
-            description: 'Category of the tip'
+            enum: ['parks', 'dining', 'hotels', 'genie', 'budget', 'planning', 'transportation'],
+            description: 'Category of the tip - must be specific, never use general'
           },
           park: {
             type: Type.STRING,
-            enum: ['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'general'],
-            description: 'Specific park if applicable'
+            enum: ['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'disneyland', 'california-adventure', 'all-parks'],
+            description: 'Specific park the tip applies to, or all-parks if broadly applicable'
           },
           tags: {
             type: Type.ARRAY,
             items: { type: Type.STRING },
-            description: '2-4 relevant tags like "rope drop", "lightning lane", "quick service"'
+            description: '2-4 lowercase hyphenated tags like rope-drop, lightning-lane, quick-service, table-service, character-meet'
+          },
+          priority: {
+            type: Type.STRING,
+            enum: ['high', 'medium', 'low'],
+            description: 'high = saves 30+ min or $50+, medium = notable improvement, low = nice to know'
+          },
+          season: {
+            type: Type.STRING,
+            enum: ['year-round', 'christmas', 'halloween', 'flower-garden', 'food-wine', 'festival-arts', 'summer'],
+            description: 'When this tip is most relevant'
           }
         },
-        required: ['text', 'category', 'tags']
+        required: ['text', 'category', 'park', 'tags', 'priority', 'season']
       }
     }
   },
@@ -53,12 +63,34 @@ async function extractTipsFromVideo(video: Video): Promise<ExtractedTip[]> {
     ? video.transcript.slice(0, maxTranscriptLength) + '...'
     : video.transcript;
 
-  const prompt = `You are analyzing a Disney World YouTube video transcript to extract actionable tips for visitors.
+  const prompt = `You are analyzing a Disney parks YouTube video transcript to extract actionable tips for visitors.
 
-Extract specific, actionable tips from this transcript. Each tip should be:
-- Concrete and specific (not vague advice)
+IMPORTANT RULES:
+1. ONLY extract tips about Disney parks (Walt Disney World, Disneyland, Disney Cruise Line)
+2. DO NOT include tips about Universal Studios, SeaWorld, or other non-Disney destinations
+3. DO NOT include generic travel advice (packing lists, what to wear, etc.) unless Disney-specific
+4. Skip tips about specific dates/events that have already passed
+
+Each tip should be:
+- Concrete and specific (not vague advice like "plan ahead")
 - Actionable (something a visitor can actually do)
-- Current (if it mentions dates/times that have passed, skip it)
+- Disney-specific (mentions a specific ride, restaurant, resort, or Disney strategy)
+
+CATEGORIZATION RULES:
+- "parks" = ride strategies, show times, park navigation, attractions
+- "dining" = restaurants, snacks, mobile ordering, reservations
+- "hotels" = resort-specific tips, room requests, resort perks
+- "genie" = Lightning Lane, virtual queues, Genie+ strategies
+- "budget" = saving money, free experiences, discounts
+- "planning" = booking windows, trip timing, app usage
+- "transportation" = buses, monorail, Skyliner, parking, Minnie Vans
+
+TAG FORMAT: Use lowercase with hyphens (rope-drop, lightning-lane, quick-service, table-service, character-meet, fireworks, parade, mobile-order, dining-reservation, resort-hopping)
+
+PRIORITY GUIDE:
+- "high" = Can save 30+ minutes of wait time, $50+ savings, or significantly improve experience
+- "medium" = Notable improvement to visit, good to know
+- "low" = Nice detail, minor enhancement
 
 VIDEO TITLE: ${video.title}
 CHANNEL: ${video.channelName}
@@ -66,7 +98,7 @@ CHANNEL: ${video.channelName}
 TRANSCRIPT:
 ${transcript}
 
-Extract all useful tips from this video.`;
+Extract all Disney-specific actionable tips from this video.`;
 
   try {
     const response = await ai.models.generateContent({
@@ -81,14 +113,23 @@ Extract all useful tips from this video.`;
     const text = response.text;
     if (!text) return [];
 
-    const parsed = JSON.parse(text) as { tips: Array<{ text: string; category: string; park?: string; tags: string[] }> };
+    const parsed = JSON.parse(text) as { tips: Array<{
+      text: string;
+      category: string;
+      park: string;
+      tags: string[];
+      priority: string;
+      season: string;
+    }> };
 
     return parsed.tips.map((tip) => ({
       id: randomUUID(),
       text: tip.text,
       category: tip.category as TipCategory,
-      park: tip.park as Park | undefined,
+      park: tip.park as Park,
       tags: tip.tags || [],
+      priority: tip.priority as 'high' | 'medium' | 'low',
+      season: tip.season as 'year-round' | 'christmas' | 'halloween' | 'flower-garden' | 'food-wine' | 'festival-arts' | 'summer',
       source: {
         videoId: video.id,
         channelName: video.channelName as ChannelName,

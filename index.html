@@ -17,6 +17,9 @@
       --disney-teal: #00b894;
       --magic-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       --castle-gradient: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      --high-color: #e74c3c;
+      --medium-color: #f39c12;
+      --low-color: #3498db;
     }
 
     * {
@@ -112,7 +115,7 @@
     /* Search */
     .search-wrapper {
       max-width: 500px;
-      margin: 0 auto 2rem;
+      margin: 0 auto 1.5rem;
     }
 
     .search-box {
@@ -136,23 +139,36 @@
       color: #aaa;
     }
 
-    /* Filters */
+    /* Filter sections */
+    .filter-section {
+      margin-bottom: 1rem;
+    }
+
+    .filter-label {
+      text-align: center;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #888;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
     .filters {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
+      gap: 0.5rem;
       justify-content: center;
-      margin-bottom: 2rem;
     }
 
     .filter-btn {
-      padding: 0.6rem 1.2rem;
+      padding: 0.5rem 1rem;
       border: none;
       border-radius: 25px;
       background: white;
       color: #555;
       cursor: pointer;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       font-weight: 600;
       font-family: inherit;
       transition: all 0.2s;
@@ -170,6 +186,14 @@
       box-shadow: 0 4px 15px rgba(102,126,234,0.4);
     }
 
+    /* Filtered count */
+    .filtered-count {
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
     /* Tips grid */
     .tips-grid {
       display: grid;
@@ -184,11 +208,63 @@
       box-shadow: 0 2px 12px rgba(0,0,0,0.06);
       transition: all 0.3s ease;
       border: 1px solid rgba(0,0,0,0.04);
+      position: relative;
     }
 
     .tip-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .tip-card.priority-high {
+      border-left: 4px solid var(--high-color);
+    }
+
+    .tip-card.priority-medium {
+      border-left: 4px solid var(--medium-color);
+    }
+
+    .tip-card.priority-low {
+      border-left: 4px solid var(--low-color);
+    }
+
+    .tip-header {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .priority-badge {
+      font-size: 0.7rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .priority-badge.high {
+      background: #fdeaea;
+      color: var(--high-color);
+    }
+
+    .priority-badge.medium {
+      background: #fef5e7;
+      color: #d68910;
+    }
+
+    .priority-badge.low {
+      background: #eaf2f8;
+      color: var(--low-color);
+    }
+
+    .season-badge {
+      font-size: 0.7rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 12px;
+      background: #f0f0f0;
+      color: #666;
+      font-weight: 600;
     }
 
     .tip-text {
@@ -297,6 +373,7 @@
       .tips-grid { grid-template-columns: 1fr; }
       .stats { flex-direction: column; gap: 0.5rem; }
       .hero { padding: 2rem 1rem 3rem; }
+      .filter-btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
     }
   </style>
 </head>
@@ -315,10 +392,25 @@
 
   <div class="container">
     <div class="search-wrapper">
-      <input type="text" class="search-box" id="search" placeholder="Search for tips...">
+      <input type="text" class="search-box" id="search" placeholder="Search tips, parks, tags...">
     </div>
 
-    <div class="filters" id="category-filters"></div>
+    <div class="filter-section">
+      <div class="filter-label">Category</div>
+      <div class="filters" id="category-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Impact Level</div>
+      <div class="filters" id="priority-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-label">Season</div>
+      <div class="filters" id="season-filters"></div>
+    </div>
+
+    <div class="filtered-count" id="filtered-count"></div>
 
     <div class="tips-grid" id="tips-container">
       <div class="loading">Loading tips</div>

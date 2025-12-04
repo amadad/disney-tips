@@ -25,8 +25,7 @@ export type TipCategory =
   | 'genie'
   | 'budget'
   | 'planning'
-  | 'transportation'
-  | 'general';
+  | 'transportation';
 
 export type Park =
   | 'magic-kingdom'
@@ -35,14 +34,29 @@ export type Park =
   | 'animal-kingdom'
   | 'disney-springs'
   | 'water-parks'
-  | 'general';
+  | 'disneyland'
+  | 'california-adventure'
+  | 'all-parks';
+
+export type Priority = 'high' | 'medium' | 'low';
+
+export type Season =
+  | 'year-round'
+  | 'christmas'
+  | 'halloween'
+  | 'flower-garden'
+  | 'food-wine'
+  | 'festival-arts'
+  | 'summer';
 
 export interface ExtractedTip {
   id: string;
   text: string;
   category: TipCategory;
-  park?: Park;
+  park: Park;
   tags: string[];
+  priority: Priority;
+  season: Season;
   source: {
     videoId: string;
     channelName: ChannelName;
