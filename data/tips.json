@@ -1,7 +1,86 @@
 {
-  "lastUpdated": "2025-12-05T06:35:59.537Z",
-  "totalTips": 875,
+  "lastUpdated": "2025-12-06T06:23:10.759Z",
+  "totalTips": 879,
   "tips": [
+    {
+      "id": "ba58174f-9c26-4812-8117-63cd915f73d9",
+      "text": "If you have allergies or special dietary needs, when dining at Marceline, find the cast members in white polo shirts. They are trained to handle allergies and special diets and can help you.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "mobile-order",
+        "dining-reservation",
+        "special-diets"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "5KiueFHsNoA",
+        "channelName": "AllEars.net",
+        "videoTitle": "What Nobody Else Will Tell You About Doing a Disney Cruise",
+        "publishedAt": "2025-12-05T15:00:14+00:00"
+      },
+      "extractedAt": "2025-12-06T06:23:09.353Z"
+    },
+    {
+      "id": "57e418fe-6737-488a-8459-0d5cf20f4095",
+      "text": "When on a Disney cruise, you can split charging privileges. Go to guest services to have your key card tied to your own credit card, and other members of your room can have theirs tied to a different card.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "planning",
+        "all-inclusive"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "5KiueFHsNoA",
+        "channelName": "AllEars.net",
+        "videoTitle": "What Nobody Else Will Tell You About Doing a Disney Cruise",
+        "publishedAt": "2025-12-05T15:00:14+00:00"
+      },
+      "extractedAt": "2025-12-06T06:23:09.353Z"
+    },
+    {
+      "id": "343e60eb-be04-441f-bb48-7733aa71c6cc",
+      "text": "On a Disney cruise, when you enter your stateroom, insert your Key to the World card into the slot near the door to turn on the lights and power.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "stateroom",
+        "all-inclusive"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "5KiueFHsNoA",
+        "channelName": "AllEars.net",
+        "videoTitle": "What Nobody Else Will Tell You About Doing a Disney Cruise",
+        "publishedAt": "2025-12-05T15:00:14+00:00"
+      },
+      "extractedAt": "2025-12-06T06:23:09.353Z"
+    },
+    {
+      "id": "a8fb32c5-28ba-4f0b-9de2-21061bf17678",
+      "text": "When visiting Castaway Cay, take the tram to the adults-only Serenity Bay beach for a more peaceful experience.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "castaway-cay",
+        "beach"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "5KiueFHsNoA",
+        "channelName": "AllEars.net",
+        "videoTitle": "What Nobody Else Will Tell You About Doing a Disney Cruise",
+        "publishedAt": "2025-12-05T15:00:14+00:00"
+      },
+      "extractedAt": "2025-12-06T06:23:09.353Z"
+    },
     {
       "id": "5e7b4306-752f-484b-b604-7eeff6bcf78c",
       "text": "On the Disney Destiny, participate in the Haunted Mansion Happy Haunt game to find hidden ghosts throughout the ship using your MagicBand.",
