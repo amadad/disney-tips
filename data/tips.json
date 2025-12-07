@@ -1,7 +1,503 @@
 {
-  "lastUpdated": "2025-12-06T06:23:10.759Z",
-  "totalTips": 879,
+  "lastUpdated": "2025-12-07T06:23:23.685Z",
+  "totalTips": 905,
   "tips": [
+    {
+      "id": "65123317-fd9f-4f3a-ac8b-d0c1b3677322",
+      "text": "Check wait times for Autotopia Speedway, as it might be a walk-on during rain.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "EvGteGt519U",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Night Christmas Fun at Magic Kingdom - Walt Disney World Live Stream - 12-6-25",
+        "publishedAt": "2025-12-07T03:03:20+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:05.973Z"
+    },
+    {
+      "id": "fa68aaad-d455-4007-ba70-5519183c33f0",
+      "text": "Consider riding the PeopleMover during rain, as it provides some shelter and offers a relaxing experience.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "people-mover",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "EvGteGt519U",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Night Christmas Fun at Magic Kingdom - Walt Disney World Live Stream - 12-6-25",
+        "publishedAt": "2025-12-07T03:03:20+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:05.973Z"
+    },
+    {
+      "id": "5e92bb5b-e33d-4952-a606-428425a7c463",
+      "text": "For hard-to-find dining reservations, use the Dream Table app, which continuously searches for openings.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "EvGteGt519U",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Night Christmas Fun at Magic Kingdom - Walt Disney World Live Stream - 12-6-25",
+        "publishedAt": "2025-12-07T03:03:20+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:05.973Z"
+    },
+    {
+      "id": "b1126ff9-efdf-4d59-906c-3b36d044806c",
+      "text": "On Disney Cruise Line, the coffee bar at Marceline Market offers the same menu as other coffee locations.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "53d734e5-25bb-48ff-a48b-577863f01243",
+      "text": "When visiting Castaway Cay on a Disney Cruise, be aware that the ocean water can be cold in the winter months.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "castaway-cay"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "8f8580f9-0260-4d26-b79e-a28dd4ed4645",
+      "text": "For guests on Disney Cruise Line, decks 10 and 11 are convenient for accessing restaurants and other amenities.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "0b068a82-27d0-4c6b-81ec-bd3fc1e8d3be",
+      "text": "On Disney Cruise Line, consider bringing a bottle to fill with water on deck 11 to have it ready for the night.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-perks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "c4b717e0-58c8-4eb1-9d77-1ec849ca8825",
+      "text": "When on a Disney Cruise, if you are on pirate night, consider the crab cake for an appetizer.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "pirate-night"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "249a5f5f-3f0c-4bfb-8aad-937424f43365",
+      "text": "On Disney Cruise Line, head to the deck party for kids to enjoy the Pirates in the Caribbean show.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "parade",
+        "pirate-night"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DURd7hHEAR4",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day3! | Morning Chat, Castaway Cay Fun & Pirate Night!",
+        "publishedAt": "2025-12-06T21:04:25+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:11.733Z"
+    },
+    {
+      "id": "94148a4e-119a-43f4-8fb7-c0a5d12874d0",
+      "text": "If you plan to eat at Pim Kitchen, a Marvel-themed buffet, arrive at off-peak times (11 AM or 3 PM) for a less crowded experience, or make a dining reservation.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "dining-reservation",
+        "quick-service",
+        "buffet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m3pehtNFVBU",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS VLOG 🇫🇷 Walt Disney Studios park",
+        "publishedAt": "2025-12-06T18:00:06+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:14.413Z"
+    },
+    {
+      "id": "84d0ed59-7ad7-4351-925a-dab1b621052a",
+      "text": "Before you dine at Bistro Sha Remy, reserve your table, as it is a very popular restaurant and reservations fill up quickly.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "dining-reservation",
+        "table-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "m3pehtNFVBU",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS VLOG 🇫🇷 Walt Disney Studios park",
+        "publishedAt": "2025-12-06T18:00:06+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:14.413Z"
+    },
+    {
+      "id": "0edbc552-c004-4768-b70b-f28d6748a2a8",
+      "text": "At Walt Disney Studios Park, consider getting donuts from Search Light refreshment stand.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "quick-service",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "m3pehtNFVBU",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS VLOG 🇫🇷 Walt Disney Studios park",
+        "publishedAt": "2025-12-06T18:00:06+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:14.413Z"
+    },
+    {
+      "id": "42f4d3ef-be0b-4569-b44c-84c9b3770f07",
+      "text": "Consider the Nine Dragons restaurant in Epcot's China pavilion for a table-service dining experience, which may be part of a dining package.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LAG2w6uILZU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Epcot's Nine Dragons Restaurant Review - Candlelight Dining Package - Walt Disney World",
+        "publishedAt": "2025-12-06T16:00:35+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:17.308Z"
+    },
+    {
+      "id": "c7bf7728-8fee-4b1d-9e48-b345f14c332f",
+      "text": "Check if Nine Dragons participates in any dining packages for events like the Candlelight Processional or Eat to the Beat concerts in Epcot.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "dining-reservation",
+        "candlelight",
+        "festival-arts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LAG2w6uILZU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Epcot's Nine Dragons Restaurant Review - Candlelight Dining Package - Walt Disney World",
+        "publishedAt": "2025-12-06T16:00:35+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:17.308Z"
+    },
+    {
+      "id": "1e95a6ea-b9f2-46cc-b730-b51bab33f45f",
+      "text": "If you're doing the Candlelight Processional dining package, remember it includes one entree, a drink, and a dessert at Nine Dragons.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "dining-reservation",
+        "table-service",
+        "candlelight"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "LAG2w6uILZU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Epcot's Nine Dragons Restaurant Review - Candlelight Dining Package - Walt Disney World",
+        "publishedAt": "2025-12-06T16:00:35+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:17.308Z"
+    },
+    {
+      "id": "a95c399d-397b-41dc-92db-099935f87bf6",
+      "text": "Note that appetizers are separate when using the Candlelight Processional dining package at Nine Dragons in Epcot.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "dining-reservation",
+        "candlelight",
+        "table-service"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "LAG2w6uILZU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Epcot's Nine Dragons Restaurant Review - Candlelight Dining Package - Walt Disney World",
+        "publishedAt": "2025-12-06T16:00:35+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:17.308Z"
+    },
+    {
+      "id": "9cd1b06b-820c-4135-840e-1c735bb662cb",
+      "text": "At the Epcot International Flower and Garden Festival (March 4th to June 1st, 2026), explore topiaries, gardens, and food booths to enjoy festival bites.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "food-booths",
+        "flower-garden",
+        "festival-food"
+      ],
+      "priority": "medium",
+      "season": "flower-garden",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "626c1252-3c36-4b82-aea3-4ed7b871c248",
+      "text": "At the Flower and Garden Festival, consider bringing allergy medicine.",
+      "category": "planning",
+      "park": "epcot",
+      "tags": [
+        "flower-garden",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "flower-garden",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "b6c08226-e00d-4a99-b2a4-0755f0dfc31e",
+      "text": "For the best chance of arrival for Christmas, purchase the Disney Adults Premium Bundle by December 8th.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "planning",
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "8da9d628-1f2f-46d3-8016-ae9669affd74",
+      "text": "Take the last ride on Rock 'n' Roller Coaster starring Aerosmith by spring 2026 before it closes.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "parks",
+        "rock-n-roller-coaster"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "cae85bc6-e673-497c-8596-e2f490abe14a",
+      "text": "In January 2026, celebrate Happy Cavalcade and Paint the Night will be returning to Disneyland.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "parade",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "69da9d79-ff6f-4377-bc1f-3644fca8b8fb",
+      "text": "Starting January 13th, explore the new Explore Key Magic Key pass for Disneyland, offering weekday access in June and July.",
+      "category": "budget",
+      "park": "disneyland",
+      "tags": [
+        "budget",
+        "magic-key"
+      ],
+      "priority": "high",
+      "season": "summer",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "4ec9b642-2120-4563-a858-8e7951c10958",
+      "text": "For summer 2026, purchase a Disneyland ticket for kids ages 3-9 for $50 for a one-day park hopper, valid May 22nd to September 7th.",
+      "category": "budget",
+      "park": "disneyland",
+      "tags": [
+        "budget",
+        "park-hopper"
+      ],
+      "priority": "high",
+      "season": "summer",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "072832fe-2ab9-4231-ad03-5c7cda54f7bb",
+      "text": "To hear Walt Disney's voice, arrive at Epcot right at rope drop to hear a special welcome announcement.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "rope-drop",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "e340f680-3599-44eb-bec3-ee4269a5aa94",
+      "text": "Place your mobile order as early as possible in the morning at hotel quick service restaurants like Roaring Fork at Wilderness Lodge to secure a convenient time slot.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "quick-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
+    {
+      "id": "54898cd5-94cc-45da-b3be-cb6dafe9d632",
+      "text": "If you have a Disney Visa, visit Epcot for an exclusive character meet and greet with Mickey and Minnie in a private photo spot.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "character-meet",
+        "disney-visa"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "-6xy0mTqMY0",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: MAJOR Dates for 2026, The End is Near for Rock 'n' Roller Coaster & MORE!",
+        "publishedAt": "2025-12-06T15:46:27+00:00"
+      },
+      "extractedAt": "2025-12-07T06:23:23.182Z"
+    },
     {
       "id": "ba58174f-9c26-4812-8117-63cd915f73d9",
       "text": "If you have allergies or special dietary needs, when dining at Marceline, find the cast members in white polo shirts. They are trained to handle allergies and special diets and can help you.",
