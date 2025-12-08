@@ -1,7 +1,1027 @@
 {
-  "lastUpdated": "2025-12-07T06:23:23.685Z",
-  "totalTips": 905,
+  "lastUpdated": "2025-12-08T06:29:35.850Z",
+  "totalTips": 958,
   "tips": [
+    {
+      "id": "b4078b8d-98d9-4c76-9d95-6aaf43305d37",
+      "text": "Visit Disney Springs for free Disney Christmas activities, including nightly snowfall, holiday entertainment, and meeting Santa Claus.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "character-meet",
+        "free-activities",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "5e2daedb-3ea5-4dec-ba23-8b680fff8703",
+      "text": "Sign up for the virtual queue for Santa Claus at Disney Springs in the My Disney Experience app.",
+      "category": "planning",
+      "park": "disney-springs",
+      "tags": [
+        "mobile-order",
+        "christmas",
+        "virtual-queue"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "e89cbbf3-718c-4fb1-9152-18d472f15814",
+      "text": "Explore the holiday overlays at Jock Lindsay's Hanger Bar in Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "christmas",
+        "themed-restaurant"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "f9e8e20c-c87c-4fc1-bd8d-5b0fad02f461",
+      "text": "Participate in the Tree Stroll at Disney Springs, collect a map, and earn a prize after viewing the decorated trees.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "free-activities",
+        "christmas"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "13e067bb-4582-4b03-bf78-4b7713486fae",
+      "text": "Take advantage of free resort hopping to view holiday decorations, especially at the resorts along the monorail line (Grand Floridian, Contemporary).",
+      "category": "budget",
+      "park": "magic-kingdom",
+      "tags": [
+        "resort-hopping",
+        "free-activities",
+        "christmas"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "87b2df77-c02f-494f-807c-6f0127de9ea9",
+      "text": "Visit the Epcot Resort Loop (Yacht and Beach Club, Boardwalk) to see holiday decorations.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "resort-hopping",
+        "free-activities",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "63004061-cfc7-433a-86a4-d8853900b20b",
+      "text": "Check out the iconic gingerbread carousel at Beach Club Resort.",
+      "category": "hotels",
+      "park": "epcot",
+      "tags": [
+        "christmas",
+        "hotel-perks",
+        "resort-hopping"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "e051fb81-a086-4ea4-91be-52ac356d395f",
+      "text": "Utilize free Disney transportation (buses from Disney Springs) for resort hopping.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "resort-hopping",
+        "transportation",
+        "free-activities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "806dab00-3beb-4116-b202-995c97b39e16",
+      "text": "Visit Pop Century Resort, which is easily accessible via the Skyliner, for Christmas decorations.",
+      "category": "hotels",
+      "park": "hollywood-studios",
+      "tags": [
+        "resort-hopping",
+        "skyliner",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "021f2c42-a38d-41ac-a51d-6d01ec7c284a",
+      "text": "Visit Coronado Springs, specifically the Grand Destino Tower, to see Christmas decorations.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-hopping",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "875726ad-48c4-4bcf-bcb3-c9ee27888018",
+      "text": "Visit Animal Kingdom Lodge for its Christmas tree and gingerbread display.",
+      "category": "hotels",
+      "park": "animal-kingdom",
+      "tags": [
+        "resort-hopping",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "237df1ca-5e79-4e65-9f3b-e7942b2c7e7d",
+      "text": "Visit Wilderness Lodge, which has fantastic Christmas decorations and a cozy atmosphere.",
+      "category": "hotels",
+      "park": "magic-kingdom",
+      "tags": [
+        "resort-hopping",
+        "christmas"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "cb4f0693-ad34-4ca2-b35f-a149a8e53d6a",
+      "text": "Watch the Minnie's Christmas fireworks at Magic Kingdom from Geyser Point at Wilderness Lodge or from the Contemporary Resort.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "christmas"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "c984a046-65e5-41e8-b090-009ade7970e7",
+      "text": "Watch the Jingle Bell, Jingle BAM! fireworks at Hollywood Studios from Coronado Springs, Grand Destino Tower, or Riviera Resort.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "fireworks",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "745a2d25-8842-47b0-9800-41662bd76889",
+      "text": "Visit the Disney World Horses' resort for Christmas decorations.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-hopping",
+        "christmas"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "961c6a5f-5601-4b91-82f1-8fa051e0981d",
+      "text": "Visit Fort Wilderness for the decorated campsites, especially during Christmas.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "free-activities",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "cb36eaab-4de0-47bd-a97f-6b273690a51c",
+      "text": "Enjoy custom holiday decorations throughout all four Disney World theme parks.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "christmas",
+        "decorations"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "1f3e72e5-0b48-4c29-94c8-bf9b77be1e1f",
+      "text": "Watch the Merry Menagerie at Animal Kingdom in front of the Tree of Life for holiday entertainment.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "christmas",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "ffd68c07-5535-45fa-ac44-0e42c34045bc",
+      "text": "Watch the Tree of Life Awakenings projection show at Animal Kingdom after dark.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "christmas",
+        "entertainment"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "d3069a1a-0081-47ec-9158-9f9b2a4807b1",
+      "text": "Ride the Holiday Jingle Cruise at Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "christmas",
+        "attraction"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "432d45f0-9f3f-4831-92a5-56cf96e14283",
+      "text": "Watch the Frozen Holiday Surprise show at Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "christmas",
+        "entertainment"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "9ea900e6-3bae-4b2f-8fb4-34b3ec229f3f",
+      "text": "Watch Sunset Seasons Screenings, a holiday projection show on the Hollywood Tower Hotel, at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "christmas",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "84d585d5-78de-47eb-a0d9-eda94cbeee61",
+      "text": "Experience holiday storytellers around World Showcase and the Candlelight Processional at Epcot.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "christmas",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "bc516f88-6d03-4852-ba13-affe97db14d2",
+      "text": "Take advantage of deals at the Festival of the Holidays food booths at Epcot.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "christmas",
+        "quick-service",
+        "budget"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "18d857c1-99af-4d16-ae89-6627dd2fae23",
+      "text": "Ask for Disney gift cards for Christmas gifts or use them for travel purchases.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "planning",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "0c62758a-245f-44fc-8949-89cde152f009",
+      "text": "Use cashback sites like Rakuten or Ibotta when making purchases.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "ca11a506-3da3-4961-bcdc-11a790f751f4",
+      "text": "Shop for Disney-themed gifts at discount stores like Target, Costco, and Box Lunch.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "shopping",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "3nt46l_0OYE",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "Money saving hacks at Disney World (Holidays 2025)",
+        "publishedAt": "2025-12-08T04:58:42+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:16.781Z"
+    },
+    {
+      "id": "48ffe330-f064-40a2-8948-644708a66afb",
+      "text": "On Disney Destiny, the AquaMouse on the Destiny is exclusive to this ship, and it is a 5-minute wait.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "aqua-mouse"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "8f772986-458b-4822-bd34-0115d3dfeeeb",
+      "text": "On the Disney Destiny, be prepared for water when riding the AquaMouse, it's very wet. ",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "aqua-mouse"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "d6461a4c-5a43-4210-a8be-3ad880080d45",
+      "text": "For the slide on the Disney Destiny, arch your back up and lean on your shoulder blades and your butt and heels to go faster.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "water-slide"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "729257f2-8bec-4693-8363-71223171d392",
+      "text": "On Disney Cruise Line, be sure to head out on deck at noon on a sea day to hear the ship horns.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "parade"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "7a7a66f4-d1fc-40e6-b1ce-2dc9ee0b472a",
+      "text": "On the Disney Destiny, when watching the show Hercules, don't sit in the front wings, you won't be able to see everything.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "fireworks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "91566c96-3e66-4e73-a883-32ffe4586d4a",
+      "text": "On the Disney Destiny, show up early to the Walt Disney Theater to get good seats.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "parade"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "1-x1QazuDgs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Destiny Family Cruise Day4! | AquaMouse & Slide POV, Special Horns + Thoughts About The Ship!",
+        "publishedAt": "2025-12-07T20:22:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:20.876Z"
+    },
+    {
+      "id": "fc0b263b-be4c-4599-8592-cc1b8fcb7c0c",
+      "text": "If Expedition Everest breaks down, you may experience an in-show exit through the mountain and potentially receive a Lightning Lane pass.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "ride-breakdown",
+        "lightning-lane",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "4ec7759b-c7b1-4a1a-b600-eb32c0fb0962",
+      "text": "If stuck on Mission: Breakout (Disney California Adventure), you will be safely evacuated, and may get a chance to see the ride with the lights on.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "d0d405f2-387c-4959-be40-78d34d7a2104",
+      "text": "If Dinosaur at Animal Kingdom breaks down, you may experience an in-show exit and get a close look at the animatronics.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "66f22f5f-f8d6-45e3-bac5-54b414d45a68",
+      "text": "If the Jungle Cruise at Magic Kingdom breaks down, you might experience a unique rescue by other boats and skippers, and have a fun experience.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "2c83345f-82a5-4da0-aaf3-775268719aba",
+      "text": "If a storm causes ride closures at Magic Kingdom, you might experience an in-show exit from rides like Pirates of the Caribbean or Living with the Land.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "51ed3d53-ce2e-4c03-9c33-4071a845edfa",
+      "text": "If you experience a breakdown on a ride like Monsters Inc. Mike & Sulley to the Rescue, you'll be able to see the ride with the lights on and enjoy a unique experience.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "da3458d2-d332-4864-aaf3-e96df6af4647",
+      "text": "On Mickey & Minnie's Runaway Railway, if the projectors malfunction, you can get a different view of the show.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride-breakdown"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "fff7cae1-8d93-4556-a400-ae051b3a0778",
+      "text": "Test Track breakdowns give you the chance to see the ride with the lights on, giving a different perspective on the ride's details.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "cfc0db18-2d75-450e-a581-fe42dabdcd87",
+      "text": "A breakdown on Rock 'n' Roller Coaster may lead to an in-show exit and offer a unique view of the ride.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride-breakdown",
+        "in-show-exit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DSSsG9ofgkc",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 Disney Fails, Ride Breakdowns & Malfunctions Pt 18 - Disney World & Disneyland",
+        "publishedAt": "2025-12-07T18:35:20+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:27.652Z"
+    },
+    {
+      "id": "d5f87a56-f7cf-48d0-804c-c4eeb8069fa6",
+      "text": "Homecoming in Disney Springs often has walk-up availability, even with its popularity. Arrive a bit early to secure your spot.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-vbfchjmJg4",
+        "channelName": "AllEars.net",
+        "videoTitle": "Is Homecomin' ACTUALLY The Best Restaurant in Disney Springs? -- Disney World Review",
+        "publishedAt": "2025-12-07T15:00:00+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:29.571Z"
+    },
+    {
+      "id": "89d7aec2-ba13-413f-a3e6-ec8070bb8ed4",
+      "text": "If you're on a budget, be aware that Homecoming can get pricey, especially if you order multiple appetizers.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "budget",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-vbfchjmJg4",
+        "channelName": "AllEars.net",
+        "videoTitle": "Is Homecomin' ACTUALLY The Best Restaurant in Disney Springs? -- Disney World Review",
+        "publishedAt": "2025-12-07T15:00:00+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:29.571Z"
+    },
+    {
+      "id": "67920049-61b8-47bc-9fa1-c4d0e02f36f3",
+      "text": "Visit the Disney Character Warehouse at the Vineland Premium Outlets for discounted Disney merchandise, including ornaments, apparel, and home goods.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "discounts",
+        "outlet"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "9d712761-1daf-4063-9f8d-f306a1e2a5c9",
+      "text": "Check the Disney Character Warehouse for items from Mickey's Not-So-Scary Halloween Party at discounted prices.",
+      "category": "budget",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise",
+        "halloween",
+        "discounts"
+      ],
+      "priority": "high",
+      "season": "halloween",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "02d76d38-d14a-46b1-baf6-86dca6ce1332",
+      "text": "The Disney Character Warehouse often has discounted merchandise from the Disney Cruise Line.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "discounts",
+        "disney-cruise-line"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "297b2af4-a089-42b9-9e12-be184f194eeb",
+      "text": "The Disney Character Warehouse sells Food and Wine Festival merchandise at a discount.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "merchandise",
+        "food-wine",
+        "discounts"
+      ],
+      "priority": "medium",
+      "season": "food-wine",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "bda4b37f-8af5-464b-bf46-e93a69c48ceb",
+      "text": "Find discounted Disney-themed Loungefly bags at the Character Warehouse.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "loungefly",
+        "discounts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "48192ef1-06b6-4c15-bcd1-500059c5a4e5",
+      "text": "Look for discounted items from Mickey's Not-So-Scary Halloween Party, like mugs and Loungefly bags.",
+      "category": "budget",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise",
+        "halloween",
+        "discounts"
+      ],
+      "priority": "high",
+      "season": "halloween",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "b6bf412d-74b3-496e-9914-a8a9469c345e",
+      "text": "If you are a DVC member, you may find discounted DVC-specific merchandise at the Character Warehouse.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "dvc",
+        "discounts"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "07c75f3f-77bf-4240-95d9-c07372831208",
+      "text": "Check for discounted runDisney merchandise at the Character Warehouse.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "rundisney",
+        "discounts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
+    {
+      "id": "24e7f59e-b22d-400d-b435-e0235c128aa6",
+      "text": "Visit the Character Warehouse for Disney themed Crocs and spirit jersey bucket hats at a reduced price.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "discounts",
+        "spirit-jersey"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "sIZz89_JEys",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at the Disney Character Warehouse - Vineland Premium Outlet Mall - December 2025",
+        "publishedAt": "2025-12-07T14:01:23+00:00"
+      },
+      "extractedAt": "2025-12-08T06:29:35.348Z"
+    },
     {
       "id": "65123317-fd9f-4f3a-ac8b-d0c1b3677322",
       "text": "Check wait times for Autotopia Speedway, as it might be a walk-on during rain.",
