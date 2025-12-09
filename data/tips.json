@@ -1,7 +1,595 @@
 {
-  "lastUpdated": "2025-12-08T06:29:35.850Z",
-  "totalTips": 958,
+  "lastUpdated": "2025-12-09T06:27:30.861Z",
+  "totalTips": 988,
   "tips": [
+    {
+      "id": "40eb01b5-e576-44c6-9047-7f487faa1cab",
+      "text": "Visit the sleeping dragon hidden beneath the castle for a rare, intimate, and unexpected Disney experience.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "attraction",
+        "hidden-gem"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4JffEqzX6Z4",
+        "channelName": "AllEars.net",
+        "videoTitle": "This Disney Park Has a DRAGON 🐉🔥",
+        "publishedAt": "2025-12-08T21:30:02+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:08.505Z"
+    },
+    {
+      "id": "09213e00-4f8c-4567-b8dd-f199ee35a8cf",
+      "text": "On the Disney Destiny cruise, the Denver omelet in Worlds of Marvel is a veggie omelet, while it typically contains ham elsewhere.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "f3M3s2e9MKs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Leaving The Ship, Putting Up Our Christmas Tree With The Boys & Done With The Pacifier! | Home Vlog",
+        "publishedAt": "2025-12-08T18:55:44+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:11.078Z"
+    },
+    {
+      "id": "16b1c12d-804f-41a2-940f-e9a9d944a57c",
+      "text": "When disembarking from a Disney Cruise, head towards the Walt Disney Theater to find your way to the gangway.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "transportation",
+        "cruise-line"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "f3M3s2e9MKs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Leaving The Ship, Putting Up Our Christmas Tree With The Boys & Done With The Pacifier! | Home Vlog",
+        "publishedAt": "2025-12-08T18:55:44+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:11.078Z"
+    },
+    {
+      "id": "30473361-81c0-491a-8681-7997c693f1b0",
+      "text": "The Disney Dream will be hosting Bluey and Bingo meet and greets and participating in 'Who's Behind the Curtain'.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "cruise-line"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "f3M3s2e9MKs",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Leaving The Ship, Putting Up Our Christmas Tree With The Boys & Done With The Pacifier! | Home Vlog",
+        "publishedAt": "2025-12-08T18:55:44+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:11.078Z"
+    },
+    {
+      "id": "46845cf8-b699-4442-a706-0454354d1652",
+      "text": "Attend Mickey's Very Merry Christmas Party at Magic Kingdom for a night of holiday fantasy.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "fireworks",
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "SoevW3lv9pQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "This Retro Disney World Commercial is Making Me Feel Things…",
+        "publishedAt": "2025-12-08T18:15:02+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:12.453Z"
+    },
+    {
+      "id": "61851154-b4f4-4b44-8308-dc6e258e83cb",
+      "text": "Participate in the free Christmas Tree Stroll at Disney Springs to find themed trees and collect stickers to earn a prize. The Christmas Tree Stroll is a scavenger hunt.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "christmas-tree",
+        "free-activity",
+        "scavenger-hunt"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "5bZ-f4rfn3E",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney Springs 2025: NEW Gideon’s Cookie, Christmas Fun & Decorating My Tree | Walt Disney World",
+        "publishedAt": "2025-12-08T16:00:02+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:16.243Z"
+    },
+    {
+      "id": "4e31a41d-4e45-4f5d-aeb6-13d983e5b4c4",
+      "text": "Visit Gideon's Bakehouse in Disney Springs during December to try the limited-time Chris Kringle and Krampus cookies, cold brew, and hot cocoa cake slice. These are special holiday offerings",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "holiday-treats"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "5bZ-f4rfn3E",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney Springs 2025: NEW Gideon’s Cookie, Christmas Fun & Decorating My Tree | Walt Disney World",
+        "publishedAt": "2025-12-08T16:00:02+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:16.243Z"
+    },
+    {
+      "id": "73752672-15d2-4e02-b30e-37b277404ed6",
+      "text": "Check out the Days of Christmas store in Disney Springs to find a wide selection of Disney ornaments, including limited-edition and character-themed options. Great for Christmas gifts.",
+      "category": "planning",
+      "park": "disney-springs",
+      "tags": [
+        "souvenirs",
+        "christmas-shopping"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "5bZ-f4rfn3E",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney Springs 2025: NEW Gideon’s Cookie, Christmas Fun & Decorating My Tree | Walt Disney World",
+        "publishedAt": "2025-12-08T16:00:02+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:16.243Z"
+    },
+    {
+      "id": "a521b756-47ec-4232-9083-163e7b7908a0",
+      "text": "Book the Keys to the Kingdom Tour for Magic Kingdom to access backstage areas, including the utilidors, which is a 5-hour walking guided experience.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "backstage-tour",
+        "walking-tour",
+        "utilidors"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "c370b821-f6be-4b0a-a273-051f26b2e647",
+      "text": "Visit open-kitchen restaurants such as Boma in Animal Kingdom Lodge, which lets you watch the meat carving.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "open-kitchen",
+        "table-service",
+        "dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "0658d4cf-cb21-462a-8609-01cb0dc0a402",
+      "text": "Visit open-kitchen restaurants such as Sanaa in Animal Kingdom Lodge, which lets you watch the chefs at work.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "open-kitchen",
+        "table-service",
+        "dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "4a2775d2-2455-4923-8d33-450a21ae7fb3",
+      "text": "Dine at the Chef's Table at Victoria & Albert's in Grand Floridian Resort for an exclusive, multi-course meal with a view into the kitchen.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "chef-table",
+        "table-service",
+        "dining"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "a6728164-4a96-4768-b653-c7981c6069c2",
+      "text": "Participate in the cake decorating experience at Amorettes Patisserie in Disney Springs to decorate your own Mickey Mouse dome cake.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cake-decorating",
+        "dining",
+        "special-event"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "f75a05e7-1628-4df2-8bcb-80ee0646de52",
+      "text": "Take the Up Close with Rhinos or Caring for Giants tours in Animal Kingdom to get behind-the-scenes access to the animals.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animal-tour",
+        "backstage-tour",
+        "safari"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "a121d423-2355-4046-ab57-eb10b50e07ad",
+      "text": "Book the Wild Africa Trek for a more adventurous backstage experience in Animal Kingdom with rope bridges and unique wildlife views.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animal-tour",
+        "backstage-tour",
+        "safari"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "d5875448-c5b1-40dd-be4e-5900d5eb8769",
+      "text": "Use single rider lines at rides like Millennium Falcon: Smugglers Run and Rise of the Resistance to potentially shorten your wait times.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "e4cac45c-45d9-47b4-8772-d6bbf327d909",
+      "text": "Sign up for Epcot's DiveQuest to dive into the Living with the Land aquarium.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "aquarium",
+        "backstage-tour",
+        "diving"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "9c0f3c5b-d83f-4d7f-8f4a-f39abadb8caa",
+      "text": "If attending a party like Mickey's Not-So-Scary Halloween Party, enter the parks early via a backstage route to avoid congestion.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "party-entrance",
+        "backstage",
+        "special-event"
+      ],
+      "priority": "medium",
+      "season": "halloween",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "b220aae1-754d-4b66-9e6f-39d7173399db",
+      "text": "To access the Savannah viewing area yourself, book a Starlight Safari at Animal Kingdom Lodge to access the savanna grounds.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "safari",
+        "backstage-tour",
+        "resort-perk"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "14115f03-2422-42ce-8c1d-34856a987b89",
+      "text": "Take the Behind the Seeds tour in Epcot's Living with the Land to see the greenhouses and learn about Disney's produce.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "backstage-tour",
+        "greenhouse",
+        "behind-the-scenes"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LSDs6IW_7Kg",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World's SECRET Backstage -- Hidden Locations You Can Actually Visit",
+        "publishedAt": "2025-12-08T15:30:19+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:24.096Z"
+    },
+    {
+      "id": "98618002-c1f7-4523-994b-3c8b6f0bec8a",
+      "text": "Book the highest demand rides first, like Slinky Dog Dash, Frozen Ever After, Peter Pan's Flight, and Space Mountain, when using Lightning Lane Multipass.",
+      "category": "genie",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "multipass",
+        "rope-drop"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "785f7a2c-897f-45b0-b7f3-e4fd4fec1288",
+      "text": "Ride early and rebook early to maximize your ride count when using Lightning Lane Multipass; the system resets after you tap in.",
+      "category": "genie",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "multipass"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "09b98f94-0c51-45be-95e7-cb865a549387",
+      "text": "If staying on Disney property or a partner hotel, use your 7-day head start booking window for Lightning Lane Multipass.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "multipass",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "09ff4848-0f1b-4b8a-a8a5-82363d3b4f1c",
+      "text": "If staying offsite, consider using Single Pass for high-demand rides because your options for Multipass will be limited.",
+      "category": "genie",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "single-pass"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "17de8f5a-bf05-4181-975c-48cd99f84d29",
+      "text": "Lightning Lane Multipass works best in Magic Kingdom and Hollywood Studios, parks with dense lineups and high demand.",
+      "category": "genie",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "multipass"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "dea70675-f6d8-4994-bc32-994bc4c3f570",
+      "text": "Lightning Lane Multipass is less efficient in Epcot and almost unnecessary in Animal Kingdom.",
+      "category": "genie",
+      "park": "epcot",
+      "tags": [
+        "lightning-lane",
+        "multipass"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "5b0b2193-93df-41f7-9782-620b0118508c",
+      "text": "If you have early entry, you probably won't need Lightning Lane Single Pass.",
+      "category": "genie",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "single-pass",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "bc81f0c6-9455-44c9-8091-e7b20721ee8f",
+      "text": "If you're visiting for multiple days, you'll get another shot at high-demand rides, so don't necessarily feel you need single-pass.",
+      "category": "genie",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "single-pass"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "adf1bb88-92aa-4c76-9bcd-6eb6eb186e4d",
+      "text": "If you are a budget traveler, stay cheap at a partner hotel, use early entry, and skip Multipass entirely.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "rope-drop",
+        "partner-hotel"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
+    {
+      "id": "445d08fe-96d0-4aee-9102-ec3c87eb451d",
+      "text": "Consider Lightning Lane Premiere Pass if you want frictionless control, meaning no reservations or juggling schedules.",
+      "category": "genie",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "premiere-pass"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Mt07kXUKfk",
+        "channelName": "AllEars.net",
+        "videoTitle": "When You Actually Need Lightning Lane at Disney World",
+        "publishedAt": "2025-12-08T15:00:12+00:00"
+      },
+      "extractedAt": "2025-12-09T06:27:30.359Z"
+    },
     {
       "id": "b4078b8d-98d9-4c76-9d95-6aaf43305d37",
       "text": "Visit Disney Springs for free Disney Christmas activities, including nightly snowfall, holiday entertainment, and meeting Santa Claus.",
