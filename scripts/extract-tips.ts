@@ -81,9 +81,11 @@ async function extractTipsFromVideo(video: Video): Promise<ExtractedTip[]> {
 
   // Truncate transcript if too long
   const maxTranscriptLength = 50000;
-  const transcript = video.transcript.length > maxTranscriptLength
-    ? video.transcript.slice(0, maxTranscriptLength) + '...'
-    : video.transcript;
+  let transcript = video.transcript;
+  if (transcript.length > maxTranscriptLength) {
+    console.log(`  Warning: Truncating transcript from ${transcript.length} to ${maxTranscriptLength} chars`);
+    transcript = transcript.slice(0, maxTranscriptLength) + '...';
+  }
 
   const prompt = `You are analyzing a Disney parks YouTube video transcript to extract actionable tips for visitors.
 

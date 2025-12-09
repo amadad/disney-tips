@@ -1,24 +1,4 @@
-interface Tip {
-  id: string;
-  text: string;
-  category: string;
-  park: string;
-  tags: string[];
-  priority: 'high' | 'medium' | 'low';
-  season: string;
-  source: {
-    videoId: string;
-    channelName: string;
-    videoTitle: string;
-    publishedAt: string;
-  };
-}
-
-interface TipsData {
-  lastUpdated: string;
-  totalTips: number;
-  tips: Tip[];
-}
+import type { Tip, TipsData } from './types';
 
 const CATEGORIES = [
   { id: 'all', label: 'All' },
