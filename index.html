@@ -125,6 +125,26 @@
       font-style: italic;
     }
 
+    .random-btn {
+      display: block;
+      margin: 1.5rem auto 0;
+      padding: 0.6rem 1.5rem;
+      background: transparent;
+      border: 1px solid var(--soft-gold);
+      color: var(--soft-gold);
+      font-family: 'Lato', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 20px;
+    }
+
+    .random-btn:hover {
+      background: var(--soft-gold);
+      color: var(--bg-color);
+    }
+
     /* Filter Controls */
     .filter-controls {
       display: flex;
@@ -210,6 +230,16 @@
       background-color: var(--soft-gold);
     }
 
+    .filter-count {
+      font-size: 0.75rem;
+      opacity: 0.6;
+      margin-left: 0.25rem;
+    }
+
+    .filter-btn.active .filter-count {
+      opacity: 0.8;
+    }
+
     .filtered-count {
       text-align: center;
       color: var(--text-muted);
@@ -236,6 +266,16 @@
     .tip-card:hover {
       border-color: rgba(255, 255, 255, 0.15);
       transform: translateY(-5px);
+    }
+
+    .tip-card.random-highlight {
+      border-color: var(--soft-gold);
+      animation: pulse-gold 2s ease-in-out;
+    }
+
+    @keyframes pulse-gold {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(252, 211, 77, 0); }
+      50% { box-shadow: 0 0 20px 5px rgba(252, 211, 77, 0.3); }
     }
 
     .tip-header {
@@ -466,6 +506,7 @@
   <div class="container">
     <div class="search-wrapper">
       <input type="text" class="search-box" id="search" placeholder="Search the collection...">
+      <button id="random-tip-btn" class="random-btn" title="Show a random tip">Surprise Me</button>
     </div>
 
     <div class="filter-controls">

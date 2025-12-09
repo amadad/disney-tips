@@ -52,6 +52,7 @@ let currentCategory = 'all';
 let currentPriority = 'all';
 let currentSeason = 'all';
 let searchQuery = '';
+let searchTimeout: ReturnType<typeof setTimeout> | null = null;
 
 async function loadTips(): Promise<void> {
   // Simulate network delay to show off skeleton loader (optional, remove in prod)
@@ -88,15 +89,24 @@ async function loadTips(): Promise<void> {
   }
 }
 
+function getCategoryCounts(): Record<string, number> {
+  const counts: Record<string, number> = { all: allTips.length };
+  for (const tip of allTips) {
+    counts[tip.category] = (counts[tip.category] || 0) + 1;
+  }
+  return counts;
+}
+
 function renderFilters(): void {
-  // Category filters (Buttons)
+  // Category filters (Buttons) with counts
   const categoryContainer = document.getElementById('category-filters')!;
+  const counts = getCategoryCounts();
   categoryContainer.innerHTML = CATEGORIES.map(cat => `
     <button
       class="filter-btn ${cat.id === currentCategory ? 'active' : ''}"
       data-category="${cat.id}"
     >
-      ${cat.label}
+      ${cat.label} <span class="filter-count">${counts[cat.id] || 0}</span>
     </button>
   `).join('');
 
@@ -253,14 +263,75 @@ function escapeHtml(text: string): string {
   return div.innerHTML;
 }
 
+function showRandomTip(): void {
+  if (allTips.length === 0) return;
+
+  const randomIndex = Math.floor(Math.random() * allTips.length);
+  const tip = allTips[randomIndex];
+
+  // Reset filters and search
+  currentCategory = 'all';
+  currentPriority = 'all';
+  currentSeason = 'all';
+  searchQuery = '';
+
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  if (searchInput) searchInput.value = '';
+
+  renderFilters();
+
+  // Render just this tip with a special highlight
+  const container = document.getElementById('tips-container')!;
+  const countEl = document.getElementById('filtered-count');
+  if (countEl) countEl.textContent = 'Random tip';
+
+  const highlightedText = escapeHtml(tip.text);
+  container.innerHTML = `
+    <div class="tip-card priority-${tip.priority} random-highlight" data-id="${tip.id}">
+      <button class="action-btn copy" title="Copy to clipboard">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      </button>
+      <div class="tip-header">
+        <span class="priority-badge ${tip.priority}">${PRIORITY_ICONS[tip.priority] || ''} ${tip.priority}</span>
+        ${tip.season !== 'year-round' ? `<span class="season-badge">${formatSeason(tip.season)}</span>` : ''}
+      </div>
+      <p class="tip-text">${highlightedText}</p>
+      <div class="tip-meta">
+        <span class="tag category-tag ${tip.category}">${tip.category}</span>
+        ${tip.park && tip.park !== 'all-parks' ? `<span class="tag park-tag">${PARK_LABELS[tip.park] || tip.park}</span>` : ''}
+        ${tip.tags.slice(0, 4).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
+      </div>
+      <div class="tip-source">
+        From <a href="https://youtube.com/watch?v=${tip.source.videoId}" target="_blank" rel="noopener">
+          ${escapeHtml(tip.source.channelName)}
+        </a>
+        &middot; ${new Date(tip.source.publishedAt).toLocaleDateString()}
+      </div>
+    </div>
+  `;
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   loadTips();
   setupFilterListeners();
 
+  // Debounced search (200ms)
   const searchInput = document.getElementById('search') as HTMLInputElement;
   searchInput.addEventListener('input', (e) => {
-    searchQuery = (e.target as HTMLInputElement).value;
-    renderTips();
+    const value = (e.target as HTMLInputElement).value;
+
+    if (searchTimeout) clearTimeout(searchTimeout);
+
+    searchTimeout = setTimeout(() => {
+      searchQuery = value;
+      renderTips();
+    }, 200);
   });
+
+  // Random tip button
+  const randomBtn = document.getElementById('random-tip-btn');
+  if (randomBtn) {
+    randomBtn.addEventListener('click', showRandomTip);
+  }
 });
