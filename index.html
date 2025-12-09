@@ -458,6 +458,54 @@
       100% { background-position: -200% 0; }
     }
 
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 3rem;
+      padding: 1rem 0;
+    }
+
+    .page-btn {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--text-muted);
+      padding: 0.5rem 0.75rem;
+      min-width: 40px;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.9rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .page-btn:hover:not(:disabled) {
+      border-color: var(--soft-gold);
+      color: var(--soft-gold);
+    }
+
+    .page-btn.active {
+      background: var(--soft-gold);
+      border-color: var(--soft-gold);
+      color: var(--bg-color);
+      font-weight: 700;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    .page-ellipsis {
+      color: var(--text-muted);
+      padding: 0 0.25rem;
+    }
+
     @media (max-width: 768px) {
       h1 {
         font-size: 2.5rem;
@@ -534,6 +582,8 @@
       <div class="skeleton-card skeleton"></div>
       <div class="skeleton-card skeleton"></div>
     </div>
+
+    <div id="pagination" class="pagination"></div>
   </div>
 
   <div id="toast" class="toast">Copied to clipboard</div>

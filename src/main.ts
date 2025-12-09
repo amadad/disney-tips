@@ -47,12 +47,50 @@ const PRIORITY_ICONS: Record<string, string> = {
   'low': '💡',
 };
 
+const TIPS_PER_PAGE = 50;
+
 let allTips: Tip[] = [];
 let currentCategory = 'all';
 let currentPriority = 'all';
 let currentSeason = 'all';
 let searchQuery = '';
+let currentPage = 1;
 let searchTimeout: ReturnType<typeof setTimeout> | null = null;
+
+// URL parameter helpers
+function getUrlParams(): URLSearchParams {
+  return new URLSearchParams(window.location.search);
+}
+
+function updateUrl(): void {
+  const params = new URLSearchParams();
+  if (currentCategory !== 'all') params.set('category', currentCategory);
+  if (currentPriority !== 'all') params.set('priority', currentPriority);
+  if (currentSeason !== 'all') params.set('season', currentSeason);
+  if (searchQuery) params.set('q', searchQuery);
+  if (currentPage > 1) params.set('page', String(currentPage));
+
+  const newUrl = params.toString()
+    ? `${window.location.pathname}?${params.toString()}`
+    : window.location.pathname;
+
+  window.history.replaceState({}, '', newUrl);
+}
+
+function loadFromUrl(): void {
+  const params = getUrlParams();
+  currentCategory = params.get('category') || 'all';
+  currentPriority = params.get('priority') || 'all';
+  currentSeason = params.get('season') || 'all';
+  searchQuery = params.get('q') || '';
+  currentPage = parseInt(params.get('page') || '1', 10);
+
+  // Update search input if there's a query
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  if (searchInput && searchQuery) {
+    searchInput.value = searchQuery;
+  }
+}
 
 async function loadTips(): Promise<void> {
   // Simulate network delay to show off skeleton loader (optional, remove in prod)
@@ -81,6 +119,7 @@ async function loadTips(): Promise<void> {
       nextUpdateEl.textContent = `Next update in ${hoursUntil}h`;
     }
 
+    loadFromUrl();
     renderFilters();
     renderTips();
   } catch (error) {
@@ -137,6 +176,8 @@ function setupFilterListeners(): void {
     const btn = (e.target as HTMLElement).closest('.filter-btn');
     if (!btn) return;
     currentCategory = btn.getAttribute('data-category') || 'all';
+    currentPage = 1;
+    updateUrl();
     renderFilters();
     renderTips();
   });
@@ -146,6 +187,8 @@ function setupFilterListeners(): void {
   if (prioritySelect) {
     prioritySelect.addEventListener('change', (e) => {
       currentPriority = (e.target as HTMLSelectElement).value;
+      currentPage = 1;
+      updateUrl();
       renderTips();
     });
   }
@@ -155,9 +198,30 @@ function setupFilterListeners(): void {
   if (seasonSelect) {
     seasonSelect.addEventListener('change', (e) => {
       currentSeason = (e.target as HTMLSelectElement).value;
+      currentPage = 1;
+      updateUrl();
       renderTips();
     });
   }
+
+  // Pagination clicks (event delegation)
+  document.getElementById('pagination')?.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('[data-page]');
+    if (!btn) return;
+    const page = btn.getAttribute('data-page');
+    if (page === 'prev') {
+      currentPage = Math.max(1, currentPage - 1);
+    } else if (page === 'next') {
+      const filtered = filterTips();
+      const totalPages = Math.ceil(filtered.length / TIPS_PER_PAGE);
+      currentPage = Math.min(totalPages, currentPage + 1);
+    } else {
+      currentPage = parseInt(page!, 10);
+    }
+    updateUrl();
+    renderTips();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   // Copy button delegation
   document.getElementById('tips-container')!.addEventListener('click', (e) => {
@@ -201,22 +265,86 @@ function highlightText(text: string, query: string): string {
   return escapeHtml(text).replace(regex, '<mark>$1</mark>');
 }
 
+function renderPagination(totalItems: number): void {
+  const paginationEl = document.getElementById('pagination');
+  if (!paginationEl) return;
+
+  const totalPages = Math.ceil(totalItems / TIPS_PER_PAGE);
+
+  if (totalPages <= 1) {
+    paginationEl.innerHTML = '';
+    return;
+  }
+
+  // Ensure current page is valid
+  if (currentPage > totalPages) {
+    currentPage = totalPages;
+    updateUrl();
+  }
+
+  let pages: (number | string)[] = [];
+
+  // Build page numbers with ellipsis
+  if (totalPages <= 7) {
+    pages = Array.from({ length: totalPages }, (_, i) => i + 1);
+  } else {
+    if (currentPage <= 3) {
+      pages = [1, 2, 3, 4, '...', totalPages];
+    } else if (currentPage >= totalPages - 2) {
+      pages = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+    } else {
+      pages = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+    }
+  }
+
+  paginationEl.innerHTML = `
+    <button class="page-btn" data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    ${pages.map(p =>
+      p === '...'
+        ? '<span class="page-ellipsis">...</span>'
+        : `<button class="page-btn ${p === currentPage ? 'active' : ''}" data-page="${p}">${p}</button>`
+    ).join('')}
+    <button class="page-btn" data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  `;
+}
+
 function renderTips(): void {
   const container = document.getElementById('tips-container')!;
   const filtered = filterTips();
+  const totalPages = Math.ceil(filtered.length / TIPS_PER_PAGE);
+
+  // Clamp current page
+  if (currentPage > totalPages && totalPages > 0) {
+    currentPage = totalPages;
+  }
+
+  // Paginate
+  const startIndex = (currentPage - 1) * TIPS_PER_PAGE;
+  const paginatedTips = filtered.slice(startIndex, startIndex + TIPS_PER_PAGE);
 
   // Update count
   const countEl = document.getElementById('filtered-count');
   if (countEl) {
-    countEl.textContent = `Showing ${filtered.length} tips`;
+    if (totalPages > 1) {
+      countEl.textContent = `Showing ${startIndex + 1}-${Math.min(startIndex + TIPS_PER_PAGE, filtered.length)} of ${filtered.length} tips`;
+    } else {
+      countEl.textContent = `Showing ${filtered.length} tips`;
+    }
   }
+
+  // Render pagination
+  renderPagination(filtered.length);
 
   if (filtered.length === 0) {
     container.innerHTML = '<div class="no-results">No secrets found matching your criteria.</div>';
     return;
   }
 
-  container.innerHTML = filtered.map(tip => {
+  container.innerHTML = paginatedTips.map(tip => {
     const highlightedText = highlightText(tip.text, searchQuery);
 
     return `
@@ -273,12 +401,20 @@ function showRandomTip(): void {
   currentCategory = 'all';
   currentPriority = 'all';
   currentSeason = 'all';
+  currentPage = 1;
   searchQuery = '';
 
   const searchInput = document.getElementById('search') as HTMLInputElement;
   if (searchInput) searchInput.value = '';
 
+  // Clear URL params
+  window.history.replaceState({}, '', window.location.pathname);
+
   renderFilters();
+
+  // Hide pagination
+  const paginationEl = document.getElementById('pagination');
+  if (paginationEl) paginationEl.innerHTML = '';
 
   // Render just this tip with a special highlight
   const container = document.getElementById('tips-container')!;
@@ -325,6 +461,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchTimeout = setTimeout(() => {
       searchQuery = value;
+      currentPage = 1;
+      updateUrl();
       renderTips();
     }, 200);
   });
