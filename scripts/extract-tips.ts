@@ -7,7 +7,7 @@ import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, Chan
 // Zod schema for validating Gemini response
 const TipSchema = z.object({
   text: z.string().min(10),
-  category: z.enum(['parks', 'dining', 'hotels', 'lightning-lane', 'budget', 'planning', 'transportation']),
+  category: z.enum(['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation']),
   park: z.enum(['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'disneyland', 'california-adventure', 'all-parks']),
   tags: z.array(z.string()).min(1),
   priority: z.enum(['high', 'medium', 'low']),
@@ -42,7 +42,7 @@ const tipsSchema = {
           },
           category: {
             type: Type.STRING,
-            enum: ['parks', 'dining', 'hotels', 'lightning-lane', 'budget', 'planning', 'transportation'],
+            enum: ['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation'],
             description: 'Category of the tip - must be specific, never use general'
           },
           park: {
@@ -104,7 +104,6 @@ CATEGORIZATION RULES:
 - "parks" = ride strategies, show times, park navigation, attractions
 - "dining" = restaurants, snacks, mobile ordering, reservations
 - "hotels" = resort-specific tips, room requests, resort perks
-- "lightning-lane" = Lightning Lane Multi Pass, Lightning Lane Single Pass, virtual queues, skip-the-line strategies
 - "budget" = saving money, free experiences, discounts
 - "planning" = booking windows, trip timing, app usage
 - "transportation" = buses, monorail, Skyliner, parking, Minnie Vans

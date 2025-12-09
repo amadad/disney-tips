@@ -5,7 +5,6 @@ const CATEGORIES = [
   { id: 'parks', label: 'Parks' },
   { id: 'dining', label: 'Dining' },
   { id: 'hotels', label: 'Hotels' },
-  { id: 'lightning-lane', label: 'Lightning Lane' },
   { id: 'budget', label: 'Budget' },
   { id: 'planning', label: 'Planning' },
   { id: 'transportation', label: 'Transport' },

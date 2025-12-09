@@ -52,7 +52,6 @@ src/              # Frontend
 - **Parks** - Park-specific strategies and tips
 - **Dining** - Restaurant and food recommendations
 - **Hotels** - Resort and accommodation tips
-- **Genie+** - Lightning Lane and Genie+ strategies
 - **Budget** - Money-saving tips
 - **Planning** - Trip planning advice
 - **Transportation** - Getting around Disney

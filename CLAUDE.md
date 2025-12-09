@@ -57,7 +57,7 @@ src/
 ### Data Schema
 
 Tips include:
-- `category`: parks, dining, hotels, lightning-lane, budget, planning, transportation
+- `category`: parks, dining, hotels, budget, planning, transportation
 - `park`: magic-kingdom, epcot, hollywood-studios, animal-kingdom, disney-springs, water-parks, disneyland, california-adventure, all-parks
 - `priority`: high (saves 30+ min/$50+), medium, low
 - `season`: year-round, christmas, halloween, flower-garden, food-wine, festival-arts, summer

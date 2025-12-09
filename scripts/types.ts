@@ -27,7 +27,6 @@ export type TipCategory =
   | 'parks'
   | 'dining'
   | 'hotels'
-  | 'lightning-lane'
   | 'budget'
   | 'planning'
   | 'transportation';
