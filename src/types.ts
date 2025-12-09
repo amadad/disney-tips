@@ -5,7 +5,7 @@ export type TipCategory =
   | 'parks'
   | 'dining'
   | 'hotels'
-  | 'genie'
+  | 'lightning-lane'
   | 'budget'
   | 'planning'
   | 'transportation';
