@@ -1,7 +1,430 @@
 {
-  "lastUpdated": "2025-12-09T06:27:30.861Z",
-  "totalTips": 988,
+  "lastUpdated": "2025-12-10T06:27:47.300Z",
+  "totalTips": 1011,
   "tips": [
+    {
+      "id": "3161dc56-36de-4aa6-bd41-70def3626cca",
+      "text": "Get your face painted at a Disney park for a fun, immersive experience.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "face-painting",
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dKTW0908KwU",
+        "channelName": "AllEars.net",
+        "videoTitle": "Who Says You’re Too Old to Get Your Face Painted?? 🎨",
+        "publishedAt": "2025-12-09T21:00:43+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:32.283Z"
+    },
+    {
+      "id": "caa25a53-2ba6-4d8c-835b-eb8e33b90081",
+      "text": "Try the white pizza with olive oil and artichoke at Via Napoli Ristorante e Pizzeria in EPCOT; it is often considered the best pizza in Disney World.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Fm1ToT_s7wI",
+        "channelName": "AllEars.net",
+        "videoTitle": "Trying the BEST Pizza in Disney World 🍕",
+        "publishedAt": "2025-12-09T18:15:01+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:33.845Z"
+    },
+    {
+      "id": "e292c0ef-273a-4ee8-8980-54138d0a924b",
+      "text": "If you're going to Animal Kingdom after February 2nd, be aware that Harambe Market quick service is closed, but will reopen with a revamped menu.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "895d1823-2f06-4c71-91a2-8ddc19e93e73",
+      "text": "For picky eaters in Animal Kingdom, consider Pizzafari or Flame Tree Barbecue in Discovery Island.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "30b11adc-1a03-45c1-b0a7-5ba4c1da98e4",
+      "text": "If your group enjoys Pan-Asian takeout, try Yak and Yeti Local Food Cafes in Asia.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "4e06a57a-faba-46a6-a34e-01463b29a46f",
+      "text": "For adventurous eaters, Satuli Canteen inside Pandora offers customizable bowls and cheeseburger pods.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "cf883d67-3b4c-460f-80ed-39a241c202f4",
+      "text": "Book Advanced Dining Reservations (ADRs) starting 60 days before your park visit, even for restaurants that usually have availability.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "0c4744bd-8392-4914-a388-900a33d5ce95",
+      "text": "If staying at a Disney-owned hotel, you can book dining reservations for your entire stay, up to 10 days, starting 60 days out.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "resort-hopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "bd1f8685-b700-4bdb-8e71-ff921c79b570",
+      "text": "Consider whether an Animal Kingdom dinner reservation is the best use of your park day, given the park's early closing time; lunch or breakfast might be a better choice.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "e208fed7-fa88-4d09-8623-17fdd4e04e5f",
+      "text": "At Tiffins, consider the signature burger prefix option for a more familiar offering that includes fries, dessert, and a drink, and is priced relatively well.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "27b04c06-a9f7-45dc-9208-c1c312f4b79b",
+      "text": "Check the hours of snack stands, especially those in Animal Kingdom, as many close earlier than the park itself.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "25ca4237-0a99-480c-9de9-99b1cd5db7c7",
+      "text": "In Pandora, get the Night Blossom (non-alcoholic) or Rum Blossom (alcoholic) drinks from Pongu Pongu.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "b09f7f8d-667d-4840-a89f-94008069ce5b",
+      "text": "Visit Nomad Lounge in Discovery Island for handcrafted cocktails, mocktails, and small plates; the churros are highly recommended.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "403e2605-915e-40b0-9a3c-ee2729880b5b",
+      "text": "For Dole Whip in Animal Kingdom, go to Tamu Tamu Refreshments in Africa for classic or spiked floats and seasonal flavors.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "04a5f751-a42f-42bd-aaf6-8d9acde8b4cf",
+      "text": "For alcoholic drinks in Africa, Dawa Bar has unique cocktails like the Nagumu Jungle Juice.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "a172775c-8b9a-42dd-b03c-99aafeb7360f",
+      "text": "In Asia, the Anandapur Tea Company is a Joffrey's kiosk with iced and hot teas, and the Thirsty River Bar offers a larger selection of alcoholic drinks.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "a15b41ca-57e8-4e76-a8d5-ec34069d1f56",
+      "text": "When getting coffee at Creature Comforts, be aware of two lines; the Africa-bound line may be shorter than the one towards Discovery Island.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jlawp-RhiZU",
+        "channelName": "DFBGuide",
+        "videoTitle": "What You NEED to Know Before You Eat in Disney's Animal Kingdom",
+        "publishedAt": "2025-12-09T15:30:13+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:42.738Z"
+    },
+    {
+      "id": "705e5e62-d685-4ef2-abc3-115558aa5835",
+      "text": "If you're in Magic Kingdom, head to the Sharing the Magic statue (Roy and Minnie) and tell them an opening day attraction you miss.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
+    {
+      "id": "c45b191a-5445-43f4-93ea-f82d8c5add43",
+      "text": "If you're in Magic Kingdom, you can get a free 'I'm Celebrating' button at City Hall.",
+      "category": "budget",
+      "park": "magic-kingdom",
+      "tags": [
+        "free-item"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
+    {
+      "id": "e08ac353-ef65-4474-b670-f17920855cd7",
+      "text": "The Jingle Cruise in Magic Kingdom is the only holiday overlay that is available all day long during the holiday season.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "christmas",
+        "jingle-cruise"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
+    {
+      "id": "d84cda00-95e5-41b1-b7ae-1056dbcc627d",
+      "text": "If you are in Magic Kingdom and need a portable charger, you can find a FuelRod station in the Emporium.",
+      "category": "budget",
+      "park": "magic-kingdom",
+      "tags": [
+        "fuel-rod"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
+    {
+      "id": "454698ae-6d9d-4573-b175-b77e62cb1a1d",
+      "text": "If you're in Magic Kingdom and want a quick snack and are on the left side of Fantasyland, go to Prince Eric's Village Market and get a pickle. ",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "snack"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
+    {
+      "id": "3870d2a5-2e7b-44e9-910e-d0db167288e8",
+      "text": "If you're looking for merchandise, Critter Co-Op in Magic Kingdom will have some unique items.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "g_AoMklHfOo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friends to Compete in Magic Kingdom — Gamemaster Challenge 46",
+        "publishedAt": "2025-12-09T15:00:06+00:00"
+      },
+      "extractedAt": "2025-12-10T06:27:46.794Z"
+    },
     {
       "id": "40eb01b5-e576-44c6-9047-7f487faa1cab",
       "text": "Visit the sleeping dragon hidden beneath the castle for a rare, intimate, and unexpected Disney experience.",
