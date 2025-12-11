@@ -115,6 +115,28 @@ PRIORITY GUIDE:
 - "medium" = Notable improvement to visit, good to know
 - "low" = Nice detail, minor enhancement
 
+FEW-SHOT EXAMPLES:
+
+Input: "Make sure to bring a poncho because it rains a lot in Florida."
+Output: (SKIP - too generic)
+
+Input: "At Magic Kingdom, head straight to Seven Dwarfs Mine Train at rope drop if you don't have Lightning Lane, otherwise the wait will be over 90 minutes instantly."
+Output: {
+  "text": "Head to Seven Dwarfs Mine Train immediately at rope drop if you don't have Lightning Lane to avoid 90+ minute waits.",
+  "category": "parks",
+  "park": "magic-kingdom",
+  "tags": ["rope-drop", "wait-times"],
+  "priority": "high",
+  "season": "year-round"
+}
+
+Input: "The beignets at Port Orleans French Quarter are shaped like Mickey and are a must-try snack."
+Output: {
+  "text": "Try the Mickey-shaped beignets at Port Orleans French Quarter for a classic resort snack.",
+  "category": "dining",
+  "park": "disney-springs", (Note: closely associated, or map to nearest context) -> actually "hotels" category checks out better here, but if forced to park enum, use nearest or all-parks. Better: logic should handle categories. For this schema, stick to schema constraints.
+}
+
 VIDEO TITLE: ${video.title}
 CHANNEL: ${video.channelName}
 
@@ -128,7 +150,7 @@ Extract all Disney-specific actionable tips from this video.`;
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-2.0-flash-lite',
+        model: 'gemini-2.5-flash-lite',
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
@@ -182,6 +204,29 @@ Extract all Disney-specific actionable tips from this video.`;
   return [];
 }
 
+// Simple concurrency limiter
+async function pMap<T, R>(
+  items: T[],
+  mapper: (item: T) => Promise<R>,
+  concurrency: number
+): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  const queue = items.map((item, index) => ({ item, index }));
+
+  async function worker() {
+    while (queue.length > 0) {
+      const { item, index } = queue.shift()!;
+      results[index] = await mapper(item);
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, items.length) }, worker)
+  );
+
+  return results;
+}
+
 async function main() {
   console.log('Starting tip extraction with Gemini...\n');
 
@@ -214,26 +259,31 @@ async function main() {
   const videosToProcess = videosData.videos.filter(v => !processedVideoIds.has(v.id) && v.transcript);
   console.log(`Processing ${videosToProcess.length} new videos with transcripts...\n`);
 
-  const newTips: ExtractedTip[] = [];
   const newlyProcessed: ProcessedVideo[] = [];
 
-  for (const video of videosToProcess) {
+  // Use concurrency
+  const CONCURRENCY_LIMIT = 3;
+
+  const results = await pMap(videosToProcess, async (video) => {
     console.log(`Processing: ${video.title}`);
     const tips = await extractTipsFromVideo(video);
-    newTips.push(...tips);
 
-    // Track this video as processed (even if 0 tips)
-    newlyProcessed.push({
-      videoId: video.id,
-      processedAt: new Date().toISOString(),
-      tipCount: tips.length
-    });
+    // Return both tips and processing status
+    return {
+      tips,
+      processedRecord: {
+        videoId: video.id,
+        processedAt: new Date().toISOString(),
+        tipCount: tips.length
+      }
+    };
+  }, CONCURRENCY_LIMIT);
 
-    console.log(`  Extracted ${tips.length} tips\n`);
+  // Flatten results
+  const newTips = results.flatMap(r => r.tips);
+  newlyProcessed.push(...results.map(r => r.processedRecord));
 
-    // Rate limit API calls
-    await new Promise(resolve => setTimeout(resolve, 500));
-  }
+  console.log(`\nExtracted total of ${newTips.length} new tips from ${videosToProcess.length} videos.\n`);
 
   // Save updated processed videos ledger
   const allProcessed = [...processedVideos, ...newlyProcessed];
@@ -244,13 +294,13 @@ async function main() {
   const tipsByKey = new Map<string, ExtractedTip>();
 
   for (const tip of allTips) {
-    const key = `${tip.text.toLowerCase().trim()}|${tip.park}|${tip.priority}`;
+    // Normalize text for deduplication (lowercase, remove punctuation)
+    const normalizedText = tip.text.toLowerCase().replace(/[^\w\s]/g, '').trim();
+    const key = `${normalizedText}|${tip.park}|${tip.priority}`;
 
     if (!tipsByKey.has(key)) {
       tipsByKey.set(key, tip);
     }
-    // If we wanted to track multiple sources for same tip, we could merge here
-    // For now, keep the first (oldest) source
   }
 
   const dedupedTips = Array.from(tipsByKey.values());
@@ -268,8 +318,7 @@ async function main() {
 
   writeFileSync('data/tips.json', JSON.stringify(data, null, 2));
 
-  console.log(`Done! ${newTips.length} new tips extracted from ${newlyProcessed.length} videos.`);
-  console.log(`Total tips after deduplication: ${dedupedTips.length}`);
+  console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }
 
 main().catch(console.error);
