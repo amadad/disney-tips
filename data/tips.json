@@ -1,7 +1,384 @@
 {
-  "lastUpdated": "2025-12-10T06:27:47.300Z",
-  "totalTips": 1011,
+  "lastUpdated": "2025-12-11T06:28:36.288Z",
+  "totalTips": 1031,
   "tips": [
+    {
+      "id": "e05a41c1-9b48-4f49-9be9-3c73f4019bb4",
+      "text": "Make dining reservations as early as possible to ensure you get your preferred time slots.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "HYjeMDYK1U0",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Looking Inside My Eyeball, Shopping For Special Holiday Ornaments & Dinner At Our Favorite Place!",
+        "publishedAt": "2025-12-11T03:18:02+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:22.128Z"
+    },
+    {
+      "id": "5072a9e7-f670-4b8d-8feb-70b52c8ea7c0",
+      "text": "Utilize mobile ordering for quick-service restaurants to save time and skip the line.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "quick-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "HYjeMDYK1U0",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Looking Inside My Eyeball, Shopping For Special Holiday Ornaments & Dinner At Our Favorite Place!",
+        "publishedAt": "2025-12-11T03:18:02+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:22.128Z"
+    },
+    {
+      "id": "420c20b0-8dce-4fe9-a73d-b98df28a4bbb",
+      "text": "Consider Nami restaurant for a special occasion dinner.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HYjeMDYK1U0",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Looking Inside My Eyeball, Shopping For Special Holiday Ornaments & Dinner At Our Favorite Place!",
+        "publishedAt": "2025-12-11T03:18:02+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:22.128Z"
+    },
+    {
+      "id": "bd9a269c-e82c-4de0-82cf-0cebe4f16129",
+      "text": "When the weather is hot, look in the shady places to find resting animals on the Kilimanjaro Safaris.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kilimanjaro-safaris",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "d1cec610-65d1-48c5-ac26-f2d7f6b79df3",
+      "text": "If you're interested in the animals, check out the Wild Africa Trek tour, which goes over rope bridges.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "wild-africa-trek",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "a5632cd1-c2d4-46a5-9746-c578f77fff1d",
+      "text": "For a closer experience with elephants, check out the Caring for Giants tour at Animal Kingdom.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "caring-for-giants",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "8f4392f1-d6c6-492c-9cad-3d2874803310",
+      "text": "If you are a fan of goats, check out Rafiki's Planet Watch, taking a short 5-minute train ride.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "rafiki's-planet-watch",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "cffb0054-c518-4f66-8e3e-9a339b4870bc",
+      "text": "If you want to see more African wildlife, including gorillas, go to the Gorilla Falls Exploration Trail.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "gorilla-falls-trail",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "6134d37e-d72b-40fb-92b2-fed942d0d5d9",
+      "text": "Remember that live animal attractions at Animal Kingdom close earlier, around 4:30 to 4:45.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "park-hours",
+        "animal-viewing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "uGAQoiZ-Eo0",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Christmas Time at Disney's Animal Kingdom - Walt Disney World Live Stream - 12-10-25",
+        "publishedAt": "2025-12-10T22:13:04+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:26.630Z"
+    },
+    {
+      "id": "63dee7f6-dfb4-417b-bdd6-f0acce689c42",
+      "text": "At Kona Cafe in Polynesian Village Resort, order the Tonga Toast, a banana-stuffed sourdough French toast, but note that the exact same Tonga Toast is available at the Captain Cook's quick service downstairs for a cheaper price.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "d839554a-7cfb-4d9d-af96-dc4c6f1ad40a",
+      "text": "At Ale & Compass at Yacht Club Resort, consider the continental enhancement option, where you choose an entree and also get access to the buffet for a reasonable price, potentially saving you money.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "budget"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "85632526-efd8-48fe-a5f5-4e1a1afdcfab",
+      "text": "At Whispering Canyon Cafe in Wilderness Lodge, if you enjoy interactive meals, be prepared for servers to bring you all the ketchup bottles when you ask for one or a variety of cup sizes for drink refills.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "450a581d-e734-43b0-9fb2-a4d7241a0acc",
+      "text": "At Grand Floridian Cafe at Grand Floridian Resort, take advantage of the brunch menu, which is offered daily and is an easy reservation to secure, and is a more affordable sit-down meal compared to other deluxe resort options.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "b39f08d0-a269-43df-af22-c3dd34029c99",
+      "text": "At Cape May Cafe in Beach Club Resort, enjoy the Minnie's Beach Bash breakfast with character meet and greets, a more relaxed atmosphere, and a potentially cheaper price than Chef Mickey's.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "221f100d-f75b-4a56-b90c-7c4ea98230b7",
+      "text": "At Cape May Cafe in Beach Club Resort, be sure to try the complimentary order of salted caramel beach buns.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "be2af8fa-bd31-4927-ba75-f971fabfe5f1",
+      "text": "At 1900 Park Fare in Grand Floridian Resort, visit for breakfast to experience the Wishmakers Enchanted Dining with characters like Aladdin, Cinderella, Mirabel, and Tiana, and enjoy the variety of buffet options.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "16721702-8a45-4201-bce4-c7a77a4cd955",
+      "text": "At Topolino's Terrace in Riviera Resort, the breakfast offers a prefix character meal called Breakfast Alla Art with Mickey and Friends, with entrees and a basket of pastries.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "8c1127ea-f1a5-42ef-8103-0bbd68ce0d1c",
+      "text": "At Ohana in Polynesian Village Resort, prioritize advanced dining reservations to enjoy the Best Friends Breakfast featuring Lilo and Stitch, Mickey, and Pluto.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "table-service",
+        "dining-reservation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "8d40b92a-452b-4cb6-a466-15069e993a61",
+      "text": "At Ohana in Polynesian Village Resort, ask for a table by the window for castle views while you dine.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
+    {
+      "id": "8f82c329-2c3c-4719-84f7-2b57eb5e8a19",
+      "text": "At Boma at Animal Kingdom Lodge, take advantage of the breakfast buffet, which is often cheaper than dinner, and enjoy the unique African-inspired dishes.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "X46FgmzxjH4",
+        "channelName": "DFBGuide",
+        "videoTitle": "EVERY Disney Resort Breakfast -- Best VALUE Ranked",
+        "publishedAt": "2025-12-10T15:30:22+00:00"
+      },
+      "extractedAt": "2025-12-11T06:28:35.784Z"
+    },
     {
       "id": "3161dc56-36de-4aa6-bd41-70def3626cca",
       "text": "Get your face painted at a Disney park for a fun, immersive experience.",
