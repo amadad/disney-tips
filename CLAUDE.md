@@ -21,15 +21,15 @@ npm run preview    # Preview production build
 This is a **batch-first, static-second** Disney tips aggregator:
 
 1. **Pipeline** (`scripts/`) - Runs daily via GitHub Actions
-   - Fetches videos from 5 Disney YouTube channels via RSS feeds (free, no API key)
+   - Fetches videos from 10 Disney YouTube channels via RSS feeds (free, no API key)
    - Extracts transcripts via `youtubei.js` (InnerTube wrapper, no API key)
-   - Uses Gemini Flash Lite to extract structured tips with priority/season metadata
+   - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
    - Filters out non-Disney content (Universal, generic travel)
    - Commits results to `data/`
 
 2. **Frontend** (`src/`, `index.html`) - Minimal Vite static site
-   - Loads pre-computed `data/tips.json`
-   - Client-side filtering by category, priority, season, and search
+   - Loads pre-computed `data/public/tips.json`
+   - Client-side filtering by category, park, priority, season, and search
    - Disney-themed UI with castle gradient header
    - Zero runtime API calls
    - Deployed to GitHub Pages at `/disney-tips/`
@@ -37,17 +37,25 @@ This is a **batch-first, static-second** Disney tips aggregator:
 ### Key Files
 
 ```
+shared/
+  types.ts           # Shared types for both pipeline and frontend
+
 scripts/
-  types.ts           # Shared types, channel config, enums
+  types.ts           # Re-exports from shared/types.ts
   fetch-videos.ts    # RSS feed parsing + youtubei.js transcript fetching
   extract-tips.ts    # Gemini-powered tip extraction with structured schema
 
 data/
-  videos.json        # Raw video metadata + transcripts (75 videos)
-  tips.json          # Extracted structured tips (287 tips)
+  public/            # Deployed to production
+    tips.json        # Extracted structured tips (~1000 tips)
+  pipeline/          # NOT deployed (repo-only)
+    videos.json      # Raw video metadata + transcripts
+    processed-videos.json  # Ledger of processed videos
 
 src/
+  types.ts           # Re-exports from shared/types.ts
   main.ts            # Frontend application with filters
+  styles.css         # External stylesheet
 
 .github/workflows/
   update-tips.yml    # Daily cron job (6 AM UTC)
@@ -67,21 +75,22 @@ Tips include:
 
 ```
 YouTube RSS → videos.json → Gemini API → tips.json → Static Frontend
-     ↑                                                      ↑
+     ↑           (pipeline/)                (public/)        ↑
   (daily cron)                                    (GitHub Pages deploy)
 ```
 
 ## Environment Variables
 
 ```bash
-GEMINI_API_KEY=      # Google AI Studio API key (only key needed)
+GEMINI_API_KEY=      # Google AI Studio API key (required)
+GEMINI_MODEL=        # Optional: override model (default: gemini-2.5-flash-lite)
 ```
 
 For GitHub Actions, add as repository secret: Settings → Secrets → Actions → `GEMINI_API_KEY`
 
 ## Adding a Channel
 
-Edit `scripts/types.ts`:
+Edit `shared/types.ts`:
 
 ```typescript
 export const DISNEY_CHANNELS = {
@@ -97,3 +106,4 @@ Get channel ID from: youtube.com/channel/UC... (the UC... part)
 - **Live site**: https://amadad.github.io/disney-tips/
 - Deploys automatically on push to main
 - Uses Vite with `base: '/disney-tips/'` for GitHub Pages subpath
+- Only `data/public/` is shipped to production (videos.json stays in repo only)

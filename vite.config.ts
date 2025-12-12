@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   base: '/disney-tips/',
-  publicDir: 'data',
+  publicDir: 'data/public',
   build: {
     outDir: 'dist',
     rollupOptions: {

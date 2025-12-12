@@ -4,6 +4,17 @@ import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
+// Simple logger with levels
+const LOG_LEVELS = { debug: 0, info: 1, warn: 2, error: 3 };
+const LOG_LEVEL = LOG_LEVELS[(process.env.LOG_LEVEL as keyof typeof LOG_LEVELS) || 'info'];
+
+const log = {
+  debug: (...args: unknown[]) => LOG_LEVEL <= 0 && console.log('[DEBUG]', ...args),
+  info: (...args: unknown[]) => LOG_LEVEL <= 1 && console.log('[INFO]', ...args),
+  warn: (...args: unknown[]) => LOG_LEVEL <= 2 && console.warn('[WARN]', ...args),
+  error: (...args: unknown[]) => LOG_LEVEL <= 3 && console.error('[ERROR]', ...args),
+};
+
 // Zod schema for validating Gemini response
 const TipSchema = z.object({
   text: z.string().min(10),
@@ -25,7 +36,17 @@ interface ProcessedVideo {
   tipCount: number;
 }
 
+// Validate API key early
+if (!process.env.GEMINI_API_KEY) {
+  console.error('Error: GEMINI_API_KEY environment variable is required');
+  console.error('Set it via: export GEMINI_API_KEY=your_key_here');
+  process.exit(1);
+}
+
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
+// Configurable model - defaults to gemini-2.5-flash-lite
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite';
 
 // Define schema for Gemini structured output (native format, not JSON Schema)
 const tipsSchema = {
@@ -134,7 +155,10 @@ Input: "The beignets at Port Orleans French Quarter are shaped like Mickey and a
 Output: {
   "text": "Try the Mickey-shaped beignets at Port Orleans French Quarter for a classic resort snack.",
   "category": "dining",
-  "park": "disney-springs", (Note: closely associated, or map to nearest context) -> actually "hotels" category checks out better here, but if forced to park enum, use nearest or all-parks. Better: logic should handle categories. For this schema, stick to schema constraints.
+  "park": "all-parks",
+  "tags": ["snacks", "resort-dining"],
+  "priority": "low",
+  "season": "year-round"
 }
 
 VIDEO TITLE: ${video.title}
@@ -150,7 +174,7 @@ Extract all Disney-specific actionable tips from this video.`;
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash-lite',
+        model: GEMINI_MODEL,
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
@@ -228,36 +252,36 @@ async function pMap<T, R>(
 }
 
 async function main() {
-  console.log('Starting tip extraction with Gemini...\n');
+  log.info(`Starting tip extraction with Gemini (model: ${GEMINI_MODEL})...`);
 
   // Load videos
-  if (!existsSync('data/videos.json')) {
-    console.error('No videos.json found. Run fetch-videos first.');
+  if (!existsSync('data/pipeline/videos.json')) {
+    log.error('No videos.json found. Run fetch-videos first.');
     process.exit(1);
   }
 
-  const videosData: VideosData = JSON.parse(readFileSync('data/videos.json', 'utf-8'));
-  console.log(`Found ${videosData.totalVideos} videos\n`);
+  const videosData: VideosData = JSON.parse(readFileSync('data/pipeline/videos.json', 'utf-8'));
+  log.info(`Found ${videosData.totalVideos} videos`);
 
   // Load existing tips
   let existingTips: ExtractedTip[] = [];
-  if (existsSync('data/tips.json')) {
-    const existing: TipsData = JSON.parse(readFileSync('data/tips.json', 'utf-8'));
+  if (existsSync('data/public/tips.json')) {
+    const existing: TipsData = JSON.parse(readFileSync('data/public/tips.json', 'utf-8'));
     existingTips = existing.tips;
-    console.log(`Found ${existingTips.length} existing tips\n`);
+    log.info(`Found ${existingTips.length} existing tips`);
   }
 
   // Load processed videos ledger (tracks ALL processed videos, even 0-tip ones)
   let processedVideos: ProcessedVideo[] = [];
-  if (existsSync('data/processed-videos.json')) {
-    processedVideos = JSON.parse(readFileSync('data/processed-videos.json', 'utf-8'));
+  if (existsSync('data/pipeline/processed-videos.json')) {
+    processedVideos = JSON.parse(readFileSync('data/pipeline/processed-videos.json', 'utf-8'));
   }
   const processedVideoIds = new Set(processedVideos.map(v => v.videoId));
-  console.log(`${processedVideoIds.size} videos already processed\n`);
+  log.info(`${processedVideoIds.size} videos already processed`);
 
   // Process new videos only
   const videosToProcess = videosData.videos.filter(v => !processedVideoIds.has(v.id) && v.transcript);
-  console.log(`Processing ${videosToProcess.length} new videos with transcripts...\n`);
+  log.info(`Processing ${videosToProcess.length} new videos with transcripts...`);
 
   const newlyProcessed: ProcessedVideo[] = [];
 
@@ -283,20 +307,20 @@ async function main() {
   const newTips = results.flatMap(r => r.tips);
   newlyProcessed.push(...results.map(r => r.processedRecord));
 
-  console.log(`\nExtracted total of ${newTips.length} new tips from ${videosToProcess.length} videos.\n`);
+  log.info(`Extracted ${newTips.length} new tips from ${videosToProcess.length} videos`);
 
   // Save updated processed videos ledger
   const allProcessed = [...processedVideos, ...newlyProcessed];
-  writeFileSync('data/processed-videos.json', JSON.stringify(allProcessed, null, 2));
+  writeFileSync('data/pipeline/processed-videos.json', JSON.stringify(allProcessed, null, 2));
 
-  // Improved deduplication: hash on text + park + priority to preserve distinct contexts
+  // Improved deduplication: hash on text + category + park + priority to preserve distinct contexts
   const allTips = [...existingTips, ...newTips];
   const tipsByKey = new Map<string, ExtractedTip>();
 
   for (const tip of allTips) {
     // Normalize text for deduplication (lowercase, remove punctuation)
     const normalizedText = tip.text.toLowerCase().replace(/[^\w\s]/g, '').trim();
-    const key = `${normalizedText}|${tip.park}|${tip.priority}`;
+    const key = `${normalizedText}|${tip.category}|${tip.park}|${tip.priority}`;
 
     if (!tipsByKey.has(key)) {
       tipsByKey.set(key, tip);
@@ -316,7 +340,7 @@ async function main() {
     tips: dedupedTips
   };
 
-  writeFileSync('data/tips.json', JSON.stringify(data, null, 2));
+  writeFileSync('data/public/tips.json', JSON.stringify(data, null, 2));
 
   console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }

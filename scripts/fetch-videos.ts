@@ -2,9 +2,43 @@ import { Innertube } from 'youtubei.js';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { DISNEY_CHANNELS, type Video, type VideosData, type ChannelName } from './types.js';
 
+// Simple logger with levels
+const LOG_LEVELS = { debug: 0, info: 1, warn: 2, error: 3 };
+const LOG_LEVEL = LOG_LEVELS[(process.env.LOG_LEVEL as keyof typeof LOG_LEVELS) || 'info'];
+
+const log = {
+  debug: (...args: unknown[]) => LOG_LEVEL <= 0 && console.log('[DEBUG]', ...args),
+  info: (...args: unknown[]) => LOG_LEVEL <= 1 && console.log('[INFO]', ...args),
+  warn: (...args: unknown[]) => LOG_LEVEL <= 2 && console.warn('[WARN]', ...args),
+  error: (...args: unknown[]) => LOG_LEVEL <= 3 && console.error('[ERROR]', ...args),
+};
+
 // YouTube RSS feed URL for a channel
 const RSS_URL = (channelId: string) =>
   `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+
+// Exponential backoff helper
+async function withRetry<T>(
+  fn: () => Promise<T>,
+  options: { maxRetries?: number; baseDelayMs?: number; context?: string } = {}
+): Promise<T> {
+  const { maxRetries = 3, baseDelayMs = 1000, context = 'operation' } = options;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (attempt === maxRetries) {
+        log.error(`${context} failed after ${maxRetries + 1} attempts:`, error);
+        throw error;
+      }
+      const delay = baseDelayMs * Math.pow(2, attempt);
+      log.warn(`${context} failed (attempt ${attempt + 1}), retrying in ${delay}ms...`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+  throw new Error('Unreachable');
+}
 
 interface RSSVideo {
   id: string;
@@ -14,9 +48,14 @@ interface RSSVideo {
 }
 
 async function fetchRSS(url: string): Promise<string> {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`RSS fetch failed: ${response.status}`);
-  return response.text();
+  return withRetry(
+    async () => {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`RSS fetch failed: ${response.status}`);
+      return response.text();
+    },
+    { context: `RSS fetch ${url.slice(-20)}` }
+  );
 }
 
 function parseRSS(xml: string): RSSVideo[] {
@@ -59,6 +98,26 @@ function decodeHTMLEntities(text: string): string {
     .replace(/&#39;/g, "'");
 }
 
+// Clean transcript text - remove common sponsor/ad patterns
+function cleanTranscript(text: string): string {
+  // Remove common sponsor segments
+  const sponsorPatterns = [
+    /thanks? to [\w\s]+ for sponsoring/gi,
+    /this video is sponsored by/gi,
+    /use code [\w]+ for \d+% off/gi,
+    /go to [\w.]+\.com\/[\w]+/gi,
+    /link in the description/gi,
+  ];
+
+  let cleaned = text;
+  for (const pattern of sponsorPatterns) {
+    cleaned = cleaned.replace(pattern, '');
+  }
+
+  // Normalize whitespace
+  return cleaned.replace(/\s+/g, ' ').trim();
+}
+
 async function getTranscript(yt: Innertube, videoId: string): Promise<string | undefined> {
   try {
     const info = await yt.getInfo(videoId);
@@ -73,40 +132,70 @@ async function getTranscript(yt: Innertube, videoId: string): Promise<string | u
       .filter(Boolean)
       .join(' ');
 
-    return text.length > 50 ? text : undefined;
+    if (text.length <= 50) return undefined;
+
+    // Clean up transcript
+    return cleanTranscript(text);
   } catch (error) {
     // Silently fail - many videos won't have transcripts
+    log.debug(`No transcript for ${videoId}:`, error instanceof Error ? error.message : error);
     return undefined;
   }
 }
 
-async function fetchChannelVideos(
-  yt: Innertube,
-  channelName: ChannelName,
-  channelId: string,
-  existingIds: Set<string>
-): Promise<Video[]> {
-  console.log(`Fetching videos from ${channelName}...`);
+async function main() {
+  log.info('Starting video fetch via RSS + youtubei.js...');
 
-  const xml = await fetchRSS(RSS_URL(channelId));
-  const rssVideos = parseRSS(xml);
+  // Initialize YouTube client
+  const yt = await Innertube.create();
 
-  // Filter to only new videos
-  const newRssVideos = rssVideos.filter(v => !existingIds.has(v.id));
-  console.log(`  Found ${rssVideos.length} videos in RSS, ${newRssVideos.length} new`);
-
-  if (newRssVideos.length === 0) {
-    return [];
+  // Load existing videos to avoid re-fetching transcripts
+  let existingVideos: Video[] = [];
+  if (existsSync('data/pipeline/videos.json')) {
+    const existing: VideosData = JSON.parse(readFileSync('data/pipeline/videos.json', 'utf-8'));
+    existingVideos = existing.videos;
+    log.info(`Found ${existingVideos.length} existing videos`);
   }
 
-  const videos: Video[] = [];
+  const existingIds = new Set(existingVideos.map(v => v.id));
 
-  for (const rssVideo of newRssVideos) {
+  // Fetch RSS feeds in parallel (fast, lightweight)
+  log.info('Fetching RSS feeds in parallel...');
+  const channelEntries = Object.entries(DISNEY_CHANNELS);
+  const rssResults = await Promise.allSettled(
+    channelEntries.map(async ([channelName, channelId]) => {
+      const xml = await fetchRSS(RSS_URL(channelId));
+      const rssVideos = parseRSS(xml);
+      return { channelName: channelName as ChannelName, rssVideos };
+    })
+  );
+
+  // Collect all new videos to fetch transcripts for
+  const videosToProcess: { channelName: ChannelName; rssVideo: RSSVideo }[] = [];
+
+  for (const result of rssResults) {
+    if (result.status === 'fulfilled') {
+      const { channelName, rssVideos } = result.value;
+      const newVideos = rssVideos.filter(v => !existingIds.has(v.id));
+      log.info(`${channelName}: ${rssVideos.length} in RSS, ${newVideos.length} new`);
+      for (const rssVideo of newVideos) {
+        videosToProcess.push({ channelName, rssVideo });
+      }
+    } else {
+      log.error(`RSS fetch failed:`, result.reason);
+    }
+  }
+
+  log.info(`Processing ${videosToProcess.length} new videos for transcripts...`);
+
+  // Fetch transcripts sequentially (to be nice to YouTube)
+  const newVideos: Video[] = [];
+  for (const { channelName, rssVideo } of videosToProcess) {
     process.stdout.write(`  ${rssVideo.title.substring(0, 50)}... `);
 
     const transcript = await getTranscript(yt, rssVideo.id);
 
-    videos.push({
+    newVideos.push({
       id: rssVideo.id,
       channelName,
       title: rssVideo.title,
@@ -126,37 +215,6 @@ async function fetchChannelVideos(
     await new Promise(resolve => setTimeout(resolve, 500));
   }
 
-  return videos;
-}
-
-async function main() {
-  console.log('Starting video fetch via RSS + youtubei.js...\n');
-
-  // Initialize YouTube client
-  const yt = await Innertube.create();
-
-  // Load existing videos to avoid re-fetching transcripts
-  let existingVideos: Video[] = [];
-  if (existsSync('data/videos.json')) {
-    const existing: VideosData = JSON.parse(readFileSync('data/videos.json', 'utf-8'));
-    existingVideos = existing.videos;
-    console.log(`Found ${existingVideos.length} existing videos\n`);
-  }
-
-  const existingIds = new Set(existingVideos.map(v => v.id));
-  const newVideos: Video[] = [];
-
-  for (const [channelName, channelId] of Object.entries(DISNEY_CHANNELS)) {
-    try {
-      const videos = await fetchChannelVideos(yt, channelName as ChannelName, channelId, existingIds);
-      newVideos.push(...videos);
-    } catch (error) {
-      console.error(`  Error fetching ${channelName}:`, error);
-    }
-
-    console.log('');
-  }
-
   // Merge and sort by date
   const allVideos = [...existingVideos, ...newVideos]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
@@ -167,11 +225,11 @@ async function main() {
     videos: allVideos
   };
 
-  writeFileSync('data/videos.json', JSON.stringify(data, null, 2));
+  writeFileSync('data/pipeline/videos.json', JSON.stringify(data, null, 2));
 
   const withTranscripts = newVideos.filter(v => v.transcript).length;
-  console.log(`Done! ${newVideos.length} new videos added (${withTranscripts} with transcripts).`);
-  console.log(`Total videos: ${allVideos.length}`);
+  log.info(`Done! ${newVideos.length} new videos added (${withTranscripts} with transcripts).`);
+  log.info(`Total videos: ${allVideos.length}`);
 }
 
 main().catch(console.error);
