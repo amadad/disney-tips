@@ -1,7 +1,2450 @@
 {
-  "lastUpdated": "2025-12-11T06:28:36.288Z",
-  "totalTips": 1031,
+  "lastUpdated": "2025-12-12T06:28:10.100Z",
+  "totalTips": 1156,
   "tips": [
+    {
+      "id": "bd6e493b-70cc-4a42-8f10-8282c0d476c5",
+      "text": "Taking the ferry boat to Magic Kingdom can be a faster option than the Monorail, especially when Monorail lines are long.",
+      "category": "transportation",
+      "park": "magic-kingdom",
+      "tags": [
+        "monorail",
+        "ferry-boat"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "dada2eed-d7b8-4243-be32-2391a563e250",
+      "text": "During the holiday season, Magic Kingdom becomes increasingly crowded, with Christmas Day being the busiest day of the year.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "crowds",
+        "holiday-season"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "9b25539b-84f3-4a0a-a761-308d4539ee39",
+      "text": "The Mickey's Very Merry Christmas Party merchandise is available for purchase during regular park hours before the party begins.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise",
+        "holiday-season"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "b6c844ed-e7a5-4695-8c7d-d3e67f7621f1",
+      "text": "The Mickey's Very Merry Christmas Party parade will be shown during the day at 12:00 PM and 3:00 PM from December 22nd to December 31st, replacing the Festival of Fantasy parade.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "holiday-season"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "f8e35090-5e45-4537-97bf-b04cfb67b7d2",
+      "text": "From December 22nd to December 29th, the Magic Kingdom will feature the Minnie's Wonderful Christmas Time fireworks show instead of Happily Ever After.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "holiday-season"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "3c000193-b5f1-42bc-bb7c-a2a23d322e29",
+      "text": "New Year's Eve fireworks will be shown on December 30th and 31st at Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "new-years-eve"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "806d205b-bad5-47bc-9ff7-8096625cde38",
+      "text": "Box Office Gifts inside Town Square Theater at Magic Kingdom is an often overlooked gift shop with unique items like limited edition figurines and a Walt Disney figure.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "shopping",
+        "gift-shop"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "0189121b-7edd-4c20-824e-7cd5b6c991e8",
+      "text": "Buzz Lightyear's Space Ranger Spin is expected to reopen in Spring 2026.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction-refurbishment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "e1c5a764-cc55-4ec2-a718-aa60dcac38e2",
+      "text": "Muppet magnets can be purchased at the Tomorrowland Launch Depot in Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise",
+        "collectible"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "8aafa800-1009-4729-8da8-0b3c0846b741",
+      "text": "Santa Claus is available for meet-and-greets in Storybook Circus at Magic Kingdom year-round, not just during the holiday season.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-meet",
+        "holiday-season"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "6d6c3873-64cf-4f59-bde7-736992618792",
+      "text": "The meet-and-greet tent for Santa in Storybook Circus is air-conditioned, making it comfortable even on warm days.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-meet",
+        "comfort"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "7b257578-6dfd-4df1-9a9d-beb6e36cd51e",
+      "text": "The holiday themed whoopee pie, with chocolate cake and marshmallow mint buttercream, is available at Liberty Square Market.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "holiday-treats",
+        "seasonal-offering"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "5b8d5339-5317-4154-bd6d-33b27b25b48c",
+      "text": "The Minnie Mouse hat available at the Prairie Outpost in Frontier Land costs $99.99.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "merchandise",
+        "hat"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "a2999005-60c3-4442-bb3e-efd29c668889",
+      "text": "Big Thunder Mountain Railroad is scheduled to reopen in Spring 2026.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction-refurbishment"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "de587090-9520-43c1-9974-f03cd1b25a7b",
+      "text": "Jingle Cruise, the holiday overlay for Jungle Cruise, will be available until January 2nd. Jungle Cruise will resume its regular operation on January 3rd.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "seasonal-offering",
+        "holiday-overlay"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "d3ab1a28-f0fb-4746-8d30-3600c536f25b",
+      "text": "Bluey and Bingo will be coming to Walt Disney World, including an interactive moment at Conservation Station in Animal Kingdom, a show at Disneyland, and appearances on Disney Cruise Line ships.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "new-characters",
+        "disney-cruise-line"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "e797e7ee-5dec-4f48-be37-fb7f5ea66066",
+      "text": "Bluey and Bingo will be appearing on the Disney Wish cruise ship starting in June and on the Disney Dream cruise ship starting in February.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "disney-cruise-line",
+        "new-characters"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Tbl9nD3q3IE",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney World Magic Kingdom Update December 2025! Construction Update, Park News & Festive Snack!",
+        "publishedAt": "2025-12-11T21:38:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:47.057Z"
+    },
+    {
+      "id": "5c022a7a-312f-4080-a7c6-d4f28b520788",
+      "text": "The cabanas at Castaway Cay come with a command center tablet to order beverages, snacks, towels, request a taxi, and control music.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "b67ffa13-f97d-4998-905b-1657f6f51d52",
+      "text": "Each cabana at Castaway Cay includes a fan with adjustable settings and a changing area for privacy.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "b8be19d0-7c41-481c-a1c6-b45a659784c7",
+      "text": "Cabanas at Castaway Cay offer secure storage with a safe for valuables and towels, and a mini-fridge stocked with drinks and fruit.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "5f2cf6b0-cbbc-4a4b-a800-87fba2cb6137",
+      "text": "Cabana rentals at Castaway Cay include sunscreen, beach toys for children, and personal hammocks for relaxation.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "ce67e6cb-49c7-4ef0-91c3-bdc38bb24704",
+      "text": "Each cabana at Castaway Cay has its own private outdoor shower, with options for both overhead rinsing and a foot-rinse button.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "be4b30af-253d-4ff0-b84a-512a8c651866",
+      "text": "Castaway Cay cabanas provide access to calm, shallow waters perfect for young children, with deeper areas available for swimming.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "beach-access",
+        "family-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "9486be8a-245a-4383-84bd-0feb9f0e0c4b",
+      "text": "Cabana rentals at Castaway Cay can accommodate up to 10 guests (6 initially, plus 4 additional) and include float rentals, snorkels, and bike rentals.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "cabana-perks",
+        "cruise-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "3d5cb18e-93b4-4c46-9216-0570e87a3bc2",
+      "text": "Cabana guests at Castaway Cay have access to a separate dining area near Serenity Bay, avoiding the need to travel back to main dining locations.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "cruise-dining",
+        "cabana-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "fc6053e3-19dc-411f-9488-5eabb79b6f4e",
+      "text": "To reach the Mickey and Minnie Cove Cabanas at Castaway Cay, you must switch trams at least once, potentially twice, from the initial tram stop off the ship.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "cruise-transportation",
+        "tram-system"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "c9589ad6-9a9f-45a0-bad5-599ef93ef7c4",
+      "text": "The new cabana area at Castaway Cay features modern, clean restrooms and a convenient water bottle refill station.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "amenities",
+        "cruise-perks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "b3f2c380-991e-497e-b475-99504abdb44c",
+      "text": "The 'Oh Boy Bar' at Castaway Cay serves drinks that can be delivered to your cabana or enjoyed at the bar itself.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "bar-service",
+        "cabana-perks",
+        "cruise-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "GnI07FLdCc8",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "NEW OPENING DAY ☀️ Mickey and Minnie Cove Cabanas at Disney's Castaway Cay",
+        "publishedAt": "2025-12-11T19:00:16+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:45.351Z"
+    },
+    {
+      "id": "ad0de523-e2a2-4c04-99e3-c7fabd626716",
+      "text": "Consider visiting a Disney lounge as an alternative to a table-service dining reservation for a more casual and flexible experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "lounge",
+        "table-service",
+        "casual-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "JBGab0UwPVE",
+        "channelName": "AllEars.net",
+        "videoTitle": "My TOP Disney World Lounges 🍹",
+        "publishedAt": "2025-12-11T17:45:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:41.959Z"
+    },
+    {
+      "id": "87fca28f-9651-4e23-a431-a09398f17898",
+      "text": "When choosing a Disney lounge, prioritize accessibility (walk-in availability, flexible in-and-out), good vibes, diverse options on the menu, and overall quality of service and offerings.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "lounge",
+        "dining-strategy",
+        "quality-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "JBGab0UwPVE",
+        "channelName": "AllEars.net",
+        "videoTitle": "My TOP Disney World Lounges 🍹",
+        "publishedAt": "2025-12-11T17:45:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:41.959Z"
+    },
+    {
+      "id": "eb1c5ae3-5215-4919-ae14-afe0ba807547",
+      "text": "Opt for lounges that offer more than just a couple of marinated olives on their menu to ensure a satisfying experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "lounge",
+        "menu-options",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "JBGab0UwPVE",
+        "channelName": "AllEars.net",
+        "videoTitle": "My TOP Disney World Lounges 🍹",
+        "publishedAt": "2025-12-11T17:45:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:41.959Z"
+    },
+    {
+      "id": "8463ea7e-93e3-4a9e-8c11-477ae74c4a65",
+      "text": "Ensure lounges serve drinks in proper glassware, like stemware, to enhance the quality and overall experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "lounge",
+        "quality-service",
+        "drinks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "JBGab0UwPVE",
+        "channelName": "AllEars.net",
+        "videoTitle": "My TOP Disney World Lounges 🍹",
+        "publishedAt": "2025-12-11T17:45:01+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:41.959Z"
+    },
+    {
+      "id": "2bae38d6-9063-4573-9cf1-64c76f89e707",
+      "text": "Arrive at Disney Springs about an hour before any dining reservations to account for security checks and potential lines.",
+      "category": "planning",
+      "park": "disney-springs",
+      "tags": [
+        "planning",
+        "security"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "17590f72-3aae-4e8e-ba2a-f1fa0fafed6e",
+      "text": "Book Disney Springs Table Service restaurants 60 days in advance via the My Disney Experience app or Open Table, especially for weekend visits.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "dining-reservation",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "19f19aab-01a3-4f3d-a121-e2b1f3ab7a18",
+      "text": "Utilize the free parking at Disney Springs in the main garages or the strawberry and watermelon lots on the west side.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "parking",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "774193dd-9e43-4cf9-9490-5a5b0fc44bd8",
+      "text": "Be aware that the Lime Garage at Disney Springs will be closed for structural repairs from January 12th through March 13th, 2026, with a brief reopening from February 11th to February 17th.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "parking",
+        "construction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "e7fe9053-4161-4d88-8cdc-54dd23b8d370",
+      "text": "There are no direct Disney Springs buses to the theme parks; plan for multiple bus transfers or use a rideshare service to travel between parks and Disney Springs.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "transportation",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "11d74faf-317c-4f73-a336-c7d638d283c3",
+      "text": "Enjoy free boat transportation from Disney Springs to nearby resorts like Port Orleans Riverside, French Quarter, Old Key West, and Saratoga Springs.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "transportation",
+        "resorts"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "96724abf-cd48-4091-831c-58bc594dea4a",
+      "text": "Consider visiting Jock Lindsey's Hangar Bar during the Halloween season for its themed decor and specialty drinks.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "themed-dining",
+        "halloween"
+      ],
+      "priority": "low",
+      "season": "halloween",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "e5631326-abe6-4409-9e38-1b874faa48fa",
+      "text": "Try the craft beers and Irish cocktails at Patty's Bar for an authentic Irish experience.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "bars",
+        "drinks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "c7bcfef5-cb2e-4cca-96cd-82e46fd277af",
+      "text": "Experience the 'little rubber creatures on top of your drink' trend at various Disney Springs bars, like those at The Polite Pig or The Boathouse.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "drinks",
+        "creative-cocktails"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "452b0b8c-afe3-411e-9900-f9c24a358159",
+      "text": "Check out Level 99, an interactive social entertainment experience with over 50 challenge rooms, opening in Disney Springs in 2026.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "entertainment",
+        "new-attraction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "9ebdee45-689b-48a7-9e26-5c4216175a32",
+      "text": "Visit Disney Springs on weekdays around 10:00 AM to avoid crowds at popular spots like Gideon's Bakehouse or the Disney Drop shop.",
+      "category": "planning",
+      "park": "disney-springs",
+      "tags": [
+        "crowd-avoidance",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "d21bc3b5-febd-4962-a79a-2aa44831bc36",
+      "text": "Consider Raglan Road for authentic Irish pub food and frequent live entertainment; check their website for updated showtimes.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "live-entertainment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "ea92d729-dd47-44cf-a18f-03a7391672c5",
+      "text": "For a faster, less expensive Irish-inspired meal, try Cookes of Dublin, which offers a similar menu to Raglan Road.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "04c84d73-4cf5-4a86-82c1-340256be71bb",
+      "text": "Dine at Homecoming by Chef Art Smith for southern cuisine, moonshine cocktails, and hummingbird cake, but be sure to book reservations well in advance.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "southern-cuisine",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "ddff8f8a-166e-4fc3-bea1-397fcf6d2e8c",
+      "text": "Chicken Guy! offers a more budget-friendly fried chicken option compared to Homecoming, with tenders, sandwiches, and salads.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "budget",
+        "chicken"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "fb65f1f8-afa9-4bbd-8d6d-959ecc193fbb",
+      "text": "Explore the extensive menu at Morimoto Asia, or opt for the more budget-friendly counter-service street food versions on the patio.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "quick-service",
+        "asian-cuisine",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "6ab73743-6f67-40a0-83ec-297088c69888",
+      "text": "Wine Bar George offers an extensive wine selection and has a to-go window called The Basket for faster service.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "wine-bar",
+        "quick-service",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "3cc2dab9-3a8a-4907-ae6b-67aadeebdfea",
+      "text": "Try Pepe, the quick-service counterpart to the signature restaurant Halleo, for a taste of Spanish cuisine at a lower price point.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "budget",
+        "spanish-cuisine"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "f5bc6359-0508-4a6b-854e-3df66f5b6f6c",
+      "text": "Enjoy authentic Mexican cuisine and margaritas at F&B Cantina, which uses the same mixology company as La Cantina de San Angel in Epcot.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "mexican-cuisine",
+        "margaritas"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "fcb50169-3faa-4940-be4b-c81b7c4af5c2",
+      "text": "Grab a giant taco cone or other barbacoa dishes from the Four Rivers food truck for a quick and flavorful Mexican meal.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "food-truck",
+        "mexican-cuisine",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "6676fe37-e07c-4869-ab9c-b5ba9d0c89a1",
+      "text": "The line at Gideon's Bakehouse is long for a reason; try their unique specialty coffees and enormous cake slices.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "bakery",
+        "cookies",
+        "cake",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "1b932b68-cab2-4674-992e-66f7ed84a990",
+      "text": "Taste authentic Italian gelato at Vivoli Gelateria, including affogatos made with espresso imported from Italy.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "gelato",
+        "desserts",
+        "italian-cuisine"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "faf22df7-69a1-4c8d-890b-5c090c59b6c7",
+      "text": "Joffrey's Coffee & Tea Company offers seasonal latte flavors and the option to add custom images to latte foam for an extra charge.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "coffee",
+        "tea",
+        "seasonal-specials"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "b69d16d2-c3f7-4e2c-9113-37548605effe",
+      "text": "Try the seasonal chocolate piñatas or high-end s'mores with Mickey-shaped powdered sugar at The Ganachery.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "chocolates",
+        "desserts",
+        "seasonal-specials"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "8a3bf2fb-90e8-4030-8739-132eba09ed9b",
+      "text": "Sample three different Dole Whip flavors with a sampler at Swirls on the Water, and try their rotating boozy Dole Whip floats.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "dole-whip",
+        "snacks",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "c5098533-472b-4c88-b442-986b72843d55",
+      "text": "The Polite Pig offers Michelin-recognized barbecue, but consider their market sides like barbecue cauliflower or grilled street corn as a snack option.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "bbq",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "9c885077-e6c8-481a-9bb1-5fac0f4e08a3",
+      "text": "Indulge in premium specialty sundaes at Ghirardelli Soda Fountain and Chocolate Shop, or opt for their shakes and customizable hot chocolate.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "ice-cream",
+        "desserts",
+        "chocolate"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "18683007-d33e-4631-8338-251e42debf73",
+      "text": "Customize your own treats like caramel apples or Rice Krispie treats at Goofy's Candy Company, with options to add extra toppings.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "candy",
+        "customizable-treats",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "f310264e-733b-4637-b4b0-8a916db1b151",
+      "text": "Try the internationally inspired poutine options, such as butter chicken or Korean barbecue, at The Daily Poutine.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "poutine",
+        "snacks",
+        "international-cuisine"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "8f28ff94-81b1-46dc-830f-962b9c7114e7",
+      "text": "Aaron McKenna's Bakery NYC offers gluten-free, kosher-friendly, and allergy-conscious treats like donuts, cupcakes, and cookies.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "bakery",
+        "allergy-friendly",
+        "vegan"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "912e271a-a3f3-44e8-be0f-4f5e7850547f",
+      "text": "Take advantage of happy hour deals at STK Orlando, offering select bites and cocktails between $3 and $9, Monday-Friday and weekend afternoons/evenings.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "happy-hour",
+        "budget",
+        "steaks"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "644640c3-41d5-4506-89ba-86180f789b8a",
+      "text": "Enjoy Martini Hour at Summer House on the Lake, with $10 martinis and substantial sharable bites like bottomless truffle fries for $10.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "happy-hour",
+        "budget",
+        "martinis",
+        "appetizers"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "9ebc92c6-6827-451a-b99b-39a6cd547468",
+      "text": "House of Blues offers happy hour deals on drinks and appetizers from opening until 5:00 PM, Monday-Thursday.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "happy-hour",
+        "budget",
+        "appetizers",
+        "bar"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "4cb290bc-ab64-462d-ac8d-a0445219051f",
+      "text": "Sign up for restaurant loyalty programs at places like Blaze Fast-Fire'd Pizza or CityWorks to receive free items and future discounts.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "loyalty-program",
+        "budget",
+        "discounts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "5d037d11-1d8f-4664-afbd-be71c4f5a0af",
+      "text": "Take an 8-minute tethered balloon flight on Aerophile for panoramic views of Disney Springs, potentially seeing fireworks at night.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "attraction",
+        "views",
+        "fireworks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "62703147-1369-4d87-aa7c-5a52f9ee28f1",
+      "text": "Catch a movie at AMC Disney Springs, with dine-in options available for a meal during the show.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "entertainment",
+        "rainy-day"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "ad097cca-fcbd-4d50-aa01-c7803d89dee6",
+      "text": "Experience Drawn to Life by Cirque du Soleil, a unique acrobatic show perfect for a rainy day, with VIP and dining packages available.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "show",
+        "entertainment",
+        "rainy-day"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "6d845aa2-0991-49c8-bfd5-3b1e123e415a",
+      "text": "Enjoy a ride on the Marketplace Carousel or the Marketplace Train Express for a small fee, perfect for young children.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "attraction",
+        "kids",
+        "budget"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "53404c14-e96a-4c53-8d3a-f963c7fc93cb",
+      "text": "Bowl a few games at Splitsville Luxury Lanes, making separate reservations for bowling and dining if desired.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "entertainment",
+        "bowling",
+        "reservations"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "3870f436-3e7b-468f-88c2-719ae51b4111",
+      "text": "Take a 20-minute cruise on a vintage Amphicar from The Boathouse on Village Lake.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "attraction",
+        "boat-ride"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "a7c9b696-754d-42d5-94c2-a6ec7503a5bb",
+      "text": "Decorate your own Mickey Dome cake in a hands-on class at Amorette's Patisserie, including complimentary beverages.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "desserts",
+        "class",
+        "pastry"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "2f55e931-49c2-4fb5-b55f-18ab437c2d12",
+      "text": "Dine at Rainforest Cafe or T-Rex Cafe for a fun, animatronic-filled experience that's great for entertaining kids.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "themed-dining",
+        "kids",
+        "family"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "9d796de2-8b33-4942-b17b-ac447a21c417",
+      "text": "Visit the Disney Photo Pass Studio to take photos with virtual backdrops and props without needing a reservation.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "photo-pass",
+        "souvenirs"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "af0e07bc-feb5-4948-b2dc-ff0b733346ba",
+      "text": "Shop for unique Disney-themed headbands and seasonal collections at Disney Ever After.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "accessories"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "9a759848-5acb-414f-ab9d-de8a68dc886c",
+      "text": "Find all things Disney pins at Disney Pin Traders.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "pins"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "662ec4d7-0349-45cf-b31d-961db62886a1",
+      "text": "Explore the vast selection of Disney toys at Once Upon a Toy.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "toys",
+        "kids"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "cf4f9766-8864-4486-9046-053222c564c2",
+      "text": "Look for trendy Disney clothing and accessories at Trendy and Disney Style.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.095Z"
+    },
+    {
+      "id": "5c8b3937-7d7b-48ec-84c4-ce963a731d89",
+      "text": "Discover specific MCU and Star Wars merchandise at Star Wars Galactic Outpost and Superhero Headquarters.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "star-wars",
+        "marvel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "c6e7f616-ca26-453c-a5d1-b2052a504ef7",
+      "text": "The Art of Disney features original artwork, sculptures, and sometimes a live sketch artist.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "art"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "bdac25de-8f77-4861-b202-08777669ac57",
+      "text": "Get a personalized ornament from Disney Days of Christmas for a unique souvenir.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "souvenirs",
+        "christmas"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "7ece9858-d309-401f-8cc0-9679670e1e44",
+      "text": "Use mobile checkout at World of Disney, the largest Disney gift shop, to avoid long lines.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "mobile-checkout",
+        "tips"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "56d4afdb-9865-492b-8dc4-59b91700471d",
+      "text": "Find Disney-themed soaps and bath bombs at Basin.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "bath-products"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "72300534-3030-4ae8-9be7-50af16ca070e",
+      "text": "Create your own custom candle or choose from pre-made scents at Bose Signature Candles.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "candles",
+        "custom"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "a27e995d-17e8-4e0b-9918-e2839a6c4f56",
+      "text": "Browse Disney glassware and watch glass blowing demonstrations at Crystal Arts by Arribas Brothers.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "disney-merchandise",
+        "glassware",
+        "art"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "55a6357d-819c-4e9f-b24b-b158a5db541c",
+      "text": "Design your own custom Lego minifigure at the Lego Store.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "lego",
+        "custom"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "7a932119-c7aa-4082-8c3e-33bc094659ab",
+      "text": "Create your own spin art by pedaling a stationary bike at The Art Corner.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "art",
+        "souvenirs",
+        "interactive"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "ef787a1e-fd8f-4740-a155-abce5618c91a",
+      "text": "Build your own dinosaur at Build-A-Dino in the T-Rex Cafe.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "toys",
+        "kids",
+        "interactive"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "69ab0f82-b392-40e0-ab92-be4936f9ae6f",
+      "text": "Customize your own M&M's mix or create personalized candy sets at the M&M Store.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "candy",
+        "custom",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "3d3c290b-8e70-4da5-a002-1f7570133b5a",
+      "text": "Consider visiting The Spice and Tea Exchange for unique spices and teas.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "food-items"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "af99e671-8fb9-4fd8-90dd-7b5f2c73b33a",
+      "text": "Check out the Flavors of Florida event in the summer for limited-time cuisine inspired by the state at various Disney Springs restaurants.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "food-event",
+        "summer",
+        "limited-time"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "2ce4e829-6980-4d10-ac13-e3622132830f",
+      "text": "Participate in Orlando's Magical Dining event in late August and September for prefixed dinners at select Disney Springs restaurants, benefiting local nonprofits.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "food-event",
+        "charity",
+        "dining-deals"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "505082cc-6e58-4816-804b-afeb1d4d02cd",
+      "text": "Enjoy festive offerings during the holiday season, including the Christmas Tree Stroll and Santa Claus meet-and-greets.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "christmas",
+        "seasonal-event",
+        "holiday"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "a7d95b55-9104-4497-9828-9f22a9564271",
+      "text": "Experience the Christmas Tree Stroll throughout Disney Springs during the holiday season.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "christmas",
+        "seasonal-event",
+        "holiday"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "d6baea73-55eb-482d-91c1-edc42422d396",
+      "text": "During January, look for unique wellness offerings in Disney Springs, including free classes and fitness demonstrations.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "wellness",
+        "events",
+        "january"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "a8584f62-c4f2-4733-9136-256233c43c20",
+      "text": "The St. Patrick's Day Festival and The Great Irish Hooley at Raglan Road feature singing, Irish dancing, and limited-time food and drink offerings.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "festival",
+        "live-entertainment",
+        "food-specials"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "saZrBMp8YII",
+        "channelName": "DFBGuide",
+        "videoTitle": "The ULTIMATE Guide to Disney Springs in 2026",
+        "publishedAt": "2025-12-11T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-12T06:28:10.096Z"
+    },
+    {
+      "id": "fb559810-c04b-4b9c-a6f7-3edec84836c8",
+      "text": "For Animal Kingdom, consider using preferred parking to get slightly closer to the entrance and potentially move through security a bit faster.",
+      "category": "transportation",
+      "park": "animal-kingdom",
+      "tags": [
+        "parking",
+        "efficiency"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "301fcb3b-8f01-483e-94d9-892b8322a66c",
+      "text": "When entering Animal Kingdom, stay to the far left after the second security scan and hug the wall of Island Mercantile to take a more direct route to the attractions.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "park-navigation",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "f50fc43e-a629-41a6-90ff-e9efbc6636ac",
+      "text": "To maximize speed in the parks, invest in comfortable and supportive shoes like Hoka, as they can make a significant difference in endurance throughout the day.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "efficiency",
+        "endurance"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "13f6fe2c-503a-4d92-b5af-cc38b9ba49fd",
+      "text": "For successful park challenges, it's recommended to skip Animal Kingdom in the morning and head directly to Magic Kingdom to prioritize key attractions.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "strategy",
+        "rope-drop"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "263e8f5f-a4c9-4127-80bd-ce641b7c00f6",
+      "text": "In Magic Kingdom, aim to secure a Lightning Lane for either Jungle Cruise or Peter Pan's Flight before 9:45 AM for a strategic advantage.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "c06fbafd-3d9b-4551-a15b-a8203679b40c",
+      "text": "If you cannot get a top-tier Lightning Lane in Magic Kingdom, prioritize securing one for Winnie the Pooh or Haunted Mansion before 9:45 AM.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "3e793fbe-dc56-4171-8db2-5bff629dd8b2",
+      "text": "Utilize the Main Street Vehicles in Magic Kingdom as soon as the park opens to experience them before lines form.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attractions",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "f2909d54-efde-4bd6-b0cb-d8db3bc3a4f3",
+      "text": "In Magic Kingdom, prioritize Adventureland attractions around 9:00 AM, in addition to experiencing the Main Street Vehicles.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "park-navigation",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "769d83d9-6bb9-4827-b641-4f134053a257",
+      "text": "When attempting park challenges, be aware that Parkology includes attractions like Carousel of Progress and the Wildlife Express train, which are often excluded in other challenges.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "challenge-rules",
+        "attractions"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "f1e2996c-39b1-4117-b41c-0f02aa50aa6c",
+      "text": "Consider packing your own food, such as cold subs from a grocery store, to save time and money during long park days.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "food-prep"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "c0e21739-5bf1-491c-8d26-ccc19b55d156",
+      "text": "The 'Rule of 119' allows you to use an expired Lightning Lane for up to 119 minutes past its expiration time, which is crucial for challenge attempts and can save time on regular visits.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "23289286-831d-456a-b828-7439f97453db",
+      "text": "Be prepared to pivot your strategy when plans go awry, as ride closures, transportation delays, or incorrect timing are common and require quick thinking.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "strategy",
+        "flexibility"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "93ccf1be-b171-49d8-8708-bf09630ac9fa",
+      "text": "For Epcot, a recommended path is to start with Spaceship Earth, then move to World Discovery, cross to World Nature, and finally head into World Showcase for Frozen Ever After and Remy's Ratatouille Adventure.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "park-navigation",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "0a90b7ec-e9ab-4d6b-ba17-9aeb71ae578b",
+      "text": "Remy's Ratatouille Adventure in Epcot can be a gamble with single rider; consider using a Lightning Lane if available and you need to save time.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "lightning-lane",
+        "single-rider"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "4e045826-bb59-45a2-8537-c99c51e617d7",
+      "text": "During Epcot's Extended Evening Hours, prioritize riding Figment and Living with the Land before 9:00 PM, as they are not typically open during these special hours.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "extended-evening-hours",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "6fc9386f-2561-4771-b707-1dfa9f012849",
+      "text": "Check the actual operating hours for rides like The Seas with Nemo & Friends in Epcot, as they can sometimes close unexpectedly before the park officially does, even if not listed for Extended Evening Hours.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "ride-hours",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "07e0ac33-c9bd-4c99-937e-58dbe5ba1c56",
+      "text": "When using Mission: SPACE in Epcot, be aware that the pre-show area has no cell service, preventing you from accessing the My Disney Experience app or booking Lightning Lanes during that time.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "ride-experience",
+        "app-usage"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "b0621dcb-14b9-4dac-a842-bfa62dc3797a",
+      "text": "To save time at Guardians of the Galaxy: Cosmic Rewind in Epcot, position yourself on the far right side of the pre-show room to be among the first to exit when the ride vehicles are loaded.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "strategy",
+        "efficiency"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "26b8b9c5-d46e-4165-adf7-65d2f398aee2",
+      "text": "When using single rider lines, pay attention to cast members who may call out for additional riders; having your hand up ready can help you get on quicker.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "single-rider",
+        "efficiency"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "5ca776ce-deaa-4a6c-b5a8-b74db2ac7267",
+      "text": "For Millennium Falcon: Smugglers Run, utilize the single rider line that goes to the left; it is less used and can significantly reduce your wait time.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "millennium-falcon",
+        "efficiency"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "2da41296-830f-4092-bb74-cc087f7a72b2",
+      "text": "Space Mountain in Magic Kingdom offers a single rider option that allows you to bypass a portion of the main queue by speaking to a cast member partway through the line.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "single-rider",
+        "space-mountain",
+        "efficiency"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "196d9ed4-4c7e-490d-b2f7-68e32a0e3daf",
+      "text": "To save a few seconds on Dumbo the Flying Elephant, choose the elephant closest to the exit gate, as it lands in the same location it takes off from.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "dumbo",
+        "efficiency",
+        "positioning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "25ceec6a-c4c1-4f03-b115-fd1dae6ebe59",
+      "text": "When riding the Wildlife Express Train, position yourself next to the cast member who opens the train doors, as this may allow you to disembark slightly faster.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "wildlife-express",
+        "efficiency",
+        "positioning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "9e5ca587-5bd7-43dc-9f14-7e4ab47133ab",
+      "text": "For Carousel of Progress, sit in the back row on the far right side to be among the first to exit the theater.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "carousel-of-progress",
+        "efficiency",
+        "positioning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "fcea696c-d3bc-4082-a573-ea29a5e6feb6",
+      "text": "If you need to use a Lightning Lane for Kali River Rapids in Animal Kingdom, remember to go to the back of the attraction to tap in with a cast member, as there is no standard tap point.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kali-river-rapids",
+        "lightning-lane",
+        "park-navigation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "425747eb-51fa-4f80-a30d-c0fd7ff9551b",
+      "text": "For Rise of the Resistance, using the single rider line can be faster than a Lightning Lane because it often allows you to skip the first two pre-shows.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rise-of-the-resistance",
+        "single-rider",
+        "lightning-lane"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "1df0bede-3eaa-42c8-9aac-0bb5bf17a875",
+      "text": "When considering ride share services like Uber or Lyft, be aware that parking locations can be far from park entrances, particularly at Epcot, and miscalculating timings could be detrimental.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "ride-share",
+        "transportation-logistics"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
+    {
+      "id": "2a07cff8-38c3-4933-9023-4162413aa244",
+      "text": "If using your own car, consider the trade-offs with ride share services, as driving yourself allows for more control over your schedule and app usage, despite potential parking complexities.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "personal-vehicle",
+        "transportation-strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4jGLnUR6EM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EXTREME Disney World Tips & Tricks (From Someone Who's Done Every Ride in One Day)",
+        "publishedAt": "2025-12-11T15:01:15+00:00"
+      },
+      "extractedAt": "2025-12-12T06:27:55.913Z"
+    },
     {
       "id": "e05a41c1-9b48-4f49-9be9-3c73f4019bb4",
       "text": "Make dining reservations as early as possible to ensure you get your preferred time slots.",
