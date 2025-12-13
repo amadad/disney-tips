@@ -1,7 +1,1014 @@
 {
-  "lastUpdated": "2025-12-12T06:28:10.100Z",
-  "totalTips": 1156,
+  "lastUpdated": "2025-12-13T06:24:24.157Z",
+  "totalTips": 1208,
   "tips": [
+    {
+      "id": "0a4a2da9-dcc0-41e8-9b35-9868d8c77079",
+      "text": "To avoid long waits for Seven Dwarfs Mine Train at Magic Kingdom, head there immediately at rope drop if you haven't secured a Lightning Lane.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "0d307ebd-3d72-402a-8b71-1ba4e094ad98",
+      "text": "The Mickey-shaped beignets at Disney's Port Orleans Resort - French Quarter are a must-try snack.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "75f9d7e2-87ac-4a5b-a140-cd726ae96cd2",
+      "text": "Consider visiting the Taylor Swift exhibit located in the One Man's Dream building at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attractions",
+        "exhibit"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "cef156cc-bfcc-498a-b180-316affd601f5",
+      "text": "If you plan to see Fantasmic! at Hollywood Studios, aim to arrive about an hour before showtime to get a good seat, as crowds can be significant.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "shows",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "fe1d8b14-58f0-4564-92b7-4b74b1407bf8",
+      "text": "During the holiday season, the Living with the Land attraction in Epcot is decorated with extra lights and festive enhancements, making it a worthwhile experience even with longer waits.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attractions",
+        "holiday-decor"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "0c0a7647-6575-4a90-ba5f-af4f665e35b4",
+      "text": "The festival center in Epcot's World Showcase is decorated for the holidays with gingerbread and festive displays, offering a nice visual experience.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "holiday-decor",
+        "festival"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "919b378e-1639-4b23-b240-62072ee00fa5",
+      "text": "Consider purchasing the holiday-themed spirit jersey or plush toys available at Epcot during the Christmas season.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "merchandise",
+        "holiday-shopping"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "d78241df-2e95-4fd6-968d-d581be8d622e",
+      "text": "The holiday sweater merchandise at Epcot this year is noted for being particularly soft and sweater-like in material, a good option for gifts or personal wear.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "merchandise",
+        "holiday-shopping"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "3f5d9865-4440-4c9b-b51c-2530f7ecb240",
+      "text": "The mugs sold in Epcot with gold accents are not dishwasher or microwave safe due to the embellishments.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "merchandise",
+        "kitchenware"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "-XEOKkJotTA",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live Holiday Hopping from Hollywood Studios to Epcot - Walt Disney World 2025",
+        "publishedAt": "2025-12-13T03:38:08+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:19.760Z"
+    },
+    {
+      "id": "028f41cd-d0c6-4410-8081-189b3f714e8f",
+      "text": "The Jollywood Nights merchandise, including shirts and the Ali crossbody bag, can be purchased at Once Upon a Time shop even when the party is not happening.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "merchandise",
+        "party-merch"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "1b31ec04-2054-441d-a8c8-0e2e34ce18d6",
+      "text": "Rock 'n' Roller Coaster Starring Aerosmith is undergoing a transformation to a Muppets-themed attraction, and the pre-show area is currently inaccessible.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-update",
+        "muppets"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "bfbe2192-a77d-402d-ae49-15c55cbff8a4",
+      "text": "The Magic of Disney Animation area at Hollywood Studios, reopening in Summer 2026, will feature character meet-and-greets and immersive experiences related to animation departments.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-attraction",
+        "character-meet",
+        "animation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "9a641ce5-c71a-4642-88d9-64b0ea4aec8d",
+      "text": "Meet Santa Claus and see holiday exhibits, including Muppet Christmas Carol costumes and Disney holiday films, at Walt Disney Presents.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet",
+        "holiday-event",
+        "exhibit"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "d5d1703f-0351-40ad-8c1e-8894dbc70868",
+      "text": "A temporary Taylor Swift Eras Tour outfits exhibit is currently on display at Walt Disney Presents, promoting her Disney+ docu-series.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "exhibit",
+        "special-event"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "a74f7a67-b5c9-4879-8c0b-8e91d5ee77b7",
+      "text": "The Woody's Lunch Box area in Toy Story Land now has significantly more shade installed.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "shade",
+        "land-improvement"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "8c1610f1-8018-4200-80b8-d90955186ff6",
+      "text": "A new popcorn and snack cart is expected to open soon in Galaxy's Edge, likely to include additional seating.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-offering",
+        "galaxy-edge",
+        "seating"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "5f465570-bdcb-4d88-b761-229a10779f52",
+      "text": "The Ronto wrap in Galaxy's Edge is a highly recommended and quick mobile order option at Hollywood Studios.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "mobile-order",
+        "recommendation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "dd30cb0f-6408-4ebe-84ae-dedc1eaf4cda",
+      "text": "Interactive creature puppets like the Mergwall, Nexu, and Porgi are available for purchase and interaction at the Creature Stall in Galaxy's Edge.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "merchandise",
+        "interactive"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "07a16660-affd-4226-b71d-3501268133d4",
+      "text": "Be aware that mobile orders might show a temporary pending charge on your credit card before the order is officially completed.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "payment"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "a6508b3b-b22f-41b5-97a6-fa12f75af59f",
+      "text": "The Linzer Cookie Mousse Tort at ABC Commissary offers a unique flavor with hazelnut cake, raspberry, black currant mousse, and a spiced cookie.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "dessert",
+        "limited-time"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "0d831491-8901-4752-b670-9a510e2b24fb",
+      "text": "Disney's Hollywood Studios will feature New Year's Eve fireworks over Mickey & Minnie's Runaway Railway.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "fireworks",
+        "new-years-eve"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "36a552e2-05d6-46dc-874d-0cd2e92b0fe2",
+      "text": "Holiday photo opportunities, such as the Sid Eichon's Tinsel Town photo op, are available daily and can be found using PhotoPass.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "photo-pass",
+        "holiday-event"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "39120d3a-d85b-49ca-b1c6-bd75c216e314",
+      "text": "Look for holiday decorations throughout Hollywood Studios, including moving Minnie Mouse figures with candy cane legs outside Celebrity 5 & 10.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "holiday-decorations"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "bb080367-2011-4984-98c9-2b12f1d73d8e",
+      "text": "Mannequins from the former Great Movie Ride's Footlight Parade scene are dressed in holiday attire and displayed in a window at Keystone Clothiers.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "hidden-details",
+        "holiday-decorations"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "e56900c1-6cdc-40c3-89de-ae01f825584e",
+      "text": "The Olly mascot for Jollywood Nights has a dedicated window display at Once Upon a Time shop.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "holiday-event",
+        "character-display"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "2e9ce082-8cbf-4c3d-a2ba-0f2d4223a5e5",
+      "text": "Max and Goofy can be found meeting guests in their holiday scarves in Grand Avenue.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet",
+        "holiday-event"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "51cc8b94-bab1-4bf7-bde7-01b17fe23c6c",
+      "text": "Toy Story Land features holiday decorations, including Woody with a candy cane and Rex wearing reindeer antlers.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "holiday-decorations"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "85KSqmCs8dA",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney's Hollywood Studios December 2025! | Park News Update, Taylor Swift Eras Tour Exhibit & More!",
+        "publishedAt": "2025-12-12T22:04:41+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.811Z"
+    },
+    {
+      "id": "ea5eb2d3-2479-443d-9600-799f076d74b8",
+      "text": "On the Disney Wonder and Disney Magic, the Animator's Palate restaurant features a unique dining experience where the black and white walls come to life with color and animation as you dine.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "rotational-dining",
+        "themed-restaurant"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "a019e046-808f-4e66-ae71-dcb2d640f1e9",
+      "text": "The Tangled-themed restaurant on the Disney Magic offers an excellent dining experience with live performances by Rapunzel and Flynn, making it a standout choice.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "rotational-dining",
+        "themed-restaurant",
+        "live-entertainment"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "39a3139a-3d45-452e-a2e4-c97a77c67deb",
+      "text": "The Arendelle restaurant on the Disney Wish provides a highly engaging Frozen-themed dinner show featuring Anna, Elsa, and other characters, with audience participation and beloved songs.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "rotational-dining",
+        "themed-restaurant",
+        "live-entertainment",
+        "character-dining"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "94ea13da-3241-42b1-adb7-8dc0c485e782",
+      "text": "Consider Palo, an adults-only upcharge restaurant on ships like the Disney Wish, known for its excellent brunch and upscale dining experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "adults-only",
+        "upcharge-dining",
+        "brunch"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "e655f723-270f-4a78-869a-ba3acf75dda4",
+      "text": "For a truly fine dining experience, try 'Asante' on the Wish class ships, featuring a multi-course tasting menu prepared by a Michelin-star chef.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "adults-only",
+        "upcharge-dining",
+        "fine-dining"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "43a0e8ef-e519-4d3b-ac1a-36d52e618efb",
+      "text": "The Star Wars Hyperspace Lounge on the Wish class ships offers a unique, immersive experience with a Star Wars theme, serving as a family-friendly bar during the day and transitioning to an adult space in the evening.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "themed-bar",
+        "adults-only",
+        "family-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "aebe4ede-926a-4da9-a1e2-2c2058878e89",
+      "text": "The Disney Wish offers advanced kids and teens clubs, including an Imagineers Lab for building roller coasters, a Star Wars cargo bay, and a Marvel training center.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "kids-club",
+        "teens-club",
+        "marvel",
+        "star-wars"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "6490a606-9b22-4cba-addb-ce35afbacf7c",
+      "text": "The Aqua Duck on the Disney Dream and Disney Fantasy is a thrilling water slide that travels over the ocean and around the ship.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "water-slide",
+        "attraction"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "aa80f2cb-d3c6-46e2-aabd-027286b1f705",
+      "text": "The Animator's Palette on the Disney Fantasy offers a second interactive experience where guests can draw their own characters that are then animated on screen.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "rotational-dining",
+        "themed-restaurant",
+        "interactive-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "8fb2befd-7174-4c87-a7a9-ef141d725d56",
+      "text": "The adults-only district on the Disney Dream and Disney Fantasy provides a distinct nightlife atmosphere with various bars and a dance lounge, offering a separation from family areas.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "adults-only",
+        "nightlife",
+        "bar-hopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "f48995cf-d8d5-490f-80ed-a03482a0a72c",
+      "text": "The Disney Treasure features bars themed after Disney Parks attractions, including 20,000 Leagues Under the Sea, Haunted Mansion, and Jungle Cruise (Skipper Society).",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "themed-bar",
+        "adults-only",
+        "disney-parks-theme"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "d34b177a-a5d1-422f-88c7-6e76ac561d91",
+      "text": "The Coco-themed restaurant on the Disney Treasure offers a vibrant dining experience with live music and storytelling, celebrating the film's music and culture.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "rotational-dining",
+        "themed-restaurant",
+        "live-entertainment"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "9c86b9c2-a5cb-4644-acc9-3550bb470449",
+      "text": "The Disney Destiny offers enhanced entertainment with villain-focused shows and storytellers throughout the ship, creating a dynamic and engaging atmosphere.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "live-entertainment",
+        "character-interactions",
+        "villains"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "7ff97792-375b-4b32-8669-1fe8a0409720",
+      "text": "The Disney Wonder and Disney Magic offer a more intimate and classic Disney feel due to their smaller size and timeless refurbishments.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "ship-atmosphere",
+        "classic-disney"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "d2ac87d8-541f-49fa-89a1-f2eae3b7c913",
+      "text": "The Disney Wonder and Disney Magic can access smaller ports that larger ships cannot, offering unique itinerary options.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "itineraries",
+        "port-access"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "49fe74de-b418-449b-a183-366aaa8672b9",
+      "text": "The Disney Wish class ships have a larger capacity, which can lead to crowds, especially during popular events like Pirate Night.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "crowd-management",
+        "ship-layout"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "a6d60788-e6b2-46b6-b69a-f8aac2d68532",
+      "text": "The Disney Dream and Disney Fantasy are often favored for their balanced ship size, avoiding extreme crowding while offering numerous amenities.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "ship-layout",
+        "crowd-management"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "3c4f86b9-24e6-4384-96eb-a99893810350",
+      "text": "The Disney Treasure, while having the Wish class layout limitations, has seen operational improvements since its launch, making for a smoother experience.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "ship-layout",
+        "operational-improvements"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "5cb40f05-44c8-413a-8b85-959211679cf0",
+      "text": "Due to their smaller size, the Disney Wonder and Magic are often more affordable options for Disney cruises.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "cost-savings",
+        "budget-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "e4648d62-cdf2-46e6-8af6-d86a1d0d4103",
+      "text": "The Disney Dream is noted as one of the cheapest ships in the fleet, offering good value for its class.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "cost-savings",
+        "budget-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "9a6e75c8-c865-487e-a911-aa06ada040eb",
+      "text": "The Disney Treasure offers a premium experience with higher pricing, reflecting its status as a newer ship with extensive theming and entertainment.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "premium-experience",
+        "pricing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eoZObRLbaTY",
+        "channelName": "AllEars.net",
+        "videoTitle": "I've Sailed on EVERY Disney Cruise Ship and I'm Ranking Them All",
+        "publishedAt": "2025-12-12T15:01:19+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:24.153Z"
+    },
+    {
+      "id": "f3fef445-d6fe-4744-921e-dbca2179159e",
+      "text": "Tune into a special back-and-forth live stream from Epcot and Hollywood Studios, featuring Fantasmic, Luminous, and park decorations.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "live-stream",
+        "fireworks",
+        "parade"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "asDv1GciAwU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream & Festive Weekend Announcements - 12-12-25 - Walt Disney World",
+        "publishedAt": "2025-12-12T14:00:07+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.297Z"
+    },
+    {
+      "id": "71c8a307-a7ac-4233-b70d-f7b9d4b03a7f",
+      "text": "Watch the Magical Night of Hope live stream from Give Kids a World, featuring music, an auction, and performances.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "live-stream",
+        "charity-event"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "asDv1GciAwU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream & Festive Weekend Announcements - 12-12-25 - Walt Disney World",
+        "publishedAt": "2025-12-12T14:00:07+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.297Z"
+    },
+    {
+      "id": "9d6c493e-2e7a-4536-85dd-1296aa7075d2",
+      "text": "Plan to see the parade, fireworks, and characters at Magic Kingdom's Mickey's Very Merry Christmas Party.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "fireworks",
+        "character-meet",
+        "christmas"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "asDv1GciAwU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream & Festive Weekend Announcements - 12-12-25 - Walt Disney World",
+        "publishedAt": "2025-12-12T14:00:07+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.297Z"
+    },
+    {
+      "id": "8414c1bd-dd1c-4ac5-a90f-c38c86798a59",
+      "text": "Try special festive treats at Mickey's Very Merry Christmas Party.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "snacks",
+        "christmas"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "asDv1GciAwU",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream & Festive Weekend Announcements - 12-12-25 - Walt Disney World",
+        "publishedAt": "2025-12-12T14:00:07+00:00"
+      },
+      "extractedAt": "2025-12-13T06:24:21.297Z"
+    },
     {
       "id": "bd6e493b-70cc-4a42-8f10-8282c0d476c5",
       "text": "Taking the ferry boat to Magic Kingdom can be a faster option than the Monorail, especially when Monorail lines are long.",
