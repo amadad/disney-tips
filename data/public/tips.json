@@ -1,7 +1,1058 @@
 {
-  "lastUpdated": "2025-12-13T06:24:24.157Z",
-  "totalTips": 1208,
+  "lastUpdated": "2025-12-14T06:24:31.189Z",
+  "totalTips": 1263,
   "tips": [
+    {
+      "id": "c5f9b6bf-92fc-47bc-b67a-57eb31fdd0a3",
+      "text": "The bathrooms at Disney Springs are located in the historic 1908 Disney Springs Fire Department building.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "disney-history",
+        "restrooms"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "c274d723-a460-4187-8b2e-a95bd6a2d31e",
+      "text": "If you're looking for Star Wars merchandise, check the Columbia store at Disney Springs, as online inventory often sells out.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "shopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "2f4ffee6-5d36-4c36-8a44-808a6aecc3b6",
+      "text": "Consider trying the smash burger or butternut squash risotto at Wine Bar George in Disney Springs for a highly recommended meal.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "entrees"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "1dbb1c7e-bc9c-4c1e-8cef-15220fd73e69",
+      "text": "Ask George, the master sommelier at Wine Bar George, for wine recommendations if he is not busy; he enjoys sharing his knowledge.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "wine-recommendations",
+        "sommelier"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "1fe1ee39-00ed-4936-baa7-79b6ce052c2e",
+      "text": "The Pandora store at Disney Springs does not offer Annual Passholder discounts, but purchasing charms at Epcot locations will apply the discount.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "annual-passholder",
+        "discounts",
+        "shopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "2697da47-bd82-4cf8-bdd0-4861e4890a6d",
+      "text": "The blind box store at Disney Springs offers a fun experience with various themed boxes, including Disney characters and trash cans.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "blind-box",
+        "merchandise"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "aff9646e-0c5b-43eb-854e-b58ea6aa4070",
+      "text": "Check out the Disney Springs blind box store for photo opportunities with your opened collectibles in a themed setting.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "photo-op",
+        "blind-box",
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "0bace219-4376-4928-8946-3d96d0c0b1d0",
+      "text": "If you enjoy character-themed items, look for Stitch dressed as various Marvel characters and other Disney franchises at the Disney Springs blind box store.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "blind-box",
+        "stitch"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "370b084e-171b-4c68-99a1-601cecf9cf82",
+      "text": "When opening blind boxes at Disney Springs, there's a designated area with a photo op and a chance to find secret or rare figures.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "blind-box",
+        "merchandise",
+        "photo-op"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XjlVm3ZoX10",
+        "channelName": "TheTimTracker",
+        "videoTitle": "What's NEW At Disney Springs! Blind Box Store, New Wine Bar George Menu & Star Wars x Columbia Drop",
+        "publishedAt": "2025-12-13T22:48:37+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:26.311Z"
+    },
+    {
+      "id": "65624ca9-e68b-4bf5-bbd1-acdd1af0778b",
+      "text": "Be aware that Astro Orbiter at Magic Kingdom can be scary for those with a fear of heights due to tilting and a fast descent.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "thrill-ride",
+        "heights"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4fQiEGDyqBw",
+        "channelName": "AllEars.net",
+        "videoTitle": "Astro Orbiter is NOT for the Weak 😳",
+        "publishedAt": "2025-12-13T22:00:03+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:22.909Z"
+    },
+    {
+      "id": "e22ad0d3-f372-49f4-8b35-ebd805e806b0",
+      "text": "The bread service at Monsieur Paul, served with high-quality butter topped with salt and green onion, is excellent and comparable to Parisian butter.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "bread-service",
+        "appetizers"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8dLoVyGvtXk",
+        "channelName": "AllEars.net",
+        "videoTitle": "My Kinda Bread & Butter 🥖🧈",
+        "publishedAt": "2025-12-13T19:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:23.068Z"
+    },
+    {
+      "id": "95122835-7bb8-4271-9bee-cfab4380e672",
+      "text": "On rides like The Twilight Zone Tower of Terror, be aware that animations can vary between rides, offering a slightly different experience each time.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "attractions",
+        "wait-times"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "4c7d6a47-d732-4e24-a9e3-f875c958f9cb",
+      "text": "Mrs. Claus offers a meet and greet called 'Sweet Moments with Mrs. Claus' several times throughout the morning and early afternoon.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "19b5e2de-1ab0-40b1-9511-84fbb7cedd40",
+      "text": "The Nautilus attraction offers a unique walk-through experience inside a submarine, and is a good place to relax if you're feeling exhausted.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "attractions",
+        "indoor-activity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "46a131d9-a965-4324-b7ec-afe761aefe9a",
+      "text": "Star Tours can have surprisingly short wait times, even as low as 5 minutes, making it a good spontaneous ride.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "wait-times",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "0d728c2f-e0cc-4b32-98d1-182aaa5ca994",
+      "text": "Consider trying the specialty 'Mountain Majesty' menu items and desserts available at Cafe Hyperion, which change seasonally.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "quick-service",
+        "seasonal-menu"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "1820814b-e5d5-4967-a9e9-1ed9e7b5e010",
+      "text": "Victoria's is a dessert-focused location offering various waffles, hot chocolate, coffee, and specialty Christmas treats.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "table-service",
+        "desserts",
+        "waffles"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "d9bb76fa-6266-4aa3-99d0-5576795080a6",
+      "text": "The Winter Cold Macchiato (cinnamon roll flavored) and Speculoos Hot Chocolate are popular drink options at Victoria's.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "drinks",
+        "specialty-coffee"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "0e00bbb3-cada-4757-a587-56da612d7917",
+      "text": "The caramel salted butter waffles at Victoria's are highly recommended, with one guest rating them a 9 out of 10.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "waffles",
+        "desserts"
+      ],
+      "priority": "high",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "606e446a-bed8-45b0-833c-22f8d0aa140f",
+      "text": "Dining at Walt's restaurant offers a unique experience with views overlooking Main Street, U.S.A.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "table-service",
+        "fine-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "352858ab-5115-404d-9da1-ef66d818fa81",
+      "text": "The Boardwalk Candy Palace offers a variety of sweets including fudge, macarons, cupcakes, and decorated cookies.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "sweets",
+        "confectionery"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "c5e9231e-de80-41db-88f3-08e594de2fe1",
+      "text": "Look for the unique pixelated 'Disneyland Paris' hoodies, which offer a distinct style compared to typical park merchandise.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "shopping",
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "d0666c02-623f-4278-9645-8db479f9dd7b",
+      "text": "The Main Street Emporium can be busy, but is manageable, and offers a wide range of merchandise including seasonal items like Wishables.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "shopping",
+        "merchandise"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "5a16be8c-6137-4b54-9bb5-417260b9f13a",
+      "text": "Consider purchasing a warm 'hoodie' or 'udiie' with hood and ears from shops like the Main Street Emporium, especially in colder weather.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "shopping",
+        "merchandise",
+        "apparel"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "33d256ad-f985-4796-90e7-6ed7b33ef4ab",
+      "text": "The Christmas store located inside the castle offers a special selection of ornaments, including ones themed for engagements.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "shopping",
+        "merchandise",
+        "ornaments"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "57737ef6-7ae1-4070-bd07-231facf940fd",
+      "text": "Enjoy the unique 'snow' effect on Main Street, U.S.A., which is enhanced by projections on the buildings.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "atmosphere",
+        "shows"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "e38b9010-a6eb-46c2-8c21-65d604988743",
+      "text": "Be aware that the hedge maze attraction closes at 5:00 PM, making it difficult to access as darkness falls.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "attractions",
+        "hours"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "ecae5162-6c16-4d36-9c73-bf1e51d90251",
+      "text": "Watching the nighttime spectacular from Main Street provides the best view of projections, which may be missed if viewing too close to the castle.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "fireworks",
+        "shows",
+        "nighttime-spectacular"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "6436a1ee-e2ca-4baf-a9c6-878c8b067f22",
+      "text": "The nighttime spectacular at Disneyland Paris incorporates impressive drone shows alongside fireworks and projections.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "fireworks",
+        "shows",
+        "drones"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "653de505-b88c-4218-8904-4bcf36559e12",
+      "text": "Premier Access Ultimate Passes are highly recommended for experiencing a wide range of attractions with minimal wait times.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "lightning-lane",
+        "skip-the-line"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "48410baf-6944-4407-969c-fbe1691bd9db",
+      "text": "Beignets from the Cable Car Bake Shop, filled with chocolate hazelnut, are quite large and filling, suitable for sharing.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "snacks",
+        "beignets"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "1c7b3f2a-93be-4e5e-a194-080fb3997cbf",
+      "text": "The carrot cake from the Cable Car Cafe received a very high rating and is considered a standout treat.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "snacks",
+        "desserts",
+        "bakery"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4bTihi2Ygco",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEYLAND PARIS CHRISTMAS VLOG ✨ WE'RE ENGAGED! The most magical night in Disneyland Paris",
+        "publishedAt": "2025-12-13T17:00:07+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:29.635Z"
+    },
+    {
+      "id": "112c8169-80db-457c-92f5-d39618d9fbb6",
+      "text": "Rock 'n' Roller Coaster Starring Aerosmith will permanently close on March 2nd, 2026. March 1st is your last day to experience this attraction.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-closure"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "e3e535d7-5971-43eb-8826-f7b4a3bc6c3b",
+      "text": "Disney World Resort restrooms are now offering both bar soap and pump soap by the sinks, as well as pump body lotion.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-amenities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "2c37dd35-bb9e-4e4b-87c6-7fb63d5aefc4",
+      "text": "The new Encanto-themed land, Tropical Americas, is under construction in Animal Kingdom where Dinoland U.S.A. used to be and is expected to open in 2027.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "new-attraction",
+        "construction-update"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "b2348d62-f6b8-4156-a6e5-487bc7a311d2",
+      "text": "Meet Clawhauser in Hollywood Land at Disney California Adventure, with Judy Hopps and Nick Wilde also meeting in the same area.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "a664d9ed-8e78-4b1a-85d7-fa7dbd7fc20b",
+      "text": "Kali River Rapids at Animal Kingdom has reopened after its annual refurbishment.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "attraction-status"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "0f55155c-373c-442b-a88a-ba8e234d0982",
+      "text": "A new Hallmark movie, 'Holiday Ever After, a Disney World wish come true,' will be filmed on location in Disney World, potentially causing temporary park closures.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "filming-alert"
+      ],
+      "priority": "low",
+      "season": "christmas",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "cedb0fd7-da68-4da3-a9a8-e4b17bb030f4",
+      "text": "Summerhouse on the Lake is offering a deal where you get a free $25 bonus gift card with a $100 gift card purchase until December 30th. The gift cards are valid from January 1st to April 15th.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "dining-deal",
+        "gift-card"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "2e0b4020-a88a-4a42-9e95-14a0751df238",
+      "text": "The deep-fried Hawaiian rolls have returned to Blue Ribbon Corn Dogs on Disney's Boardwalk.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snack-return",
+        "boardwalk-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "9757342c-c096-4398-b4a2-25a3381844ab",
+      "text": "Try the new Trader Tailwind (a margarita twist) and Manuan Mousse at Satu'li Canteen in Animal Kingdom's Pandora.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "new-menu-item",
+        "pandora-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "4702923e-aa0f-4f61-8009-d6ad0146a754",
+      "text": "Porto's Bakery and Cafe is coming to Disneyland Resort's Downtown Disney District, and this location will feature sit-down table service and a full bar.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "new-restaurant",
+        "downtown-disney"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "e742374d-157c-45ec-9789-d61b2e1b9874",
+      "text": "The honey butter chicken biscuit breakfast sandwich is available at Golden Oak Outpost in Magic Kingdom from 9:30 AM to 11:00 AM.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "breakfast-item",
+        "limited-time"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "5b745466-f705-4fd8-88a2-fc3662d4dacc",
+      "text": "The Polite Pig in Disney Springs is offering a taco trio featuring pork belly, brisket, and chicken tacos.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "taco-trio",
+        "barbecue"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "d8dc610f-13ee-4917-a4de-60644e695298",
+      "text": "Try the mint chip funnel cake fries at Hungry Bear Barbecue Jamboree in Disneyland.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "dessert",
+        "funnel-cake"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "ba3b3c6a-8691-44ef-a34d-028d5bdfdb10",
+      "text": "L'Artisan des Glaces in Epcot's France pavilion has new items, including the Braised Lamb Shank and Oysters Rockefeller, though traditional steak and cheddar cheese soup are still recommended.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "new-menu-item",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "fd937bfb-64b4-4e33-9924-30ad3f58e8d8",
+      "text": "The Daily Poutine in Disney Springs has a new truffle mushroom poutine with wild mushroom ragu and truffle aioli.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "poutine",
+        "new-menu-item"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "267edf3f-3945-4c7b-9f77-ccf7f35895f9",
+      "text": "Joffrey's at Disney Springs offers handcrafted smoothies like the Banana Split and Purple Piñata.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "smoothie",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "6193922f-0174-4d9f-9a55-d671af31bf3e",
+      "text": "Do not leave valuables in your car, even at Disney World hotels, as car break-ins and theft can occur; keep important items with you or in your hotel room safe.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "parking-safety",
+        "theft-prevention"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "f5497c19-877e-4a7c-87c5-4c9b14d844d6",
+      "text": "If you feel sick at Disney World, return to your hotel room to rest and prevent spreading illness; utilize the My Disney Experience app for virtual healthcare resources.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "health-and-safety",
+        "my-disney-experience-app"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "67a8230b-de1d-48a3-8121-722df0e3e7ed",
+      "text": "The 2026 Epcot Festival of the Arts merchandise includes items featuring Figment, such as a spirit jersey, plush, Loungefly items, hat, mug, ornament, and Corkcicle water bottle.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "festival-merchandise",
+        "figment"
+      ],
+      "priority": "low",
+      "season": "festival-arts",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "f2671609-9879-4305-b2d0-599e459bd639",
+      "text": "Consider a multi-charger with four USB-A outlets as a practical gift for Disney vacationers in 2026, useful for Magic Bands, phones, and supplementing hotel outlets.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "gift-idea",
+        "tech-accessory"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "72ee0491-d81d-475d-bd4d-6d58e4b200b6",
+      "text": "Pack Frog Tog ponchos, which are lightweight, water-resistant, and come with a carrying bag, for staying dry during park days.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "gift-idea",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "7ae23d76-cdd4-422c-a06f-509a6d4fa148",
+      "text": "A Mickey-inspired cooling fan with three adjustable speeds, misting function, and foldable design makes a great gift for hot Orlando days.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "gift-idea",
+        "cooling-fan"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
+    {
+      "id": "caa0899d-a2b3-4386-b62f-df370365b184",
+      "text": "Reusable utensils with a carrying case are a good gift idea for reducing waste, especially during festival days.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "gift-idea",
+        "sustainability"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rYKPwlph_RQ",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Closing Date for Rock 'n' Roller Coaster, Disney Partners with AI & MORE!",
+        "publishedAt": "2025-12-13T15:30:39+00:00"
+      },
+      "extractedAt": "2025-12-14T06:24:31.184Z"
+    },
     {
       "id": "0a4a2da9-dcc0-41e8-9b35-9868d8c77079",
       "text": "To avoid long waits for Seven Dwarfs Mine Train at Magic Kingdom, head there immediately at rope drop if you haven't secured a Lightning Lane.",
