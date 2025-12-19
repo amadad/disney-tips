@@ -1,6 +1,33 @@
 import type { Tip, TipsData, Park } from './types';
 import { PARK_LABELS, PRIORITY_ICONS, SEASON_LABELS } from './types';
 
+// Clipboard helper with fallback for older browsers/insecure contexts
+async function copyToClipboard(text: string): Promise<boolean> {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Fall through to legacy method
+    }
+  }
+  // Legacy fallback using execCommand
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand('copy');
+    return true;
+  } catch {
+    return false;
+  } finally {
+    document.body.removeChild(textarea);
+  }
+}
+
 // Filter option configurations
 const CATEGORIES = [
   { id: 'all', label: 'All' },
@@ -76,14 +103,14 @@ function updateUrl(): void {
   window.history.replaceState({}, '', newUrl);
 }
 
-function loadFromUrl(): void {
+function loadFromUrl(): boolean {
   const params = getUrlParams();
 
   // Check for direct tip link first
   const tipId = params.get('tip');
   if (tipId) {
     showSingleTip(tipId);
-    return;
+    return true; // Signal that single tip view is active
   }
 
   currentCategory = params.get('category') || 'all';
@@ -91,13 +118,16 @@ function loadFromUrl(): void {
   currentSeason = params.get('season') || 'all';
   currentPark = params.get('park') || 'all';
   searchQuery = params.get('q') || '';
-  currentPage = parseInt(params.get('page') || '1', 10);
+  const pageParam = parseInt(params.get('page') || '1', 10);
+  currentPage = Number.isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
 
   // Update search input if there's a query
   const searchInput = document.getElementById('search') as HTMLInputElement;
   if (searchInput && searchQuery) {
     searchInput.value = searchQuery;
   }
+
+  return false; // Normal list view
 }
 
 // Show a single tip by ID (for deep linking)
@@ -176,9 +206,11 @@ async function loadTips(): Promise<void> {
       nextUpdateEl.textContent = `Next update in ${hoursUntil}h`;
     }
 
-    loadFromUrl();
+    const isSingleTipView = loadFromUrl();
     renderFilters();
-    renderTips();
+    if (!isSingleTipView) {
+      renderTips();
+    }
   } catch (error) {
     console.error('Failed to load tips:', error);
     document.getElementById('tips-container')!.innerHTML =
@@ -327,13 +359,8 @@ function setupFilterListeners(): void {
       const card = copyBtn.closest('.tip-card');
       const text = card?.querySelector('.tip-text')?.textContent || '';
 
-      try {
-        await navigator.clipboard.writeText(text);
-        showToast('Copied to clipboard');
-      } catch (error) {
-        console.error('Clipboard write failed:', error);
-        showToast('Failed to copy');
-      }
+      const success = await copyToClipboard(text);
+      showToast(success ? 'Copied to clipboard' : 'Failed to copy');
       return;
     }
 
@@ -619,10 +646,8 @@ document.addEventListener('keydown', (e) => {
       if (focusedCard) {
         e.preventDefault();
         const text = focusedCard.querySelector('.tip-text')?.textContent || '';
-        navigator.clipboard.writeText(text).then(() => {
-          showToast('Copied to clipboard');
-        }).catch(() => {
-          showToast('Failed to copy');
+        copyToClipboard(text).then(success => {
+          showToast(success ? 'Copied to clipboard' : 'Failed to copy');
         });
       }
       break;
@@ -661,9 +686,7 @@ function shareTip(tipId: string): void {
 }
 
 function copyShareLink(url: string): void {
-  navigator.clipboard.writeText(url).then(() => {
-    showToast('Link copied!');
-  }).catch(() => {
-    showToast('Failed to copy link');
+  copyToClipboard(url).then(success => {
+    showToast(success ? 'Link copied!' : 'Failed to copy link');
   });
 }
