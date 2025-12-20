@@ -1,5 +1,6 @@
 import { Innertube } from 'youtubei.js';
-import { writeFileSync, readFileSync, existsSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, unlinkSync } from 'fs';
+import { execSync } from 'child_process';
 import { DISNEY_CHANNELS, type Video, type VideosData, type ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -145,7 +146,57 @@ function parseTimedTextXml(xml: string): string {
   return segments.join(' ');
 }
 
+// Try to get transcript using yt-dlp (more robust against bot detection)
+async function getTranscriptWithYtDlp(videoId: string): Promise<string | undefined> {
+  try {
+    const tmpFile = `/tmp/yt_sub_${videoId}`;
+
+    // Use yt-dlp to download subtitles
+    execSync(
+      `yt-dlp --write-auto-sub --write-sub --skip-download --sub-lang en -o "${tmpFile}" "https://www.youtube.com/watch?v=${videoId}" 2>/dev/null`,
+      { timeout: 30000 }
+    );
+
+    // Try to read the subtitle file (could be .en.vtt or .en.srt)
+    const extensions = ['.en.vtt', '.en.srt', '.en-orig.vtt'];
+
+    for (const ext of extensions) {
+      const filePath = tmpFile + ext;
+      if (existsSync(filePath)) {
+        const content = readFileSync(filePath, 'utf-8');
+        unlinkSync(filePath); // Clean up
+
+        // Parse VTT/SRT to plain text
+        const text = content
+          .split('\n')
+          .filter(line => !line.match(/^(\d|WEBVTT|Kind:|Language:)/))
+          .filter(line => !line.match(/^\d{2}:\d{2}/))
+          .filter(line => !line.match(/^$/))
+          .join(' ')
+          .replace(/<[^>]+>/g, '') // Remove HTML tags
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        if (text.length > 50) {
+          return cleanTranscript(text);
+        }
+      }
+    }
+
+    return undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 async function getTranscript(_yt: Innertube, videoId: string): Promise<string | undefined> {
+  // First try yt-dlp (more robust against bot detection)
+  const ytdlpResult = await getTranscriptWithYtDlp(videoId);
+  if (ytdlpResult) {
+    return ytdlpResult;
+  }
+
+  // Fallback to youtubei.js
   try {
     // Create a fresh session for each video to avoid rate limiting detection
     const yt = await Innertube.create({ generate_session_locally: true });
