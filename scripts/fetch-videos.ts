@@ -118,19 +118,87 @@ function cleanTranscript(text: string): string {
   return cleaned.replace(/\s+/g, ' ').trim();
 }
 
-async function getTranscript(yt: Innertube, videoId: string): Promise<string | undefined> {
+// Parse timedtext XML to extract transcript text
+function parseTimedTextXml(xml: string): string {
+  const segments: string[] = [];
+
+  // Match both <text> and <p> tag formats YouTube uses
+  const textRegex = /<(?:text|p)[^>]*>([^<]*)<\/(?:text|p)>/g;
+  let match;
+
+  while ((match = textRegex.exec(xml)) !== null) {
+    const text = match[1]
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&apos;/g, "'")
+      .replace(/\n/g, ' ')
+      .trim();
+
+    if (text) {
+      segments.push(text);
+    }
+  }
+
+  return segments.join(' ');
+}
+
+async function getTranscript(_yt: Innertube, videoId: string): Promise<string | undefined> {
   try {
-    const info = await yt.getInfo(videoId);
-    const transcript = await info.getTranscript();
-    const segments = transcript?.transcript?.content?.body?.initial_segments || [];
+    // Create a fresh session for each video to avoid rate limiting detection
+    const yt = await Innertube.create({ generate_session_locally: true });
 
-    if (segments.length === 0) return undefined;
+    // Use getBasicInfo to get caption tracks (avoids the blocked getTranscript endpoint)
+    const info = await yt.getBasicInfo(videoId);
 
-    // Extract text from segments
-    const text = segments
-      .map((seg: { snippet?: { text?: string } }) => seg.snippet?.text || '')
-      .filter(Boolean)
-      .join(' ');
+    // Get caption tracks from the captions object (not streaming_data)
+    const captionTracks = info.captions?.caption_tracks;
+
+    if (!captionTracks || captionTracks.length === 0) {
+      log.debug(`No caption tracks for ${videoId}`);
+      return undefined;
+    }
+
+    // Prefer English captions, fall back to first available
+    const englishTrack = captionTracks.find(
+      (track) => track.language_code === 'en' || track.language_code?.startsWith('en')
+    );
+    const track = englishTrack || captionTracks[0];
+
+    // Get the base URL for the caption track
+    const baseUrl = track.base_url;
+    if (!baseUrl) {
+      log.debug(`No base URL for caption track ${videoId}`);
+      return undefined;
+    }
+
+    // Fetch the timedtext XML directly with retry for rate limits
+    let xml = '';
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const response = await fetch(baseUrl);
+
+      if (response.status === 429) {
+        // Rate limited - wait and retry
+        const delay = (attempt + 1) * 2000;
+        log.debug(`Rate limited for ${videoId}, waiting ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+        continue;
+      }
+
+      if (!response.ok) {
+        log.debug(`Failed to fetch captions for ${videoId}: ${response.status}`);
+        return undefined;
+      }
+
+      xml = await response.text();
+      break;
+    }
+
+    if (!xml) return undefined;
+
+    const text = parseTimedTextXml(xml);
 
     if (text.length <= 50) return undefined;
 
@@ -146,8 +214,10 @@ async function getTranscript(yt: Innertube, videoId: string): Promise<string | u
 async function main() {
   log.info('Starting video fetch via RSS + youtubei.js...');
 
-  // Initialize YouTube client
-  const yt = await Innertube.create();
+  // Initialize YouTube client with session generation to bypass bot detection
+  const yt = await Innertube.create({
+    generate_session_locally: true
+  });
 
   // Load existing videos to avoid re-fetching transcripts
   let existingVideos: Video[] = [];
@@ -211,8 +281,8 @@ async function main() {
       console.log('✗ no transcript');
     }
 
-    // Small delay to be nice to YouTube
-    await new Promise(resolve => setTimeout(resolve, 500));
+    // Longer delay to avoid rate limiting (1.5s between requests)
+    await new Promise(resolve => setTimeout(resolve, 1500));
   }
 
   // Merge and sort by date
