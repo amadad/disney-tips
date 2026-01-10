@@ -15,19 +15,124 @@ const log = {
   error: (...args: unknown[]) => LOG_LEVEL <= 3 && console.error('[ERROR]', ...args),
 };
 
-// Zod schema for validating Gemini response
-const TipSchema = z.object({
+// Quality filter patterns - tips containing these are rejected
+const GENERIC_PHRASES = [
+  'arrive early', 'plan ahead', 'be prepared', 'pack light',
+  'stay hydrated', 'wear comfortable', 'download the app',
+  'make a reservation', 'book in advance', 'check the weather',
+  'bring sunscreen', 'bring a poncho', 'stay cool', 'take breaks',
+  'be patient', 'have fun', 'enjoy yourself', 'take your time'
+];
+
+const MERCHANDISE_PATTERNS = [
+  /\bis available\b/i,
+  /\bnow available\b/i,
+  /\bnew (shirt|ears|necklace|bag|backpack|loungefly|spirit jersey|merchandise)\b/i,
+  /\b(shirt|ears|jersey) is\b/i,
+  /themed (ears|merchandise|apparel)\b/i
+];
+
+// Valid category and park enums
+const VALID_CATEGORIES = ['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation'] as const;
+const VALID_PARKS = ['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'disneyland', 'california-adventure', 'all-parks'] as const;
+
+// Loose schema for initial parsing (accepts any category string for normalization)
+const RawTipSchema = z.object({
   text: z.string().min(10),
-  category: z.enum(['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation']),
-  park: z.enum(['magic-kingdom', 'epcot', 'hollywood-studios', 'animal-kingdom', 'disney-springs', 'water-parks', 'disneyland', 'california-adventure', 'all-parks']),
+  category: z.string(), // Accept any, normalize later
+  park: z.string(),     // Accept any, validate later
   tags: z.array(z.string()).min(1),
   priority: z.enum(['high', 'medium', 'low']),
   season: z.enum(['year-round', 'christmas', 'halloween', 'flower-garden', 'food-wine', 'festival-arts', 'summer'])
 });
 
-const GeminiResponseSchema = z.object({
-  tips: z.array(TipSchema)
+const RawGeminiResponseSchema = z.object({
+  tips: z.array(RawTipSchema)
 });
+
+// Category normalization for invalid categories
+const CATEGORY_MAP: Record<string, TipCategory> = {
+  'genie': 'parks',
+  'genie+': 'parks',
+  'lightning-lane': 'parks',
+  'attractions': 'parks',
+  'rides': 'parks',
+  'food': 'dining',
+  'restaurants': 'dining',
+  'money': 'budget',
+  'savings': 'budget',
+  'travel': 'transportation',
+};
+
+function normalizeCategory(category: string): TipCategory {
+  const lower = category.toLowerCase();
+  const mapped = CATEGORY_MAP[lower];
+  if (mapped) return mapped;
+
+  // Check if it's already valid
+  if (VALID_CATEGORIES.includes(category as typeof VALID_CATEGORIES[number])) {
+    return category as TipCategory;
+  }
+
+  // Default to 'parks' for unknown categories
+  log.debug(`Unknown category "${category}", defaulting to "parks"`);
+  return 'parks';
+}
+
+function normalizePark(park: string): Park {
+  // Check if it's already valid
+  if (VALID_PARKS.includes(park as typeof VALID_PARKS[number])) {
+    return park as Park;
+  }
+
+  // Default to 'all-parks' for unknown parks
+  log.debug(`Unknown park "${park}", defaulting to "all-parks"`);
+  return 'all-parks';
+}
+
+// Quality filter - returns true if tip should be KEPT
+function isHighQualityTip(text: string): boolean {
+  const lowerText = text.toLowerCase();
+
+  // Reject generic phrases
+  for (const phrase of GENERIC_PHRASES) {
+    if (lowerText.includes(phrase)) {
+      log.debug(`Rejected (generic phrase "${phrase}"): ${text.slice(0, 50)}...`);
+      return false;
+    }
+  }
+
+  // Reject merchandise announcements
+  for (const pattern of MERCHANDISE_PATTERNS) {
+    if (pattern.test(text)) {
+      log.debug(`Rejected (merchandise): ${text.slice(0, 50)}...`);
+      return false;
+    }
+  }
+
+  // Reject tips that are too short (likely not actionable)
+  if (text.length < 50) {
+    log.debug(`Rejected (too short): ${text}`);
+    return false;
+  }
+
+  // Reject tips that are just descriptions without actionable advice
+  const actionablePatterns = [
+    /\b(try|get|use|ask|book|order|arrive|head|go|visit|check|grab|skip|avoid|consider|take|make sure|don't|do not)\b/i
+  ];
+
+  const hasActionableVerb = actionablePatterns.some(p => p.test(text));
+  if (!hasActionableVerb) {
+    // Allow if it has specific Disney terms even without action verbs
+    const disneyTerms = /\b(lightning lane|genie\+|rope drop|fireworks|parade|skyliner|monorail|magic kingdom|epcot|hollywood studios|animal kingdom)\b/i;
+    if (!disneyTerms.test(text)) {
+      log.debug(`Rejected (not actionable): ${text.slice(0, 50)}...`);
+      return false;
+    }
+  }
+
+  return true;
+}
 
 // Processed videos ledger type
 interface ProcessedVideo {
@@ -108,18 +213,22 @@ async function extractTipsFromVideo(video: Video): Promise<ExtractedTip[]> {
     transcript = transcript.slice(0, maxTranscriptLength) + '...';
   }
 
-  const prompt = `You are analyzing a Disney parks YouTube video transcript to extract actionable tips for visitors.
+  const prompt = `You are a STRICT curator extracting ONLY highly valuable Disney tips from video transcripts.
 
-IMPORTANT RULES:
-1. ONLY extract tips about Disney parks (Walt Disney World, Disneyland, Disney Cruise Line)
-2. DO NOT include tips about Universal Studios, SeaWorld, or other non-Disney destinations
-3. DO NOT include generic travel advice (packing lists, what to wear, etc.) unless Disney-specific
-4. Skip tips about specific dates/events that have already passed
+REJECT these types of content (DO NOT extract):
+- Merchandise announcements ("X is available", "new ears/shirt/bag")
+- Generic travel advice ("arrive early", "plan ahead", "stay hydrated", "be patient")
+- Event descriptions without actionable advice
+- Opinions without tips ("X is fun!", "we loved Y")
+- Non-Disney content (Universal, SeaWorld, off-property hotels)
+- Past events with specific dates
 
-Each tip should be:
-- Concrete and specific (not vague advice like "plan ahead")
-- Actionable (something a visitor can actually do)
-- Disney-specific (mentions a specific ride, restaurant, resort, or Disney strategy)
+ONLY EXTRACT tips that are:
+- ACTIONABLE: Contains a verb telling the reader what to DO (try, get, use, book, skip, avoid, head to)
+- SPECIFIC: Mentions a specific ride, restaurant, resort, show, or Disney strategy BY NAME
+- VALUABLE: Saves time, saves money, or significantly improves the visit experience
+
+Quality bar: Would a first-time Disney visitor find this tip genuinely helpful and specific?
 
 CATEGORIZATION RULES:
 - "parks" = ride strategies, show times, park navigation, attractions
@@ -187,8 +296,8 @@ Extract all Disney-specific actionable tips from this video.`;
 
       const rawParsed = JSON.parse(text);
 
-      // Validate with Zod
-      const validated = GeminiResponseSchema.safeParse(rawParsed);
+      // Validate with loose schema (allows any category/park for normalization)
+      const validated = RawGeminiResponseSchema.safeParse(rawParsed);
 
       if (!validated.success) {
         console.error(`  Validation failed (attempt ${attempt + 1}):`, validated.error.issues.slice(0, 3));
@@ -199,22 +308,32 @@ Extract all Disney-specific actionable tips from this video.`;
         return [];
       }
 
-      return validated.data.tips.map((tip) => ({
-        id: randomUUID(),
-        text: tip.text,
-        category: tip.category as TipCategory,
-        park: tip.park as Park,
-        tags: tip.tags,
-        priority: tip.priority,
-        season: tip.season,
-        source: {
-          videoId: video.id,
-          channelName: video.channelName as ChannelName,
-          videoTitle: video.title,
-          publishedAt: video.publishedAt
-        },
-        extractedAt: new Date().toISOString()
-      }));
+      // Apply quality filter and normalize categories/parks
+      const qualityTips = validated.data.tips
+        .filter(tip => isHighQualityTip(tip.text))
+        .map((tip) => ({
+          id: randomUUID(),
+          text: tip.text,
+          category: normalizeCategory(tip.category),
+          park: normalizePark(tip.park),
+          tags: tip.tags,
+          priority: tip.priority,
+          season: tip.season,
+          source: {
+            videoId: video.id,
+            channelName: video.channelName as ChannelName,
+            videoTitle: video.title,
+            publishedAt: video.publishedAt
+          },
+          extractedAt: new Date().toISOString()
+        }));
+
+      const filtered = validated.data.tips.length - qualityTips.length;
+      if (filtered > 0) {
+        log.debug(`Filtered ${filtered} low-quality tips from ${video.title}`);
+      }
+
+      return qualityTips;
     } catch (error) {
       console.error(`  Error (attempt ${attempt + 1}):`, error instanceof Error ? error.message : error);
       if (attempt < maxRetries) {

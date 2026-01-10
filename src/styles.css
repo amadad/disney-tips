@@ -142,6 +142,40 @@ h1 {
   padding-bottom: 2rem;
 }
 
+/* View Toggle (Top Tips / All Tips) */
+.view-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.view-btn {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--text-muted);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-btn:hover {
+  border-color: var(--soft-gold);
+  color: var(--soft-gold);
+}
+
+.view-btn.active {
+  background: var(--soft-gold);
+  border-color: var(--soft-gold);
+  color: var(--bg-color);
+  font-weight: 700;
+}
+
 .category-scroll {
   display: flex;
   justify-content: center;

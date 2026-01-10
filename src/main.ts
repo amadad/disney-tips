@@ -72,8 +72,18 @@ const PARKS = [
 // Configuration
 const TIPS_PER_PAGE = 50;
 
+// Sort options
+const SORT_OPTIONS = [
+  { id: 'newest', label: 'Newest First' },
+  { id: 'priority', label: 'Highest Priority' },
+  { id: 'oldest', label: 'Oldest First' },
+];
+
 // State
 let allTips: Tip[] = [];
+let topTipIds: Set<string> = new Set();
+let currentView: 'top' | 'all' = 'top'; // Default to top tips
+let currentSort = 'newest';
 let currentCategory = 'all';
 let currentPriority = 'all';
 let currentSeason = 'all';
@@ -81,6 +91,7 @@ let currentPark = 'all';
 let searchQuery = '';
 let currentPage = 1;
 let searchTimeout: ReturnType<typeof setTimeout> | null = null;
+let isSemanticSearching = false;
 
 // URL parameter helpers
 function getUrlParams(): URLSearchParams {
@@ -188,6 +199,7 @@ async function loadTips(): Promise<void> {
     const data: TipsData = await response.json();
 
     allTips = data.tips;
+    topTipIds = new Set(data.topTips || []);
 
     document.getElementById('tip-count')!.textContent = `${data.totalTips} tips`;
     document.getElementById('last-updated')!.textContent =
@@ -324,6 +336,39 @@ function setupFilterListeners(): void {
     });
   }
 
+  // View toggle (Top Tips vs All Tips)
+  const viewToggle = document.getElementById('view-toggle');
+  if (viewToggle) {
+    viewToggle.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('.view-btn');
+      if (!btn) return;
+      const view = btn.getAttribute('data-view') as 'top' | 'all';
+      if (view === currentView) return;
+
+      currentView = view;
+      currentPage = 1;
+
+      // Update active state
+      viewToggle.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      updateUrl();
+      renderFilters();
+      renderTips();
+    });
+  }
+
+  // Sort change
+  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      currentSort = (e.target as HTMLSelectElement).value;
+      currentPage = 1;
+      updateUrl();
+      renderTips();
+    });
+  }
+
   // Clear filters button
   const clearBtn = document.getElementById('clear-filters-btn');
   if (clearBtn) {
@@ -383,10 +428,16 @@ function showToast(message = 'Copied to clipboard') {
 }
 
 function filterTips(): Tip[] {
+  // Start with view filter
+  let tips = currentView === 'top' && topTipIds.size > 0
+    ? allTips.filter(tip => topTipIds.has(tip.id))
+    : allTips;
+
   // Precompute lowercase search query once
   const searchLower = searchQuery.toLowerCase();
 
-  return allTips.filter(tip => {
+  // Apply filters
+  tips = tips.filter(tip => {
     const matchesCategory = currentCategory === 'all' || tip.category === currentCategory;
     const matchesPriority = currentPriority === 'all' || tip.priority === currentPriority;
     const matchesSeason = currentSeason === 'all' || tip.season === currentSeason || tip.season === 'year-round';
@@ -398,6 +449,31 @@ function filterTips(): Tip[] {
 
     return matchesCategory && matchesPriority && matchesSeason && matchesPark && matchesSearch;
   });
+
+  // Apply sorting
+  return sortTips(tips);
+}
+
+function sortTips(tips: Tip[]): Tip[] {
+  const sorted = [...tips];
+
+  switch (currentSort) {
+    case 'newest':
+      return sorted.sort((a, b) =>
+        new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime()
+      );
+    case 'oldest':
+      return sorted.sort((a, b) =>
+        new Date(a.source.publishedAt).getTime() - new Date(b.source.publishedAt).getTime()
+      );
+    case 'priority':
+      const priorityOrder = { high: 0, medium: 1, low: 2 };
+      return sorted.sort((a, b) =>
+        priorityOrder[a.priority] - priorityOrder[b.priority]
+      );
+    default:
+      return sorted;
+  }
 }
 
 function highlightText(text: string, query: string): string {

@@ -80,6 +80,7 @@ export interface TipsData {
   lastUpdated: string;
   totalTips: number;
   tips: ExtractedTip[];
+  topTips?: string[]; // IDs of curated top tips
 }
 
 export interface VideosData {

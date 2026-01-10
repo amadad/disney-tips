@@ -77,10 +77,19 @@
     </div>
 
     <div class="filter-controls">
+      <div class="view-toggle" id="view-toggle">
+        <button class="view-btn active" data-view="top">Top Tips</button>
+        <button class="view-btn" data-view="all">All Tips</button>
+      </div>
       <div class="category-scroll" id="category-filters">
         <!-- Categories injected here -->
       </div>
       <div class="secondary-filters">
+        <select id="sort-select" class="filter-select" aria-label="Sort by">
+          <option value="newest">Newest First</option>
+          <option value="priority">Highest Priority</option>
+          <option value="oldest">Oldest First</option>
+        </select>
         <select id="park-select" class="filter-select" aria-label="Filter by Park">
           <option value="all">All Parks</option>
         </select>
