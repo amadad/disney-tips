@@ -214,8 +214,14 @@ async function loadTips(): Promise<void> {
       if (now.getUTCHours() >= 6) {
         nextUpdate.setUTCDate(nextUpdate.getUTCDate() + 1);
       }
-      const hoursUntil = Math.round((nextUpdate.getTime() - now.getTime()) / (1000 * 60 * 60));
-      nextUpdateEl.textContent = `Next update in ${hoursUntil}h`;
+      const nextUpdateLabel = nextUpdate.toLocaleString('en-US', {
+        timeZone: 'UTC',
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+      });
+      nextUpdateEl.textContent = `Next update ${nextUpdateLabel} UTC`;
     }
 
     const isSingleTipView = loadFromUrl();

@@ -20,13 +20,14 @@ npm run preview    # Preview production build (localhost:4173)
 ## Hosting (Hetzner)
 
 - **Live site**: https://disney.bound.tips/
-- Static files served from `dist/`
+- Static files served from `dist/` via the `disney-tips` nginx container
 - Pipeline runs daily at 6 AM UTC via cron
 - After changes: `npm run build` to update dist/
+- Restart container to refresh live: `docker restart disney-tips`
 
 ```bash
 # Cron job (already configured)
-0 6 * * * cd /Users/amadad/Projects/disney-app && npm run pipeline >> /var/log/disney-tips.log 2>&1
+0 6 * * * cd /home/deploy/projects/disney-tips && npm run pipeline >> /var/log/disney-tips.log 2>&1
 ```
 
 ## Architecture
