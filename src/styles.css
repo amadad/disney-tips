@@ -517,6 +517,11 @@ footer a {
   transition: opacity 0.2s, color 0.2s;
 }
 
+footer .footer-updated {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
 footer a:hover {
   opacity: 1;
   color: var(--soft-gold);

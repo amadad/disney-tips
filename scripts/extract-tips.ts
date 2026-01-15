@@ -463,6 +463,13 @@ async function main() {
 
   writeFileSync('data/public/tips.json', JSON.stringify(data, null, 2));
 
+  const health = {
+    status: 'ok',
+    lastUpdated: data.lastUpdated,
+    totalTips: data.totalTips
+  };
+  writeFileSync('data/public/health.json', JSON.stringify(health, null, 2));
+
   console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }
 

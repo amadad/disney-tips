@@ -201,9 +201,20 @@ async function loadTips(): Promise<void> {
     allTips = data.tips;
     topTipIds = new Set(data.topTips || []);
 
+    const lastUpdatedDate = new Date(data.lastUpdated);
+
     document.getElementById('tip-count')!.textContent = `${data.totalTips} tips`;
     document.getElementById('last-updated')!.textContent =
-      `Updated ${new Date(data.lastUpdated).toLocaleDateString()}`;
+      `Updated ${lastUpdatedDate.toLocaleDateString()}`;
+
+    const footerUpdatedEl = document.getElementById('footer-updated');
+    if (footerUpdatedEl) {
+      footerUpdatedEl.textContent = `Data updated ${lastUpdatedDate.toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+      })}`;
+    }
 
     // Calculate next update (cron runs daily at 6 AM UTC)
     const nextUpdateEl = document.getElementById('next-update');
