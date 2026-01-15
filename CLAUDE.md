@@ -5,34 +5,46 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-# Pipeline (run manually or via GitHub Actions)
-npm run fetch      # Fetch new videos via RSS + youtubei.js transcripts
+# Pipeline (runs daily via cron at 6 AM UTC)
+npm run fetch      # Fetch new videos via RSS + Apify transcripts
 npm run extract    # Extract tips from transcripts using Gemini
+npm run backfill   # Retry fetching transcripts for videos missing them
 npm run pipeline   # Run both fetch and extract
 
 # Frontend
-npm run dev        # Start dev server (localhost:5173)
-npm run build      # Build for production
-npm run preview    # Preview production build
+npm run dev        # Start dev server (localhost:5173) - hot reload
+npm run build      # Build for production (outputs to dist/)
+npm run preview    # Preview production build (localhost:4173)
+```
+
+## Hosting (Hetzner)
+
+- **Live site**: https://disney.bound.tips/
+- Static files served from `dist/`
+- Pipeline runs daily at 6 AM UTC via cron
+- After changes: `npm run build` to update dist/
+
+```bash
+# Cron job (already configured)
+0 6 * * * cd /Users/amadad/Projects/disney-app && npm run pipeline >> /var/log/disney-tips.log 2>&1
 ```
 
 ## Architecture
 
 This is a **batch-first, static-second** Disney tips aggregator:
 
-1. **Pipeline** (`scripts/`) - Runs daily via GitHub Actions
-   - Fetches videos from 10 Disney YouTube channels via RSS feeds (free, no API key)
-   - Extracts transcripts via `youtubei.js` (InnerTube wrapper, no API key)
+1. **Pipeline** (`scripts/`) - Runs daily via cron
+   - Fetches videos from 10 Disney YouTube channels via RSS feeds
+   - Extracts transcripts via Apify YouTube Transcript Ninja
    - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
    - Filters out non-Disney content (Universal, generic travel)
-   - Commits results to `data/`
+   - Saves results to `data/`
 
 2. **Frontend** (`src/`, `index.html`) - Minimal Vite static site
    - Loads pre-computed `data/public/tips.json`
    - Client-side filtering by category, park, priority, season, and search
    - Disney-themed UI with castle gradient header
    - Zero runtime API calls
-   - Deployed to GitHub Pages at `/disney-tips/`
 
 ### Key Files
 
@@ -42,12 +54,13 @@ shared/
 
 scripts/
   types.ts           # Re-exports from shared/types.ts
-  fetch-videos.ts    # RSS feed parsing + youtubei.js transcript fetching
+  fetch-videos.ts    # RSS feed parsing + Apify transcript fetching
   extract-tips.ts    # Gemini-powered tip extraction with structured schema
+  backfill-transcripts.ts  # Retry missing transcripts
 
 data/
   public/            # Deployed to production
-    tips.json        # Extracted structured tips (~1000 tips)
+    tips.json        # Extracted structured tips (~1400 tips)
   pipeline/          # NOT deployed (repo-only)
     videos.json      # Raw video metadata + transcripts
     processed-videos.json  # Ledger of processed videos
@@ -57,9 +70,7 @@ src/
   main.ts            # Frontend application with filters
   styles.css         # External stylesheet
 
-.github/workflows/
-  update-tips.yml    # Daily cron job (6 AM UTC)
-  deploy.yml         # GitHub Pages deployment
+dist/               # Production build output (served by web server)
 ```
 
 ### Data Schema
@@ -74,19 +85,20 @@ Tips include:
 ### Data Flow
 
 ```
-YouTube RSS → videos.json → Gemini API → tips.json → Static Frontend
-     ↑           (pipeline/)                (public/)        ↑
-  (daily cron)                                    (GitHub Pages deploy)
+YouTube RSS → Apify → videos.json → Gemini API → tips.json → Static Frontend
+     ↑                  (pipeline/)                 (public/)        ↑
+  (daily cron)                                              (dist/ served)
 ```
 
 ## Environment Variables
 
+Stored in `.env.local`:
+
 ```bash
-GEMINI_API_KEY=      # Google AI Studio API key (required)
+APIFY_API_TOKEN=     # Apify API token for transcript fetching
+GEMINI_API_KEY=      # Google AI Studio API key for tip extraction
 GEMINI_MODEL=        # Optional: override model (default: gemini-2.5-flash-lite)
 ```
-
-For GitHub Actions, add as repository secret: Settings → Secrets → Actions → `GEMINI_API_KEY`
 
 ## Adding a Channel
 
@@ -100,10 +112,3 @@ export const DISNEY_CHANNELS = {
 ```
 
 Get channel ID from: youtube.com/channel/UC... (the UC... part)
-
-## Deployment
-
-- **Live site**: https://amadad.github.io/disney-tips/
-- Deploys automatically on push to main
-- Uses Vite with `base: '/disney-tips/'` for GitHub Pages subpath
-- Only `data/public/` is shipped to production (videos.json stays in repo only)

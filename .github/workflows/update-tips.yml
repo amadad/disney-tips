@@ -28,10 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install yt-dlp
-        run: pip install yt-dlp
-
       - name: Fetch new videos
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
         run: npm run fetch
 
       - name: Extract tips

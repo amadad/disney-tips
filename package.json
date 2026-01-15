@@ -6,6 +6,7 @@
     "fetch": "tsx scripts/fetch-videos.ts",
     "extract": "tsx scripts/extract-tips.ts",
     "dedupe": "tsx scripts/dedupe-tips.ts",
+    "backfill": "tsx scripts/backfill-transcripts.ts",
     "pipeline": "npm run fetch && npm run extract",
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",
@@ -15,9 +16,10 @@
   },
   "dependencies": {
     "@google/genai": "^0.14.0",
+    "apify-client": "^2.21.0",
+    "dotenv": "^17.2.3",
     "express": "^4.21.0",
     "youtube-transcript": "^1.2.1",
-    "youtubei.js": "^16.0.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {

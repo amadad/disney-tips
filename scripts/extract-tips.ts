@@ -1,3 +1,5 @@
+import { config } from 'dotenv';
+config({ path: '.env.local' });
 import { GoogleGenAI, Type } from '@google/genai';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';

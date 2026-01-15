@@ -1,6 +1,7 @@
-import { Innertube } from 'youtubei.js';
-import { writeFileSync, readFileSync, existsSync, unlinkSync } from 'fs';
-import { execSync } from 'child_process';
+import { config } from 'dotenv';
+config({ path: '.env.local' });
+import { ApifyClient } from 'apify-client';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { DISNEY_CHANNELS, type Video, type VideosData, type ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -101,7 +102,6 @@ function decodeHTMLEntities(text: string): string {
 
 // Clean transcript text - remove common sponsor/ad patterns
 function cleanTranscript(text: string): string {
-  // Remove common sponsor segments
   const sponsorPatterns = [
     /thanks? to [\w\s]+ for sponsoring/gi,
     /this video is sponsored by/gi,
@@ -115,160 +115,54 @@ function cleanTranscript(text: string): string {
     cleaned = cleaned.replace(pattern, '');
   }
 
-  // Normalize whitespace
   return cleaned.replace(/\s+/g, ' ').trim();
 }
 
-// Parse timedtext XML to extract transcript text
-function parseTimedTextXml(xml: string): string {
-  const segments: string[] = [];
-
-  // Match both <text> and <p> tag formats YouTube uses
-  const textRegex = /<(?:text|p)[^>]*>([^<]*)<\/(?:text|p)>/g;
-  let match;
-
-  while ((match = textRegex.exec(xml)) !== null) {
-    const text = match[1]
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      .replace(/&apos;/g, "'")
-      .replace(/\n/g, ' ')
-      .trim();
-
-    if (text) {
-      segments.push(text);
-    }
+// Fetch transcripts via Apify YouTube Transcript Ninja
+async function getTranscriptsViaApify(videoIds: string[]): Promise<Map<string, string>> {
+  const apiToken = process.env.APIFY_API_TOKEN;
+  if (!apiToken) {
+    log.error('APIFY_API_TOKEN not set');
+    return new Map();
   }
 
-  return segments.join(' ');
-}
+  if (videoIds.length === 0) {
+    return new Map();
+  }
 
-// Try to get transcript using yt-dlp (more robust against bot detection)
-async function getTranscriptWithYtDlp(videoId: string): Promise<string | undefined> {
-  try {
-    const tmpFile = `/tmp/yt_sub_${videoId}`;
+  log.info(`Fetching ${videoIds.length} transcripts via Apify...`);
 
-    // Use yt-dlp to download subtitles
-    execSync(
-      `yt-dlp --write-auto-sub --write-sub --skip-download --sub-lang en -o "${tmpFile}" "https://www.youtube.com/watch?v=${videoId}" 2>/dev/null`,
-      { timeout: 30000 }
-    );
+  const client = new ApifyClient({ token: apiToken });
 
-    // Try to read the subtitle file (could be .en.vtt or .en.srt)
-    const extensions = ['.en.vtt', '.en.srt', '.en-orig.vtt'];
+  const run = await client.actor('dB9f4B02ocpTICIEY').call({
+    startUrls: videoIds.map(id => `https://www.youtube.com/watch?v=${id}`),
+    timestamps: false
+  });
 
-    for (const ext of extensions) {
-      const filePath = tmpFile + ext;
-      if (existsSync(filePath)) {
-        const content = readFileSync(filePath, 'utf-8');
-        unlinkSync(filePath); // Clean up
+  const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
-        // Parse VTT/SRT to plain text
-        const text = content
-          .split('\n')
-          .filter(line => !line.match(/^(\d|WEBVTT|Kind:|Language:)/))
-          .filter(line => !line.match(/^\d{2}:\d{2}/))
-          .filter(line => !line.match(/^$/))
-          .join(' ')
-          .replace(/<[^>]+>/g, '') // Remove HTML tags
-          .replace(/\s+/g, ' ')
-          .trim();
+  const transcripts = new Map<string, string>();
+  for (const item of items) {
+    const videoId = item.videoId as string;
+    const transcriptText = item.text || item.transcript;
 
-        if (text.length > 50) {
-          return cleanTranscript(text);
-        }
+    if (videoId && transcriptText) {
+      const text = typeof transcriptText === 'string'
+        ? transcriptText
+        : JSON.stringify(transcriptText);
+
+      if (text.length > 50) {
+        transcripts.set(videoId, cleanTranscript(text));
       }
     }
-
-    return undefined;
-  } catch {
-    return undefined;
-  }
-}
-
-async function getTranscript(_yt: Innertube, videoId: string): Promise<string | undefined> {
-  // First try yt-dlp (more robust against bot detection)
-  const ytdlpResult = await getTranscriptWithYtDlp(videoId);
-  if (ytdlpResult) {
-    return ytdlpResult;
   }
 
-  // Fallback to youtubei.js
-  try {
-    // Create a fresh session for each video to avoid rate limiting detection
-    const yt = await Innertube.create({ generate_session_locally: true });
-
-    // Use getBasicInfo to get caption tracks (avoids the blocked getTranscript endpoint)
-    const info = await yt.getBasicInfo(videoId);
-
-    // Get caption tracks from the captions object (not streaming_data)
-    const captionTracks = info.captions?.caption_tracks;
-
-    if (!captionTracks || captionTracks.length === 0) {
-      log.debug(`No caption tracks for ${videoId}`);
-      return undefined;
-    }
-
-    // Prefer English captions, fall back to first available
-    const englishTrack = captionTracks.find(
-      (track) => track.language_code === 'en' || track.language_code?.startsWith('en')
-    );
-    const track = englishTrack || captionTracks[0];
-
-    // Get the base URL for the caption track
-    const baseUrl = track.base_url;
-    if (!baseUrl) {
-      log.debug(`No base URL for caption track ${videoId}`);
-      return undefined;
-    }
-
-    // Fetch the timedtext XML directly with retry for rate limits
-    let xml = '';
-    for (let attempt = 0; attempt < 3; attempt++) {
-      const response = await fetch(baseUrl);
-
-      if (response.status === 429) {
-        // Rate limited - wait and retry
-        const delay = (attempt + 1) * 2000;
-        log.debug(`Rate limited for ${videoId}, waiting ${delay}ms...`);
-        await new Promise(resolve => setTimeout(resolve, delay));
-        continue;
-      }
-
-      if (!response.ok) {
-        log.debug(`Failed to fetch captions for ${videoId}: ${response.status}`);
-        return undefined;
-      }
-
-      xml = await response.text();
-      break;
-    }
-
-    if (!xml) return undefined;
-
-    const text = parseTimedTextXml(xml);
-
-    if (text.length <= 50) return undefined;
-
-    // Clean up transcript
-    return cleanTranscript(text);
-  } catch (error) {
-    // Silently fail - many videos won't have transcripts
-    log.debug(`No transcript for ${videoId}:`, error instanceof Error ? error.message : error);
-    return undefined;
-  }
+  log.info(`Got ${transcripts.size}/${videoIds.length} transcripts from Apify`);
+  return transcripts;
 }
 
 async function main() {
-  log.info('Starting video fetch via RSS + youtubei.js...');
-
-  // Initialize YouTube client with session generation to bypass bot detection
-  const yt = await Innertube.create({
-    generate_session_locally: true
-  });
+  log.info('Starting video fetch via RSS + Apify...');
 
   // Load existing videos to avoid re-fetching transcripts
   let existingVideos: Video[] = [];
@@ -307,16 +201,19 @@ async function main() {
     }
   }
 
-  log.info(`Processing ${videosToProcess.length} new videos for transcripts...`);
+  log.info(`Found ${videosToProcess.length} new videos`);
 
-  // Fetch transcripts sequentially (to be nice to YouTube)
-  const newVideos: Video[] = [];
-  for (const { channelName, rssVideo } of videosToProcess) {
-    process.stdout.write(`  ${rssVideo.title.substring(0, 50)}... `);
+  // Batch fetch all transcripts via Apify (single API call)
+  const videoIds = videosToProcess.map(v => v.rssVideo.id);
+  const transcripts = await getTranscriptsViaApify(videoIds);
 
-    const transcript = await getTranscript(yt, rssVideo.id);
+  // Build video objects with transcripts
+  const newVideos: Video[] = videosToProcess.map(({ channelName, rssVideo }) => {
+    const transcript = transcripts.get(rssVideo.id);
+    const status = transcript ? `✓ (${transcript.length} chars)` : '✗ no transcript';
+    log.info(`  ${rssVideo.title.substring(0, 50)}... ${status}`);
 
-    newVideos.push({
+    return {
       id: rssVideo.id,
       channelName,
       title: rssVideo.title,
@@ -324,17 +221,8 @@ async function main() {
       publishedAt: rssVideo.publishedAt,
       thumbnail: rssVideo.thumbnail,
       transcript
-    });
-
-    if (transcript) {
-      console.log(`✓ (${transcript.length} chars)`);
-    } else {
-      console.log('✗ no transcript');
-    }
-
-    // Longer delay to avoid rate limiting (1.5s between requests)
-    await new Promise(resolve => setTimeout(resolve, 1500));
-  }
+    };
+  });
 
   // Merge and sort by date
   const allVideos = [...existingVideos, ...newVideos]

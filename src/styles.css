@@ -504,29 +504,10 @@ footer {
   letter-spacing: 2px;
 }
 
-.keyboard-hints {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.keyboard-hints span {
+footer .separator {
   color: var(--text-muted);
-  opacity: 0.5;
-}
-
-kbd {
-  display: inline-block;
-  padding: 0.15rem 0.4rem;
-  margin-right: 0.25rem;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.7rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-  color: var(--text-muted);
+  opacity: 0.3;
+  margin: 0 0.5rem;
 }
 
 footer a {
