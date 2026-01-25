@@ -13,7 +13,13 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         input: {
           main: resolve(__dirname, 'index.html'),
-          about: resolve(__dirname, 'about.html')
+          about: resolve(__dirname, 'about.html'),
+          parks: resolve(__dirname, 'parks.html'),
+          dining: resolve(__dirname, 'dining.html'),
+          hotels: resolve(__dirname, 'hotels.html'),
+          budget: resolve(__dirname, 'budget.html'),
+          planning: resolve(__dirname, 'planning.html'),
+          transportation: resolve(__dirname, 'transportation.html')
         }
       }
     }

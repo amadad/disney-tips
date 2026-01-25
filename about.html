@@ -4,7 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How It Works - Disney World Tips</title>
+  <title>How It Works - Disney Parks Tips</title>
+  <meta name="description" content="Learn how Disney Parks Tips finds, filters, and updates insider advice from top YouTube creators every day.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://disney.bound.tips/about.html">
+  <meta property="og:title" content="How Disney Parks Tips Works">
+  <meta property="og:description" content="Learn how Disney Parks Tips finds, filters, and updates insider advice from top YouTube creators every day.">
+  <meta property="og:image" content="https://disney.bound.tips/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How Disney Parks Tips Works">
+  <meta name="twitter:description" content="Learn how Disney Parks Tips finds, filters, and updates insider advice from top YouTube creators every day.">
+  <meta name="twitter:image" content="https://disney.bound.tips/og-image.png">
+
+  <link rel="canonical" href="https://disney.bound.tips/about.html">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "How Disney Parks Tips Works",
+      "url": "https://disney.bound.tips/about.html",
+      "description": "Learn how Disney Parks Tips finds, filters, and updates insider advice from top YouTube creators every day."
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -70,9 +93,24 @@
       color: var(--soft-gold);
     }
 
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin: 1.5rem 0 0.5rem;
+    }
+
     p {
       color: var(--text-muted);
       margin-bottom: 1.5rem;
+    }
+
+    .faq {
+      margin-top: 1rem;
+    }
+
+    .faq-item p {
+      margin-bottom: 0;
     }
 
     .process-steps {
@@ -152,6 +190,21 @@
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 2px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.35rem;
+    }
+
+    .separator {
+      color: var(--text-muted);
+      opacity: 0.3;
+      margin: 0 0.25rem;
     }
 
     footer a {
@@ -229,10 +282,41 @@
       The pipeline runs daily at 6 AM UTC. New videos are processed and tips are updated automatically.
       The entire site is static HTML &mdash; no server, no database, just fast.
     </p>
+
+    <h2>FAQ</h2>
+
+    <div class="faq">
+      <div class="faq-item">
+        <h3>How often are tips updated?</h3>
+        <p>We refresh tips daily after the 6 AM UTC pipeline run.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where do the tips come from?</h3>
+        <p>Tips are extracted from trusted Disney YouTube creators and filtered for actionable advice.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Why are some videos missing?</h3>
+        <p>Some videos don’t have transcripts yet, so they’re retried later via backfill.</p>
+      </div>
+    </div>
   </div>
 
   <footer>
-    <a href="index.html">Back to tips</a>
+    <div class="footer-links">
+      <a href="index.html">Back to tips</a>
+      <span class="separator">|</span>
+      <a href="parks.html">Parks</a>
+      <span class="separator">|</span>
+      <a href="dining.html">Dining</a>
+      <span class="separator">|</span>
+      <a href="hotels.html">Hotels</a>
+      <span class="separator">|</span>
+      <a href="budget.html">Budget</a>
+      <span class="separator">|</span>
+      <a href="planning.html">Planning</a>
+      <span class="separator">|</span>
+      <a href="transportation.html">Transportation</a>
+    </div>
   </footer>
 </body>
 

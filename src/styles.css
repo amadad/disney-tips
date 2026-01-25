@@ -37,28 +37,28 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 4rem 1rem 2rem;
+  padding: 3rem 1rem 1.5rem;
 }
 
 .logo {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 0.35rem;
   display: inline-block;
   opacity: 0.9;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: var(--white);
   margin-bottom: 0.25rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 
 .subtitle {
   font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-muted);
   font-style: italic;
   font-weight: 400;
@@ -66,12 +66,14 @@ h1 {
 
 .stats {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
+  row-gap: 0.5rem;
   margin-top: 1.5rem;
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   color: var(--text-muted);
 }
 
@@ -94,7 +96,7 @@ h1 {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-family: 'Playfair Display', serif;
   background: transparent;
   color: var(--white);
@@ -115,12 +117,12 @@ h1 {
 .random-btn {
   display: block;
   margin: 1.5rem auto 0;
-  padding: 0.6rem 1.5rem;
+  padding: 0.55rem 1.4rem;
   background: transparent;
   border: 1px solid var(--soft-gold);
   color: var(--soft-gold);
   font-family: 'Lato', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -136,10 +138,10 @@ h1 {
 .filter-controls {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 2rem;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1.75rem;
 }
 
 /* View Toggle (Top Tips / All Tips) */
@@ -148,6 +150,35 @@ h1 {
   justify-content: center;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.filter-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.filters-toggle {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text-muted);
+  padding: 0.4rem 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.filters-toggle:hover {
+  border-color: var(--soft-gold);
+  color: var(--soft-gold);
+}
+
+.category-select {
+  display: none;
+  justify-content: center;
 }
 
 .view-btn {
@@ -191,11 +222,15 @@ h1 {
 }
 
 .secondary-filters {
-  display: flex;
-  gap: 2rem;
+  display: none;
+  gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.secondary-filters.open {
+  display: flex;
 }
 
 .filter-select {
@@ -274,12 +309,12 @@ h1 {
 
 .filter-count {
   font-size: 0.75rem;
-  opacity: 0.6;
+  color: var(--text-muted);
   margin-left: 0.25rem;
 }
 
 .filter-btn.active .filter-count {
-  opacity: 0.8;
+  color: var(--platinum);
 }
 
 .filtered-count {
@@ -294,15 +329,15 @@ h1 {
 .tips-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2.5rem;
+  gap: 2.25rem;
 }
 
 .tip-card {
   background: var(--card-bg);
-  padding: 1.5rem;
+  padding: 1.4rem;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: transform 0.4s ease, border-color 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease;
   position: relative;
 }
 
@@ -376,7 +411,7 @@ h1 {
 }
 
 .category-tag {
-  color: var(--disney-blue-light);
+  color: var(--soft-gold);
   font-weight: 700;
 }
 
@@ -502,28 +537,37 @@ footer {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.footer-links,
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem;
 }
 
 footer .separator {
   color: var(--text-muted);
   opacity: 0.3;
-  margin: 0 0.5rem;
+  margin: 0 0.25rem;
 }
 
 footer a {
   color: var(--text-muted);
   text-decoration: none;
-  opacity: 0.6;
-  transition: opacity 0.2s, color 0.2s;
+  transition: color 0.2s;
 }
 
 footer .footer-updated {
   color: var(--text-muted);
-  opacity: 0.6;
 }
 
 footer a:hover {
-  opacity: 1;
   color: var(--soft-gold);
 }
 
@@ -541,72 +585,76 @@ footer a:hover {
   100% { background-position: -200% 0; }
 }
 
-/* Pagination */
+/* Load More */
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   padding: 1rem 0;
 }
 
-.page-btn {
+.load-more {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text-muted);
-  padding: 0.5rem 0.75rem;
-  min-width: 40px;
+  padding: 0.6rem 1.6rem;
   font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 999px;
   transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.page-btn:hover:not(:disabled) {
+.load-more:hover {
   border-color: var(--soft-gold);
   color: var(--soft-gold);
 }
 
-.page-btn.active {
-  background: var(--soft-gold);
-  border-color: var(--soft-gold);
-  color: var(--bg-color);
-  font-weight: 700;
-}
-
-.page-btn:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-
-.page-ellipsis {
-  color: var(--text-muted);
-  padding: 0 0.25rem;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem 1.5rem;
+  }
+
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .stats {
+    gap: 1rem;
+    font-size: 0.75rem;
   }
 
   .container {
-    padding: 0 1.5rem 4rem;
+    padding: 0 1.25rem 3.5rem;
   }
 
   .filter-controls {
     gap: 1rem;
   }
 
+  .category-select {
+    display: flex;
+  }
+
+  .category-select .filter-select {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+
   .category-scroll {
     justify-content: flex-start;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    gap: 1.25rem;
   }
 
   .secondary-filters {
@@ -617,5 +665,82 @@ footer a:hover {
 
   .action-btn {
     opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.5rem 1rem 1.25rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .stats {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+
+  .search-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .search-box {
+    font-size: 1rem;
+  }
+
+  .random-btn {
+    width: 100%;
+  }
+
+  .view-toggle {
+    flex-wrap: wrap;
+  }
+
+  .view-btn {
+    flex: 1 1 140px;
+  }
+
+  .category-scroll {
+    display: none;
+  }
+
+  .secondary-filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .tip-card {
+    padding: 1.25rem;
+  }
+
+  .tip-text {
+    font-size: 1.1rem;
+  }
+
+  .tip-meta {
+    gap: 0.6rem;
+  }
+
+  .tip-source {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  footer {
+    padding: 3rem 1rem;
+    letter-spacing: 1px;
   }
 }

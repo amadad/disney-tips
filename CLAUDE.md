@@ -20,14 +20,13 @@ npm run preview    # Preview production build (localhost:4173)
 ## Hosting (Hetzner)
 
 - **Live site**: https://disney.bound.tips/
-- Static files served from `dist/` via the `disney-tips` nginx container
+- Static files served from `dist/` via bind mount to nginx container (auto-updates, no restart needed)
 - Pipeline runs daily at 6 AM UTC via cron
-- After changes: `npm run build` to update dist/
-- Restart container to refresh live: `docker restart disney-tips`
+- After manual changes: `npm run build` to update dist/
 
 ```bash
 # Cron job (already configured)
-0 6 * * * cd /home/deploy/projects/disney-tips && npm run pipeline >> /var/log/disney-tips.log 2>&1
+0 6 * * * cd /home/deploy/base/projects/disney-tips && source ~/.nvm/nvm.sh && npm run pipeline && npm run build >> /home/deploy/base/logs/disney-tips.log 2>&1
 ```
 
 ## Architecture
@@ -61,7 +60,7 @@ scripts/
 
 data/
   public/            # Deployed to production
-    tips.json        # Extracted structured tips (~1400 tips)
+    tips.json        # Extracted structured tips (~1700+ tips)
   pipeline/          # NOT deployed (repo-only)
     videos.json      # Raw video metadata + transcripts
     processed-videos.json  # Ledger of processed videos

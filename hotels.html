@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney Parks Tips: Hotels</title>
+  <meta name="description" content="Resort, room, and hotel tips for Disney stays.">
+
+  <!-- Open Graph (Facebook, iMessage, Slack, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://disney.bound.tips/hotels.html">
+  <meta property="og:title" content="Disney Parks Tips: Hotels">
+  <meta property="og:description" content="Resort, room, and hotel tips for Disney stays.">
+  <meta property="og:image" content="https://disney.bound.tips/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Disney Parks Tips: Hotels">
+  <meta name="twitter:description" content="Resort, room, and hotel tips for Disney stays.">
+  <meta name="twitter:image" content="https://disney.bound.tips/og-image.png">
+  <link rel="canonical" href="https://disney.bound.tips/hotels.html">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Disney Parks Tips: Hotels",
+      "url": "https://disney.bound.tips/hotels.html",
+      "description": "Resort, room, and hotel tips for Disney stays."
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css">
+  <style>
+    /* Critical CSS for above-the-fold content - prevents FOUC */
+    :root {
+      --bg-color: #021024;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --white: #ffffff;
+      --soft-gold: #fcd34d;
+    }
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: var(--white);
+      margin: 0 0 0.25rem;
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <div class="logo">🏰</div>
+      <h1>Disney Parks Tips</h1>
+      <p class="subtitle">Insider tips for your next adventure</p>
+      <div class="stats">
+        <span id="tip-count">Loading...</span>
+        <span id="last-updated"></span>
+        <span id="next-update"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="search-wrapper">
+      <input type="text" class="search-box" id="search" placeholder="Search the collection...">
+      <button id="random-tip-btn" class="random-btn" title="Show a random tip">Surprise Me</button>
+    </div>
+
+    <div class="filter-controls">
+      <div class="view-toggle" id="view-toggle">
+        <button class="view-btn active" data-view="top">Top Tips</button>
+        <button class="view-btn" data-view="all">All Tips</button>
+      </div>
+      <div class="filter-actions">
+        <button id="filters-toggle" class="filters-toggle" aria-expanded="false">More Filters</button>
+      </div>
+      <div class="category-select">
+        <select id="category-select" class="filter-select" aria-label="Filter by Category">
+          <option value="all">All Categories</option>
+        </select>
+      </div>
+      <div class="category-scroll" id="category-filters">
+        <!-- Categories injected here -->
+      </div>
+      <div class="secondary-filters" id="secondary-filters">
+        <select id="sort-select" class="filter-select" aria-label="Sort by">
+          <option value="newest">Newest First</option>
+          <option value="priority">Highest Priority</option>
+          <option value="oldest">Oldest First</option>
+        </select>
+        <select id="park-select" class="filter-select" aria-label="Filter by Park">
+          <option value="all">All Parks</option>
+        </select>
+        <select id="priority-select" class="filter-select" aria-label="Filter by Impact">
+          <option value="all">All Impact Levels</option>
+        </select>
+        <select id="season-select" class="filter-select" aria-label="Filter by Season">
+          <option value="all">Any Season</option>
+        </select>
+        <button id="clear-filters-btn" class="clear-btn" style="display: none;">Clear Filters</button>
+      </div>
+    </div>
+
+    <div class="filtered-count" id="filtered-count"></div>
+
+    <div class="tips-grid" id="tips-container">
+      <!-- Skeletons will be injected here by JS -->
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+      <div class="skeleton-card skeleton"></div>
+    </div>
+
+    <div id="pagination" class="pagination"></div>
+  </div>
+
+  <div id="toast" class="toast">Copied to clipboard</div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="about.html">How it works</a>
+      <span class="separator">|</span>
+      <a href="parks.html">Parks</a>
+      <span class="separator">|</span>
+      <a href="dining.html">Dining</a>
+      <span class="separator">|</span>
+      <a href="hotels.html">Hotels</a>
+      <span class="separator">|</span>
+      <a href="budget.html">Budget</a>
+      <span class="separator">|</span>
+      <a href="planning.html">Planning</a>
+      <span class="separator">|</span>
+      <a href="transportation.html">Transportation</a>
+    </div>
+    <div class="footer-meta">
+      <span id="footer-updated" class="footer-updated"></span>
+      <span class="separator">|</span>
+      <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, Inc 2026</a>
+    </div>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    if (!params.get('category')) {
+      params.set('category', 'hotels');
+      window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
+    }
+  </script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+  <script
+    src="https://js.sentry-cdn.com/76ba622be967c543f54eaff7b2034ad7.min.js"
+    crossorigin="anonymous"
+  ></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disney Parks Tips</title>
@@ -22,6 +26,20 @@
   <meta name="twitter:description" content="1000+ insider tips for Walt Disney World & Disneyland, updated daily from top YouTube creators.">
   <meta name="twitter:image" content="https://disney.bound.tips/og-image.png">
   <link rel="canonical" href="https://disney.bound.tips/">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Disney Parks Tips",
+      "url": "https://disney.bound.tips/",
+      "description": "Insider tips for Walt Disney World and Disneyland, updated daily from top creators.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://disney.bound.tips/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -58,6 +76,7 @@
 </head>
 
 <body>
+  <main>
   <div class="hero">
     <div class="hero-content">
       <div class="logo">🏰</div>
@@ -82,10 +101,18 @@
         <button class="view-btn active" data-view="top">Top Tips</button>
         <button class="view-btn" data-view="all">All Tips</button>
       </div>
+      <div class="filter-actions">
+        <button id="filters-toggle" class="filters-toggle" aria-expanded="false">More Filters</button>
+      </div>
+      <div class="category-select">
+        <select id="category-select" class="filter-select" aria-label="Filter by Category">
+          <option value="all">All Categories</option>
+        </select>
+      </div>
       <div class="category-scroll" id="category-filters">
         <!-- Categories injected here -->
       </div>
-      <div class="secondary-filters">
+      <div class="secondary-filters" id="secondary-filters">
         <select id="sort-select" class="filter-select" aria-label="Sort by">
           <option value="newest">Newest First</option>
           <option value="priority">Highest Priority</option>
@@ -120,13 +147,29 @@
   </div>
 
   <div id="toast" class="toast">Copied to clipboard</div>
+  </main>
 
   <footer>
-    <a href="about.html">How it works</a>
-    <span class="separator">|</span>
-    <span id="footer-updated" class="footer-updated"></span>
-    <span class="separator">|</span>
-    <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, Inc 2026</a>
+    <div class="footer-links">
+      <a href="about.html">How it works</a>
+      <span class="separator">|</span>
+      <a href="parks.html">Parks</a>
+      <span class="separator">|</span>
+      <a href="dining.html">Dining</a>
+      <span class="separator">|</span>
+      <a href="hotels.html">Hotels</a>
+      <span class="separator">|</span>
+      <a href="budget.html">Budget</a>
+      <span class="separator">|</span>
+      <a href="planning.html">Planning</a>
+      <span class="separator">|</span>
+      <a href="transportation.html">Transportation</a>
+    </div>
+    <div class="footer-meta">
+      <span id="footer-updated" class="footer-updated"></span>
+      <span class="separator">|</span>
+      <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, Inc 2026</a>
+    </div>
   </footer>
 
   <script type="module" src="/src/main.ts"></script>

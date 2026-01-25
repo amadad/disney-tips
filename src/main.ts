@@ -255,6 +255,16 @@ function getCategoryCounts(): Record<string, number> {
   return counts;
 }
 
+function updateFiltersToggle(): void {
+  const filtersToggle = document.getElementById('filters-toggle');
+  const secondaryFilters = document.getElementById('secondary-filters');
+  if (!filtersToggle || !secondaryFilters) return;
+
+  const isOpen = secondaryFilters.classList.contains('open');
+  filtersToggle.textContent = isOpen ? 'Hide Filters' : 'More Filters';
+  filtersToggle.setAttribute('aria-expanded', String(isOpen));
+}
+
 function renderFilters(): void {
   // Category filters (Buttons) with counts
   const categoryContainer = document.getElementById('category-filters')!;
@@ -267,6 +277,19 @@ function renderFilters(): void {
       ${cat.label} <span class="filter-count">${counts[cat.id] || 0}</span>
     </button>
   `).join('');
+
+  // Category dropdown (mobile)
+  const categorySelect = document.getElementById('category-select') as HTMLSelectElement | null;
+  if (categorySelect) {
+    categorySelect.innerHTML = CATEGORIES.map(cat => {
+      const count = counts[cat.id] || 0;
+      return `
+        <option value="${cat.id}" ${cat.id === currentCategory ? 'selected' : ''}>
+          ${cat.label} (${count})
+        </option>
+      `;
+    }).join('');
+  }
 
   // Priority filters (Select)
   const prioritySelect = document.getElementById('priority-select') as HTMLSelectElement;
@@ -303,6 +326,19 @@ function renderFilters(): void {
   if (clearBtn) {
     clearBtn.style.display = hasActiveFilters() ? 'inline-block' : 'none';
   }
+
+  const secondaryFilters = document.getElementById('secondary-filters');
+  if (secondaryFilters) {
+    const shouldOpen = currentPriority !== 'all' ||
+      currentSeason !== 'all' ||
+      currentPark !== 'all' ||
+      currentSort !== 'newest';
+    if (shouldOpen) {
+      secondaryFilters.classList.add('open');
+    }
+  }
+
+  updateFiltersToggle();
 }
 
 function setupFilterListeners(): void {
@@ -316,6 +352,18 @@ function setupFilterListeners(): void {
     renderFilters();
     renderTips();
   });
+
+  // Category dropdown (mobile)
+  const categorySelect = document.getElementById('category-select') as HTMLSelectElement | null;
+  if (categorySelect) {
+    categorySelect.addEventListener('change', (e) => {
+      currentCategory = (e.target as HTMLSelectElement).value;
+      currentPage = 1;
+      updateUrl();
+      renderFilters();
+      renderTips();
+    });
+  }
 
   // Priority change
   const prioritySelect = document.getElementById('priority-select') as HTMLSelectElement;
@@ -375,6 +423,16 @@ function setupFilterListeners(): void {
     });
   }
 
+  // Filters toggle
+  const filtersToggle = document.getElementById('filters-toggle');
+  const secondaryFilters = document.getElementById('secondary-filters');
+  if (filtersToggle && secondaryFilters) {
+    filtersToggle.addEventListener('click', () => {
+      secondaryFilters.classList.toggle('open');
+      updateFiltersToggle();
+    });
+  }
+
   // Sort change
   const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
   if (sortSelect) {
@@ -392,23 +450,13 @@ function setupFilterListeners(): void {
     clearBtn.addEventListener('click', clearAllFilters);
   }
 
-  // Pagination clicks (event delegation)
+  // Load more button
   document.getElementById('pagination')?.addEventListener('click', (e) => {
-    const btn = (e.target as HTMLElement).closest('[data-page]');
+    const btn = (e.target as HTMLElement).closest('#load-more');
     if (!btn) return;
-    const page = btn.getAttribute('data-page');
-    if (page === 'prev') {
-      currentPage = Math.max(1, currentPage - 1);
-    } else if (page === 'next') {
-      const filtered = filterTips();
-      const totalPages = Math.ceil(filtered.length / TIPS_PER_PAGE);
-      currentPage = Math.min(totalPages, currentPage + 1);
-    } else {
-      currentPage = parseInt(page!, 10);
-    }
+    currentPage += 1;
     updateUrl();
     renderTips();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   // Copy and Share button delegation with error handling
@@ -532,7 +580,7 @@ function renderTipCard(tip: Tip, options: { highlight?: boolean; searchQuery?: s
       <div class="tip-meta">
         <span class="tag category-tag ${tip.category}">${tip.category}</span>
         ${tip.park && tip.park !== 'all-parks' ? `<span class="tag park-tag">${PARK_LABELS[tip.park] || tip.park}</span>` : ''}
-        ${tip.tags.slice(0, 4).map(tag => `<span class="tag">${query ? highlightText(tag, query) : escapeHtml(tag)}</span>`).join('')}
+        ${tip.tags.slice(0, 2).map(tag => `<span class="tag">${query ? highlightText(tag, query) : escapeHtml(tag)}</span>`).join('')}
       </div>
       <div class="tip-source">
         From <a href="https://youtube.com/watch?v=${tip.source.videoId}" target="_blank" rel="noopener noreferrer">
@@ -544,86 +592,53 @@ function renderTipCard(tip: Tip, options: { highlight?: boolean; searchQuery?: s
   `;
 }
 
-function renderPagination(totalItems: number): void {
+function renderLoadMore(totalItems: number, visibleCount: number): void {
   const paginationEl = document.getElementById('pagination');
   if (!paginationEl) return;
 
-  const totalPages = Math.ceil(totalItems / TIPS_PER_PAGE);
-
-  if (totalPages <= 1) {
+  if (visibleCount >= totalItems) {
     paginationEl.innerHTML = '';
     return;
   }
 
-  // Ensure current page is valid
-  if (currentPage > totalPages) {
-    currentPage = totalPages;
-    updateUrl();
-  }
-
-  let pages: (number | string)[] = [];
-
-  // Build page numbers with ellipsis
-  if (totalPages <= 7) {
-    pages = Array.from({ length: totalPages }, (_, i) => i + 1);
-  } else {
-    if (currentPage <= 3) {
-      pages = [1, 2, 3, 4, '...', totalPages];
-    } else if (currentPage >= totalPages - 2) {
-      pages = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
-    } else {
-      pages = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
-    }
-  }
-
   paginationEl.innerHTML = `
-    <button class="page-btn" data-page="prev" ${currentPage === 1 ? 'disabled' : ''} aria-label="Previous page">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-    </button>
-    ${pages.map(p =>
-      p === '...'
-        ? '<span class="page-ellipsis">...</span>'
-        : `<button class="page-btn ${p === currentPage ? 'active' : ''}" data-page="${p}" aria-label="Page ${p}">${p}</button>`
-    ).join('')}
-    <button class="page-btn" data-page="next" ${currentPage === totalPages ? 'disabled' : ''} aria-label="Next page">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-    </button>
+    <button class="load-more" id="load-more">Load more tips</button>
   `;
 }
 
 function renderTips(): void {
   const container = document.getElementById('tips-container')!;
   const filtered = filterTips();
-  const totalPages = Math.ceil(filtered.length / TIPS_PER_PAGE);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / TIPS_PER_PAGE));
 
   // Clamp current page
-  if (currentPage > totalPages && totalPages > 0) {
+  if (currentPage > totalPages) {
     currentPage = totalPages;
+    updateUrl();
   }
 
-  // Paginate
-  const startIndex = (currentPage - 1) * TIPS_PER_PAGE;
-  const paginatedTips = filtered.slice(startIndex, startIndex + TIPS_PER_PAGE);
+  const visibleCount = Math.min(filtered.length, currentPage * TIPS_PER_PAGE);
+  const visibleTips = filtered.slice(0, visibleCount);
 
   // Update count
   const countEl = document.getElementById('filtered-count');
   if (countEl) {
-    if (totalPages > 1) {
-      countEl.textContent = `Showing ${startIndex + 1}-${Math.min(startIndex + TIPS_PER_PAGE, filtered.length)} of ${filtered.length} tips`;
+    if (filtered.length > 0) {
+      countEl.textContent = `Showing ${visibleCount} of ${filtered.length} tips`;
     } else {
-      countEl.textContent = `Showing ${filtered.length} tips`;
+      countEl.textContent = 'Showing 0 tips';
     }
   }
 
-  // Render pagination
-  renderPagination(filtered.length);
+  // Render load more button
+  renderLoadMore(filtered.length, visibleCount);
 
   if (filtered.length === 0) {
     container.innerHTML = '<div class="no-results">No tips found matching your criteria.</div>';
     return;
   }
 
-  container.innerHTML = paginatedTips.map(tip =>
+  container.innerHTML = visibleTips.map(tip =>
     renderTipCard(tip, { searchQuery })
   ).join('');
 }
