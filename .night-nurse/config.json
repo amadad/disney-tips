@@ -1,0 +1,12 @@
+{
+  "name": "web-disney",
+  "path": "/home/deploy/scty-repos/web-disney",
+  "agents": {
+    "review": "claude",
+    "implement": "claude"
+  },
+  "maxIterations": 25,
+  "priorities": {
+    "sources": ["sentry", "specs", "backlog"]
+  }
+}
