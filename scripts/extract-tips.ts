@@ -101,6 +101,16 @@ function escapeXml(value: string): string {
     .replace(/'/g, '&apos;');
 }
 
+function formatRfc822Date(isoDate: string): string {
+  const parsed = new Date(isoDate);
+  if (Number.isNaN(parsed.getTime())) {
+    log.warn(`Invalid date provided for RSS pubDate: "${isoDate}"`);
+    return new Date(0).toUTCString();
+  }
+
+  return parsed.toUTCString();
+}
+
 // Quality filter - returns true if tip should be KEPT
 function isHighQualityTip(text: string): boolean {
   const lowerText = text.toLowerCase();

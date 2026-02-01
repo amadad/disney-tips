@@ -240,3 +240,7 @@ Result: ✗ Error - Unknown error
 ### Iteration 1 - 06:16:45
 Task: 1.1 Add `escapeXml()` helper function to `extract-tips.ts` for XML character escaping
 Result: ✓ Complete
+
+### Iteration 2 - 06:17:05
+Task: 1.2 Add `formatRfc822Date()` helper to convert ISO dates to RFC 822 format
+Result: ✓ Complete
