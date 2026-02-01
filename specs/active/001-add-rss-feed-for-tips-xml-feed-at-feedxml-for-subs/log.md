@@ -260,3 +260,7 @@ Result: ✓ Complete
 ### Iteration 6 - 06:22:33
 Task: 2.2 Add channel image element with Disney castle or site logo
 Result: ✓ Complete
+
+### Iteration 7 - 06:23:34
+Task: 2.3 Slice tips array to 50 most recent (already sorted by date)
+Result: ✓ Complete

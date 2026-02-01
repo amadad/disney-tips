@@ -577,6 +577,8 @@ async function main() {
       link: siteUrl
     }
   };
+  // Limit RSS feed to 50 most recent tips (already sorted by date).
+  const rssTips = dedupedTips.slice(0, 50);
   const rssFeed = generateRssFeed(rssChannel, []);
   writeFileSync('data/public/feed.xml', rssFeed);
 
