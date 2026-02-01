@@ -4,6 +4,7 @@ import { GoogleGenAI, Type } from '@google/genai';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
+import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -579,7 +580,24 @@ async function main() {
   };
   // Limit RSS feed to 50 most recent tips (already sorted by date).
   const rssTips = dedupedTips.slice(0, 50);
-  const rssFeed = generateRssFeed(rssChannel, []);
+  const rssItems: RssItem[] = rssTips.map((tip) => {
+    const title = tip.text.length > 100 ? `${tip.text.slice(0, 97)}...` : tip.text;
+    const priorityLabel = `${tip.priority.slice(0, 1).toUpperCase()}${tip.priority.slice(1)}`;
+    return {
+      title,
+      link: `https://www.youtube.com/watch?v=${tip.source.videoId}`,
+      description: `${tip.text} (Source: ${tip.source.channelName})`,
+      pubDate: formatRfc822Date(tip.source.publishedAt),
+      guid: tip.id,
+      guidIsPermaLink: false,
+      categories: [
+        CATEGORY_LABELS[tip.category],
+        PARK_LABELS[tip.park],
+        priorityLabel
+      ]
+    };
+  });
+  const rssFeed = generateRssFeed(rssChannel, rssItems);
   writeFileSync('data/public/feed.xml', rssFeed);
 
   const health = {
