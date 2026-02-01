@@ -563,6 +563,16 @@ async function main() {
 
   writeFileSync('data/public/tips.json', JSON.stringify(data, null, 2));
 
+  const siteUrl = process.env.SITE_URL || 'https://disney.bound.tips';
+  const rssChannel: RssChannel = {
+    title: 'Disney Tips - bound.tips',
+    link: siteUrl,
+    description: 'Daily Disney tips extracted from top YouTube channels',
+    lastBuildDate: formatRfc822Date(data.lastUpdated)
+  };
+  const rssFeed = generateRssFeed(rssChannel, []);
+  writeFileSync('data/public/feed.xml', rssFeed);
+
   const health = {
     status: 'ok',
     lastUpdated: data.lastUpdated,
@@ -570,7 +580,6 @@ async function main() {
   };
   writeFileSync('data/public/health.json', JSON.stringify(health, null, 2));
 
-  const siteUrl = process.env.SITE_URL || 'https://disney.bound.tips';
   const lastmod = data.lastUpdated.split('T')[0];
   const pages = [
     '',

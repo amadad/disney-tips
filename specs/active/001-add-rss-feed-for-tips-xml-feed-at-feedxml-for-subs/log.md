@@ -248,3 +248,7 @@ Result: ✓ Complete
 ### Iteration 3 - 06:19:14
 Task: 1.3 Add `generateRssFeed()` function that builds RSS 2.0 XML string
 Result: ✓ Complete
+
+### Iteration 4 - 06:21:32
+Task: 1.4 Call `generateRssFeed()` after tips are saved, write to `data/public/feed.xml`
+Result: ✓ Complete
