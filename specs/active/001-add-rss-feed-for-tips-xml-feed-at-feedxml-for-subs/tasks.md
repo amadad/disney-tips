@@ -10,7 +10,7 @@
 
 ## 2. Feed Content
 
-- [ ] 2.1 Build channel element with title, link, description, language, ttl, lastBuildDate
+- [x] 2.1 Build channel element with title, link, description, language, ttl, lastBuildDate
 - [ ] 2.2 Add channel image element with Disney castle or site logo
 - [ ] 2.3 Slice tips array to 50 most recent (already sorted by date)
 - [ ] 2.4 Build item elements with title, link, description, pubDate, guid, categories

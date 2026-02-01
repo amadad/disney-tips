@@ -252,3 +252,7 @@ Result: ✓ Complete
 ### Iteration 4 - 06:21:32
 Task: 1.4 Call `generateRssFeed()` after tips are saved, write to `data/public/feed.xml`
 Result: ✓ Complete
+
+### Iteration 5 - 06:21:59
+Task: 2.1 Build channel element with title, link, description, language, ttl, lastBuildDate
+Result: ✓ Complete

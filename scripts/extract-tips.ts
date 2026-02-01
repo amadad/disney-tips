@@ -568,6 +568,8 @@ async function main() {
     title: 'Disney Tips - bound.tips',
     link: siteUrl,
     description: 'Daily Disney tips extracted from top YouTube channels',
+    language: 'en-us',
+    ttl: 1440,
     lastBuildDate: formatRfc822Date(data.lastUpdated)
   };
   const rssFeed = generateRssFeed(rssChannel, []);
