@@ -5,7 +5,7 @@
 
 - [x] 1.1 Add `escapeXml()` helper function to `extract-tips.ts` for XML character escaping
 - [x] 1.2 Add `formatRfc822Date()` helper to convert ISO dates to RFC 822 format
-- [ ] 1.3 Add `generateRssFeed()` function that builds RSS 2.0 XML string
+- [x] 1.3 Add `generateRssFeed()` function that builds RSS 2.0 XML string
 - [ ] 1.4 Call `generateRssFeed()` after tips are saved, write to `data/public/feed.xml`
 
 ## 2. Feed Content

@@ -111,6 +111,87 @@ function formatRfc822Date(isoDate: string): string {
   return parsed.toUTCString();
 }
 
+interface RssChannel {
+  title: string;
+  link: string;
+  description: string;
+  lastBuildDate: string;
+  language?: string;
+  ttl?: number;
+  image?: {
+    url: string;
+    title: string;
+    link: string;
+  };
+}
+
+interface RssItem {
+  title: string;
+  link: string;
+  description: string;
+  pubDate: string;
+  guid: string;
+  categories?: string[];
+  guidIsPermaLink?: boolean;
+}
+
+function generateRssFeed(channel: RssChannel, items: RssItem[]): string {
+  const channelParts = [
+    `    <title>${escapeXml(channel.title)}</title>`,
+    `    <link>${escapeXml(channel.link)}</link>`,
+    `    <description>${escapeXml(channel.description)}</description>`,
+    `    <lastBuildDate>${escapeXml(channel.lastBuildDate)}</lastBuildDate>`
+  ];
+
+  if (channel.language) {
+    channelParts.push(`    <language>${escapeXml(channel.language)}</language>`);
+  }
+
+  if (typeof channel.ttl === 'number') {
+    channelParts.push(`    <ttl>${channel.ttl}</ttl>`);
+  }
+
+  if (channel.image) {
+    const imageXml = [
+      '    <image>',
+      `      <url>${escapeXml(channel.image.url)}</url>`,
+      `      <title>${escapeXml(channel.image.title)}</title>`,
+      `      <link>${escapeXml(channel.image.link)}</link>`,
+      '    </image>'
+    ].join('\n');
+    channelParts.push(imageXml);
+  }
+
+  const itemXml = items.map((item) => {
+    const categories = item.categories ?? [];
+    const categoryXml = categories.map(category =>
+      `      <category>${escapeXml(category)}</category>`
+    ).join('\n');
+    const guidIsPermaLink = item.guidIsPermaLink ? 'true' : 'false';
+    const lines = [
+      '    <item>',
+      `      <title>${escapeXml(item.title)}</title>`,
+      `      <link>${escapeXml(item.link)}</link>`,
+      `      <description>${escapeXml(item.description)}</description>`,
+      `      <pubDate>${escapeXml(item.pubDate)}</pubDate>`,
+      `      <guid isPermaLink="${guidIsPermaLink}">${escapeXml(item.guid)}</guid>`
+    ];
+    if (categoryXml) {
+      lines.push(categoryXml);
+    }
+    lines.push('    </item>');
+    return lines.join('\n');
+  });
+
+  if (itemXml.length > 0) {
+    channelParts.push(itemXml.join('\n'));
+  }
+
+  const channelXml = `  <channel>\n${channelParts.join('\n')}\n  </channel>`;
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n${channelXml}\n</rss>\n`;
+}
+
 // Quality filter - returns true if tip should be KEPT
 function isHighQualityTip(text: string): boolean {
   const lowerText = text.toLowerCase();
