@@ -3,7 +3,7 @@
   "path": "/home/deploy/scty-repos/web-disney",
   "agents": {
     "review": "claude",
-    "implement": "claude"
+    "implement": "codex"
   },
   "maxIterations": 25,
   "priorities": {

@@ -92,6 +92,15 @@ function normalizePark(park: string): Park {
   return 'all-parks';
 }
 
+function escapeXml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 // Quality filter - returns true if tip should be KEPT
 function isHighQualityTip(text: string): boolean {
   const lowerText = text.toLowerCase();
