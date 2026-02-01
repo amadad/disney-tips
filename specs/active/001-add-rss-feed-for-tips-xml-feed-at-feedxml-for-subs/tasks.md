@@ -19,7 +19,7 @@
 
 - [x] 3.1 Run `npm run extract` and verify `data/public/feed.xml` is created
 - [x] 3.2 Validate feed XML using online validator (e.g., validator.w3.org/feed)
-- [ ] 3.3 Run `npm run build` and verify `dist/feed.xml` exists
+- [x] 3.3 Run `npm run build` and verify `dist/feed.xml` exists
 - [ ] 3.4 Test feed in an RSS reader (Feedly or browser RSS extension)
 
 ## 4. Documentation
