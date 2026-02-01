@@ -570,7 +570,12 @@ async function main() {
     description: 'Daily Disney tips extracted from top YouTube channels',
     language: 'en-us',
     ttl: 1440,
-    lastBuildDate: formatRfc822Date(data.lastUpdated)
+    lastBuildDate: formatRfc822Date(data.lastUpdated),
+    image: {
+      url: `${siteUrl}/og-image.png`,
+      title: 'Disney Tips - bound.tips',
+      link: siteUrl
+    }
   };
   const rssFeed = generateRssFeed(rssChannel, []);
   writeFileSync('data/public/feed.xml', rssFeed);
