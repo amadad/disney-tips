@@ -32,4 +32,8 @@
     <loc>https://disney.bound.tips/transportation.html</loc>
     <lastmod>2026-02-01</lastmod>
   </url>
+  <url>
+    <loc>https://disney.bound.tips/feed.xml</loc>
+    <lastmod>2026-02-01</lastmod>
+  </url>
 </urlset>

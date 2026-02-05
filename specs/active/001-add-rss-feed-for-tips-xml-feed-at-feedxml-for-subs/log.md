@@ -284,3 +284,7 @@ Result: ✓ Complete
 ### Iteration 1 - 04:42:48
 Task: 3.4 Test feed in an RSS reader (Feedly or browser RSS extension)
 Result: ✓ Complete
+
+### Iteration 2 - 04:43:18
+Task: 4.1 Add feed.xml to sitemap if desired (optional, feeds usually not in sitemaps)
+Result: ✓ Complete
