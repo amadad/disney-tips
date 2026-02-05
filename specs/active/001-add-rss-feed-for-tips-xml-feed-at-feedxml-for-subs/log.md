@@ -288,3 +288,7 @@ Result: ✓ Complete
 ### Iteration 2 - 04:43:18
 Task: 4.1 Add feed.xml to sitemap if desired (optional, feeds usually not in sitemaps)
 Result: ✓ Complete
+
+### Iteration 3 - 04:43:36
+Task: 4.2 Update CLAUDE.md to document feed.xml generation in Architecture section
+Result: ✓ Complete

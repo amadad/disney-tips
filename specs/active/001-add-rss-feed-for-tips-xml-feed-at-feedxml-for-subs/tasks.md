@@ -25,4 +25,4 @@
 ## 4. Documentation
 
 - [x] 4.1 Add feed.xml to sitemap if desired (optional, feeds usually not in sitemaps)
-- [ ] 4.2 Update CLAUDE.md to document feed.xml generation in Architecture section
+- [x] 4.2 Update CLAUDE.md to document feed.xml generation in Architecture section
