@@ -39,6 +39,7 @@ This is a **batch-first, static-second** Disney tips aggregator:
    - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
    - Filters out non-Disney content (Universal, generic travel)
    - Saves results to `data/`
+   - Generates RSS feed at `data/public/feed.xml` from the latest 50 tips
 
 2. **Frontend** (`src/`, `index.html`) - Minimal Vite static site
    - Loads pre-computed `data/public/tips.json`
@@ -61,6 +62,7 @@ scripts/
 data/
   public/            # Deployed to production
     tips.json        # Extracted structured tips (~1700+ tips)
+    feed.xml         # RSS 2.0 feed generated from latest tips
   pipeline/          # NOT deployed (repo-only)
     videos.json      # Raw video metadata + transcripts
     processed-videos.json  # Ledger of processed videos

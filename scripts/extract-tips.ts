@@ -4,6 +4,7 @@ import { GoogleGenAI, Type } from '@google/genai';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
+import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -90,6 +91,106 @@ function normalizePark(park: string): Park {
   // Default to 'all-parks' for unknown parks
   log.debug(`Unknown park "${park}", defaulting to "all-parks"`);
   return 'all-parks';
+}
+
+function escapeXml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function formatRfc822Date(isoDate: string): string {
+  const parsed = new Date(isoDate);
+  if (Number.isNaN(parsed.getTime())) {
+    log.warn(`Invalid date provided for RSS pubDate: "${isoDate}"`);
+    return new Date(0).toUTCString();
+  }
+
+  return parsed.toUTCString();
+}
+
+interface RssChannel {
+  title: string;
+  link: string;
+  description: string;
+  lastBuildDate: string;
+  language?: string;
+  ttl?: number;
+  image?: {
+    url: string;
+    title: string;
+    link: string;
+  };
+}
+
+interface RssItem {
+  title: string;
+  link: string;
+  description: string;
+  pubDate: string;
+  guid: string;
+  categories?: string[];
+  guidIsPermaLink?: boolean;
+}
+
+function generateRssFeed(channel: RssChannel, items: RssItem[]): string {
+  const channelParts = [
+    `    <title>${escapeXml(channel.title)}</title>`,
+    `    <link>${escapeXml(channel.link)}</link>`,
+    `    <description>${escapeXml(channel.description)}</description>`,
+    `    <lastBuildDate>${escapeXml(channel.lastBuildDate)}</lastBuildDate>`
+  ];
+
+  if (channel.language) {
+    channelParts.push(`    <language>${escapeXml(channel.language)}</language>`);
+  }
+
+  if (typeof channel.ttl === 'number') {
+    channelParts.push(`    <ttl>${channel.ttl}</ttl>`);
+  }
+
+  if (channel.image) {
+    const imageXml = [
+      '    <image>',
+      `      <url>${escapeXml(channel.image.url)}</url>`,
+      `      <title>${escapeXml(channel.image.title)}</title>`,
+      `      <link>${escapeXml(channel.image.link)}</link>`,
+      '    </image>'
+    ].join('\n');
+    channelParts.push(imageXml);
+  }
+
+  const itemXml = items.map((item) => {
+    const categories = item.categories ?? [];
+    const categoryXml = categories.map(category =>
+      `      <category>${escapeXml(category)}</category>`
+    ).join('\n');
+    const guidIsPermaLink = item.guidIsPermaLink ? 'true' : 'false';
+    const lines = [
+      '    <item>',
+      `      <title>${escapeXml(item.title)}</title>`,
+      `      <link>${escapeXml(item.link)}</link>`,
+      `      <description>${escapeXml(item.description)}</description>`,
+      `      <pubDate>${escapeXml(item.pubDate)}</pubDate>`,
+      `      <guid isPermaLink="${guidIsPermaLink}">${escapeXml(item.guid)}</guid>`
+    ];
+    if (categoryXml) {
+      lines.push(categoryXml);
+    }
+    lines.push('    </item>');
+    return lines.join('\n');
+  });
+
+  if (itemXml.length > 0) {
+    channelParts.push(itemXml.join('\n'));
+  }
+
+  const channelXml = `  <channel>\n${channelParts.join('\n')}\n  </channel>`;
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n${channelXml}\n</rss>\n`;
 }
 
 // Quality filter - returns true if tip should be KEPT
@@ -463,6 +564,42 @@ async function main() {
 
   writeFileSync('data/public/tips.json', JSON.stringify(data, null, 2));
 
+  const siteUrl = process.env.SITE_URL || 'https://disney.bound.tips';
+  const rssChannel: RssChannel = {
+    title: 'Disney Tips - bound.tips',
+    link: siteUrl,
+    description: 'Daily Disney tips extracted from top YouTube channels',
+    language: 'en-us',
+    ttl: 1440,
+    lastBuildDate: formatRfc822Date(data.lastUpdated),
+    image: {
+      url: `${siteUrl}/og-image.png`,
+      title: 'Disney Tips - bound.tips',
+      link: siteUrl
+    }
+  };
+  // Limit RSS feed to 50 most recent tips (already sorted by date).
+  const rssTips = dedupedTips.slice(0, 50);
+  const rssItems: RssItem[] = rssTips.map((tip) => {
+    const title = tip.text.length > 100 ? `${tip.text.slice(0, 97)}...` : tip.text;
+    const priorityLabel = `${tip.priority.slice(0, 1).toUpperCase()}${tip.priority.slice(1)}`;
+    return {
+      title,
+      link: `https://www.youtube.com/watch?v=${tip.source.videoId}`,
+      description: `${tip.text} (Source: ${tip.source.channelName})`,
+      pubDate: formatRfc822Date(tip.source.publishedAt),
+      guid: tip.id,
+      guidIsPermaLink: false,
+      categories: [
+        CATEGORY_LABELS[tip.category],
+        PARK_LABELS[tip.park],
+        priorityLabel
+      ]
+    };
+  });
+  const rssFeed = generateRssFeed(rssChannel, rssItems);
+  writeFileSync('data/public/feed.xml', rssFeed);
+
   const health = {
     status: 'ok',
     lastUpdated: data.lastUpdated,
@@ -470,7 +607,6 @@ async function main() {
   };
   writeFileSync('data/public/health.json', JSON.stringify(health, null, 2));
 
-  const siteUrl = process.env.SITE_URL || 'https://disney.bound.tips';
   const lastmod = data.lastUpdated.split('T')[0];
   const pages = [
     '',
