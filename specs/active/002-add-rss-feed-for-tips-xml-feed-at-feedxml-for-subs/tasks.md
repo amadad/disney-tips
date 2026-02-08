@@ -8,7 +8,7 @@
 
 ## 2. Visible Footer Link
 
-- [ ] 2.1 Add RSS link/icon to the footer section in `src/main.ts`
+- [x] 2.1 Add RSS link/icon to the footer section in `src/main.ts`
 - [ ] 2.2 Style the RSS link to match existing footer aesthetic in `src/styles.css`
 
 ## 3. Validation

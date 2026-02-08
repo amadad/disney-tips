@@ -6,3 +6,7 @@
 ### Iteration 1 - 04:19:26
 Task: 1.1 Add `<link rel="alternate" type="application/rss+xml" title="Disney Tips RSS Feed" href="/feed.xml">` to `index.html` `<head>`
 Result: ✓ Complete
+
+### Iteration 2 - 04:20:12
+Task: 2.1 Add RSS link/icon to the footer section in `src/main.ts`
+Result: ✓ Complete

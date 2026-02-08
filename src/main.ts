@@ -679,6 +679,7 @@ function showRandomTip(): void {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  setupFooterRssLink();
   loadTips();
   setupFilterListeners();
 
@@ -797,4 +798,23 @@ function copyShareLink(url: string): void {
   copyToClipboard(url).then(success => {
     showToast(success ? 'Link copied!' : 'Failed to copy link');
   });
+}
+
+function setupFooterRssLink(): void {
+  const footerMeta = document.querySelector('.footer-meta');
+  if (!footerMeta || footerMeta.querySelector('.rss-link')) return;
+
+  const separator = document.createElement('span');
+  separator.className = 'separator';
+  separator.textContent = '|';
+
+  const rssLink = document.createElement('a');
+  rssLink.href = '/feed.xml';
+  rssLink.target = '_blank';
+  rssLink.rel = 'noopener noreferrer';
+  rssLink.className = 'rss-link';
+  rssLink.setAttribute('aria-label', 'RSS Feed');
+  rssLink.textContent = 'RSS Feed';
+
+  footerMeta.append(separator, rssLink);
 }
