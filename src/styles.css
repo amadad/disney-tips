@@ -563,6 +563,26 @@ footer a {
   transition: color 0.2s;
 }
 
+footer a.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+footer a.rss-link::before {
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 2px;
+  background-color: #f97316;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.5' stroke-linecap='round'%3E%3Ccircle cx='6' cy='18' r='1.4' fill='%23fff' stroke='none'/%3E%3Cpath d='M4.5 11.5A8 8 0 0 1 12.5 19.5'/%3E%3Cpath d='M4.5 5.5A14 14 0 0 1 18.5 19.5'/%3E%3C/svg%3E");
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
 footer .footer-updated {
   color: var(--text-muted);
 }
