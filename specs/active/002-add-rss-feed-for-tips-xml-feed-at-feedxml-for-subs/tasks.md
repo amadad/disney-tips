@@ -13,7 +13,7 @@
 
 ## 3. Validation
 
-- [ ] 3.1 Run `npm run build` and verify `dist/index.html` contains the `<link rel="alternate">` tag
+- [x] 3.1 Run `npm run build` and verify `dist/index.html` contains the `<link rel="alternate">` tag
 - [ ] 3.2 Verify RSS link renders correctly in the footer at `localhost:5173` via `npm run dev`
 - [ ] 3.3 Verify `/feed.xml` loads when clicking the footer link
 ```

@@ -14,3 +14,7 @@ Result: ✓ Complete
 ### Iteration 3 - 04:20:41
 Task: 2.2 Style the RSS link to match existing footer aesthetic in `src/styles.css`
 Result: ✓ Complete
+
+### Iteration 4 - 04:20:51
+Task: 3.1 Run `npm run build` and verify `dist/index.html` contains the `<link rel="alternate">` tag
+Result: ✓ Complete
