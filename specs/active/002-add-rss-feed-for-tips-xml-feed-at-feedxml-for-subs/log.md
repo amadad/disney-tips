@@ -18,3 +18,7 @@ Result: ✓ Complete
 ### Iteration 4 - 04:20:51
 Task: 3.1 Run `npm run build` and verify `dist/index.html` contains the `<link rel="alternate">` tag
 Result: ✓ Complete
+
+### Iteration 1 - 04:08:03
+Task: 3.2 Verify RSS link renders correctly in the footer at `localhost:5173` via `npm run dev`
+Result: ✓ Complete
