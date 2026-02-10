@@ -1,7 +1,2312 @@
 {
-  "lastUpdated": "2026-02-01T06:24:40.969Z",
-  "totalTips": 1831,
+  "lastUpdated": "2026-02-10T04:23:36.488Z",
+  "lastChecked": "2026-02-10T04:23:36.488Z",
+  "totalTips": 1950,
   "tips": [
+    {
+      "id": "eca658d6-bb7d-4fab-a729-79ffe1e7059d",
+      "text": "Avoid talking too loudly about behind-the-scenes facts within earshot of other guests, especially children, to maintain the magic for them.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "guest-etiquette"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "9iKx_9rtFks",
+        "channelName": "AllEars.net",
+        "videoTitle": "Things in Disney World That Should Be ILLEGAL 🚨",
+        "publishedAt": "2026-02-09T19:45:00+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:20.143Z"
+    },
+    {
+      "id": "8dbea83c-418b-44e5-9d23-20ae7be52fe4",
+      "text": "Do not force children onto rides if they seem apprehensive, as their perception of scariness differs from adults'.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "guest-etiquette",
+        "family-tips"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "9iKx_9rtFks",
+        "channelName": "AllEars.net",
+        "videoTitle": "Things in Disney World That Should Be ILLEGAL 🚨",
+        "publishedAt": "2026-02-09T19:45:00+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:20.143Z"
+    },
+    {
+      "id": "b35ba093-6d86-402b-9433-56ad2faffc0d",
+      "text": "Do not use flash photos or videos on dark rides, as this violates an official rule and can ruin the ride's effects and illusion for others.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "guest-etiquette",
+        "ride-experience",
+        "official-rule"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "9iKx_9rtFks",
+        "channelName": "AllEars.net",
+        "videoTitle": "Things in Disney World That Should Be ILLEGAL 🚨",
+        "publishedAt": "2026-02-09T19:45:00+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:20.143Z"
+    },
+    {
+      "id": "1a7e1d61-187e-463b-888d-8d2d5d93231d",
+      "text": "Grab the Wilderness Explorers activity book near the park entrance to engage children in learning about the park's animals and plants.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kids",
+        "activities",
+        "learning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "4c8fb2a0-9b7b-45e9-a7b2-18cd3228f434",
+      "text": "Mobile order breakfast at Satu'li Canteen before 10:00 a.m. to ensure you can get your desired meal.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "mobile-order",
+        "breakfast",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "794bb62f-ad30-4ac8-9a66-588e10661342",
+      "text": "Ask a Cast Member at Satu'li Canteen for to-go boxes to transfer your mobile order food into, and then get your plastic ware from a nearby quick-service spot.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "mobile-order",
+        "takeaway",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "9bbb83df-4ee3-48c6-894e-5ef43c3a0eaf",
+      "text": "Consider purchasing a single rider pass for Expedition Everest to save time, as it significantly reduces wait times.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "single-rider",
+        "wait-times",
+        "expedition-everest"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "ab379e69-9c32-4fc8-8a34-9efeb9d54f5b",
+      "text": "If visiting Animal Kingdom during the 'slow season' without early entry, consider purchasing a single Lightning Lane pass for popular rides like Flight of Passage to save time.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "slow-season"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "c0ccb285-a048-4118-81d6-875cda3346ed",
+      "text": "The Frozen Lemonade Cappuccino at Pomatoka is an extra delicious beverage to enjoy while in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drinks",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "4ffb8e9d-1a24-4d91-a421-33c3f035c1af",
+      "text": "Dinoland U.S.A. in Animal Kingdom is permanently closing and will not be available for visits.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "closures",
+        "dinoland-usa"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "ebda2571-e609-423c-bcfd-91150f46ad02",
+      "text": "If the weather is cool and breezy, consider skipping Kali River Rapids, as it may be too cold to enjoy getting wet.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kali-river-rapids",
+        "weather",
+        "strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "16d23383-73a7-458c-ab0a-fe75fc962bb0",
+      "text": "Animal Kingdom remains worth visiting in 2026, even with ongoing construction, as key areas like Pandora and Africa offer a full experience.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "planning",
+        "construction",
+        "future-visits"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "dbfab05c-71e7-4b21-b89a-73273bbfb4ef",
+      "text": "During slower seasons, it's possible to enjoy Animal Kingdom and ride most attractions without purchasing many Lightning Lanes, especially if utilizing early entry.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "planning",
+        "lightning-lane",
+        "early-entry",
+        "slow-season"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "qpw-f0qRXj0",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "2026 🐯 Is Animal Kingdom Open? | Winter at Disney Day 2",
+        "publishedAt": "2026-02-09T19:00:58+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.095Z"
+    },
+    {
+      "id": "ff2ed8eb-d580-487b-a11c-c260e8c657fa",
+      "text": "To see backstage areas, book official Disney tours like Keys to the Kingdom at Magic Kingdom or Wild Africa Trek at Animal Kingdom.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "behind-the-scenes",
+        "tours"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "3449e95f-3ab4-4c79-a94b-522d11c8d366",
+      "text": "Research ride height requirements before your trip to avoid disappointment and ensure your children can ride.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "kids",
+        "planning",
+        "safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "d68cea8e-1015-4521-a6e6-1e80a93cc684",
+      "text": "Utilize Rider Switch for any group member who cannot or does not want to ride an attraction, so they don't have to wait alone.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "wait-times",
+        "accessibility",
+        "families"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "6941e5e9-facd-4e8d-b4f0-5aa836d18b06",
+      "text": "When attending special events like parties or extended evening hours, wear your required wristband visibly to avoid being escorted from the park.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "events",
+        "planning",
+        "entry-requirements"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "20b01363-9c91-4653-8c59-37a4932ace35",
+      "text": "Refrain from reciting ride pre-show dialogue out loud, even if you know it by heart, to avoid annoyance for other guests.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "etiquette",
+        "attractions"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "a486a964-318c-4f02-abd0-dc338b578841",
+      "text": "Do not feed the wildlife in the parks, as it is against Disney rules and harmful to the animals' health and behavior.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "wildlife",
+        "rules"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "bac692ee-ce88-4139-982e-8fd3f4c3db9f",
+      "text": "Ask cast members for directions or help with Lightning Lane selections, as they are trained and eager to assist.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "customer-service",
+        "lightning-lane",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "54709c71-35b7-4fec-b503-f89a29aa90bf",
+      "text": "Engage with Epcot's cultural representatives to learn about their home countries, including dining recommendations and local customs.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "world-showcase",
+        "cultural-representatives",
+        "dining-recommendations"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "8b5c5961-9424-4008-a687-5b10e1765f0e",
+      "text": "Cancel dining reservations at least two hours in advance via the My Disney Experience app or by calling to avoid a $10 per person no-show fee.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "budget",
+        "app-usage"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "d97d8afb-41bb-4f78-9476-66746cd4a5ff",
+      "text": "Designated smoking areas are now located outside the parks; check the My Disney Experience app's guest services filter for locations.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "smoking-areas",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "91dcca4a-7cc5-46ea-b5e0-c99ad6b9dc4c",
+      "text": "Stay within designated taped-off areas during parades and fireworks to keep walkways clear for traffic and emergency access.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "parades",
+        "fireworks",
+        "safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "79dee2e5-030e-4de4-8e12-444cf2825b83",
+      "text": "If you need over-the-counter medication while at your resort, check the gift shop, though prices will be slightly elevated.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "medication",
+        "resorts",
+        "budget"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "4fa8d587-62ae-4ff6-82a0-4ad2f2649734",
+      "text": "Do not walk barefoot in public Disney spaces like buses or hotel lobbies; save that for your hotel room.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "dress-code",
+        "etiquette",
+        "resorts"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "dcbf441e-9129-4bea-ac2b-83057cedf46d",
+      "text": "When checking in for a table-service meal, you can request a specific table (e.g., with a fireworks view), but it is not guaranteed.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "requests"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "4df5e8f5-3f88-4322-9792-18ce8c140da5",
+      "text": "For guaranteed fireworks views, book dining at restaurants like California Grill at the Contemporary Resort, which has a dedicated viewing area.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "fireworks-view",
+        "california-grill",
+        "contemporary-resort"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "5f0e3410-6a93-4c94-a01d-7f47250cda72",
+      "text": "Have your food and payment ready before reaching the register at Epcot festival booths and quick-service locations to expedite your order.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "epcot-festivals",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "bfe741dd-e0ab-4942-8d88-ac4253be2f6a",
+      "text": "Do not bring outside alcohol, foods in glass containers (except baby food), foods requiring heating/refrigeration, or pungent foods into the parks.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "outside-food",
+        "rules",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "01e9d3f1-6e50-4cfc-b366-216f1aadded6",
+      "text": "To skip attraction queues, utilize the Lightning Lane service or the single rider option where available.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "single-rider",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "30dc8599-a39f-4834-a534-4b622cb2ae75",
+      "text": "Limit yourself to two alcoholic beverages per transaction at quick-service locations and Epcot festival booths to encourage responsible consumption.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "alcohol",
+        "responsible-drinking",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "cc0fe399-5d71-4ce5-8373-43f6e847c097",
+      "text": "Do not save seats at quick-service restaurants if you do not have your food yet; wait until you have your tray to claim a table.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "etiquette",
+        "dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "41185736-72c7-47d5-b6f6-61c1c15a54ec",
+      "text": "Refrain from using flash photography on rides, as it can ruin other guests' experiences, affect performers, and potentially damage attractions; use the PhotoPass system instead.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "photography",
+        "attractions",
+        "photo-pass"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "9c8c5efd-746e-4000-955a-20d2187ede64",
+      "text": "Keep all body parts inside the ride vehicle at all times and avoid attempting to stand up or drop items onto the track to prevent ride stoppages and ensure safety.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "safety",
+        "ride-rules"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "9a19a544-7448-4a6e-9b16-3fd91de26490",
+      "text": "Always ask permission before attempting to trade pins with a cast member, and adhere to the limit of two trades per person per cast member.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "pin-trading",
+        "etiquette"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "0a8a8a19-a0fe-4d69-becc-e2a40f726164",
+      "text": "Send cast compliments via the My Disney Experience app for cast members who go above and beyond, potentially allowing them to name a food cart.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "customer-service",
+        "app-usage",
+        "recognition"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "0aa1bf97-74ff-477e-a6d7-cbc3c29a0698",
+      "text": "Always ask permission before petting a service animal, even if they have a cast member name tag, as they are still working.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "service-animals",
+        "etiquette"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "03df5f2a-aed8-489d-9e11-d5afcd3de5de",
+      "text": "Do not use trash can lids or other inappropriate surfaces as temporary seating for children due to safety hazards.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "safety",
+        "children",
+        "rules"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "cd01b95d-7dee-413f-b38c-50474d4ed2c5",
+      "text": "Do not directly ask cast members for magical moments or freebies, as these require leader approval and may not always be permissible.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "magical-moments",
+        "expectations"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "9f78ce2a-ca7e-4fb8-8da5-c82424832af7",
+      "text": "Avoid misusing hotel room appliances like irons for cooking; instead, pack non-perishable food items or opt for rooms with kitchenettes.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "hotel-amenities",
+        "budget",
+        "food-prep"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "da1ba76d-96a1-449c-8351-a5ab797de5ec",
+      "text": "For restaurants that encourage movement, consider Chef Mickey's (napkin twirling), Biergarten (dance floor), or 'Ohana (character parades) to keep children entertained during meals.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "family-dining",
+        "entertainment",
+        "chef-mickey's",
+        "biergarten",
+        "ohana"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8SXBjVVeprs",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Things Disney World Employees HATE That You Do",
+        "publishedAt": "2026-02-09T15:30:05+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.626Z"
+    },
+    {
+      "id": "2964fe97-736a-47f5-af8f-cd6e80b0f731",
+      "text": "See the Voices of Liberty, an a capella group in the American Adventure Pavilion at Epcot, for an amazing performance of Americana songs.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "shows",
+        "live-music"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "a0dd46e0-aa3d-4637-bdb7-b8405d4eea76",
+      "text": "Watch the new Disney Villains: Unfairly Ever After show in the Sunset Showcase at Hollywood Studios; the audience reaction can lead to different endings.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "shows",
+        "villains"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "1c8055a9-ea5e-49e2-8312-6ec1b1d48fcd",
+      "text": "Meet Olaf in the Echo Lake area of Hollywood Studios, near the Vacation Fun Mickey short.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "ebd8aabe-9c3f-4f42-b199-34ded56db484",
+      "text": "Ride The Twilight Zone Tower of Terror at Hollywood Studios for its perfect blend of theming, storytelling, and thrill.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attractions",
+        "thrill-ride"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "036775db-0475-4f42-b75d-e529a4d9761b",
+      "text": "Enjoy a relaxing ride on the Tomorrowland Transit Authority PeopleMover in Magic Kingdom, especially during the Happily Ever After fireworks for added magic.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attractions",
+        "relaxing-ride"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "6f2b3847-1d8b-4d72-aa9b-4181aaa24515",
+      "text": "Ride Rock 'n' Roller Coaster Starring Aerosmith at Hollywood Studios before it's re-themed to The Muppets to experience the only attraction in Disney World that goes upside down.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "thrill-ride",
+        "roller-coaster"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "cddfedeb-9a4f-40ff-a6a5-63c4b45caafc",
+      "text": "Experience the Haunted Mansion in Magic Kingdom's Liberty Square, a fun and hokey dark ride suitable for all ages.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "dark-ride",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "7946a9cd-7677-4e03-966b-d84f22419430",
+      "text": "Ride Kilmanjaro Safaris in Animal Kingdom for a realistic safari experience with live animals on a vast savannah.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "safari",
+        "animals"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "db1f9c1b-2123-4f54-ab44-cdfcb7ff6b65",
+      "text": "Utilize the single rider line for Expedition Everest in Animal Kingdom to significantly reduce your wait time.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "single-rider",
+        "roller-coaster"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "157b7dcf-b09d-4522-a5f8-c95479b7444e",
+      "text": "Ride Spaceship Earth in Epcot's Land Pavilion for a classic attraction that simulates hang gliding around the world.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "simulator",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "681107af-2ac6-4b85-a1ce-4481785c9e42",
+      "text": "Explore the Tree of Life Garden in Animal Kingdom, especially at dusk, for beautiful views and unique photo opportunities without crowds.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "scenic-view",
+        "photography"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "fa7f8079-608b-4713-97b1-bf9f6845cd8d",
+      "text": "Watch Happily Ever After, the nighttime fireworks spectacular at Magic Kingdom, for a stunning show with a powerful story.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "nighttime-show"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "a64077aa-6c00-430d-97c7-24edf4fd1a2f",
+      "text": "Purchase the hot honey chicken with sweet potato fries and Bayou Lavender Lemonade at Golden Oak Outpost in Magic Kingdom's Frontier Land.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "unique-drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "4cb00b3b-01f9-41a2-a0f3-84bfc9e9a4e5",
+      "text": "Participate in the KidcKot activity in each Epcot pavilion to learn about different cultures and collect a free souvenir card and sticker.",
+      "category": "planning",
+      "park": "epcot",
+      "tags": [
+        "kids-activities",
+        "free-souvenir",
+        "cultural-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "cYFtkUAnJ2U",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Did The Best Rated Things In Disney World To Prove If They're Actually Good",
+        "publishedAt": "2026-02-09T15:01:08+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:23.976Z"
+    },
+    {
+      "id": "776100c4-4364-4e00-a896-a28b597b2c09",
+      "text": "If staying in the parks during the midday heat and crowds, utilize long indoor queues for attractions like Peter Pan's Flight in Magic Kingdom to get a break from the elements.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "wait-times",
+        "indoor-attraction",
+        "heat-management"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "1920bafc-5d00-487b-a9f1-5a8a31d3fefd",
+      "text": "In Magic Kingdom, watch Carousel of Progress twice to enjoy the show and then use the air-conditioned seating for a rest.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "indoor-attraction",
+        "rest-break",
+        "air-conditioning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "a1f42323-38bd-41f6-806c-6103a2b1e385",
+      "text": "In Epcot, use the American Adventure show as a relaxing, air-conditioned break from the parks.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "indoor-attraction",
+        "rest-break",
+        "air-conditioning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "6b6a2f09-3c5e-4a87-91ca-2ce90dd565c9",
+      "text": "In Hollywood Studios, utilize Walt Disney Presents (formerly One Man's Dream) for an indoor, air-conditioned rest.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "indoor-attraction",
+        "rest-break",
+        "air-conditioning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "51362649-62e3-4d4e-a234-1aa9514e3c45",
+      "text": "In Animal Kingdom, the Finding Nemo: The Big Blue... and Beyond! musical offers a good place to sit and decompress indoors.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "indoor-attraction",
+        "rest-break",
+        "air-conditioning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "2c468ed8-ca4f-45d0-8b88-b2811561ef18",
+      "text": "Take the monorail from Magic Kingdom to a nearby resort's lounge for a relaxed break without leaving the general vicinity.",
+      "category": "transportation",
+      "park": "magic-kingdom",
+      "tags": [
+        "resort-hopping",
+        "monorail",
+        "rest-break"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "zGo-eOAI4DU",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Midday Disney Crash is NO JOKE",
+        "publishedAt": "2026-02-08T20:00:54+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:25.134Z"
+    },
+    {
+      "id": "5f0424e5-dd51-44ff-b567-dbe35ade42ca",
+      "text": "Prepare simple yes or no questions to ask characters, which helps them engage and allows for easy interaction.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "LPm7C0PYe4g",
+        "channelName": "AllEars.net",
+        "videoTitle": "I USED TO HATE MEETING DISNEY CHARACTERS 👎🚫",
+        "publishedAt": "2026-02-08T17:30:10+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:24.960Z"
+    },
+    {
+      "id": "f09b3fc4-7c60-4de4-8ebc-fcd260606a57",
+      "text": "To conclude a character interaction smoothly, ask for a photo, which signals the end of the meeting.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "LPm7C0PYe4g",
+        "channelName": "AllEars.net",
+        "videoTitle": "I USED TO HATE MEETING DISNEY CHARACTERS 👎🚫",
+        "publishedAt": "2026-02-08T17:30:10+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:24.960Z"
+    },
+    {
+      "id": "cc446485-0c05-434b-8658-a5a8893885a1",
+      "text": "Consider that Josh D'Amaro, who oversaw the creation of paid skip-the-line services like MaxPass and Genie+, was in charge when FastPass was eliminated, making a return to free FastPass unlikely.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "fastpass",
+        "paid-services"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "d4-xJf3bbn8",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Disney's New CEO Could Change Everything",
+        "publishedAt": "2026-02-08T15:30:22+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:26.159Z"
+    },
+    {
+      "id": "9cb25b84-da9e-46ca-af2b-7a69e1ea1c63",
+      "text": "Modify mobile order return times by selecting 'change arrival window' in the app, similar to how you adjust Lightning Lane selections.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "ecfb6d51-2e93-432d-8918-d1c5013c0ee1",
+      "text": "Balance high-sodium snacks like popcorn by consuming a banana to get necessary potassium for electrolyte balance and rehydration.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "health"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "28db64b1-f340-4a45-bc67-d48f69cd7d6c",
+      "text": "Use a child-sized water bottle with a carabiner to easily refill it at stations or with cups of ice water throughout the day for consistent hydration.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "hydration",
+        "budget"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "188803af-312b-489c-bafa-7256ba622068",
+      "text": "Take the slightly elevated 'high road' path near the Tree of Life in Animal Kingdom to bypass bottlenecks caused by guests stopping for photos.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "navigation",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "f8884e9d-64a4-419b-a64c-640729ea1100",
+      "text": "Use the Odyssey walkway in Epcot when traveling between World Celebration and World Showcase to avoid congestion near Disney Traders and Port of Entry.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "navigation",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "698d62a4-a0ad-4d26-9f9a-af388fe1ca3b",
+      "text": "Ask cast members if you can ride the PeopleMover in Magic Kingdom a second time without exiting the attraction; do not stand up if you wish to stay on.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction-hack",
+        "guest-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "faa25a4d-4de9-45e4-8918-a909eb82c456",
+      "text": "Utilize the 'All Ears Loophole' by letting your initial Lightning Lane return window expire; you can still ride within two hours and book another reservation.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "91d2d7e5-6d6c-47a5-9257-4eebc9e6b350",
+      "text": "Set named timers on your phone to keep track of staggered Lightning Lane return times when utilizing stacking strategies.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "strategy",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "679c698c-3476-4130-a1a3-700ef620d7b5",
+      "text": "Use the 'See Bus Times' feature in the My Disney Experience app (available to resort guests) for live countdowns to your resort's bus.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "resort-guests",
+        "bus-tracking"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "93418b26-d4e7-434b-a965-45f589533b79",
+      "text": "Use Google Maps to check live bus times and view augmented reality arrows guiding you to the correct bus stop.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "bus-tracking",
+        "navigation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7J4c4bk-Mmo",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Broke Disney World (And You Should Too)",
+        "publishedAt": "2026-02-08T15:00:21+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:28.290Z"
+    },
+    {
+      "id": "9f06ec17-14bc-44f1-830d-8bc98760532c",
+      "text": "Check out the new cookie dough brownie ice cream sandwich at Terra Treats in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "ice-cream"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "73af131e-80ee-4271-a29f-0285b537b4da",
+      "text": "The AP exclusive carrot cake sundae at Terra Treats in Animal Kingdom is a thoughtfully done passholder treat.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "annual-passholder"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "583adebb-3c2f-4f86-97f2-865c3231f647",
+      "text": "Try the Himalayan Ghost cocktail at Thirsty River Bar in Animal Kingdom for a delicious hard pink lemonade.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drinks",
+        "cocktails"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "1861a6c9-8278-49e1-b91b-ec7ccc43a02a",
+      "text": "The Kumbh Frozen Ice Fall at Thirsty River Bar in Animal Kingdom is a refreshing coconut and raspberry frozen drink, but stir it first.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drinks",
+        "frozen-drinks"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "d701e51d-ae3d-4cdd-9321-a6ac06f02627",
+      "text": "Get the exclusive Sprite Island Time Fizz at Disney's Polynesian Village Resort's Coca-Cola Freestyle machines.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "drinks",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "50ba520b-38c3-40a6-b94c-a523323a7bf3",
+      "text": "Try the berry and love beignets at Scat Cats Club Cafe at Port Orleans French Quarter for a fluffy, raspberry-flavored treat.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "seasonal-treats"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "0ebea3b8-2231-4b55-a5f5-a545e2927be2",
+      "text": "Use layers when packing for Disney World, with a sweatshirt for cooler mornings and a t-shirt for warmer afternoons.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "packing",
+        "weather"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "4aca8934-c16a-48b7-a5bc-74f51629c062",
+      "text": "Expect Epcot crowds during Festival of the Arts weekends and watch for fluctuating Lightning Lane prices on the app.",
+      "category": "planning",
+      "park": "epcot",
+      "tags": [
+        "crowds",
+        "lightning-lane",
+        "festival-of-the-arts"
+      ],
+      "priority": "medium",
+      "season": "festival-arts",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "539248fe-ac54-4d5f-978a-99af2cfed8a5",
+      "text": "Allow extra time to navigate around construction bottlenecks in Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "construction",
+        "navigation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "f1fb8caa-79dc-4ec6-840f-45ce6ddaebe0",
+      "text": "Take advantage of cooler mornings for early rides on attractions like Tron, Slinky Dog Dash, and Expedition Everest.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "rope-drop",
+        "weather"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "ca6d6c81-994c-4ab5-9eca-0e37dec04ab0",
+      "text": "Grab an exclusive annual passholder magnet featuring Nick and Judy from Zootopia at Discovery Trading Company in Animal Kingdom.",
+      "category": "budget",
+      "park": "animal-kingdom",
+      "tags": [
+        "annual-passholder",
+        "souvenir"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "fc0262ca-6bff-4f3f-a22d-d56d3d809e84",
+      "text": "Florida residents can get a deal on Walt Disney World annual passes with a reduced down payment.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "annual-passholder",
+        "florida-resident-deal"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "21d3c1c9-1f42-4723-b53b-583fa01ececc",
+      "text": "Frozen Ever After in Epcot will reopen on February 12th, 2026, with brand new audio animatronics.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-refurbishment",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "c3fb0106-8bd2-47b8-a2f2-afa22c392e9d",
+      "text": "The Rafiki's Planet Watch section of Animal Kingdom, including the Wildlife Express train, will be temporarily closed until summer for a new Bluey experience.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "attraction-closure",
+        "construction"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "6b8fbd74-be40-4802-9873-f7cb8b570576",
+      "text": "Harambe Market in Animal Kingdom now offers classic theme park bites like chicken strips and fries, as well as a Savannah salad and Kuba cookie.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "new-menu"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "e398c8b6-d43a-4205-9dc8-14ac4dfad024",
+      "text": "Visit Napa Rose in Disneyland for a premier fine dining experience with elevated small bites, seafood courses, and desserts.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "table-service",
+        "fine-dining",
+        "reopening"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "vzooIzf6VSI",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: New CEO Announced, DinoLand is GONE Forever & MORE!",
+        "publishedAt": "2026-02-07T15:30:42+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:32.190Z"
+    },
+    {
+      "id": "e98dc3e5-4f86-413e-bd37-ddd8cfa60194",
+      "text": "Consider exploring the Land Pavilion in Epcot for its large space and tucked-away seating, which can be good for bonus points in a hide-and-seek game.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "strategy",
+        "bonus-points"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "91fbaee8-089d-47db-9abc-1a1f9a7157a3",
+      "text": "Grab a fruit cup from the cart outside the Land Pavilion and enjoy it inside Sunshine Seasons in Epcot for a refreshing snack.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "snack",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "a55098b7-81a5-4154-a010-33d15e935b81",
+      "text": "Utilize the Advanced Training Lab at Mission: SPACE in Epcot, which has interactive elements and a play area, even if you don't ride the attraction.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attractions",
+        "play-area"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "953ad3e4-4ad8-4367-870f-7cf0819151c6",
+      "text": "The Shanghai Disney Resort exhibit inside the China pavilion in Epcot's World Showcase is a less crowded area that can be a good hiding spot.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "hiding-spot",
+        "world-showcase"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "6c0d61af-dc4f-4c65-8f61-8d3de69cbe09",
+      "text": "The Japan pavilion in Epcot's World Showcase offers quiet and serene spots, like near Kringla Bakeri Og Kafe, that are good for hiding.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "hiding-spot",
+        "world-showcase"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "4cad232e-b226-467d-828f-54cb8150ea34",
+      "text": "Consider hiding near the Norway pavilion in Epcot's World Showcase, as a Norway shirt was used as a clue in a hide-and-seek game.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "hiding-spot",
+        "world-showcase",
+        "strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "84a1d71b-f24a-4773-bfb4-b689836625ab",
+      "text": "Connections Eatery in Epcot's World Celebration can be a good place to hide due to its indoor space and multiple paths.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "hiding-spot",
+        "strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "d290fe6f-9c65-498d-b10a-559b069b1d2e",
+      "text": "The Imagination! Pavilion at Epcot, particularly the area around Figment, can be a strategic location to hide or seek.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "hiding-spot",
+        "strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "efCxi0T_87A",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Played Hide and Seek in Disney World (Why Is EPCOT So Brutal?)",
+        "publishedAt": "2026-02-07T15:00:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:30.510Z"
+    },
+    {
+      "id": "0dfda8ed-32d9-414c-a486-2f1316c75a61",
+      "text": "Wake up at 7:00 AM to book Genie+ selections, as you can't pre-book and need to refresh the app for available spots.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "genie-plus",
+        "app-usage",
+        "rope-drop"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Z4Q0n108HEc",
+        "channelName": "AllEars.net",
+        "videoTitle": "LIGHTNING LANE WASN’T INVENTED TO MAKE YOUR DAY EASIER",
+        "publishedAt": "2026-02-06T21:15:01+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.836Z"
+    },
+    {
+      "id": "ca278147-923a-4262-a072-10b7988672b0",
+      "text": "For Lightning Lane, resort guests can book 7 days in advance, while off-resort guests can book 3 days in advance.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "booking-window"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Z4Q0n108HEc",
+        "channelName": "AllEars.net",
+        "videoTitle": "LIGHTNING LANE WASN’T INVENTED TO MAKE YOUR DAY EASIER",
+        "publishedAt": "2026-02-06T21:15:01+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.836Z"
+    },
+    {
+      "id": "448b20a0-ecaa-4fd4-899c-2126c8de838a",
+      "text": "After tapping into your first Lightning Lane selection, you can add another selection, and continue adding one at a time.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Z4Q0n108HEc",
+        "channelName": "AllEars.net",
+        "videoTitle": "LIGHTNING LANE WASN’T INVENTED TO MAKE YOUR DAY EASIER",
+        "publishedAt": "2026-02-06T21:15:01+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.836Z"
+    },
+    {
+      "id": "fed5f724-c8ac-4b9e-89cf-1b7a9d6c4089",
+      "text": "Consider purchasing individual Lightning Lane Single Pass for $10-$25 per person for a guaranteed headliner ride.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "individual-lightning-lane"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Z4Q0n108HEc",
+        "channelName": "AllEars.net",
+        "videoTitle": "LIGHTNING LANE WASN’T INVENTED TO MAKE YOUR DAY EASIER",
+        "publishedAt": "2026-02-06T21:15:01+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.836Z"
+    },
+    {
+      "id": "85340222-f775-4c70-a413-f3f90132e275",
+      "text": "Use the My Disney Experience app to manage your plans, make reservations, and mobile order food.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "app-usage",
+        "dining-reservation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "ejj8HR40yJM",
+        "channelName": "AllEars.net",
+        "videoTitle": "DISNEY WORLD VOCABULARY 101",
+        "publishedAt": "2026-02-06T19:00:44+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.393Z"
+    },
+    {
+      "id": "5a39d741-5c27-4dd4-9bff-1f3565bafe52",
+      "text": "Book Advanced Dining Reservations (ADRs) in advance for table-service restaurants.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "table-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ejj8HR40yJM",
+        "channelName": "AllEars.net",
+        "videoTitle": "DISNEY WORLD VOCABULARY 101",
+        "publishedAt": "2026-02-06T19:00:44+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.393Z"
+    },
+    {
+      "id": "0200728f-6eca-4acb-9a76-191989870575",
+      "text": "Consider using a Magic Band for easy access to park tickets, hotel rooms, and interactive experiences.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "magic-band",
+        "resort-access"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "ejj8HR40yJM",
+        "channelName": "AllEars.net",
+        "videoTitle": "DISNEY WORLD VOCABULARY 101",
+        "publishedAt": "2026-02-06T19:00:44+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:31.393Z"
+    },
+    {
+      "id": "ed9b0d57-5b24-475f-a629-6e11d5732d2e",
+      "text": "Head to the Rainforest Cafe in Disney Springs to see the volcano eruption as part of a scavenger hunt or simply for entertainment.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "entertainment",
+        "dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "018445d3-6b03-4d12-9c11-be7aaf71ad60",
+      "text": "Park in the Orange Garage at Disney Springs if you plan to visit Planet Hollywood, The Edison, or take the Aerophile balloon ride.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "parking"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "558a5126-17ea-4d40-8ef4-9a1c8aa7c636",
+      "text": "Visit Jock Lindsay's Hangar Bar in Disney Springs for its Indiana Jones and Society of Adventurers and Explorers (SEA) theming and small bites.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "lounge",
+        "themed-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "f2dfb6c2-0225-421f-8d8b-55da02917059",
+      "text": "Try the exclusive Zoravski crystal statues at the Arribas Brothers store in Disney Springs, including a unique crystal parrot.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "exclusive-merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "96908d10-f6cd-4b87-8859-2868fd4962fc",
+      "text": "Sample international sodas at the Coca-Cola store's soda bar on the top floor in Disney Springs, similar to Club Cool at Epcot.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "snacks",
+        "international-flavors"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "968f8b4f-c5f8-46bd-8e87-a165f17287f6",
+      "text": "Get exclusive Disney Springs merchandise, such as Grou or Star Wars themed items, at the drop shop located near the photo studio.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "exclusive-merchandise"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "a02ebd15-6776-4a54-831b-f67785484e2e",
+      "text": "Purchase a Disney Springs exclusive pin at Pin Traders in Disney Springs to commemorate your visit.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "exclusive-merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "d0f244f9-4dd5-47b5-a1ee-553cc33d9532",
+      "text": "Take a 'princess pose' in front of the princess displays within the World of Disney store at Disney Springs.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "photo-opportunity",
+        "shopping"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "981311b0-4a24-4741-a2ee-8161bc6d8366",
+      "text": "Check for character meet-and-greets, such as an M&M, typically available at the M&M Store in Disney Springs.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "9e896d9a-6e57-4a90-992d-c918bfbdf70f",
+      "text": "Get pressed pennies at the 'Once Upon a Toy Next Door' location in Disney Springs.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "souvenirs",
+        "pressed-pennies"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "0e19c3c1-13ec-4737-afba-08d4698916a6",
+      "text": "Try the French Onion Soup Burger or other seasonal specialty burgers at Deluxe Burger in Disney Springs, which is themed around Disney Springs lore.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "burgers",
+        "themed-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "v352lKEuvlA",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Tried To WIN This IMPOSSIBLE Disney World Game -- Scavenger Hunt 10",
+        "publishedAt": "2026-02-06T15:01:51+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:36.473Z"
+    },
+    {
+      "id": "c725a50a-767d-4702-b5b4-fc0579b3d579",
+      "text": "Try the limited-time banana bread pie cookie, which tastes like an elevated banana pudding and is crispy, crunchy, and banana-flavored.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "limited-time"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DMpakfB4NTk",
+        "channelName": "AllEars.net",
+        "videoTitle": "i’m embarrassed… 🍪",
+        "publishedAt": "2026-02-03T22:30:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:33.364Z"
+    },
+    {
+      "id": "cd5c87ab-d526-4c4e-87da-125c74203c29",
+      "text": "The cookies and cream cookie is a must-try for fans of the classic flavor combination.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DMpakfB4NTk",
+        "channelName": "AllEars.net",
+        "videoTitle": "i’m embarrassed… 🍪",
+        "publishedAt": "2026-02-03T22:30:06+00:00"
+      },
+      "extractedAt": "2026-02-10T04:23:33.364Z"
+    },
     {
       "id": "e12365a6-a128-4a74-9c8f-01e9777812ed",
       "text": "Consider riding the PeopleMover at twilight for a fun, low-wait experience.",

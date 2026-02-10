@@ -78,3 +78,7 @@ Result: ✓ Complete
 ### Iteration 19 - 04:18:00
 Task: 6.2 Run `npm run check-staleness` — confirm it reports current staleness status
 Result: ✓ Complete
+
+### Iteration 20 - 04:23:45
+Task: 6.3 Verify `tips.json` and `videos.json` both have `lastChecked` field after next pipeline run
+Result: ✓ Complete
