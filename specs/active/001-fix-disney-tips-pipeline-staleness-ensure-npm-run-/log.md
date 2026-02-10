@@ -70,3 +70,7 @@ Result: ✓ Complete
 ### Iteration 17 - 04:17:40
 Task: 5.1 Update `package.json` `"pipeline"` script to: `npm run fetch && npm run extract && npm run check-staleness`
 Result: ✓ Complete
+
+### Iteration 18 - 04:17:49
+Task: 6.1 Run `npm run build` — confirm it succeeds
+Result: ✓ Complete
