@@ -36,7 +36,7 @@
 ## 6. Verify
 
 - [x] 6.1 Run `npm run build` — confirm it succeeds
-- [ ] 6.2 Run `npm run check-staleness` — confirm it reports current staleness status
+- [x] 6.2 Run `npm run check-staleness` — confirm it reports current staleness status
 - [ ] 6.3 Verify `tips.json` and `videos.json` both have `lastChecked` field after next pipeline run
 
 ---

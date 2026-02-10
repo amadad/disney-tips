@@ -74,3 +74,7 @@ Result: ✓ Complete
 ### Iteration 18 - 04:17:49
 Task: 6.1 Run `npm run build` — confirm it succeeds
 Result: ✓ Complete
+
+### Iteration 19 - 04:18:00
+Task: 6.2 Run `npm run check-staleness` — confirm it reports current staleness status
+Result: ✓ Complete
