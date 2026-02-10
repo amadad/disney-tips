@@ -6,3 +6,7 @@
 ### Iteration 1 - 04:06:03
 Task: 1.1 Add `lastChecked: string` to `TipsData` in `shared/types.ts`
 Result: ✓ Complete
+
+### Iteration 2 - 04:06:22
+Task: 1.2 Add `lastChecked: string` to `VideosData` in `shared/types.ts`
+Result: ✓ Complete

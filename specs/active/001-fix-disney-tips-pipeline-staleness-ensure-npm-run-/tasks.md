@@ -4,7 +4,7 @@
 ## 1. Update shared types
 
 - [x] 1.1 Add `lastChecked: string` to `TipsData` in `shared/types.ts`
-- [ ] 1.2 Add `lastChecked: string` to `VideosData` in `shared/types.ts`
+- [x] 1.2 Add `lastChecked: string` to `VideosData` in `shared/types.ts`
 
 ## 2. Fix `extract-tips.ts` — conditional `lastUpdated`
 
