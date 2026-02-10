@@ -42,3 +42,7 @@ Result: ✓ Complete
 ### Iteration 10 - 04:13:22
 Task: 3.4 Log whether `lastUpdated` advanced or was preserved
 Result: ✓ Complete
+
+### Iteration 11 - 04:14:36
+Task: 4.1 Create `scripts/check-staleness.ts`
+Result: ✓ Complete
