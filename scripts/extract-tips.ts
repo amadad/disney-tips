@@ -562,6 +562,7 @@ async function main() {
   const lastUpdated = newTips.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
   const data: TipsData = {
     lastUpdated,
+    lastChecked: nowIso,
     totalTips: dedupedTips.length,
     tips: dedupedTips
   };
