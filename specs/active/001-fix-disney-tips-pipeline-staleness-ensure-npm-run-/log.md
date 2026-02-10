@@ -14,3 +14,7 @@ Result: ✓ Complete
 ### Iteration 3 - 04:07:12
 Task: 2.1 Load previous `lastUpdated` from existing `tips.json` before processing
 Result: ✓ Complete
+
+### Iteration 4 - 04:08:08
+Task: 2.2 Only set `lastUpdated` to `new Date().toISOString()` when `newTips.length > 0`; otherwise preserve the previous value
+Result: ✓ Complete

@@ -558,8 +558,10 @@ async function main() {
     new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime()
   );
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = newTips.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
   const data: TipsData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
     totalTips: dedupedTips.length,
     tips: dedupedTips
   };

@@ -9,7 +9,7 @@
 ## 2. Fix `extract-tips.ts` — conditional `lastUpdated`
 
 - [x] 2.1 Load previous `lastUpdated` from existing `tips.json` before processing
-- [ ] 2.2 Only set `lastUpdated` to `new Date().toISOString()` when `newTips.length > 0`; otherwise preserve the previous value
+- [x] 2.2 Only set `lastUpdated` to `new Date().toISOString()` when `newTips.length > 0`; otherwise preserve the previous value
 - [ ] 2.3 Always set `lastChecked` to `new Date().toISOString()`
 - [ ] 2.4 Log whether `lastUpdated` advanced or was preserved
 
