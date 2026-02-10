@@ -487,9 +487,11 @@ async function main() {
 
   // Load existing tips
   let existingTips: ExtractedTip[] = [];
+  let previousLastUpdated: string | undefined;
   if (existsSync('data/public/tips.json')) {
     const existing: TipsData = JSON.parse(readFileSync('data/public/tips.json', 'utf-8'));
     existingTips = existing.tips;
+    previousLastUpdated = existing.lastUpdated;
     log.info(`Found ${existingTips.length} existing tips`);
   }
 
