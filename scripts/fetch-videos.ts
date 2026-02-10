@@ -235,6 +235,7 @@ async function main() {
 
   const data: VideosData = {
     lastUpdated,
+    lastChecked: nowIso,
     totalVideos: allVideos.length,
     videos: allVideos
   };
