@@ -26,7 +26,7 @@
 - [x] 4.2 Read `data/public/tips.json` and parse `lastUpdated`
 - [x] 4.3 Accept `--threshold <days>` flag (default: 3)
 - [x] 4.4 Compare `lastUpdated` age against threshold
-- [ ] 4.5 Exit 0 if fresh, exit 1 if stale with descriptive message
+- [x] 4.5 Exit 0 if fresh, exit 1 if stale with descriptive message
 - [ ] 4.6 Add `"check-staleness"` script to `package.json`
 
 ## 5. Wire guard into pipeline
