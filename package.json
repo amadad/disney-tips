@@ -7,6 +7,7 @@
     "extract": "tsx scripts/extract-tips.ts",
     "dedupe": "tsx scripts/dedupe-tips.ts",
     "backfill": "tsx scripts/backfill-transcripts.ts",
+    "check-staleness": "tsx scripts/check-staleness.ts",
     "pipeline": "npm run fetch && npm run extract",
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",

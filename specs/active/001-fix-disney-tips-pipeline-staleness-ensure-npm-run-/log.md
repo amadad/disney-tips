@@ -62,3 +62,7 @@ Result: ✓ Complete
 ### Iteration 15 - 04:16:58
 Task: 4.5 Exit 0 if fresh, exit 1 if stale with descriptive message
 Result: ✓ Complete
+
+### Iteration 16 - 04:17:21
+Task: 4.6 Add `"check-staleness"` script to `package.json`
+Result: ✓ Complete
