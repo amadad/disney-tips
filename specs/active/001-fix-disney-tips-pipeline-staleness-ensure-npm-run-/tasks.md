@@ -31,7 +31,7 @@
 
 ## 5. Wire guard into pipeline
 
-- [ ] 5.1 Update `package.json` `"pipeline"` script to: `npm run fetch && npm run extract && npm run check-staleness`
+- [x] 5.1 Update `package.json` `"pipeline"` script to: `npm run fetch && npm run extract && npm run check-staleness`
 
 ## 6. Verify
 

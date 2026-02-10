@@ -66,3 +66,7 @@ Result: ✓ Complete
 ### Iteration 16 - 04:17:21
 Task: 4.6 Add `"check-staleness"` script to `package.json`
 Result: ✓ Complete
+
+### Iteration 17 - 04:17:40
+Task: 5.1 Update `package.json` `"pipeline"` script to: `npm run fetch && npm run extract && npm run check-staleness`
+Result: ✓ Complete
