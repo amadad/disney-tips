@@ -50,3 +50,7 @@ Result: ✓ Complete
 ### Iteration 12 - 04:15:14
 Task: 4.2 Read `data/public/tips.json` and parse `lastUpdated`
 Result: ✓ Complete
+
+### Iteration 13 - 04:15:43
+Task: 4.3 Accept `--threshold <days>` flag (default: 3)
+Result: ✓ Complete
