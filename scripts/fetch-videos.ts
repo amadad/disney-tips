@@ -232,6 +232,11 @@ async function main() {
 
   const nowIso = new Date().toISOString();
   const lastUpdated = newVideos.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+  if (newVideos.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
 
   const data: VideosData = {
     lastUpdated,
