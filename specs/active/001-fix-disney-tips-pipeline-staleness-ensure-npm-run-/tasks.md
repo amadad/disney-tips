@@ -11,7 +11,7 @@
 - [x] 2.1 Load previous `lastUpdated` from existing `tips.json` before processing
 - [x] 2.2 Only set `lastUpdated` to `new Date().toISOString()` when `newTips.length > 0`; otherwise preserve the previous value
 - [x] 2.3 Always set `lastChecked` to `new Date().toISOString()`
-- [ ] 2.4 Log whether `lastUpdated` advanced or was preserved
+- [x] 2.4 Log whether `lastUpdated` advanced or was preserved
 
 ## 3. Fix `fetch-videos.ts` — conditional `lastUpdated`
 

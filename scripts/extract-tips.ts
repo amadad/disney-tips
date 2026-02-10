@@ -560,6 +560,11 @@ async function main() {
 
   const nowIso = new Date().toISOString();
   const lastUpdated = newTips.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+  if (newTips.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
   const data: TipsData = {
     lastUpdated,
     lastChecked: nowIso,
