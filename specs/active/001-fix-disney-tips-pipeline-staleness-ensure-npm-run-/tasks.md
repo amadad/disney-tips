@@ -16,7 +16,7 @@
 ## 3. Fix `fetch-videos.ts` — conditional `lastUpdated`
 
 - [x] 3.1 Load previous `lastUpdated` from existing `videos.json` before processing
-- [ ] 3.2 Only set `lastUpdated` to `new Date().toISOString()` when `newVideos.length > 0`; otherwise preserve the previous value
+- [x] 3.2 Only set `lastUpdated` to `new Date().toISOString()` when `newVideos.length > 0`; otherwise preserve the previous value
 - [ ] 3.3 Always set `lastChecked` to `new Date().toISOString()`
 - [ ] 3.4 Log whether `lastUpdated` advanced or was preserved
 

@@ -30,3 +30,7 @@ Result: ✓ Complete
 ### Iteration 7 - 04:10:35
 Task: 3.1 Load previous `lastUpdated` from existing `videos.json` before processing
 Result: ✓ Complete
+
+### Iteration 8 - 04:11:08
+Task: 3.2 Only set `lastUpdated` to `new Date().toISOString()` when `newVideos.length > 0`; otherwise preserve the previous value
+Result: ✓ Complete

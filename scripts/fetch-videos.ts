@@ -230,8 +230,11 @@ async function main() {
   const allVideos = [...existingVideos, ...newVideos]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = newVideos.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+
   const data: VideosData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
     totalVideos: allVideos.length,
     videos: allVideos
   };
