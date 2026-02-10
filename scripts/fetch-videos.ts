@@ -166,9 +166,11 @@ async function main() {
 
   // Load existing videos to avoid re-fetching transcripts
   let existingVideos: Video[] = [];
+  let previousLastUpdated: string | null = null;
   if (existsSync('data/pipeline/videos.json')) {
     const existing: VideosData = JSON.parse(readFileSync('data/pipeline/videos.json', 'utf-8'));
     existingVideos = existing.videos;
+    previousLastUpdated = existing.lastUpdated ?? null;
     log.info(`Found ${existingVideos.length} existing videos`);
   }
 
