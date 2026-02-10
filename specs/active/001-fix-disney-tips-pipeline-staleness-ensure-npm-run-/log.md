@@ -54,3 +54,7 @@ Result: ✓ Complete
 ### Iteration 13 - 04:15:43
 Task: 4.3 Accept `--threshold <days>` flag (default: 3)
 Result: ✓ Complete
+
+### Iteration 14 - 04:16:25
+Task: 4.4 Compare `lastUpdated` age against threshold
+Result: ✓ Complete
