@@ -23,7 +23,7 @@
 ## 4. Create staleness guard script
 
 - [x] 4.1 Create `scripts/check-staleness.ts`
-- [ ] 4.2 Read `data/public/tips.json` and parse `lastUpdated`
+- [x] 4.2 Read `data/public/tips.json` and parse `lastUpdated`
 - [ ] 4.3 Accept `--threshold <days>` flag (default: 3)
 - [ ] 4.4 Compare `lastUpdated` age against threshold
 - [ ] 4.5 Exit 0 if fresh, exit 1 if stale with descriptive message

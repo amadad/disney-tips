@@ -46,3 +46,7 @@ Result: ✓ Complete
 ### Iteration 11 - 04:14:36
 Task: 4.1 Create `scripts/check-staleness.ts`
 Result: ✓ Complete
+
+### Iteration 12 - 04:15:14
+Task: 4.2 Read `data/public/tips.json` and parse `lastUpdated`
+Result: ✓ Complete
