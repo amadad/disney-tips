@@ -1,11 +1,11 @@
 {
   "initialized": "2026-01-31T14:47:31Z",
-  "lastLearn": "2026-02-09T03:32:38Z",
-  "lastTreat": "2026-01-31T14:56:38Z",
+  "lastLearn": "2026-02-11T03:32:36Z",
+  "lastTreat": "2026-02-10T04:25:34Z",
   "stats": {
     "specsCompleted": 0,
     "specsInProgress": 0,
-    "totalIterations": 25,
-    "learnings": 3
+    "totalIterations": 46,
+    "learnings": 4
   }
 }

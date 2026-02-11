@@ -84,3 +84,16 @@ Task: 6.3 Verify `tips.json` and `videos.json` both have `lastChecked` field aft
 Result: ✓ Complete
 
 ## Result: SUCCESS
+
+### Verification: FAILED
+**VERIFIED**
+
+All seven acceptance criteria are met:
+
+- **R1** (Honest `lastUpdated` in `tips.json`): `extract-tips.ts` loads `previousLastUpdated`, only advances when `newTips.length > 0`, preserves previous value otherwise.
+- **R2** (Honest `lastUpdated` in `videos.json`): `fetch-videos.ts` applies the same conditional pattern — advances only when `newVideos.length > 0`.
+- **R3** (`lastChecked` field): Both scripts always set `lastChecked: nowIso`. Both `TipsData` and `VideosData` interfaces include `lastChecked: string`. Both data files contain the field.
+- **R4** (Staleness guard): `check-staleness.ts` reads `tips.json`, accepts `--threshold <days>` (default 3), exits 0 when fresh, exits 1 with `STALE: tips.json lastUpdated is <N> days old (threshold: <T> days)` when stale. All three given/when/then scenarios satisfied.
+- **R5** (Pipeline integration): `package.json` `"pipeline"` script is `npm run fetch && npm run extract && npm run check-staleness` — guard runs after extract, exits propagate correctly via `&&`.
+- **R6** (Type updates): `shared/types.ts` has `lastChecked: string` on both `TipsData` and `VideosData`.
+- **R7** (Backwards compatibility): Frontend (`src/main.ts`) has no changes and never references `lastChecked`, so old-format data without the field causes no breakage.
