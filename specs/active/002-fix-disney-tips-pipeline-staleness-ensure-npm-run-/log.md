@@ -46,3 +46,7 @@ Result: ✓ Complete
 ### Iteration 11 - 04:08:24
 Task: 4.1 Read current `disney-tips-pipeline.service` unit file
 Result: ✓ Complete
+
+### Iteration 12 - 04:08:55
+Task: 4.2 Update `WorkingDirectory` to `/home/deploy/scty-repos/web-disney`
+Result: ✓ Complete
