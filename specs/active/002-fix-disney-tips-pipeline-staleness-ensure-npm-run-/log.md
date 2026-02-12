@@ -70,3 +70,7 @@ Result: ✓ Complete
 ### Iteration 17 - 04:10:32
 Task: 5.1 Run `npm run check-staleness -- --check-dist` — confirm it passes (dist matches source)
 Result: ✓ Complete
+
+### Iteration 18 - 04:10:41
+Task: 5.2 Run `npm run check-staleness` (without --check-dist) — confirm existing behavior unchanged
+Result: ✓ Complete
