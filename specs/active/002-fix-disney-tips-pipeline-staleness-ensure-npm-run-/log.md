@@ -30,3 +30,7 @@ Result: ✓ Complete
 ### Iteration 7 - 04:06:24
 Task: 3.3 Compare `lastChecked` fields — exit 0 if they match, exit 1 if they differ
 Result: ✓ Complete
+
+### Iteration 8 - 04:06:44
+Task: 3.4 Print descriptive OK/STALE messages including both timestamps
+Result: ✓ Complete

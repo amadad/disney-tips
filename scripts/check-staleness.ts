@@ -127,8 +127,14 @@ function main(): number {
         : undefined;
 
     if (sourceLastChecked === distLastChecked) {
+      console.log(
+        `OK: dist/tips.json matches data/public/tips.json (dist lastChecked: ${JSON.stringify(distLastChecked)}, data/public lastChecked: ${JSON.stringify(sourceLastChecked)})`
+      );
       return 0;
     }
+    console.error(
+      `STALE: dist/tips.json lastChecked (${JSON.stringify(distLastChecked)}) does not match data/public/tips.json lastChecked (${JSON.stringify(sourceLastChecked)}). Run npm run build.`
+    );
     return 1;
   }
 
