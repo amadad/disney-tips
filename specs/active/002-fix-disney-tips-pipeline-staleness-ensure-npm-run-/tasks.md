@@ -27,7 +27,7 @@
 - [x] 4.3 Update `ExecStart` to run `npm run pipeline:deploy`
 - [x] 4.4 Ensure Node.js is available in the service environment (PATH or nvm source)
 - [x] 4.5 Reload systemd daemon and enable+start the timer
-- [ ] 4.6 Verify timer is active: `systemctl --user status disney-tips-pipeline.timer`
+- [x] 4.6 Verify timer is active: `systemctl --user status disney-tips-pipeline.timer`
 
 ## 5. Verify end-to-end
 
