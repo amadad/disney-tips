@@ -22,7 +22,7 @@
 
 ## 4. Fix systemd timer/service
 
-- [ ] 4.1 Read current `disney-tips-pipeline.service` unit file
+- [x] 4.1 Read current `disney-tips-pipeline.service` unit file
 - [ ] 4.2 Update `WorkingDirectory` to `/home/deploy/scty-repos/web-disney`
 - [ ] 4.3 Update `ExecStart` to run `npm run pipeline:deploy`
 - [ ] 4.4 Ensure Node.js is available in the service environment (PATH or nvm source)

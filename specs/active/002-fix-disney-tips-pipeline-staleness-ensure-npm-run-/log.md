@@ -42,3 +42,7 @@ Result: ✓ Complete
 ### Iteration 10 - 04:08:09
 Task: 3.6 When `--check-dist` is NOT set, behavior is unchanged (existing threshold check only)
 Result: ✓ Complete
+
+### Iteration 11 - 04:08:24
+Task: 4.1 Read current `disney-tips-pipeline.service` unit file
+Result: ✓ Complete
