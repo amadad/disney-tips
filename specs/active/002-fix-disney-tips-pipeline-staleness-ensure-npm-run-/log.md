@@ -66,3 +66,7 @@ Result: ✓ Complete
 ### Iteration 16 - 04:10:25
 Task: 4.6 Verify timer is active: `systemctl --user status disney-tips-pipeline.timer`
 Result: ✓ Complete
+
+### Iteration 17 - 04:10:32
+Task: 5.1 Run `npm run check-staleness -- --check-dist` — confirm it passes (dist matches source)
+Result: ✓ Complete
