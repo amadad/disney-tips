@@ -33,5 +33,5 @@
 
 - [x] 5.1 Run `npm run check-staleness -- --check-dist` — confirm it passes (dist matches source)
 - [x] 5.2 Run `npm run check-staleness` (without --check-dist) — confirm existing behavior unchanged
-- [ ] 5.3 Confirm `npm run pipeline:deploy` script definition is correct in package.json
+- [x] 5.3 Confirm `npm run pipeline:deploy` script definition is correct in package.json
 - [ ] 5.4 Confirm timer is scheduled for next fire time
