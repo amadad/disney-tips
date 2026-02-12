@@ -50,3 +50,7 @@ Result: ✓ Complete
 ### Iteration 12 - 04:08:55
 Task: 4.2 Update `WorkingDirectory` to `/home/deploy/scty-repos/web-disney`
 Result: ✓ Complete
+
+### Iteration 13 - 04:09:22
+Task: 4.3 Update `ExecStart` to run `npm run pipeline:deploy`
+Result: ✓ Complete
