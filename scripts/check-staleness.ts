@@ -80,6 +80,19 @@ function readJsonFile(path: string): unknown {
   }
 }
 
+function readLastChecked(data: unknown, path: string): string {
+  const value =
+    typeof data === 'object' && data !== null && 'lastChecked' in data
+      ? (data as { lastChecked?: unknown }).lastChecked
+      : undefined;
+
+  if (typeof value !== 'string' || value.trim() === '') {
+    throw new Error(`Failed to parse ${path}: missing or invalid "lastChecked"`);
+  }
+
+  return value;
+}
+
 function main(): number {
   const tipsPath = 'data/public/tips.json';
   const distTipsPath = 'dist/tips.json';
@@ -117,14 +130,15 @@ function main(): number {
   }
 
   if (args.checkDist) {
-    const sourceLastChecked =
-      typeof parsed === 'object' && parsed !== null && 'lastChecked' in parsed
-        ? (parsed as { lastChecked?: unknown }).lastChecked
-        : undefined;
-    const distLastChecked =
-      typeof distParsed === 'object' && distParsed !== null && 'lastChecked' in distParsed
-        ? (distParsed as { lastChecked?: unknown }).lastChecked
-        : undefined;
+    let sourceLastChecked: string;
+    let distLastChecked: string;
+    try {
+      sourceLastChecked = readLastChecked(parsed, tipsPath);
+      distLastChecked = readLastChecked(distParsed, distTipsPath);
+    } catch (err) {
+      console.error(err instanceof Error ? err.message : String(err));
+      return 2;
+    }
 
     if (sourceLastChecked === distLastChecked) {
       console.log(

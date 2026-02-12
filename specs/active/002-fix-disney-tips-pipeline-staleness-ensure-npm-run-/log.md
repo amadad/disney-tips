@@ -34,3 +34,7 @@ Result: ✓ Complete
 ### Iteration 8 - 04:06:44
 Task: 3.4 Print descriptive OK/STALE messages including both timestamps
 Result: ✓ Complete
+
+### Iteration 9 - 04:07:38
+Task: 3.5 Exit 2 if either file is missing or unparseable
+Result: ✓ Complete
