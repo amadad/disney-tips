@@ -2,10 +2,12 @@ import { readFileSync } from 'fs';
 
 type Args = {
   thresholdDays: number;
+  checkDist: boolean;
 };
 
 function parseArgs(argv: string[]): Args {
   let thresholdDays = 3;
+  let checkDist = false;
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -24,6 +26,11 @@ function parseArgs(argv: string[]): Args {
       continue;
     }
 
+    if (arg === '--check-dist') {
+      checkDist = true;
+      continue;
+    }
+
     if (arg === '--help' || arg === '-h') {
       // Let main() print usage.
       throw new Error('HELP');
@@ -36,7 +43,7 @@ function parseArgs(argv: string[]): Args {
     throw new Error(`Invalid --threshold value: ${String(thresholdDays)}`);
   }
 
-  return { thresholdDays };
+  return { thresholdDays, checkDist };
 }
 
 function formatDays(days: number): string {
@@ -48,12 +55,13 @@ function formatDays(days: number): string {
 
 function usage(): string {
   return [
-    'Usage: tsx scripts/check-staleness.ts [--threshold <days>]',
+    'Usage: tsx scripts/check-staleness.ts [--threshold <days>] [--check-dist]',
     '',
     'Checks whether data/public/tips.json "lastUpdated" exceeds a staleness threshold.',
     '',
     'Options:',
     '  --threshold <days>   Maximum allowed age in days (default: 3)',
+    '  --check-dist         Compare dist tips.json with data/public tips.json',
   ].join('\n');
 }
 
@@ -128,4 +136,3 @@ function main(): number {
 }
 
 process.exitCode = main();
-

@@ -18,3 +18,7 @@ Result: ✓ Complete
 ### Iteration 4 - 04:04:48
 Task: 2.1 Add `"pipeline:deploy": "npm run fetch && npm run extract && npm run build && npm run check-staleness -- --check-dist"` to `package.json`
 Result: ✓ Complete
+
+### Iteration 5 - 04:05:15
+Task: 3.1 Add `--check-dist` flag parsing to `check-staleness.ts`
+Result: ✓ Complete
