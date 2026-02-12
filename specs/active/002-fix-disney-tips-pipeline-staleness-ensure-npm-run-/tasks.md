@@ -18,7 +18,7 @@
 - [x] 3.3 Compare `lastChecked` fields — exit 0 if they match, exit 1 if they differ
 - [x] 3.4 Print descriptive OK/STALE messages including both timestamps
 - [x] 3.5 Exit 2 if either file is missing or unparseable
-- [ ] 3.6 When `--check-dist` is NOT set, behavior is unchanged (existing threshold check only)
+- [x] 3.6 When `--check-dist` is NOT set, behavior is unchanged (existing threshold check only)
 
 ## 4. Fix systemd timer/service
 

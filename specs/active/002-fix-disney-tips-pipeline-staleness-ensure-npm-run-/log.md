@@ -38,3 +38,7 @@ Result: ✓ Complete
 ### Iteration 9 - 04:07:38
 Task: 3.5 Exit 2 if either file is missing or unparseable
 Result: ✓ Complete
+
+### Iteration 10 - 04:08:09
+Task: 3.6 When `--check-dist` is NOT set, behavior is unchanged (existing threshold check only)
+Result: ✓ Complete
