@@ -22,3 +22,7 @@ Result: ✓ Complete
 ### Iteration 5 - 04:05:15
 Task: 3.1 Add `--check-dist` flag parsing to `check-staleness.ts`
 Result: ✓ Complete
+
+### Iteration 6 - 04:05:50
+Task: 3.2 When `--check-dist` is set, read both `dist/tips.json` and `data/public/tips.json`
+Result: ✓ Complete

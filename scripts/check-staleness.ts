@@ -65,8 +65,24 @@ function usage(): string {
   ].join('\n');
 }
 
+function readJsonFile(path: string): unknown {
+  let raw: string;
+  try {
+    raw = readFileSync(path, 'utf-8');
+  } catch (err) {
+    throw new Error(`Failed to read ${path}: ${String(err)}`);
+  }
+
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(`Failed to parse ${path} as JSON: ${String(err)}`);
+  }
+}
+
 function main(): number {
   const tipsPath = 'data/public/tips.json';
+  const distTipsPath = 'dist/tips.json';
 
   let args: Args;
   try {
@@ -82,20 +98,21 @@ function main(): number {
     return 2;
   }
 
-  let raw: string;
+  let parsed: unknown;
   try {
-    raw = readFileSync(tipsPath, 'utf-8');
+    parsed = readJsonFile(tipsPath);
   } catch (err) {
-    console.error(`Failed to read ${tipsPath}:`, err);
+    console.error(err instanceof Error ? err.message : String(err));
     return 2;
   }
 
-  let parsed: unknown;
-  try {
-    parsed = JSON.parse(raw);
-  } catch (err) {
-    console.error(`Failed to parse ${tipsPath} as JSON:`, err);
-    return 2;
+  if (args.checkDist) {
+    try {
+      readJsonFile(distTipsPath);
+    } catch (err) {
+      console.error(err instanceof Error ? err.message : String(err));
+      return 2;
+    }
   }
 
   const lastUpdated =
