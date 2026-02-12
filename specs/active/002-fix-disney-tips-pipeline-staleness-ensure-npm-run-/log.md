@@ -54,3 +54,7 @@ Result: ✓ Complete
 ### Iteration 13 - 04:09:22
 Task: 4.3 Update `ExecStart` to run `npm run pipeline:deploy`
 Result: ✓ Complete
+
+### Iteration 14 - 04:10:09
+Task: 4.4 Ensure Node.js is available in the service environment (PATH or nvm source)
+Result: ✓ Complete
