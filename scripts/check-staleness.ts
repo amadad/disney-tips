@@ -83,6 +83,7 @@ function readJsonFile(path: string): unknown {
 function main(): number {
   const tipsPath = 'data/public/tips.json';
   const distTipsPath = 'dist/tips.json';
+  let distParsed: unknown;
 
   let args: Args;
   try {
@@ -108,11 +109,27 @@ function main(): number {
 
   if (args.checkDist) {
     try {
-      readJsonFile(distTipsPath);
+      distParsed = readJsonFile(distTipsPath);
     } catch (err) {
       console.error(err instanceof Error ? err.message : String(err));
       return 2;
     }
+  }
+
+  if (args.checkDist) {
+    const sourceLastChecked =
+      typeof parsed === 'object' && parsed !== null && 'lastChecked' in parsed
+        ? (parsed as { lastChecked?: unknown }).lastChecked
+        : undefined;
+    const distLastChecked =
+      typeof distParsed === 'object' && distParsed !== null && 'lastChecked' in distParsed
+        ? (distParsed as { lastChecked?: unknown }).lastChecked
+        : undefined;
+
+    if (sourceLastChecked === distLastChecked) {
+      return 0;
+    }
+    return 1;
   }
 
   const lastUpdated =

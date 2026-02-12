@@ -26,3 +26,7 @@ Result: ✓ Complete
 ### Iteration 6 - 04:05:50
 Task: 3.2 When `--check-dist` is set, read both `dist/tips.json` and `data/public/tips.json`
 Result: ✓ Complete
+
+### Iteration 7 - 04:06:24
+Task: 3.3 Compare `lastChecked` fields — exit 0 if they match, exit 1 if they differ
+Result: ✓ Complete

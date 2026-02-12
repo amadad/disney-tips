@@ -15,7 +15,7 @@
 
 - [x] 3.1 Add `--check-dist` flag parsing to `check-staleness.ts`
 - [x] 3.2 When `--check-dist` is set, read both `dist/tips.json` and `data/public/tips.json`
-- [ ] 3.3 Compare `lastChecked` fields — exit 0 if they match, exit 1 if they differ
+- [x] 3.3 Compare `lastChecked` fields — exit 0 if they match, exit 1 if they differ
 - [ ] 3.4 Print descriptive OK/STALE messages including both timestamps
 - [ ] 3.5 Exit 2 if either file is missing or unparseable
 - [ ] 3.6 When `--check-dist` is NOT set, behavior is unchanged (existing threshold check only)
