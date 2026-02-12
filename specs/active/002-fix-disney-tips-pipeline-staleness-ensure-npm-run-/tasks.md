@@ -9,7 +9,7 @@
 
 ## 2. Add `pipeline:deploy` script
 
-- [ ] 2.1 Add `"pipeline:deploy": "npm run fetch && npm run extract && npm run build && npm run check-staleness -- --check-dist"` to `package.json`
+- [x] 2.1 Add `"pipeline:deploy": "npm run fetch && npm run extract && npm run build && npm run check-staleness -- --check-dist"` to `package.json`
 
 ## 3. Extend check-staleness with --check-dist
 

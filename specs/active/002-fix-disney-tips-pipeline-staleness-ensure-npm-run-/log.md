@@ -14,3 +14,7 @@ Result: ✓ Complete
 ### Iteration 3 - 04:04:36
 Task: 1.3 Verify disney.bound.tips serves the updated tips count (curl or browser check)
 Result: ✓ Complete
+
+### Iteration 4 - 04:04:48
+Task: 2.1 Add `"pipeline:deploy": "npm run fetch && npm run extract && npm run build && npm run check-staleness -- --check-dist"` to `package.json`
+Result: ✓ Complete

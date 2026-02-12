@@ -9,6 +9,7 @@
     "backfill": "tsx scripts/backfill-transcripts.ts",
     "check-staleness": "tsx scripts/check-staleness.ts",
     "pipeline": "npm run fetch && npm run extract && npm run check-staleness",
+    "pipeline:deploy": "npm run fetch && npm run extract && npm run build && npm run check-staleness -- --check-dist",
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",
     "dev": "vite",
