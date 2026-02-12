@@ -4,7 +4,7 @@
 ## 1. Immediate fix: rebuild dist/
 
 - [x] 1.1 Run `npm run build` to sync `dist/` with current `data/public/` output
-- [ ] 1.2 Verify `dist/tips.json` now has `lastUpdated: 2026-02-10` and 1950 tips
+- [x] 1.2 Verify `dist/tips.json` now has `lastUpdated: 2026-02-10` and 1950 tips
 - [ ] 1.3 Verify disney.bound.tips serves the updated tips count (curl or browser check)
 
 ## 2. Add `pipeline:deploy` script
