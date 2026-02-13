@@ -487,9 +487,11 @@ async function main() {
 
   // Load existing tips
   let existingTips: ExtractedTip[] = [];
+  let previousLastUpdated: string | undefined;
   if (existsSync('data/public/tips.json')) {
     const existing: TipsData = JSON.parse(readFileSync('data/public/tips.json', 'utf-8'));
     existingTips = existing.tips;
+    previousLastUpdated = existing.lastUpdated;
     log.info(`Found ${existingTips.length} existing tips`);
   }
 
@@ -556,8 +558,16 @@ async function main() {
     new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime()
   );
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = newTips.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+  if (newTips.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
   const data: TipsData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
+    lastChecked: nowIso,
     totalTips: dedupedTips.length,
     tips: dedupedTips
   };

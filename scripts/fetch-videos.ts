@@ -166,9 +166,11 @@ async function main() {
 
   // Load existing videos to avoid re-fetching transcripts
   let existingVideos: Video[] = [];
+  let previousLastUpdated: string | null = null;
   if (existsSync('data/pipeline/videos.json')) {
     const existing: VideosData = JSON.parse(readFileSync('data/pipeline/videos.json', 'utf-8'));
     existingVideos = existing.videos;
+    previousLastUpdated = existing.lastUpdated ?? null;
     log.info(`Found ${existingVideos.length} existing videos`);
   }
 
@@ -228,8 +230,17 @@ async function main() {
   const allVideos = [...existingVideos, ...newVideos]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = newVideos.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+  if (newVideos.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
+
   const data: VideosData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
+    lastChecked: nowIso,
     totalVideos: allVideos.length,
     videos: allVideos
   };

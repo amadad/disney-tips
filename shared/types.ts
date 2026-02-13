@@ -78,6 +78,7 @@ export interface ExtractedTip {
 
 export interface TipsData {
   lastUpdated: string;
+  lastChecked: string;
   totalTips: number;
   tips: ExtractedTip[];
   topTips?: string[]; // IDs of curated top tips
@@ -85,6 +86,7 @@ export interface TipsData {
 
 export interface VideosData {
   lastUpdated: string;
+  lastChecked: string;
   totalVideos: number;
   videos: Video[];
 }
