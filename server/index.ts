@@ -113,6 +113,47 @@ If the query doesn't match any tips well, return the most popular/useful general
   }
 });
 
+// Email subscribe endpoint
+app.post('/api/subscribe', async (req, res) => {
+  const { email } = req.body;
+  if (!email || typeof email !== 'string' || !email.includes('@')) {
+    return res.status(400).json({ error: 'Valid email required' });
+  }
+
+  const resendKey = process.env.RESEND_API_KEY;
+  if (!resendKey) {
+    console.error('RESEND_API_KEY not set');
+    return res.status(500).json({ error: 'Email service not configured' });
+  }
+
+  try {
+    const response = await fetch('https://api.resend.com/contacts', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${resendKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: email.trim().toLowerCase(),
+        unsubscribed: false,
+        audience_id: process.env.RESEND_AUDIENCE_ID || '',
+      }),
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      console.error('Resend error:', err);
+      return res.status(response.status).json({ error: 'Failed to subscribe' });
+    }
+
+    console.log(`Subscribed: ${email}`);
+    res.json({ ok: true });
+  } catch (error) {
+    console.error('Subscribe error:', error);
+    res.status(500).json({ error: 'Failed to subscribe' });
+  }
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({

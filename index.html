@@ -88,51 +88,32 @@
         <span id="last-updated"></span>
         <span id="next-update"></span>
       </div>
+      <form id="email-signup" class="email-signup" action="/api/subscribe" method="POST">
+        <p class="signup-label">Get weekly Disney tips in your inbox</p>
+        <div class="signup-row">
+          <input type="email" name="email" required placeholder="you@example.com" class="signup-input" autocomplete="email">
+          <button type="submit" class="signup-btn">Subscribe</button>
+        </div>
+        <p id="signup-msg" class="signup-msg"></p>
+      </form>
     </div>
   </div>
 
   <div class="container">
     <div class="search-wrapper">
-      <input type="text" class="search-box" id="search" placeholder="Search the collection...">
-      <button id="random-tip-btn" class="random-btn" title="Show a random tip">Surprise Me</button>
-    </div>
-
-    <div class="filter-controls">
-      <div class="view-toggle" id="view-toggle">
-        <button class="view-btn active" data-view="top">Top Tips</button>
-        <button class="view-btn" data-view="all">All Tips</button>
-      </div>
-      <div class="filter-actions">
-        <button id="filters-toggle" class="filters-toggle" aria-expanded="false">More Filters</button>
-      </div>
-      <div class="category-select">
-        <select id="category-select" class="filter-select" aria-label="Filter by Category">
-          <option value="all">All Categories</option>
-        </select>
-      </div>
-      <div class="category-scroll" id="category-filters">
-        <!-- Categories injected here -->
-      </div>
-      <div class="secondary-filters" id="secondary-filters">
-        <select id="sort-select" class="filter-select" aria-label="Sort by">
-          <option value="newest">Newest First</option>
-          <option value="priority">Highest Priority</option>
-          <option value="oldest">Oldest First</option>
-        </select>
-        <select id="park-select" class="filter-select" aria-label="Filter by Park">
-          <option value="all">All Parks</option>
-        </select>
-        <select id="priority-select" class="filter-select" aria-label="Filter by Impact">
-          <option value="all">All Impact Levels</option>
-        </select>
-        <select id="season-select" class="filter-select" aria-label="Filter by Season">
-          <option value="all">Any Season</option>
-        </select>
-        <button id="clear-filters-btn" class="clear-btn" style="display: none;">Clear Filters</button>
+      <div class="search-input-wrap">
+        <input type="text" class="search-box" id="search" placeholder="Search tips...">
+        <button id="random-tip-btn" class="shuffle-btn" title="Random tip">&#x21bb;</button>
       </div>
     </div>
 
-    <div class="filtered-count" id="filtered-count"></div>
+    <div class="filter-bar" id="filter-bar">
+      <div class="filter-scroll" id="filter-scroll">
+        <!-- View + category pills + dropdowns injected by JS -->
+      </div>
+    </div>
+
+    <div class="results-count" id="results-count"></div>
 
     <div class="tips-grid" id="tips-container">
       <!-- Skeletons will be injected here by JS -->
@@ -167,9 +148,7 @@
       <a href="transportation.html">Transportation</a>
     </div>
     <div class="footer-meta">
-      <span id="footer-updated" class="footer-updated"></span>
-      <span class="separator">|</span>
-      <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, Inc 2026</a>
+      <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, INC 2026</a>
     </div>
   </footer>
 

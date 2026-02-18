@@ -100,6 +100,8 @@ function getUrlParams(): URLSearchParams {
 
 function updateUrl(): void {
   const params = new URLSearchParams();
+  if (currentView !== 'top') params.set('view', currentView);
+  if (currentSort !== 'newest') params.set('sort', currentSort);
   if (currentCategory !== 'all') params.set('category', currentCategory);
   if (currentPriority !== 'all') params.set('priority', currentPriority);
   if (currentSeason !== 'all') params.set('season', currentSeason);
@@ -123,6 +125,12 @@ function loadFromUrl(): boolean {
     showSingleTip(tipId);
     return true; // Signal that single tip view is active
   }
+
+  const viewParam = params.get('view');
+  currentView = viewParam === 'all' ? 'all' : 'top';
+
+  const sortParam = params.get('sort');
+  currentSort = SORT_OPTIONS.some(opt => opt.id === sortParam) ? (sortParam as string) : 'newest';
 
   currentCategory = params.get('category') || 'all';
   currentPriority = params.get('priority') || 'all';
@@ -159,17 +167,19 @@ function showSingleTip(tipId: string): void {
   searchQuery = '';
 
   const container = document.getElementById('tips-container')!;
-  const countEl = document.getElementById('filtered-count');
   const paginationEl = document.getElementById('pagination');
+  const resultsEl = document.getElementById('results-count');
 
-  if (countEl) countEl.innerHTML = `<a href="${window.location.pathname}" class="back-link">&larr; View all tips</a>`;
   if (paginationEl) paginationEl.innerHTML = '';
+  if (resultsEl) resultsEl.textContent = 'Viewing shared tip';
 
-  container.innerHTML = renderTipCard(tip, { highlight: true });
+  container.innerHTML = `<div style="text-align:center;margin-bottom:1.5rem"><a href="${window.location.pathname}" class="back-link">&larr; View all tips</a></div>` + renderTipCard(tip, { highlight: true });
 }
 
 function hasActiveFilters(): boolean {
-  return currentCategory !== 'all' ||
+  return currentView !== 'top' ||
+         currentSort !== 'newest' ||
+         currentCategory !== 'all' ||
          currentPriority !== 'all' ||
          currentSeason !== 'all' ||
          currentPark !== 'all' ||
@@ -177,6 +187,8 @@ function hasActiveFilters(): boolean {
 }
 
 function clearAllFilters(): void {
+  currentView = 'top';
+  currentSort = 'newest';
   currentCategory = 'all';
   currentPriority = 'all';
   currentSeason = 'all';
@@ -206,15 +218,6 @@ async function loadTips(): Promise<void> {
     document.getElementById('tip-count')!.textContent = `${data.totalTips} tips`;
     document.getElementById('last-updated')!.textContent =
       `Updated ${lastUpdatedDate.toLocaleDateString()}`;
-
-    const footerUpdatedEl = document.getElementById('footer-updated');
-    if (footerUpdatedEl) {
-      footerUpdatedEl.textContent = `Data updated ${lastUpdatedDate.toLocaleDateString('en-US', {
-        month: 'short',
-        day: 'numeric',
-        year: 'numeric'
-      })}`;
-    }
 
     // Calculate next update (cron runs daily at 6 AM UTC)
     const nextUpdateEl = document.getElementById('next-update');
@@ -255,199 +258,103 @@ function getCategoryCounts(): Record<string, number> {
   return counts;
 }
 
-function updateFiltersToggle(): void {
-  const filtersToggle = document.getElementById('filters-toggle');
-  const secondaryFilters = document.getElementById('secondary-filters');
-  if (!filtersToggle || !secondaryFilters) return;
-
-  const isOpen = secondaryFilters.classList.contains('open');
-  filtersToggle.textContent = isOpen ? 'Hide Filters' : 'More Filters';
-  filtersToggle.setAttribute('aria-expanded', String(isOpen));
-}
-
 function renderFilters(): void {
-  // Category filters (Buttons) with counts
-  const categoryContainer = document.getElementById('category-filters')!;
-  const counts = getCategoryCounts();
-  categoryContainer.innerHTML = CATEGORIES.map(cat => `
-    <button
-      class="filter-btn ${cat.id === currentCategory ? 'active' : ''}"
-      data-category="${cat.id}"
-    >
-      ${cat.label} <span class="filter-count">${counts[cat.id] || 0}</span>
-    </button>
-  `).join('');
+  const container = document.getElementById('filter-scroll');
+  if (!container) return;
 
-  // Category dropdown (mobile)
-  const categorySelect = document.getElementById('category-select') as HTMLSelectElement | null;
-  if (categorySelect) {
-    categorySelect.innerHTML = CATEGORIES.map(cat => {
-      const count = counts[cat.id] || 0;
-      return `
-        <option value="${cat.id}" ${cat.id === currentCategory ? 'selected' : ''}>
-          ${cat.label} (${count})
-        </option>
-      `;
-    }).join('');
+  const parts: string[] = [];
+
+  // View pills
+  parts.push(`<button class="pill${currentView === 'top' ? ' active' : ''}" data-view="top">Top</button>`);
+  parts.push(`<button class="pill${currentView === 'all' ? ' active' : ''}" data-view="all">All</button>`);
+
+  // Separator
+  parts.push('<span class="pill-sep"></span>');
+
+  // Category pills
+  for (const cat of CATEGORIES) {
+    parts.push(`<button class="pill${cat.id === currentCategory ? ' active' : ''}" data-category="${cat.id}">${cat.label}</button>`);
   }
 
-  // Priority filters (Select)
-  const prioritySelect = document.getElementById('priority-select') as HTMLSelectElement;
-  if (prioritySelect) {
-    prioritySelect.innerHTML = PRIORITIES.map(p => `
-      <option value="${p.id}" ${p.id === currentPriority ? 'selected' : ''}>
-        ${p.label}
-      </option>
-    `).join('');
+  // Separator
+  parts.push('<span class="pill-sep"></span>');
+
+  // Park dropdown
+  parts.push(`<select id="park-select" class="filter-select" aria-label="Filter by Park">${PARKS.map(p =>
+    `<option value="${p.id}"${p.id === currentPark ? ' selected' : ''}>${p.label}</option>`
+  ).join('')}</select>`);
+
+  // Priority dropdown
+  parts.push(`<select id="priority-select" class="filter-select" aria-label="Filter by Impact">${PRIORITIES.map(p =>
+    `<option value="${p.id}"${p.id === currentPriority ? ' selected' : ''}>${p.label}</option>`
+  ).join('')}</select>`);
+
+  // Season dropdown
+  parts.push(`<select id="season-select" class="filter-select" aria-label="Filter by Season">${SEASONS.map(s =>
+    `<option value="${s.id}"${s.id === currentSeason ? ' selected' : ''}>${s.label}</option>`
+  ).join('')}</select>`);
+
+  // Sort dropdown
+  parts.push(`<select id="sort-select" class="filter-select" aria-label="Sort by">${SORT_OPTIONS.map(s =>
+    `<option value="${s.id}"${s.id === currentSort ? ' selected' : ''}>${s.label}</option>`
+  ).join('')}</select>`);
+
+  // Clear button (only if filters active)
+  if (hasActiveFilters()) {
+    parts.push('<button id="clear-filters-btn" class="clear-btn">Clear</button>');
   }
 
-  // Season filters (Select)
-  const seasonSelect = document.getElementById('season-select') as HTMLSelectElement;
-  if (seasonSelect) {
-    seasonSelect.innerHTML = SEASONS.map(s => `
-      <option value="${s.id}" ${s.id === currentSeason ? 'selected' : ''}>
-        ${s.label}
-      </option>
-    `).join('');
-  }
-
-  // Park filters (Select)
-  const parkSelect = document.getElementById('park-select') as HTMLSelectElement;
-  if (parkSelect) {
-    parkSelect.innerHTML = PARKS.map(p => `
-      <option value="${p.id}" ${p.id === currentPark ? 'selected' : ''}>
-        ${p.label}
-      </option>
-    `).join('');
-  }
-
-  // Show/hide clear filters button
-  const clearBtn = document.getElementById('clear-filters-btn');
-  if (clearBtn) {
-    clearBtn.style.display = hasActiveFilters() ? 'inline-block' : 'none';
-  }
-
-  const secondaryFilters = document.getElementById('secondary-filters');
-  if (secondaryFilters) {
-    const shouldOpen = currentPriority !== 'all' ||
-      currentSeason !== 'all' ||
-      currentPark !== 'all' ||
-      currentSort !== 'newest';
-    if (shouldOpen) {
-      secondaryFilters.classList.add('open');
-    }
-  }
-
-  updateFiltersToggle();
+  container.innerHTML = parts.join('');
 }
 
 function setupFilterListeners(): void {
-  // Category clicks
-  document.getElementById('category-filters')!.addEventListener('click', (e) => {
-    const btn = (e.target as HTMLElement).closest('.filter-btn');
-    if (!btn) return;
-    currentCategory = btn.getAttribute('data-category') || 'all';
-    currentPage = 1;
-    updateUrl();
-    renderFilters();
-    renderTips();
-  });
+  // Delegated handler on filter bar for pills and selects
+  const filterBar = document.getElementById('filter-bar');
+  if (filterBar) {
+    // Pill clicks (view + category)
+    filterBar.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      const pill = target.closest('.pill') as HTMLElement | null;
+      if (!pill) {
+        // Clear button
+        if (target.closest('.clear-btn')) {
+          clearAllFilters();
+        }
+        return;
+      }
 
-  // Category dropdown (mobile)
-  const categorySelect = document.getElementById('category-select') as HTMLSelectElement | null;
-  if (categorySelect) {
-    categorySelect.addEventListener('change', (e) => {
-      currentCategory = (e.target as HTMLSelectElement).value;
+      const view = pill.getAttribute('data-view') as 'top' | 'all' | null;
+      const category = pill.getAttribute('data-category');
+
+      if (view) {
+        if (view === currentView) return;
+        currentView = view;
+      } else if (category !== null) {
+        currentCategory = category;
+      }
+
       currentPage = 1;
       updateUrl();
       renderFilters();
       renderTips();
     });
-  }
 
-  // Priority change
-  const prioritySelect = document.getElementById('priority-select') as HTMLSelectElement;
-  if (prioritySelect) {
-    prioritySelect.addEventListener('change', (e) => {
-      currentPriority = (e.target as HTMLSelectElement).value;
+    // Select changes (park, priority, season, sort)
+    filterBar.addEventListener('change', (e) => {
+      const target = e.target as HTMLSelectElement;
+      const id = target.id;
+
+      if (id === 'park-select') currentPark = target.value;
+      else if (id === 'priority-select') currentPriority = target.value;
+      else if (id === 'season-select') currentSeason = target.value;
+      else if (id === 'sort-select') { currentSort = target.value; currentPage = 1; updateUrl(); renderTips(); return; }
+      else return;
+
       currentPage = 1;
       updateUrl();
       renderFilters();
       renderTips();
     });
-  }
-
-  // Season change
-  const seasonSelect = document.getElementById('season-select') as HTMLSelectElement;
-  if (seasonSelect) {
-    seasonSelect.addEventListener('change', (e) => {
-      currentSeason = (e.target as HTMLSelectElement).value;
-      currentPage = 1;
-      updateUrl();
-      renderFilters();
-      renderTips();
-    });
-  }
-
-  // Park change
-  const parkSelect = document.getElementById('park-select') as HTMLSelectElement;
-  if (parkSelect) {
-    parkSelect.addEventListener('change', (e) => {
-      currentPark = (e.target as HTMLSelectElement).value;
-      currentPage = 1;
-      updateUrl();
-      renderFilters();
-      renderTips();
-    });
-  }
-
-  // View toggle (Top Tips vs All Tips)
-  const viewToggle = document.getElementById('view-toggle');
-  if (viewToggle) {
-    viewToggle.addEventListener('click', (e) => {
-      const btn = (e.target as HTMLElement).closest('.view-btn');
-      if (!btn) return;
-      const view = btn.getAttribute('data-view') as 'top' | 'all';
-      if (view === currentView) return;
-
-      currentView = view;
-      currentPage = 1;
-
-      // Update active state
-      viewToggle.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      updateUrl();
-      renderFilters();
-      renderTips();
-    });
-  }
-
-  // Filters toggle
-  const filtersToggle = document.getElementById('filters-toggle');
-  const secondaryFilters = document.getElementById('secondary-filters');
-  if (filtersToggle && secondaryFilters) {
-    filtersToggle.addEventListener('click', () => {
-      secondaryFilters.classList.toggle('open');
-      updateFiltersToggle();
-    });
-  }
-
-  // Sort change
-  const sortSelect = document.getElementById('sort-select') as HTMLSelectElement;
-  if (sortSelect) {
-    sortSelect.addEventListener('change', (e) => {
-      currentSort = (e.target as HTMLSelectElement).value;
-      currentPage = 1;
-      updateUrl();
-      renderTips();
-    });
-  }
-
-  // Clear filters button
-  const clearBtn = document.getElementById('clear-filters-btn');
-  if (clearBtn) {
-    clearBtn.addEventListener('click', clearAllFilters);
   }
 
   // Load more button
@@ -459,22 +366,19 @@ function setupFilterListeners(): void {
     renderTips();
   });
 
-  // Copy and Share button delegation with error handling
+  // Copy and Share button delegation
   document.getElementById('tips-container')!.addEventListener('click', async (e) => {
     const target = e.target as HTMLElement;
 
-    // Handle copy button
     const copyBtn = target.closest('.action-btn.copy');
     if (copyBtn) {
       const card = copyBtn.closest('.tip-card');
       const text = card?.querySelector('.tip-text')?.textContent || '';
-
       const success = await copyToClipboard(text);
       showToast(success ? 'Copied to clipboard' : 'Failed to copy');
       return;
     }
 
-    // Handle share button
     const shareBtn = target.closest('.action-btn.share');
     if (shareBtn) {
       const tipId = shareBtn.getAttribute('data-tip-id');
@@ -602,7 +506,7 @@ function renderLoadMore(totalItems: number, visibleCount: number): void {
   }
 
   paginationEl.innerHTML = `
-    <button class="load-more" id="load-more">Load more tips</button>
+    <button class="load-more" id="load-more">More tips (${visibleCount} of ${totalItems})</button>
   `;
 }
 
@@ -620,21 +524,19 @@ function renderTips(): void {
   const visibleCount = Math.min(filtered.length, currentPage * TIPS_PER_PAGE);
   const visibleTips = filtered.slice(0, visibleCount);
 
-  // Update count
-  const countEl = document.getElementById('filtered-count');
-  if (countEl) {
-    if (filtered.length > 0) {
-      countEl.textContent = `Showing ${visibleCount} of ${filtered.length} tips`;
-    } else {
-      countEl.textContent = 'Showing 0 tips';
-    }
+  const resultsEl = document.getElementById('results-count');
+  if (resultsEl) {
+    resultsEl.textContent = `Showing ${visibleCount} of ${filtered.length} tips`;
   }
 
   // Render load more button
   renderLoadMore(filtered.length, visibleCount);
 
   if (filtered.length === 0) {
-    container.innerHTML = '<div class="no-results">No tips found matching your criteria.</div>';
+    const suggestion = hasActiveFilters()
+      ? 'Try clearing filters or broadening your search.'
+      : 'Try a different search term.';
+    container.innerHTML = `<div class="no-results">No tips found. ${suggestion}</div>`;
     return;
   }
 
@@ -671,17 +573,64 @@ function showRandomTip(): void {
 
   // Render just this tip with a special highlight
   const container = document.getElementById('tips-container')!;
-  const countEl = document.getElementById('filtered-count');
-  if (countEl) countEl.textContent = 'Random tip';
-
+  const resultsEl = document.getElementById('results-count');
+  if (resultsEl) resultsEl.textContent = 'Random tip';
   container.innerHTML = renderTipCard(tip, { highlight: true });
+}
+
+// Hide prerendered tips once JS is ready
+function hidePrerendered() {
+  const el = document.getElementById('prerendered-tips');
+  if (el) el.style.display = 'none';
+}
+
+// Email signup handler
+function setupEmailSignup() {
+  const form = document.getElementById('email-signup') as HTMLFormElement | null;
+  if (!form) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const input = form.querySelector('input[name="email"]') as HTMLInputElement;
+    const btn = form.querySelector('button') as HTMLButtonElement;
+    const msg = document.getElementById('signup-msg')!;
+    const email = input.value.trim();
+    if (!email) return;
+
+    btn.disabled = true;
+    msg.textContent = '';
+    msg.className = 'signup-msg';
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        msg.textContent = '✓ You\'re in! Check your inbox.';
+        msg.className = 'signup-msg success';
+        input.value = '';
+      } else {
+        msg.textContent = data.error || 'Something went wrong.';
+        msg.className = 'signup-msg error';
+      }
+    } catch {
+      msg.textContent = 'Network error. Try again.';
+      msg.className = 'signup-msg error';
+    } finally {
+      btn.disabled = false;
+    }
+  });
 }
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-  setupFooterRssLink();
+  hidePrerendered();
   loadTips();
   setupFilterListeners();
+  setupEmailSignup();
 
   // Debounced search (200ms)
   const searchInput = document.getElementById('search') as HTMLInputElement;
@@ -800,21 +749,3 @@ function copyShareLink(url: string): void {
   });
 }
 
-function setupFooterRssLink(): void {
-  const footerMeta = document.querySelector('.footer-meta');
-  if (!footerMeta || footerMeta.querySelector('.rss-link')) return;
-
-  const separator = document.createElement('span');
-  separator.className = 'separator';
-  separator.textContent = '|';
-
-  const rssLink = document.createElement('a');
-  rssLink.href = '/feed.xml';
-  rssLink.target = '_blank';
-  rssLink.rel = 'noopener noreferrer';
-  rssLink.className = 'rss-link';
-  rssLink.setAttribute('aria-label', 'RSS Feed');
-  rssLink.textContent = 'RSS Feed';
-
-  footerMeta.append(separator, rssLink);
-}

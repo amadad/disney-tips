@@ -13,12 +13,14 @@
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && tsx scripts/prerender.ts",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "email:preview": "npm --prefix email run preview",
+    "email:send": "npm --prefix email run send"
   },
   "dependencies": {
     "@google/genai": "^0.14.0",
-    "apify-client": "^2.21.0",
     "dotenv": "^17.2.3",
     "express": "^4.21.0",
     "youtube-transcript": "^1.2.1",
