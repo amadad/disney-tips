@@ -5,6 +5,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
+import { resolveLastUpdated } from './lib/state.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -309,7 +310,7 @@ async function extractTipsFromVideo(video: Video): Promise<ExtractedTip[]> {
   }
 
   // Truncate transcript if too long
-  const maxTranscriptLength = 50000;
+  const maxTranscriptLength = 30000;
   let transcript = video.transcript;
   if (transcript.length > maxTranscriptLength) {
     console.log(`  Warning: Truncating transcript from ${transcript.length} to ${maxTranscriptLength} chars`);
@@ -487,9 +488,11 @@ async function main() {
 
   // Load existing tips
   let existingTips: ExtractedTip[] = [];
+  let previousLastUpdated: string | undefined;
   if (existsSync('data/public/tips.json')) {
     const existing: TipsData = JSON.parse(readFileSync('data/public/tips.json', 'utf-8'));
     existingTips = existing.tips;
+    previousLastUpdated = existing.lastUpdated;
     log.info(`Found ${existingTips.length} existing tips`);
   }
 
@@ -542,7 +545,7 @@ async function main() {
   for (const tip of allTips) {
     // Normalize text for deduplication (lowercase, remove punctuation)
     const normalizedText = tip.text.toLowerCase().replace(/[^\w\s]/g, '').trim();
-    const key = `${normalizedText}|${tip.category}|${tip.park}|${tip.priority}`;
+    const key = `${normalizedText}|${tip.category}|${tip.park}`;
 
     if (!tipsByKey.has(key)) {
       tipsByKey.set(key, tip);
@@ -556,8 +559,16 @@ async function main() {
     new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime()
   );
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = resolveLastUpdated(previousLastUpdated, newTips.length, nowIso);
+  if (newTips.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
   const data: TipsData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
+    lastChecked: nowIso,
     totalTips: dedupedTips.length,
     tips: dedupedTips
   };
@@ -625,4 +636,7 @@ async function main() {
   console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

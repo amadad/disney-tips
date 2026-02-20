@@ -87,12 +87,16 @@ h1 {
 /* Search Box */
 .search-wrapper {
   max-width: 500px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 1.5rem;
+}
+
+.search-input-wrap {
+  position: relative;
 }
 
 .search-box {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem 2.5rem 1rem 0;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0;
@@ -114,140 +118,98 @@ h1 {
   font-style: italic;
 }
 
-.random-btn {
-  display: block;
-  margin: 1.5rem auto 0;
-  padding: 0.55rem 1.4rem;
+.shuffle-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   background: transparent;
-  border: 1px solid var(--soft-gold);
-  color: var(--soft-gold);
-  font-family: 'Lato', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 20px;
-}
-
-.random-btn:hover {
-  background: var(--soft-gold);
-  color: var(--bg-color);
-}
-
-/* Filter Controls */
-.filter-controls {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-bottom: 2.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 1.75rem;
-}
-
-/* View Toggle (Top Tips / All Tips) */
-.view-toggle {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.filter-actions {
-  display: flex;
-  justify-content: center;
-}
-
-.filters-toggle {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: none;
   color: var(--text-muted);
-  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  line-height: 1;
+  transition: color 0.2s ease, transform 0.3s ease;
+}
+
+.shuffle-btn:hover {
+  color: var(--soft-gold);
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Filter Bar */
+.filter-bar {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1rem;
+}
+
+.filter-scroll {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  align-items: center;
+  padding-bottom: 0.25rem;
+  justify-content: center;
+}
+
+.filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.pill {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: var(--text-muted);
   font-family: 'Lato', sans-serif;
   font-size: 0.75rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 999px;
-  transition: all 0.2s ease;
-}
-
-.filters-toggle:hover {
-  border-color: var(--soft-gold);
-  color: var(--soft-gold);
-}
-
-.category-select {
-  display: none;
-  justify-content: center;
-}
-
-.view-btn {
-  padding: 0.5rem 1.25rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 2rem;
-  background: transparent;
-  color: var(--text-muted);
-  font-family: 'Lato', sans-serif;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  white-space: nowrap;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.view-btn:hover {
+.pill:hover {
   border-color: var(--soft-gold);
   color: var(--soft-gold);
 }
 
-.view-btn.active {
+.pill.active {
   background: var(--soft-gold);
   border-color: var(--soft-gold);
   color: var(--bg-color);
   font-weight: 700;
 }
 
-.category-scroll {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  overflow-x: auto;
-  padding-bottom: 0.5rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.category-scroll::-webkit-scrollbar {
-  display: none;
-}
-
-.secondary-filters {
-  display: none;
-  gap: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.secondary-filters.open {
-  display: flex;
+.pill-sep {
+  width: 1px;
+  height: 1rem;
+  background: rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+  margin: 0 0.25rem;
 }
 
 .filter-select {
   appearance: none;
   background: transparent;
   border: none;
-  padding: 0.5rem 1.5rem 0.5rem 0;
+  padding: 0.35rem 1.2rem 0.35rem 0;
   color: var(--text-muted);
   font-family: 'Lato', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   cursor: pointer;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%239ca3af' d='M5 7.5L1 3.5h8z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right center;
   transition: color 0.2s;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .filter-select:hover,
@@ -260,14 +222,15 @@ h1 {
   background: transparent;
   border: 1px solid var(--high-priority);
   color: var(--high-priority);
-  padding: 0.4rem 0.8rem;
+  padding: 0.3rem 0.7rem;
   font-family: 'Lato', sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 1px;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 999px;
   transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .clear-btn:hover {
@@ -275,54 +238,11 @@ h1 {
   color: var(--white);
 }
 
-.filter-btn {
-  padding: 0.5rem 0;
-  border: none;
-  background: transparent;
-  color: var(--text-muted);
-  cursor: pointer;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
-  white-space: nowrap;
-  transition: color 0.2s ease;
-  position: relative;
-}
-
-.filter-btn:hover {
-  color: var(--white);
-}
-
-.filter-btn.active {
-  color: var(--white);
-  font-weight: 700;
-}
-
-.filter-btn.active::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: var(--soft-gold);
-}
-
-.filter-count {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-left: 0.25rem;
-}
-
-.filter-btn.active .filter-count {
-  color: var(--platinum);
-}
-
-.filtered-count {
+.results-count {
   text-align: center;
   color: var(--text-muted);
-  margin-bottom: 3rem;
-  font-size: 0.85rem;
-  font-style: italic;
+  font-size: 0.82rem;
+  margin: -0.25rem 0 1.4rem;
 }
 
 /* Tips Grid */
@@ -656,33 +576,6 @@ footer a:hover {
     padding: 0 1.25rem 3.5rem;
   }
 
-  .filter-controls {
-    gap: 1rem;
-  }
-
-  .category-select {
-    display: flex;
-  }
-
-  .category-select .filter-select {
-    width: 100%;
-    max-width: 320px;
-    text-align: center;
-  }
-
-  .category-scroll {
-    justify-content: flex-start;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    gap: 1.25rem;
-  }
-
-  .secondary-filters {
-    justify-content: space-between;
-    padding: 0 0.5rem;
-    gap: 1rem;
-  }
-
   .action-btn {
     opacity: 1;
   }
@@ -703,37 +596,16 @@ footer a:hover {
   }
 
   .search-wrapper {
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
   }
 
   .search-box {
     font-size: 1rem;
   }
 
-  .random-btn {
-    width: 100%;
-  }
-
-  .view-toggle {
-    flex-wrap: wrap;
-  }
-
-  .view-btn {
-    flex: 1 1 140px;
-  }
-
-  .category-scroll {
-    display: none;
-  }
-
-  .secondary-filters {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.75rem;
-  }
-
-  .filter-select {
-    width: 100%;
+  .filter-scroll {
+    justify-content: flex-start;
+    padding: 0 0.5rem 0.25rem;
   }
 
   .tips-grid {
@@ -763,4 +635,81 @@ footer a:hover {
     padding: 3rem 1rem;
     letter-spacing: 1px;
   }
+}
+
+/* Email signup */
+.email-signup {
+  margin-top: 1.5rem;
+}
+
+.signup-label {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.signup-row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(252, 211, 77, 0.3);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text-main);
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.signup-input:focus {
+  border-color: var(--soft-gold);
+}
+
+.signup-btn {
+  padding: 0.6rem 1.2rem;
+  background: var(--soft-gold);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+.signup-btn:hover {
+  opacity: 0.9;
+}
+
+.signup-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.signup-msg {
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+  min-height: 1.2em;
+}
+
+.signup-msg.success {
+  color: var(--low-priority);
+}
+
+.signup-msg.error {
+  color: var(--high-priority);
+}
+
+/* Prerendered tips (hidden once JS hydrates) */
+#prerendered-tips {
+  /* shown by default for SEO, JS hides it */
 }

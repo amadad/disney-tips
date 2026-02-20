@@ -7,24 +7,30 @@
     "extract": "tsx scripts/extract-tips.ts",
     "dedupe": "tsx scripts/dedupe-tips.ts",
     "backfill": "tsx scripts/backfill-transcripts.ts",
-    "pipeline": "npm run fetch && npm run extract",
+    "check-staleness": "tsx scripts/check-staleness.ts",
+    "pipeline": "npm run fetch && npm run extract && npm run check-staleness",
+    "embed": "tsx scripts/embed-tips.ts",
+    "verify-live": "tsx scripts/verify-live.ts",
+    "pipeline:deploy": "npm run fetch && npm run extract && npm run embed && npm run build && npm run check-staleness -- --check-dist && npm run verify-live",
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && tsx scripts/prerender.ts",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "email:preview": "npm --prefix email run preview",
+    "email:send": "npm --prefix email run send"
   },
   "dependencies": {
-    "@google/genai": "^0.14.0",
-    "apify-client": "^2.21.0",
+    "@google/genai": "^1.42.0",
     "dotenv": "^17.2.3",
     "express": "^4.21.0",
-    "youtube-transcript": "^1.2.1",
+    "openai": "^6.22.0",
+    "tsx": "^4.19.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
-    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "vite": "^6.0.3"
   }

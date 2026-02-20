@@ -1,8 +1,9 @@
 import { config } from 'dotenv';
 config({ path: '.env.local' });
-import { ApifyClient } from 'apify-client';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { DISNEY_CHANNELS, type Video, type VideosData, type ChannelName } from './types.js';
+import { fetchTranscriptViaYtdlp, runTranscriptPreflight, type TranscriptRuntimeConfig } from './lib/transcript.js';
+import { resolveLastUpdated } from './lib/state.js';
 
 // Simple logger with levels
 const LOG_LEVELS = { debug: 0, info: 1, warn: 2, error: 3 };
@@ -118,57 +119,41 @@ function cleanTranscript(text: string): string {
   return cleaned.replace(/\s+/g, ' ').trim();
 }
 
-// Fetch transcripts via Apify YouTube Transcript Ninja
-async function getTranscriptsViaApify(videoIds: string[]): Promise<Map<string, string>> {
-  const apiToken = process.env.APIFY_API_TOKEN;
-  if (!apiToken) {
-    log.error('APIFY_API_TOKEN not set');
-    return new Map();
-  }
+// Fetch transcripts for multiple videos via yt-dlp (sequential to avoid rate limits)
+async function getTranscripts(videoIds: string[], runtime: TranscriptRuntimeConfig): Promise<Map<string, string>> {
+  if (videoIds.length === 0) return new Map();
 
-  if (videoIds.length === 0) {
-    return new Map();
-  }
-
-  log.info(`Fetching ${videoIds.length} transcripts via Apify...`);
-
-  const client = new ApifyClient({ token: apiToken });
-
-  const run = await client.actor('dB9f4B02ocpTICIEY').call({
-    startUrls: videoIds.map(id => `https://www.youtube.com/watch?v=${id}`),
-    timestamps: false
-  });
-
-  const { items } = await client.dataset(run.defaultDatasetId).listItems();
-
+  log.info(`Fetching ${videoIds.length} transcripts via yt-dlp + WARP...`);
   const transcripts = new Map<string, string>();
-  for (const item of items) {
-    const videoId = item.videoId as string;
-    const transcriptText = item.text || item.transcript;
 
-    if (videoId && transcriptText) {
-      const text = typeof transcriptText === 'string'
-        ? transcriptText
-        : JSON.stringify(transcriptText);
-
-      if (text.length > 50) {
-        transcripts.set(videoId, cleanTranscript(text));
-      }
+  for (const videoId of videoIds) {
+    const text = await fetchTranscriptViaYtdlp(videoId, runtime, log);
+    if (text) {
+      transcripts.set(videoId, cleanTranscript(text));
+      log.info(`  ✓ ${videoId} (${text.length} chars)`);
+    } else {
+      log.info(`  ✗ ${videoId} (no subtitles)`);
+    }
+    // Small delay between requests
+    if (videoIds.length > 5) {
+      await new Promise(r => setTimeout(r, 500));
     }
   }
 
-  log.info(`Got ${transcripts.size}/${videoIds.length} transcripts from Apify`);
+  log.info(`Got ${transcripts.size}/${videoIds.length} transcripts`);
   return transcripts;
 }
 
 async function main() {
-  log.info('Starting video fetch via RSS + Apify...');
+  log.info('Starting video fetch via RSS + yt-dlp...');
 
   // Load existing videos to avoid re-fetching transcripts
   let existingVideos: Video[] = [];
+  let previousLastUpdated: string | null = null;
   if (existsSync('data/pipeline/videos.json')) {
     const existing: VideosData = JSON.parse(readFileSync('data/pipeline/videos.json', 'utf-8'));
     existingVideos = existing.videos;
+    previousLastUpdated = existing.lastUpdated ?? null;
     log.info(`Found ${existingVideos.length} existing videos`);
   }
 
@@ -203,9 +188,14 @@ async function main() {
 
   log.info(`Found ${videosToProcess.length} new videos`);
 
-  // Batch fetch all transcripts via Apify (single API call)
+  const preflight = await runTranscriptPreflight(log);
+  if (!preflight.ok) {
+    throw new Error('Transcript runtime preflight failed (set TRANSCRIPT_STRICT_PREFLIGHT=false to allow degraded mode)');
+  }
+
+  // Fetch transcripts via yt-dlp + WARP proxy
   const videoIds = videosToProcess.map(v => v.rssVideo.id);
-  const transcripts = await getTranscriptsViaApify(videoIds);
+  const transcripts = await getTranscripts(videoIds, preflight.config);
 
   // Build video objects with transcripts
   const newVideos: Video[] = videosToProcess.map(({ channelName, rssVideo }) => {
@@ -228,8 +218,17 @@ async function main() {
   const allVideos = [...existingVideos, ...newVideos]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
+  const nowIso = new Date().toISOString();
+  const lastUpdated = resolveLastUpdated(previousLastUpdated, newVideos.length, nowIso);
+  if (newVideos.length > 0 || !previousLastUpdated) {
+    log.info(`lastUpdated advanced to ${lastUpdated}`);
+  } else {
+    log.info(`lastUpdated preserved at ${lastUpdated}`);
+  }
+
   const data: VideosData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
+    lastChecked: nowIso,
     totalVideos: allVideos.length,
     videos: allVideos
   };
@@ -241,4 +240,7 @@ async function main() {
   log.info(`Total videos: ${allVideos.length}`);
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
