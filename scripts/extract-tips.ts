@@ -5,6 +5,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
+import { resolveLastUpdated } from './lib/state.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -309,7 +310,7 @@ async function extractTipsFromVideo(video: Video): Promise<ExtractedTip[]> {
   }
 
   // Truncate transcript if too long
-  const maxTranscriptLength = 50000;
+  const maxTranscriptLength = 30000;
   let transcript = video.transcript;
   if (transcript.length > maxTranscriptLength) {
     console.log(`  Warning: Truncating transcript from ${transcript.length} to ${maxTranscriptLength} chars`);
@@ -544,7 +545,7 @@ async function main() {
   for (const tip of allTips) {
     // Normalize text for deduplication (lowercase, remove punctuation)
     const normalizedText = tip.text.toLowerCase().replace(/[^\w\s]/g, '').trim();
-    const key = `${normalizedText}|${tip.category}|${tip.park}|${tip.priority}`;
+    const key = `${normalizedText}|${tip.category}|${tip.park}`;
 
     if (!tipsByKey.has(key)) {
       tipsByKey.set(key, tip);
@@ -559,7 +560,7 @@ async function main() {
   );
 
   const nowIso = new Date().toISOString();
-  const lastUpdated = newTips.length > 0 ? nowIso : (previousLastUpdated ?? nowIso);
+  const lastUpdated = resolveLastUpdated(previousLastUpdated, newTips.length, nowIso);
   if (newTips.length > 0 || !previousLastUpdated) {
     log.info(`lastUpdated advanced to ${lastUpdated}`);
   } else {
@@ -635,4 +636,7 @@ async function main() {
   console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

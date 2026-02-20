@@ -212,8 +212,10 @@ async function main() {
   );
 
   // Save
+  const nowIso = new Date().toISOString();
   const output: TipsData & { topTips: string[] } = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated: nowIso,
+    lastChecked: nowIso,
     totalTips: dedupedTips.length,
     tips: dedupedTips,
     topTips: topTipIds
@@ -223,4 +225,7 @@ async function main() {
   console.log(`\nDone! Saved ${dedupedTips.length} tips with ${topTipIds.length} top tips`);
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

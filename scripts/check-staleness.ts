@@ -1,11 +1,12 @@
 import { readFileSync } from 'fs';
+import { pathToFileURL } from 'url';
 
 type Args = {
   thresholdDays: number;
   checkDist: boolean;
 };
 
-function parseArgs(argv: string[]): Args {
+export function parseArgs(argv: string[]): Args {
   let thresholdDays = 3;
   let checkDist = false;
 
@@ -46,7 +47,7 @@ function parseArgs(argv: string[]): Args {
   return { thresholdDays, checkDist };
 }
 
-function formatDays(days: number): string {
+export function formatDays(days: number): string {
   // Avoid noisy decimals for clean day-boundary values.
   const roundedToTenth = Math.floor(days * 10) / 10;
   if (Number.isInteger(roundedToTenth)) return String(roundedToTenth);
@@ -93,14 +94,14 @@ function readLastChecked(data: unknown, path: string): string {
   return value;
 }
 
-function main(): number {
+export function main(argv = process.argv.slice(2)): number {
   const tipsPath = 'data/public/tips.json';
   const distTipsPath = 'dist/tips.json';
   let distParsed: unknown;
 
   let args: Args;
   try {
-    args = parseArgs(process.argv.slice(2));
+    args = parseArgs(argv);
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     if (message === 'HELP') {
@@ -189,4 +190,7 @@ function main(): number {
   return 0;
 }
 
-process.exitCode = main();
+const isDirectExecution = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isDirectExecution) {
+  process.exitCode = main();
+}
