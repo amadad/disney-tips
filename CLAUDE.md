@@ -44,18 +44,20 @@ This is a **batch-first** Disney tips aggregator with an Express server:
    - Fetches videos from 10 Disney YouTube channels via RSS feeds
    - Extracts transcripts via yt-dlp with WARP proxy (SOCKS5 at 127.0.0.1:1080)
    - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
-   - Generates OpenAI embeddings for semantic search
+   - Generates OpenAI embeddings (256-dim, `text-embedding-3-small`) for client-side vector search
    - Filters out non-Disney content (Universal, generic travel)
    - Saves results to `data/`, builds static site to `dist/`
 
 2. **Server** (`server/index.ts`) - Express app (port 3000)
-   - Serves static files from `dist/`
-   - `POST /api/search` — Semantic search (OpenAI embeddings) with text fallback
+   - Serves static files from `dist/` and `data/public/`
+   - `POST /api/embed-query` — Returns 256-dim query vector (LRU cached, 1K entries)
+   - `POST /api/search` — Server-side semantic search with text fallback
    - `POST /api/subscribe` — Email subscription via Resend
    - `GET /api/health` — Health check
 
 3. **Frontend** (`src/`, `index.html`) - Vite static site
    - Client-side filtering by category, park, priority, season, and search
+   - **Client-side vector search**: loads 256-dim embeddings (~6.5MB) on page load, cosine similarity in browser (~5ms for ~2,700 tips). Falls back to `/api/search` if embeddings not yet loaded.
    - Disney-themed UI with castle gradient header
 
 ### Key Files
@@ -77,7 +79,7 @@ server/index.ts              # Express server (search, subscribe, health)
 data/
   public/                    # Bind-mounted into container
     tips.json                # Extracted structured tips (~2700 tips)
-    embeddings.json          # OpenAI embeddings
+    embeddings.json          # OpenAI embeddings (256-dim, served to browser)
     feed.xml                 # RSS 2.0 feed
   pipeline/                  # NOT deployed
     videos.json              # Raw video metadata + transcripts

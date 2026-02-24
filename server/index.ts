@@ -84,15 +84,49 @@ function cosineSimilarity(a: number[], b: number[]): number {
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
+const EMBED_DIMENSIONS = 256;
+
+// LRU cache for query embeddings
+const queryEmbedCache = new Map<string, number[]>();
+const CACHE_MAX = 1000;
+
+function normalizeQuery(q: string): string {
+  return q.toLowerCase().trim().replace(/\s+/g, ' ');
+}
+
+async function getQueryEmbedding(query: string): Promise<number[] | null> {
+  if (!openai) return null;
+  const key = normalizeQuery(query);
+  if (queryEmbedCache.has(key)) {
+    // Move to end (most recently used)
+    const vec = queryEmbedCache.get(key)!;
+    queryEmbedCache.delete(key);
+    queryEmbedCache.set(key, vec);
+    return vec;
+  }
+
+  const response = await openai.embeddings.create({
+    model: 'text-embedding-3-small',
+    input: key,
+    dimensions: EMBED_DIMENSIONS,
+  });
+  const vec = response.data[0].embedding;
+
+  // Evict oldest if over capacity
+  if (queryEmbedCache.size >= CACHE_MAX) {
+    const oldest = queryEmbedCache.keys().next().value;
+    if (oldest !== undefined) queryEmbedCache.delete(oldest);
+  }
+  queryEmbedCache.set(key, vec);
+  return vec;
+}
+
 async function semanticSearch(query: string, limit = 20): Promise<string[] | null> {
   if (!openai || embeddingsMap.size === 0) return null;
 
   try {
-    const response = await openai.embeddings.create({
-      model: 'text-embedding-3-small',
-      input: query,
-    });
-    const queryVec = response.data[0].embedding;
+    const queryVec = await getQueryEmbedding(query);
+    if (!queryVec) return null;
 
     const scored: { id: string; score: number }[] = [];
     for (const tip of tipsData.tips) {
@@ -160,6 +194,7 @@ app.set('trust proxy', 1);
 
 app.use(express.json());
 app.use(express.static(join(__dirname, '..', 'dist')));
+app.use('/data/public', express.static(join(__dirname, '..', 'data', 'public')));
 
 // Search API endpoint
 app.post('/api/search', async (req, res) => {
@@ -173,7 +208,37 @@ app.post('/api/search', async (req, res) => {
 
   // Try semantic search first, fall back to text
   const ids = await semanticSearch(trimmedQuery) || textSearch(trimmedQuery);
+
+  // If ?enrich=true, return full tip objects with scores
+  if (req.query.enrich === 'true') {
+    const tipMap = new Map(tipsData.tips.map(t => [t.id, t]));
+    const results = ids.map((id, i) => {
+      const tip = tipMap.get(id);
+      return tip ? { ...tip, score: 1 - i / ids.length } : null;
+    }).filter(Boolean);
+    return res.json({ results });
+  }
+
   res.json({ ids });
+});
+
+// Embed query endpoint — returns 256-dim vector for client-side search
+app.post('/api/embed-query', async (req, res) => {
+  const { query } = req.body;
+  if (!query || typeof query !== 'string' || query.trim().length === 0) {
+    return res.status(400).json({ error: 'Query is required' });
+  }
+
+  try {
+    const vector = await getQueryEmbedding(query.trim());
+    if (!vector) {
+      return res.status(503).json({ error: 'Embedding service unavailable' });
+    }
+    res.json({ vector });
+  } catch (err) {
+    console.error('Embed query failed:', err);
+    res.status(500).json({ error: 'Embedding failed' });
+  }
 });
 
 // Email subscribe endpoint

@@ -32,10 +32,18 @@ async function main() {
   const tipsData: TipsData = JSON.parse(readFileSync('data/public/tips.json', 'utf-8'));
   console.log(`Loaded ${tipsData.tips.length} tips`);
 
-  // Load existing embeddings
+  const DIMENSIONS = 256;
+
+  // Load existing embeddings — skip if dimension changed
   let existing: EmbeddingEntry[] = [];
   if (existsSync('data/public/embeddings.json')) {
-    existing = JSON.parse(readFileSync('data/public/embeddings.json', 'utf-8'));
+    const raw: EmbeddingEntry[] = JSON.parse(readFileSync('data/public/embeddings.json', 'utf-8'));
+    const dimMatch = raw.length > 0 && raw[0].vector.length === DIMENSIONS;
+    if (dimMatch) {
+      existing = raw;
+    } else {
+      console.log(`Dimension changed (was ${raw[0]?.vector.length}, now ${DIMENSIONS}). Re-embedding all tips.`);
+    }
   }
   const existingIds = new Set(existing.map(e => e.tipId));
 
@@ -60,17 +68,22 @@ async function main() {
     const response = await openai.embeddings.create({
       model: 'text-embedding-3-small',
       input: texts,
+      dimensions: DIMENSIONS,
     });
 
     for (let j = 0; j < batch.length; j++) {
       newEmbeddings.push({
         tipId: batch[j].id,
-        vector: response.data[j].embedding,
+        vector: response.data[j].embedding.map(v => Math.round(v * 1e6) / 1e6),
       });
     }
   }
 
-  const allEmbeddings = [...existing, ...newEmbeddings];
+  // Truncate existing embeddings to 6 decimal places too
+  const allEmbeddings = [...existing.map(e => ({
+    tipId: e.tipId,
+    vector: e.vector.map(v => Math.round(v * 1e6) / 1e6),
+  })), ...newEmbeddings];
   writeFileSync('data/public/embeddings.json', JSON.stringify(allEmbeddings));
   console.log(`Saved ${allEmbeddings.length} embeddings to data/public/embeddings.json`);
 }
