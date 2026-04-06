@@ -64,7 +64,7 @@
     }
     .hero {
       text-align: center;
-      padding: 4rem 1rem 2rem;
+      padding: 2.5rem 1rem 1rem;
     }
     h1 {
       font-family: 'Playfair Display', serif;
@@ -83,10 +83,21 @@
       <div class="logo">🏰</div>
       <h1>Disney Parks Tips</h1>
       <p class="subtitle">Insider tips for your next adventure</p>
+      <div class="search-hero">
+        <input type="text" class="search-box" id="search" placeholder="Search 2,700+ tips..." autocomplete="off">
+        <button id="random-tip-btn" class="shuffle-btn" title="Random tip (r)">&#x21bb;</button>
+      </div>
+      <div class="suggested-searches" id="suggested-searches">
+        <button class="suggested-pill" data-query="rope drop">rope drop</button>
+        <button class="suggested-pill" data-query="dining reservations">dining reservations</button>
+        <button class="suggested-pill" data-query="lightning lane">lightning lane</button>
+        <button class="suggested-pill" data-query="best rides for kids">best rides for kids</button>
+        <button class="suggested-pill" data-query="hotel tips">hotel tips</button>
+        <button class="suggested-pill" data-query="save money">save money</button>
+      </div>
       <div class="stats">
         <span id="tip-count">Loading...</span>
         <span id="last-updated"></span>
-        <span id="next-update"></span>
       </div>
       <form id="email-signup" class="email-signup" action="/api/subscribe" method="POST">
         <p class="signup-label">Get weekly Disney tips in your inbox</p>
@@ -100,12 +111,6 @@
   </div>
 
   <div class="container">
-    <div class="search-wrapper">
-      <div class="search-input-wrap">
-        <input type="text" class="search-box" id="search" placeholder="Search tips...">
-        <button id="random-tip-btn" class="shuffle-btn" title="Random tip">&#x21bb;</button>
-      </div>
-    </div>
 
     <div class="filter-bar" id="filter-bar">
       <div class="filter-scroll" id="filter-scroll">

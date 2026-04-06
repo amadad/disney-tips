@@ -68,6 +68,7 @@ let semanticResults: Tip[] | null = null; // null = not searching, [] = no resul
 // Client-side embeddings for vector search
 let tipEmbeddings: Map<string, Float32Array> | null = null;
 let embeddingsLoading = false;
+let tipMap: Map<string, Tip> = new Map();
 
 // URL parameter helpers
 function getUrlParams(): URLSearchParams {
@@ -166,6 +167,7 @@ async function loadTips(): Promise<void> {
 
     allTips = data.tips;
     topTipIds = new Set(data.topTips || []);
+    tipMap = new Map(allTips.map(t => [t.id, t]));
 
     // Start loading embeddings in background for client-side search
     loadEmbeddings();
@@ -249,7 +251,6 @@ async function performSemanticSearch(query: string): Promise<void> {
 
       const { vector } = await res.json();
       const queryVec = new Float32Array(vector);
-      const tipMap = new Map(allTips.map(t => [t.id, t]));
 
       const scored: { tip: Tip; score: number }[] = [];
       for (const [tipId, vec] of tipEmbeddings) {

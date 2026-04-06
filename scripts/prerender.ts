@@ -78,7 +78,7 @@ function escapeHtml(text: string): string {
 function renderTipCard(tip: Tip): string {
   const parkLabel = tip.park && tip.park !== 'all-parks' ? PARK_LABELS[tip.park] || tip.park : '';
   const seasonLabel = tip.season !== 'year-round' ? SEASON_LABELS[tip.season] || tip.season : '';
-  
+
   return `<article class="tip-card priority-${tip.priority}" data-id="${tip.id}">
   <div class="tip-header">
     <span class="priority-badge ${tip.priority}">${PRIORITY_ICONS[tip.priority] || ''} ${tip.priority}</span>
@@ -91,6 +91,24 @@ function renderTipCard(tip: Tip): string {
     ${tip.tags.slice(0, 2).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}
   </div>
   <div class="tip-source">From <a href="https://youtube.com/watch?v=${tip.source.videoId}" target="_blank" rel="noopener noreferrer">${escapeHtml(tip.source.channelName)}</a> &middot; ${new Date(tip.source.publishedAt).toLocaleDateString()}</div>
+</article>`;
+}
+
+function renderCompactCard(tip: Tip): string {
+  const parkLabel = tip.park && tip.park !== 'all-parks' ? PARK_LABELS[tip.park] || tip.park : '';
+
+  return `<article class="compact-card" data-id="${tip.id}">
+  <p class="compact-text">${escapeHtml(tip.text)}</p>
+  <div class="compact-meta">
+    <span class="priority-badge ${tip.priority}">${PRIORITY_ICONS[tip.priority] || ''} ${tip.priority}</span>
+    <span class="meta-sep">&middot;</span>
+    <span class="category-tag">${tip.category}</span>
+    ${parkLabel ? `<span class="meta-sep">&middot;</span><span>${escapeHtml(parkLabel)}</span>` : ''}
+    <span class="meta-sep">&middot;</span>
+    <a class="source-link" href="https://youtube.com/watch?v=${tip.source.videoId}" target="_blank" rel="noopener noreferrer">${escapeHtml(tip.source.channelName)}</a>
+    <span class="meta-sep">&middot;</span>
+    <span>${new Date(tip.source.publishedAt).toLocaleDateString()}</span>
+  </div>
 </article>`;
 }
 
@@ -112,6 +130,7 @@ function main() {
 
     // Select tips for this page
     let tips: Tip[];
+    const isIndex = !category;
     if (category) {
       tips = data.tips.filter(t => t.category === category);
     } else {
@@ -121,14 +140,16 @@ function main() {
         : data.tips;
     }
 
-    // Sort by newest, take first 50
+    // Sort by newest, take first batch
     tips.sort((a, b) => new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime());
-    const displayTips = tips.slice(0, 50);
+    const displayTips = tips.slice(0, isIndex ? 101 : 50);
 
-    // Build static HTML block
+    // Build static HTML block — index uses compact cards in a list, categories use grid
+    const containerClass = isIndex ? 'search-results' : 'tips-grid';
+    const renderer = isIndex ? renderCompactCard : renderTipCard;
     const staticBlock = `<noscript><style>.skeleton-card{display:none}</style></noscript>
-<div id="prerendered-tips" class="tips-grid" aria-label="${category ? category + ' tips' : 'Top Disney tips'}">
-${displayTips.map(renderTipCard).join('\n')}
+<div id="prerendered-tips" class="${containerClass}" aria-label="${category ? category + ' tips' : 'Top Disney tips'}">
+${displayTips.map(renderer).join('\n')}
 </div>`;
 
     // Replace the tip count "Loading..." with actual count

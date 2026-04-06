@@ -34,10 +34,10 @@ body {
   overflow-x: hidden;
 }
 
-/* Hero Section */
+/* Hero Section — search-first layout */
 .hero {
   text-align: center;
-  padding: 3rem 1rem 1.5rem;
+  padding: 2.5rem 1rem 1rem;
 }
 
 .logo {
@@ -70,57 +70,47 @@ h1 {
   justify-content: center;
   gap: 1.5rem;
   row-gap: 0.5rem;
-  margin-top: 1.5rem;
-  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--text-muted);
 }
 
-/* Main Content */
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1.5rem 4rem;
-}
-
-/* Search Box */
-.search-wrapper {
-  max-width: 500px;
-  margin: 0 auto 1.5rem;
-}
-
-.search-input-wrap {
+/* Search Hero — large centered search bar */
+.search-hero {
+  max-width: 600px;
+  margin: 1.5rem auto 0;
   position: relative;
 }
 
-.search-box {
+.search-hero .search-box {
   width: 100%;
-  padding: 1rem 2.5rem 1rem 0;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 0;
-  font-size: 1.05rem;
-  font-family: 'Playfair Display', serif;
-  background: transparent;
+  padding: 1rem 3rem 1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  font-size: 1.15rem;
+  font-family: 'Lato', sans-serif;
+  background: var(--card-bg);
   color: var(--white);
-  transition: border-color 0.3s ease;
-  text-align: center;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
 }
 
-.search-box:focus {
+.search-hero .search-box:focus {
   outline: none;
-  border-bottom-color: var(--soft-gold);
+  border-color: var(--soft-gold);
+  box-shadow: 0 0 0 3px rgba(252, 211, 77, 0.12);
 }
 
-.search-box::placeholder {
-  color: rgba(255, 255, 255, 0.3);
-  font-style: italic;
+.search-hero .search-box::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-style: normal;
 }
 
-.shuffle-btn {
+.search-hero .shuffle-btn {
   position: absolute;
-  right: 0;
+  right: 0.75rem;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
@@ -133,9 +123,66 @@ h1 {
   transition: color 0.2s ease, transform 0.3s ease;
 }
 
-.shuffle-btn:hover {
+.search-hero .shuffle-btn:hover {
   color: var(--soft-gold);
   transform: translateY(-50%) rotate(180deg);
+}
+
+/* Suggested search pills */
+.suggested-searches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.suggested-pill {
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.suggested-pill:hover {
+  border-color: var(--soft-gold);
+  color: var(--soft-gold);
+}
+
+/* Semantic search spinner */
+.search-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(252, 211, 77, 0.3);
+  border-top-color: var(--soft-gold);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Main Content */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+/* Search Box (legacy — kept for non-hero contexts) */
+.search-wrapper {
+  display: none; /* Replaced by .search-hero in hero */
 }
 
 /* Filter Bar */
@@ -356,6 +403,112 @@ h1 {
   color: var(--soft-gold);
 }
 
+/* Compact Card — horizontal layout for search results */
+.compact-card {
+  background: var(--card-bg);
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.compact-card:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.compact-card:focus {
+  outline: 2px solid var(--soft-gold);
+  outline-offset: 2px;
+}
+
+.compact-card:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.compact-card .compact-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: var(--white);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.compact-card .compact-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--text-muted);
+}
+
+.compact-card .compact-meta .priority-badge {
+  font-weight: 700;
+}
+
+.compact-card .compact-meta .category-tag {
+  color: var(--soft-gold);
+  font-weight: 700;
+}
+
+.compact-card .compact-meta .source-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.compact-card .compact-meta .source-link:hover {
+  color: var(--soft-gold);
+}
+
+.compact-card .compact-meta .meta-sep {
+  opacity: 0.3;
+}
+
+.compact-card .card-actions {
+  top: 0.4rem;
+  right: 0.4rem;
+}
+
+.compact-card:hover .card-actions,
+.compact-card:focus .card-actions {
+  opacity: 1;
+}
+
+/* Search Results — single-column list */
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section heading for top tips / search results */
+.section-heading {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+/* Transition between grid and search results */
+.tips-grid.fade-out {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
 /* Card Actions */
 .card-actions {
   position: absolute;
@@ -556,7 +709,7 @@ footer a:hover {
 /* Responsive */
 @media (max-width: 768px) {
   .hero {
-    padding: 3rem 1rem 1.5rem;
+    padding: 2rem 1rem 0.75rem;
   }
 
   h1 {
@@ -569,7 +722,7 @@ footer a:hover {
 
   .stats {
     gap: 1rem;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 
   .container {
@@ -579,11 +732,15 @@ footer a:hover {
   .action-btn {
     opacity: 1;
   }
+
+  .compact-card .card-actions {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 600px) {
   .hero {
-    padding: 2.5rem 1rem 1.25rem;
+    padding: 1.5rem 1rem 0.5rem;
   }
 
   h1 {
@@ -591,16 +748,21 @@ footer a:hover {
   }
 
   .stats {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     letter-spacing: 1px;
   }
 
-  .search-wrapper {
-    margin-bottom: 1.25rem;
+  .search-hero {
+    margin-top: 1rem;
   }
 
-  .search-box {
+  .search-hero .search-box {
     font-size: 1rem;
+    padding: 0.85rem 2.5rem 0.85rem 1rem;
+  }
+
+  .suggested-searches {
+    gap: 0.35rem;
   }
 
   .filter-scroll {
@@ -629,6 +791,14 @@ footer a:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.35rem;
+  }
+
+  .compact-card {
+    padding: 0.85rem 1rem;
+  }
+
+  .compact-card .compact-text {
+    font-size: 0.95rem;
   }
 
   footer {
