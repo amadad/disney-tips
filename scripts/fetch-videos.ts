@@ -238,6 +238,11 @@ async function main() {
   const withTranscripts = newVideos.filter(v => v.transcript).length;
   log.info(`Done! ${newVideos.length} new videos added (${withTranscripts} with transcripts).`);
   log.info(`Total videos: ${allVideos.length}`);
+
+  // Warn if we found videos but got zero transcripts — likely a proxy/yt-dlp issue
+  if (newVideos.length >= 3 && withTranscripts === 0) {
+    log.warn(`0/${newVideos.length} transcripts fetched — WARP proxy may be degraded`);
+  }
 }
 
 main().catch((err) => {

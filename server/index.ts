@@ -194,7 +194,7 @@ app.set('trust proxy', 1);
 
 app.use(express.json());
 app.use(express.static(join(__dirname, '..', 'dist')));
-app.use('/data/public', express.static(join(__dirname, '..', 'data', 'public')));
+app.use('/data/public', express.static(join(__dirname, '..', 'data', 'public'), { maxAge: '1h' }));
 
 // Search API endpoint
 app.post('/api/search', async (req, res) => {
@@ -224,6 +224,11 @@ app.post('/api/search', async (req, res) => {
 
 // Embed query endpoint — returns 256-dim vector for client-side search
 app.post('/api/embed-query', async (req, res) => {
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  if (isRateLimited(ip, 30, 60000)) {
+    return res.status(429).json({ error: 'Too many requests. Please try again in a minute.' });
+  }
+
   const { query } = req.body;
   if (!query || typeof query !== 'string' || query.trim().length === 0) {
     return res.status(400).json({ error: 'Query is required' });

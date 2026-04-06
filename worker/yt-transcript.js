@@ -246,5 +246,6 @@ async function handleRequest(request) {
     return Response.json({ ok: true, service: "yt-transcript-proxy" });
   }
 
+
   return Response.json({ ok: false, error: "not found" }, { status: 404 });
 }

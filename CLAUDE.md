@@ -13,7 +13,7 @@ npm run extract          # Extract tips from transcripts using Gemini
 npm run backfill         # Retry fetching transcripts for videos missing them
 npm run check-staleness  # Validate freshness / dist sync
 npm run pipeline         # fetch -> extract -> check-staleness
-npm run pipeline:deploy  # fetch -> extract -> embed -> build -> check-staleness -> verify-live
+npm run pipeline:deploy  # fetch -> backfill -> extract -> dedupe -> embed -> build -> check-staleness -> verify-live
 npm run verify-live      # Check live site matches local data
 
 # Frontend
@@ -31,7 +31,7 @@ npm test
 - **Container**: Express server (Dockerfile), port 3000, behind Traefik
 - **Volumes**: `dist/` and `data/public/` are bind-mounted — pipeline rebuilds go live immediately (no container restart needed)
 - **Health**: `https://disney.bound.tips/api/health` returns tip count, embeddings status, semantic search status
-- **Timer**: systemd `disney-tips-pipeline.timer` (6 AM + 6 PM UTC)
+- **Timer**: systemd `disney-tips-pipeline.timer` (daily 10 AM ET / America/New_York)
 - **Deploy**: `npm run pipeline:deploy` (includes verify-live check at the end)
 - **Manual deploy**: `npm run build && npm run verify-live`
 - **Troubleshooting**: If verify-live fails with STALE, check that `dist/` is bind-mounted (not baked into image). Run `docker inspect web-disney --format '{{json .Mounts}}'` to verify.
@@ -40,9 +40,11 @@ npm test
 
 This is a **batch-first** Disney tips aggregator with an Express server:
 
-1. **Pipeline** (`scripts/`) - Runs twice daily via systemd timer
-   - Fetches videos from 10 Disney YouTube channels via RSS feeds
+1. **Pipeline** (`scripts/`) - Runs daily via systemd timer (10 AM ET)
+   - `ensure-warp.sh` runs as ExecStartPre — verifies WARP proxy e2e, auto-restarts if broken
+   - Fetches videos from 13 Disney YouTube channels via RSS feeds
    - Extracts transcripts via yt-dlp with WARP proxy (SOCKS5 at 127.0.0.1:1080)
+   - Backfills previously failed transcripts (max 3 retries per video, then skipped permanently)
    - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
    - Generates OpenAI embeddings (256-dim, `text-embedding-3-small`) for client-side vector search
    - Filters out non-Disney content (Universal, generic travel)
@@ -57,7 +59,7 @@ This is a **batch-first** Disney tips aggregator with an Express server:
 
 3. **Frontend** (`src/`, `index.html`) - Vite static site
    - Client-side filtering by category, park, priority, season, and search
-   - **Client-side vector search**: loads 256-dim embeddings (~6.5MB) on page load, cosine similarity in browser (~5ms for ~2,700 tips). Falls back to `/api/search` if embeddings not yet loaded.
+   - **Client-side vector search**: loads 256-dim embeddings (~6.5MB) on page load, cosine similarity in browser (~5ms for ~3,000 tips). Falls back to `/api/search` if embeddings not yet loaded.
    - Disney-themed UI with castle gradient header
 
 ### Key Files
@@ -69,7 +71,8 @@ scripts/
   extract-tips.ts            # Gemini-powered tip extraction
   embed-tips.ts              # OpenAI embeddings for semantic search
   dedupe-tips.ts             # Tip deduplication
-  backfill-transcripts.ts    # Retry missing transcripts
+  backfill-transcripts.ts    # Retry missing transcripts (max 3 retries then skip)
+  ensure-warp.sh             # Pre-pipeline WARP proxy health check + auto-restart
   check-staleness.ts         # Freshness + dist sync checks
   verify-live.ts             # Post-deploy live site verification
   prerender.ts               # Inject tips into static HTML
@@ -78,7 +81,7 @@ scripts/
 server/index.ts              # Express server (search, subscribe, health)
 data/
   public/                    # Bind-mounted into container
-    tips.json                # Extracted structured tips (~2700 tips)
+    tips.json                # Extracted structured tips (~3000 tips)
     embeddings.json          # OpenAI embeddings (256-dim, served to browser)
     feed.xml                 # RSS 2.0 feed
   pipeline/                  # NOT deployed
@@ -100,9 +103,9 @@ Tips include:
 ### Data Flow
 
 ```
-YouTube RSS → yt-dlp + WARP → videos.json → Gemini API → tips.json → Static Frontend
-     ↑                          (pipeline/)                 (public/)        ↑
-  (daily cron)                                                      (dist/ served)
+ensure-warp.sh → YouTube RSS → yt-dlp + WARP → videos.json → backfill → Gemini API → tips.json → Static Frontend
+                                                (pipeline/)                            (public/)        ↑
+                                              (daily 10 AM ET)                                  (dist/ served)
 ```
 
 ## Environment Variables
@@ -135,10 +138,12 @@ Transcripts are fetched via `yt-dlp` using a WARP SOCKS5 proxy (`127.0.0.1:1080`
 ## Transcript Troubleshooting
 
 - Run `yt-dlp --version` to verify binary availability.
-- Verify proxy is up: `nc -z 127.0.0.1 1080`.
+- Verify proxy e2e: `curl -x socks5://127.0.0.1:1080 -s -o /dev/null -w '%{http_code}' https://www.youtube.com/robots.txt` (should return 200).
 - Verify Deno path exists: `ls ~/.deno/bin/deno`.
+- If WARP is unhealthy: `cd ~/warp-proxy && docker compose restart warp` (ensure-warp.sh does this automatically before each pipeline run).
 - If the proxy is temporarily down and you want best-effort mode, set `TRANSCRIPT_STRICT_PREFLIGHT=false`.
 - In strict mode, failed preflight exits with non-zero status and stops pipeline chaining.
+- Videos that fail transcript fetch 3 times are permanently skipped (tracked via `transcriptRetries` in videos.json). Most are shorts/live streams without subtitles.
 
 ## Adding a Channel
 

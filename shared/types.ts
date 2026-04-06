@@ -11,7 +11,10 @@ export const DISNEY_CHANNELS = {
   'MickeyViews': 'UCRQvSjD0MT-EztE2iRqLQJA',
   'ResortTV1': 'UCAjpFyA7FCRoGOuj5i4kq9g',
   'PagingMrMorrow': 'UCscn2aSpMrS2U_mf7OF-UwQ',
-  'TPMvids': 'UCMddDi4iCT8Rz8L0JL-bH7Q'
+  'TPMvids': 'UCMddDi4iCT8Rz8L0JL-bH7Q',
+  'FreshBaked': 'UCRDgYztYctlZ5Z2dN9CW49w',
+  'ProvostParkPass': 'UCKvDB_EkpKW4dT7QNAhWRVQ',
+  'JustinScarred': 'UCZ_d0QNVKLOEhEud9Ble6IA'
 } as const;
 
 export type ChannelName = keyof typeof DISNEY_CHANNELS;
@@ -24,6 +27,8 @@ export interface Video {
   publishedAt: string;
   thumbnail: string;
   transcript?: string;
+  /** Number of times transcript fetch was attempted and failed */
+  transcriptRetries?: number;
 }
 
 export type TipCategory =

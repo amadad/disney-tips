@@ -11,7 +11,7 @@
     "pipeline": "npm run fetch && npm run extract && npm run check-staleness",
     "embed": "tsx scripts/embed-tips.ts",
     "verify-live": "tsx scripts/verify-live.ts",
-    "pipeline:deploy": "npm run fetch && npm run extract && npm run embed && npm run build && npm run check-staleness -- --check-dist && npm run verify-live",
+    "pipeline:deploy": "npm run fetch && npm run backfill && npm run extract && npm run dedupe && npm run embed && npm run build && npm run check-staleness -- --check-dist && npm run verify-live",
     "pipeline:full": "npm run fetch && npm run extract && npm run dedupe",
     "server": "tsx server/index.ts",
     "dev": "vite",

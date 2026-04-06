@@ -67,6 +67,8 @@ async function commandExists(command: string): Promise<boolean> {
 }
 
 async function isProxyReachable(host: string, port: number): Promise<boolean> {
+  // Port-level sanity check. End-to-end verification is done by ensure-warp.sh
+  // (ExecStartPre) before the pipeline starts — this just catches mid-run failures.
   return new Promise((resolve) => {
     const socket = new Socket();
     const done = (ok: boolean) => {
@@ -103,7 +105,7 @@ export async function runTranscriptPreflight(
 
   const proxyOk = await isProxyReachable(config.proxyHost, config.proxyPort);
   if (!proxyOk) {
-    warnings.push(`WARP proxy not reachable at ${config.proxyHost}:${config.proxyPort}; falling back to direct connection`);
+    failures.push(`WARP proxy at ${config.proxyHost}:${config.proxyPort} is not routing traffic to YouTube (port may be open but tunnel is broken)`);
     config.proxyUrl = undefined;
   }
 
