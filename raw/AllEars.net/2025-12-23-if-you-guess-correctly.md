@@ -1,0 +1,8 @@
+---
+video_id: brnIZkMq6DE
+channel: AllEars.net
+title: "If You Guess Correctly…"
+published: 2025-12-23
+url: https://www.youtube.com/watch?v=brnIZkMq6DE
+---
+Do not do not cheat right now. Don't Do not do not cheat right now. Don't Do not do not cheat right now. Don't cheat. Quit cheating. cheat. Quit cheating. cheat. Quit cheating. &gt;&gt; I'm not cheating. &gt;&gt; I'm not cheating. &gt;&gt; I'm not cheating. &gt;&gt; Okay, so under one of these cups there &gt;&gt; Okay, so under one of these cups there &gt;&gt; Okay, so under one of these cups there is a Mickey Mouse plush. If you can is a Mickey Mouse plush. If you can is a Mickey Mouse plush. If you can guess which one has the Mickey plush guess which one has the Mickey plush guess which one has the Mickey plush under it, we get to plan another trip to under it, we get to plan another trip to under it, we get to plan another trip to Disney World. I'm going to mix them up Disney World. I'm going to mix them up Disney World. I'm going to mix them up and you have to guess. Okay. and you have to guess. Okay. and you have to guess. Okay. &gt;&gt; Oh, slow down. Slow down. &gt;&gt; Oh, slow down. Slow down. &gt;&gt; Oh, slow down. Slow down. &gt;&gt; Hey. Hey. It has to be faster. It's not &gt;&gt; Hey. Hey. It has to be faster. It's not &gt;&gt; Hey. Hey. It has to be faster. It's not fair. fair. fair. &gt;&gt; I'm just going to I'm just going to &gt;&gt; I'm just going to I'm just going to &gt;&gt; I'm just going to I'm just going to choose them. choose them. choose them. &gt;&gt; You got it. &gt;&gt; You got it. &gt;&gt; You got it. Beautiful.

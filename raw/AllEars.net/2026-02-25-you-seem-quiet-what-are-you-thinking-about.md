@@ -1,0 +1,8 @@
+---
+video_id: gys71Q5jByk
+channel: AllEars.net
+title: "“you seem quiet, what are you thinking about?”"
+published: 2026-02-25
+url: https://www.youtube.com/watch?v=gys71Q5jByk
+---
+Did you say cheap 3D tricks? >> And here's something I wanted to spring on you. >> I'd like to introduce you to the guys who invented puppet vision and they can show you some of their uh right now I'd like to turn you over to Dr. Butson Honeydew and his assistant beaker. Hey, hey, hey. Come here. Watch this one. >> That's terrible. >> You're right. Needs more sugar. >> Sun shining right above you. Soft breezes seem to whisper, "I love you." Birds sing in the sycamore tree. It was for the big water screen finale. >> What? >> Buddy, what are you doing? >> What do you mean? >> You are ruining this film. >> I was just trying to help. >> I didn't mean anything. >> Go away. >> Oh, great. Could you get me a sandwich? >> Would any of you people like anything? I mean, since he's going out, he could forever. >> I don't see any money. Where? >> He's up there. >> Where? >> Nothing up there, but >> Hey, Kermit. Look. >> What? >> Huh? Be What are you doing out there? >> I'm running away. >> What are you doing? Get back to your place. the movie. >> Everyone okay in here? >> WE SURRENDER. WE SURRENDER. >> What an explosion. >> Uh well uh ladies and gentlemen, I'd like to apologize for our slight uh technical difficulties, but I do wish to assure you that uh no one was hurt and uh this theater suffered only minor damage. So, thank you very much for coming to see this demonstration of Muppet Vision technology and enjoy the rest of your stay and come see us again.

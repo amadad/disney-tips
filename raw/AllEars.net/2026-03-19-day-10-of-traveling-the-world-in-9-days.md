@@ -1,0 +1,8 @@
+---
+video_id: q_fxIvr-g9I
+channel: AllEars.net
+title: "Day 10 of Traveling the World in 9 Days… ✈️😳"
+published: 2026-03-19
+url: https://www.youtube.com/watch?v=q_fxIvr-g9I
+---
+Day 10 of trying to get around the world in nine days. We >> were supposed to go home yesterday. >> We are in Paris. We have failed on trying to get around the world in nine days. Now it's going to be more like 15, 14, something like that. Well, we are walking through Disney Village at Disneyland Paris holding bags of our dirty laundry because there is one hotel that has a laundromat here >> and it's not the one we were staying at. >> And we are out of clothes cuz we were supposed to be home. >> Yeah, we don't have any more clothes and specifically, hate to say it, underwear. Also, you are looking at our one singular winter outfits each. >> Yeah. >> That we brought for our one day in Paris that has turned into five. >> Yes. >> We're going shopping today. And then we I think have lost it cuz we have decided we're going somewhere else. We're going to just add a country or two >> to the drive >> across a country or two. >> Little 10-hour round trip. >> Yeah, why not? >> Why not? >> Okay, we came to the mall. Vlog update. >> Clothes. >> We had to get some clothes that are cold. Also, we can't show you guys, but there is a massive hole in my pants. >> Yeah, >> Emma's seen it. >> Shocking. >> I don't think she'll ever come back from it. Really? >> Shockingly large hole in her pants in a crazy spot. So, we had to get a new pants. So, I got new pants. Had to get a new pan. But things are looking up. We have a rental car. And oh, by the way, we're going to Netherlands. >> Why not?

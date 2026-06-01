@@ -1,0 +1,8 @@
+---
+video_id: crCzYUrCgbU
+channel: AllEars.net
+title: "Day 13 of Traveling Around the World in 9 Days 🫩🍷"
+published: 2026-03-24
+url: https://www.youtube.com/watch?v=crCzYUrCgbU
+---
+We are trying to travel around the world in nine days. Today it is day >> 13. >> 13. >> We failed. >> We failed. We're in Paris still. >> We are. We >> wait. >> Yeah. Still >> still in Paris. We're still going to be in Paris for a few more days. And if you have been around, you saw yesterday's vlog. If you haven't, pause this, go back and watch that >> because that's important context. >> Yeah. But if you've watched it, you can stick around. We survived the murder cabin. There were no murders in the cabin. >> No murdered. >> No murdered. >> Yeah. Um, also it looked a lot better in the daylight, which is what we thought was going to happen. We feel better now. >> The Ubers can't get there. We do have to walk in the nature, but we've been spending the day at Disney Paris, which has been quite nice. Um, we're at Agraar restaurant, which is really cool. And we got a bottle of wine. And tomorrow, at long last, the object of our travels, one of them, >> one of these, >> one of two >> is occurring. Yeah, we're going to go see the world of Frozen >> and then potentially we will complete our lap around the world. >> Potentially. >> Potentially. I have not seen my husband in 17 days as of today. >> Yeah. >> Bottle of wine at dinner. >> My fiance sent me a picture of my dog and I told him, "Do not do that again." >> Yeah. We're doing well. We are actually doing very well. This is a great time. We're sleepy though. >> So that's what we're we're getting. It's catching up to us.

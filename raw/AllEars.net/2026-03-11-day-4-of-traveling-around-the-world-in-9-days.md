@@ -1,0 +1,8 @@
+---
+video_id: cfV36MWRfcw
+channel: AllEars.net
+title: "Day 4 of Traveling Around the World in 9 Days ‼️✈️"
+published: 2026-03-11
+url: https://www.youtube.com/watch?v=cfV36MWRfcw
+---
+Day four of trying to get around the world in nine days. It's only the morning. We've had a super weird morning, though. We have been staying in an extremely expensive luxury hotel, famous hotel, Marina Bay Sands. Today, we were switching into a cheaper hotel. We got there, we check in, and then they're like, "Hey, >> oh, our bags are here. >> Our bags are here." So, we get there, you know, they're checking us in. We're almost checked in, and unfortunate circumstance, we can't put you in this room. We don't have any rooms for you. And so, we're like, "Okay." As you might know, we just got Emma's bags. Now, we don't have a hotel room, but they transferred our reservation from this four-star hotel that was pretty nice to a five-star hotel, like 25 minutes away. They paid for us to take a taxi here, they gave us breakfast included, and now we're in a nicer hotel with a bigger hotel room in a different part of the city, everything's coming up, Qua. And I did realize in the taxi, but I was like, I don't know where we're going. I have no idea. >> They were like, we're just going to stay to our sister hotel. I was like, is it far? They were like, we'll get you a taxi. They didn't tell us the name. So, we're in the taxi. And I was like, I don't know where we're going. >> We had to Google the name once we got here. >> We Yeah, we Googled it once we pulled up. >> Day four. >> Day four. Going well. Now to a theme park. Here's a hint.

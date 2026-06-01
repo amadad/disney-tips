@@ -1,0 +1,8 @@
+---
+video_id: EzQ9C2Sa6Ak
+channel: DFBGuide
+title: "The BEST SNACKS for Magic Kingdom in 2026 🔥"
+published: 2026-01-18
+url: https://www.youtube.com/watch?v=EzQ9C2Sa6Ak
+---
+Hey everybody, it's AJ for Disney Food Blog and it is time to trust the process. I've got the best snacks for Magic Kingdom for 2026. We're going to start at the confectionary on Main Street for that peanut butter cookie pie. An oldie but a goodie. One of my favorites. The cheeseburger spring rolls are your savory counterpart. You're going to find these right outside of Adventureland. The tropical serenade, also in Adventureland. Good way to wash it down. Get that over at Aloha Isle. The candied bacon skewer. I mean, come on. It's thick, delicious bacon with that sweet and savory going on. One of my favorites at Westward Hoe. Also at Westward Hoe in the morning only, by the way, starting at 9:30, is the bacon pecan caramel cinnamon roll. Most Mickeyshaped cinnamon rolls, not very good. This one, incredible. Then we're of course getting some Sleepy Hollow waffles. You can get these all day. You can either get the sweet version or the savory version. Totally up to you. Then the Hush Puppies. These are the ones you're going to have to go over to Columbia Harbor House for. I don't know. They're in my list because I just love them so much. Gaston's Tavern. That's where you're going to get Gaston's cinnamon roll. Don't forget to ask for extra icing. And the creme brulee croissant, the greatest version of messy you will ever experience. And then of course, my beloved Buffalo Ranch Chicken tenders at Cosmic Rays. Those are not going to be on everybody's best of list, but they are definitely on mine.

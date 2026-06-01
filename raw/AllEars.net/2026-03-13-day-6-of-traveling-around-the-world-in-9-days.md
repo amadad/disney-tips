@@ -1,0 +1,8 @@
+---
+video_id: cdhIpkrkakg
+channel: AllEars.net
+title: "Day 6 of Traveling Around the World in 9 Days ‼️✈️"
+published: 2026-03-13
+url: https://www.youtube.com/watch?v=cdhIpkrkakg
+---
+Day five of trying to get around the world in nine days. I'm still not making a ton of progress. We're in the South China Sea. I got my face painted like Spider-Man on Well, actually, it's Ghost Spider, which you can tell if you know things, but everybody keeps calling me Spider-Man. So, I have accidentally become the most famous person on this cruise ship because I am Spiderwoman. If I walk anywhere, people point and they go Spiderwoman. [laughter] You're laughing cuz it's true. Every room I walk into, they're like Spiderwoman. literally stop in traffic. >> People come up to me and they go Spiderwoman. You want to be the talk of town? Get face paint as an adult. You'll get a taste of what it's like to be Mickey Mouse, Lady Gaga. I thought you were going to say me. [laughter] >> Me. Also, I've looked very silly all day, which has made my friends laugh. And by my friends, I mean Emma. I don't know that the ghost spider face paint is helpful in me getting around the world in 9 days, but I would like to think it is. >> It was for morale. It was for morale here on day five at which point we are in the South China Sea. Um, and I don't think that is a bad thing. Morel, >> are you okay? [snorts] >> Yeah. Mainly because the lines aren't coming off. >> No way. [laughter] >> It's actually really not coming off. >> No, no, you're good. You're good. This is just the first layer of cleanse. >> I can always just take the whole layer of skin off if needed. >> Yep. You'll be pink all over.

@@ -1,0 +1,8 @@
+---
+video_id: hCVQQldo2sU
+channel: AllEars.net
+title: "NEW EPCOT PLANT-BASED EAT YOU NEED TO TRY 🥗🍽️🌐"
+published: 2026-01-18
+url: https://www.youtube.com/watch?v=hCVQQldo2sU
+---
+This might be the most beautiful thing I've ever eaten from a quicks service restaurant in Disney World. Creations Eery in Epcot recently added a General So tofu salad to the menu. There's also chicken. There's so much on this salad, it's hard to remember everything. There's a petite kale blend, romaine, mandarin oranges, there is a broccoli sllo, there's red bell pepper, edetamame, this crispy wonton, warm fried tofu, and general so dressing. All right, here we go. First bite. I'm such a big fan of the crispy tofu bowl at Sichuli Canteen. This has that fried crispy decadent flavor, but it's spiced in a different way. It's seasoned in a different way. This tastes like uh you know American Chinese food and it is delicious. This is something that does taste like worthy of spending your money, your time and your stomach space while you're in Disney World. That tofu is incredible. It's somehow soaked in General So's sauce, but it's still crispy and it has that great bouncy texture almost like it's like fried cheese curds or something. As far as quick service meals in Walt Disney World go, I give this 10 out of 10. This is definitely magic, not tragic for me, but I would love to hear your opinion on it in either the chicken or the tofu. And if you've recently had something new in Walt Disney World and loved it or hated it, let us know in the comments below. And as always, stay tuned to All Ears for all of your tips and tricks and planning advice because we're serious about

@@ -1,0 +1,8 @@
+---
+video_id: y5D6iI0xyII
+channel: TPMvids
+title: "Buzz Lightyear Space Ranger Spin Farewell 2025- Full Ride POV [4K] Magic Kingdom Walt Disney World"
+published: 2025-08-08
+url: https://www.youtube.com/watch?v=y5D6iI0xyII
+---
+You're watching TPM Vid Spotlight Series. [Music] Give me the red trouble in chapter 9. That nefarious criminal, the sworn enemy of the Galactic Alliance, the evil Emperor Zur. His robotic army is stealing crystallic fusion power cells. Without those cells, we'll all be powerless. the mercy of sir. Star command make a fine time decision and recruits. All right, you junior space rangers, listen up. Green squadron will retrieve the power cell while the rest of you concentrate on those robots. You'll rendevous at planet C. I will remain here at Star Commander to work the mission. Battle stations reporting the flight deck from me to infinity and beyond years over and out. [Music] [Music] is a huge fan. You go to six space rangers for the thumb trigger on your laser and requires a single ion. Captain Zur's forces where [Music] your flight [Music] robots are serious first line of defense. Neutralize them with your laser cannons. [Music] [Music] [Applause] [Music] Heat. Heat. [Music] [Applause] Heat. Heat. [Music] Heat. Heat. [Music] Heat. [Applause] Heat. Heat. Heat. Heat. [Applause] [Music] Heat. power. Get ready for hyper maximum acceleration. [Music] [Applause] Oh, [Music] heat, [Applause] heat. [Music] secret weapon. Don't stop that. I'm indestructible to you. Secure that power for transport. 73600. Mission accomplish space makers. Check the status board to review your score. And remember to be in the world.

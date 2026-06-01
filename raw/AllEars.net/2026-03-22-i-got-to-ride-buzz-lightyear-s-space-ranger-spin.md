@@ -1,0 +1,8 @@
+---
+video_id: LGG663Io028
+channel: AllEars.net
+title: "I Got to Ride Buzz Lightyear’s Space Ranger Spin! 🚀☄️🔫"
+published: 2026-03-22
+url: https://www.youtube.com/watch?v=LGG663Io028
+---
+I just got to ride the brand new and improved Buzz Lightyear Space Ranger Spin. This morning we had a media preview. Right now there is a cast member preview going on. And let me tell you, this is definitely an improvement over the original. Not that there was anything wrong with the original. It's just amazing what has happened technologically in the years since this ride opened. The blasters are so easy to use. We did get the hint from a cast member that if you want an advantage, hold down on the button, the blaster, while you're shooting and you have better chances it's going to shoot more rapidly than if you just press the button repeatedly. If you do press the button repeatedly like I did because I don't know how to I guess calm down, the push mechanism is I guess very reactive. So, you don't have to push hard. Your finger is not going to hurt. It's not like Toy Story Mania where my whole forearm hurts for 3 days after I've played that game. And also, the new targets are so beautiful. The new scenes are beautiful. Everything got an upgrade. Now, there's no maxing out the score anymore. And as of now, there are no Galactic Hero stickers. There is still a points board that shows the Galactic Hero category when you've reached a certain number of points. Always stay tuned to All Ears for your ride openings, your tips, your tricks, all of your planning advice. And why is that? Because we're serious about

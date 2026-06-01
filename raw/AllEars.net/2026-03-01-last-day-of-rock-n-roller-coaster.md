@@ -1,0 +1,8 @@
+---
+video_id: NoeYlq2Y4Ec
+channel: AllEars.net
+title: "Last Day of Rock ‘n’ Roller Coaster 🎸🎢👋"
+published: 2026-03-01
+url: https://www.youtube.com/watch?v=NoeYlq2Y4Ec
+---
+It's 8:12 a.m. on Sunday, March 1st, 2026. That can only mean one thing. The last day of Rock and Roller Coaster starring Aerosmith. And I'm here to cover everything. So, let's get ready to rope drop like it's 1999. Surprisingly, literally zero accumulation of people. I mean, maybe two people deep at each tap style. This isn't the hectic scene I was expecting, but they could be doing things to actively prevent that. Well, I stand corrected. It's been a normal morning in terms of how early they opened. What's not normal is that the line for Rock and Roller Coaster starts on Hollywood Boulevard. >> This is the line. >> This is the line. >> This is a cue for everybody who is not a resort guest who is here to ride for the last time today. and they get all their own special queue that's not even the queue yet, but it will open soon. The park opens in just a couple of minutes. So, these people will actually be able to join the actual real queue soon. I just came back to get into the queue and they'll never guess where it starts. First of all, I do want to say that I was given permission to film because we are backstage. We're actually in the back or to the side of Tower of Terror. So, this wraps all the way backstage here back up to the villain's courtyard where then you're held and led across a few people at a time to get into the actual rock and roller coaster cube. The wait time is currently posted at 120 minutes, but this seems longer than that to me. I don't know. 2 hours. I feel like I've waited close to 2 hours for Rock and Roller Coaster before, and I've never been back here.

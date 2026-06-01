@@ -1,0 +1,8 @@
+---
+video_id: m_IDiSfAfgc
+channel: AllEars.net
+title: "The reality of the Disney College Program… 👀🐭🏰"
+published: 2026-02-28
+url: https://www.youtube.com/watch?v=m_IDiSfAfgc
+---
+We're going to deal with confused guests, angry guests, guests who think that you personally closed down the ride of the resistance >> because you're ruining their vacation. >> The DCP requires a lot of emotional labor. You are expected to stay positive. You're expected to stay really helpful and happy and excited even when the guests are not any of those things. The heat plus the crowds is just total chaos, especially in the summertime. Florida heat makes people insane. It makes me insane. And then you add crowds to that, it's a perfect storm for the angriest people you've ever met in your life. Guests are going to hold you personally accountable for whatever problem they are experiencing right then and there. From lost children to medical emergencies to ride closures, they're going to blame you. And it kind of sounds silly, but it is true. That is exactly what happens. and those lost children and those medical emergencies, things like that. That's a lot of safety concerns that you're also going to have to deal with, things that you maybe have never had to handle before. There are going to be times when you are the closest person who can help. And that can be very stressful and scary, not just for the person involved, but for you as well. If you've maybe never been in this situation, if you are not comfortable with constant guest interaction, I don't know that this is the program for you. You have to get comfortable with constant interactions, good and bad.
