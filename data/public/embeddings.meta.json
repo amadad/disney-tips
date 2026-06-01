@@ -1,0 +1,7 @@
+{
+  "provider": "google-genai",
+  "model": "gemini-embedding-001",
+  "dimensions": 256,
+  "signature": "google-genai:gemini-embedding-001:256",
+  "generatedAt": "2026-06-01T14:10:12.922Z"
+}
