@@ -58,7 +58,7 @@ const SEASON_LABELS: Record<string, string> = {
 
 // Pages and their category filters
 const PAGES: Record<string, string | null> = {
-  'index.html': null,         // all tips (top tips)
+  'tips.html': null,          // all tips (top tips)
   'parks.html': 'parks',
   'dining.html': 'dining',
   'hotels.html': 'hotels',
@@ -134,7 +134,7 @@ function main() {
     if (category) {
       tips = data.tips.filter(t => t.category === category);
     } else {
-      // index.html: show top tips
+      // tips.html: show top tips
       tips = topIds.size > 0
         ? data.tips.filter(t => topIds.has(t.id))
         : data.tips;
@@ -144,7 +144,7 @@ function main() {
     tips.sort((a, b) => new Date(b.source.publishedAt).getTime() - new Date(a.source.publishedAt).getTime());
     const displayTips = tips.slice(0, isIndex ? 101 : 50);
 
-    // Build static HTML block — index uses compact cards in a list, categories use grid
+    // Build static HTML block — tips.html uses compact cards in a list, categories use grid
     const containerClass = isIndex ? 'search-results' : 'tips-grid';
     const renderer = isIndex ? renderCompactCard : renderTipCard;
     const staticBlock = `<noscript><style>.skeleton-card{display:none}</style></noscript>

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "send": "tsx src/send-weekly.ts",
+    "send:family-plan": "tsx src/send-family-plan.ts",
     "preview": "tsx src/preview.ts"
   },
   "dependencies": {

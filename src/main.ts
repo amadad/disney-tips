@@ -1,4 +1,4 @@
-import type { Tip, TipsData, Park } from './types';
+import type { Tip, TipsData } from './types';
 import { PARK_LABELS, PRIORITY_ICONS, SEASON_LABELS } from './types';
 
 // Clipboard helper with fallback for older browsers/insecure contexts
@@ -52,6 +52,7 @@ const PARKS = [
 
 // Configuration
 const TIPS_PER_PAGE = 50;
+const SEARCH_RESULT_LIMIT = 100;
 const SEARCH_DEBOUNCE_MS = 300;
 
 // State
@@ -62,13 +63,8 @@ let currentPark = 'all';
 let searchQuery = '';
 let currentPage = 1;
 let searchTimeout: ReturnType<typeof setTimeout> | null = null;
-let isSemanticSearching = false;
 let semanticResults: Tip[] | null = null; // null = not searching, [] = no results
-
-// Client-side embeddings for vector search
-let tipEmbeddings: Map<string, Float32Array> | null = null;
-let embeddingsLoading = false;
-let tipMap: Map<string, Tip> = new Map();
+let searchRequestId = 0;
 
 // URL parameter helpers
 function getUrlParams(): URLSearchParams {
@@ -125,6 +121,8 @@ function showSingleTip(tipId: string): void {
   currentPark = 'all';
   currentPage = 1;
   searchQuery = '';
+  semanticResults = null;
+  searchRequestId += 1;
 
   const container = document.getElementById('tips-container')!;
   const paginationEl = document.getElementById('pagination');
@@ -149,6 +147,7 @@ function clearAllFilters(): void {
   currentPage = 1;
   searchQuery = '';
   semanticResults = null;
+  searchRequestId += 1;
 
   const searchInput = document.getElementById('search') as HTMLInputElement;
   if (searchInput) searchInput.value = '';
@@ -161,16 +160,15 @@ function clearAllFilters(): void {
 }
 
 async function loadTips(): Promise<void> {
+  const tipsContainer = document.getElementById('tips-container');
+  if (!tipsContainer) return;
+
   try {
     const response = await fetch(import.meta.env.BASE_URL + 'tips.json');
     const data: TipsData = await response.json();
 
     allTips = data.tips;
     topTipIds = new Set(data.topTips || []);
-    tipMap = new Map(allTips.map(t => [t.id, t]));
-
-    // Start loading embeddings in background for client-side search
-    loadEmbeddings();
 
     const lastUpdatedDate = new Date(data.lastUpdated);
 
@@ -190,108 +188,60 @@ async function loadTips(): Promise<void> {
     }
   } catch (error) {
     console.error('Failed to load tips:', error);
-    document.getElementById('tips-container')!.innerHTML =
+    tipsContainer.innerHTML =
       '<div class="no-results">Failed to load tips. Please try refreshing the page.</div>';
   }
 }
 
-// Lazy-load embeddings for client-side vector search
-async function loadEmbeddings(): Promise<void> {
-  if (tipEmbeddings || embeddingsLoading) return;
-  embeddingsLoading = true;
-  try {
-    const res = await fetch('/data/public/embeddings.json');
-    if (!res.ok) throw new Error(`${res.status}`);
-    const entries: { tipId: string; vector: number[] }[] = await res.json();
-    const map = new Map<string, Float32Array>();
-    for (const e of entries) {
-      map.set(e.tipId, new Float32Array(e.vector));
-    }
-    tipEmbeddings = map;
-    console.log(`Loaded ${map.size} embeddings (${entries[0]?.vector.length}-dim)`);
-  } catch (err) {
-    console.warn('Failed to load embeddings, will use server search:', err);
-  } finally {
-    embeddingsLoading = false;
-  }
-}
-
-function cosineSimilarity(a: Float32Array | number[], b: Float32Array | number[]): number {
-  let dot = 0, normA = 0, normB = 0;
-  for (let i = 0; i < a.length; i++) {
-    dot += a[i] * b[i];
-    normA += a[i] * a[i];
-    normB += b[i] * b[i];
-  }
-  return dot / (Math.sqrt(normA) * Math.sqrt(normB));
-}
-
-// Semantic search — client-side if embeddings loaded, server fallback
+// Semantic search runs server-side so the browser does not download the full embedding corpus.
 async function performSemanticSearch(query: string): Promise<void> {
-  if (!query.trim()) {
+  const trimmedQuery = query.trim();
+  const requestId = ++searchRequestId;
+
+  if (!trimmedQuery) {
     semanticResults = null;
-    isSemanticSearching = false;
     renderTips();
     return;
   }
 
-  isSemanticSearching = true;
   renderSearchLoading();
 
   try {
-    // Try client-side vector search if embeddings are loaded
-    if (tipEmbeddings && tipEmbeddings.size > 0) {
-      const res = await fetch('/api/embed-query', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: query.trim() }),
-      });
+    const res = await fetch('/api/search?enrich=true', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        query: trimmedQuery,
+        category: currentCategory,
+        park: currentPark,
+        limit: SEARCH_RESULT_LIMIT,
+      }),
+    });
 
-      if (!res.ok) throw new Error(`Embed query failed: ${res.status}`);
+    if (!res.ok) throw new Error(`Search failed: ${res.status}`);
+    if (requestId !== searchRequestId) return;
 
-      const { vector } = await res.json();
-      const queryVec = new Float32Array(vector);
-
-      const scored: { tip: Tip; score: number }[] = [];
-      for (const [tipId, vec] of tipEmbeddings) {
-        const tip = tipMap.get(tipId);
-        if (tip) {
-          scored.push({ tip, score: cosineSimilarity(queryVec, vec) });
-        }
-      }
-
-      scored.sort((a, b) => b.score - a.score);
-      semanticResults = scored.slice(0, 20).map(s => s.tip);
-    } else {
-      // Fallback: server-side search (embeddings not yet loaded)
-      const res = await fetch('/api/search?enrich=true', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: query.trim() }),
-      });
-
-      if (!res.ok) throw new Error(`Search failed: ${res.status}`);
-
-      const data = await res.json();
-      semanticResults = data.results || [];
-    }
+    const data = await res.json();
+    semanticResults = data.results || [];
   } catch (err) {
+    if (requestId !== searchRequestId) return;
     console.error('Semantic search failed, falling back to text:', err);
     semanticResults = clientSideSearch(query);
   } finally {
-    isSemanticSearching = false;
-    renderTips();
+    if (requestId === searchRequestId) {
+      renderTips();
+    }
   }
 }
 
 // Client-side fallback search
 function clientSideSearch(query: string): Tip[] {
-  const searchLower = query.toLowerCase();
-  return allTips.filter(tip =>
+  const searchLower = query.toLowerCase().trim();
+  return applyPostFilters(allTips).filter(tip =>
     tip.text.toLowerCase().includes(searchLower) ||
     tip.tags.some(tag => tag.toLowerCase().includes(searchLower)) ||
     (tip.park && PARK_LABELS[tip.park]?.toLowerCase().includes(searchLower))
-  ).slice(0, 30);
+  ).slice(0, SEARCH_RESULT_LIMIT);
 }
 
 function renderSearchLoading(): void {
@@ -363,7 +313,11 @@ function setupFilterListeners(): void {
       currentPage = 1;
       updateUrl();
       renderFilters();
-      renderTips();
+      if (searchQuery) {
+        performSemanticSearch(searchQuery);
+      } else {
+        renderTips();
+      }
     });
 
     filterBar.addEventListener('change', (e) => {
@@ -373,7 +327,11 @@ function setupFilterListeners(): void {
         currentPage = 1;
         updateUrl();
         renderFilters();
-        renderTips();
+        if (searchQuery) {
+          performSemanticSearch(searchQuery);
+        } else {
+          renderTips();
+        }
       }
     });
   }
@@ -620,6 +578,7 @@ function showRandomTip(): void {
   currentPage = 1;
   searchQuery = '';
   semanticResults = null;
+  searchRequestId += 1;
 
   const searchInput = document.getElementById('search') as HTMLInputElement;
   if (searchInput) searchInput.value = '';
@@ -686,15 +645,93 @@ function setupEmailSignup() {
   });
 }
 
+function setupPlanningRequestForm() {
+  const form = document.getElementById('planning-request-form') as HTMLFormElement | null;
+  if (!form) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const btn = form.querySelector('.plan-submit') as HTMLButtonElement | null;
+    const msg = document.getElementById('planning-request-msg');
+    const data = new FormData(form);
+    const priorities = data.getAll('priorities').map(String);
+
+    if (!msg) return;
+    if (priorities.length === 0) {
+      msg.textContent = 'Choose at least one planning priority.';
+      msg.className = 'form-msg error';
+      return;
+    }
+
+    const payload = {
+      name: String(data.get('name') || ''),
+      email: String(data.get('email') || ''),
+      destination: String(data.get('destination') || ''),
+      dates: String(data.get('dates') || ''),
+      hotel: String(data.get('hotel') || ''),
+      party: String(data.get('party') || ''),
+      budget: String(data.get('budget') || ''),
+      priorities,
+      mustDos: String(data.get('mustDos') || ''),
+      concerns: String(data.get('concerns') || ''),
+      consent: data.get('consent') === 'on',
+    };
+
+    if (btn) btn.disabled = true;
+    msg.textContent = '';
+    msg.className = 'form-msg';
+
+    try {
+      const res = await fetch('/api/planning-request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const result = await res.json();
+
+      if (!res.ok) {
+        msg.textContent = result.error || 'Could not send the request.';
+        msg.className = 'form-msg error';
+        return;
+      }
+
+      form.reset();
+      msg.textContent = result.message || 'Request received. I will follow up by email.';
+      if (typeof result.paymentUrl === 'string' && result.paymentUrl) {
+        msg.append(' ');
+        const link = document.createElement('a');
+        link.href = result.paymentUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = 'Pay for the plan.';
+        msg.appendChild(link);
+      }
+      msg.className = 'form-msg success';
+    } catch {
+      msg.textContent = 'Network error. Try again.';
+      msg.className = 'form-msg error';
+    } finally {
+      if (btn) btn.disabled = false;
+    }
+  });
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   hidePrerendered();
-  loadTips();
-  setupFilterListeners();
+  const hasTipsUi = Boolean(document.getElementById('tips-container'));
+  if (hasTipsUi) {
+    loadTips();
+    setupFilterListeners();
+  }
   setupEmailSignup();
+  setupPlanningRequestForm();
 
   // Debounced search
   const searchInput = document.getElementById('search') as HTMLInputElement;
+  if (!searchInput) return;
+
   searchInput.addEventListener('input', (e) => {
     const value = (e.target as HTMLInputElement).value;
 
@@ -711,6 +748,7 @@ document.addEventListener('DOMContentLoaded', () => {
         performSemanticSearch(value);
       } else {
         semanticResults = null;
+        searchRequestId += 1;
         showSuggested(true);
         renderTips();
       }
@@ -734,6 +772,8 @@ document.addEventListener('keydown', (e) => {
   if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
     return;
   }
+
+  if (!document.getElementById('tips-container')) return;
 
   const cards = document.querySelectorAll('.tip-card, .compact-card');
   if (cards.length === 0 && !['/', 'r'].includes(e.key)) return;

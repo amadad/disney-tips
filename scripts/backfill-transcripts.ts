@@ -1,3 +1,5 @@
+import { config } from 'dotenv';
+config({ path: '.env.local' });
 import { writeFileSync, readFileSync } from 'fs';
 import type { VideosData } from './types.js';
 import { fetchTranscriptViaYtdlp, runTranscriptPreflight, type Logger } from './lib/transcript.js';

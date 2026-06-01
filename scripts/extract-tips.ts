@@ -6,6 +6,7 @@ import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
 import { resolveLastUpdated } from './lib/state.js';
+import { isDisneyRelevantVideoTitle, isHighQualityTipText, normalizeTipTags } from '../shared/tipQuality.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
 
 // Simple logger with levels
@@ -18,23 +19,6 @@ const log = {
   warn: (...args: unknown[]) => LOG_LEVEL <= 2 && console.warn('[WARN]', ...args),
   error: (...args: unknown[]) => LOG_LEVEL <= 3 && console.error('[ERROR]', ...args),
 };
-
-// Quality filter patterns - tips containing these are rejected
-const GENERIC_PHRASES = [
-  'arrive early', 'plan ahead', 'be prepared', 'pack light',
-  'stay hydrated', 'wear comfortable', 'download the app',
-  'make a reservation', 'book in advance', 'check the weather',
-  'bring sunscreen', 'bring a poncho', 'stay cool', 'take breaks',
-  'be patient', 'have fun', 'enjoy yourself', 'take your time'
-];
-
-const MERCHANDISE_PATTERNS = [
-  /\bis available\b/i,
-  /\bnow available\b/i,
-  /\bnew (shirt|ears|necklace|bag|backpack|loungefly|spirit jersey|merchandise)\b/i,
-  /\b(shirt|ears|jersey) is\b/i,
-  /themed (ears|merchandise|apparel)\b/i
-];
 
 // Valid category and park enums
 const VALID_CATEGORIES = ['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation'] as const;
@@ -192,50 +176,6 @@ function generateRssFeed(channel: RssChannel, items: RssItem[]): string {
   const channelXml = `  <channel>\n${channelParts.join('\n')}\n  </channel>`;
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n${channelXml}\n</rss>\n`;
-}
-
-// Quality filter - returns true if tip should be KEPT
-function isHighQualityTip(text: string): boolean {
-  const lowerText = text.toLowerCase();
-
-  // Reject generic phrases
-  for (const phrase of GENERIC_PHRASES) {
-    if (lowerText.includes(phrase)) {
-      log.debug(`Rejected (generic phrase "${phrase}"): ${text.slice(0, 50)}...`);
-      return false;
-    }
-  }
-
-  // Reject merchandise announcements
-  for (const pattern of MERCHANDISE_PATTERNS) {
-    if (pattern.test(text)) {
-      log.debug(`Rejected (merchandise): ${text.slice(0, 50)}...`);
-      return false;
-    }
-  }
-
-  // Reject tips that are too short (likely not actionable)
-  if (text.length < 50) {
-    log.debug(`Rejected (too short): ${text}`);
-    return false;
-  }
-
-  // Reject tips that are just descriptions without actionable advice
-  const actionablePatterns = [
-    /\b(try|get|use|ask|book|order|arrive|head|go|visit|check|grab|skip|avoid|consider|take|make sure|don't|do not)\b/i
-  ];
-
-  const hasActionableVerb = actionablePatterns.some(p => p.test(text));
-  if (!hasActionableVerb) {
-    // Allow if it has specific Disney terms even without action verbs
-    const disneyTerms = /\b(lightning lane|genie\+|rope drop|fireworks|parade|skyliner|monorail|magic kingdom|epcot|hollywood studios|animal kingdom)\b/i;
-    if (!disneyTerms.test(text)) {
-      log.debug(`Rejected (not actionable): ${text.slice(0, 50)}...`);
-      return false;
-    }
-  }
-
-  return true;
 }
 
 // Processed videos ledger type
@@ -414,13 +354,13 @@ Extract all Disney-specific actionable tips from this video.`;
 
       // Apply quality filter and normalize categories/parks
       const qualityTips = validated.data.tips
-        .filter(tip => isHighQualityTip(tip.text))
+        .filter(tip => isHighQualityTipText(tip.text))
         .map((tip) => ({
           id: randomUUID(),
           text: tip.text,
           category: normalizeCategory(tip.category),
           park: normalizePark(tip.park),
-          tags: tip.tags,
+          tags: normalizeTipTags(tip.tags),
           priority: tip.priority,
           season: tip.season,
           source: {
@@ -505,10 +445,20 @@ async function main() {
   log.info(`${processedVideoIds.size} videos already processed`);
 
   // Process new videos only
-  const videosToProcess = videosData.videos.filter(v => !processedVideoIds.has(v.id) && v.transcript);
-  log.info(`Processing ${videosToProcess.length} new videos with transcripts...`);
+  const candidateVideos = videosData.videos.filter(v => !processedVideoIds.has(v.id) && v.transcript);
+  const videosToProcess = candidateVideos.filter(v => isDisneyRelevantVideoTitle(v.title));
+  const skippedNonDisneyVideos = candidateVideos.filter(v => !isDisneyRelevantVideoTitle(v.title));
+  log.info(`Processing ${videosToProcess.length} new Disney videos with transcripts...`);
+  if (skippedNonDisneyVideos.length > 0) {
+    log.info(`Skipping ${skippedNonDisneyVideos.length} non-Disney videos by title relevance`);
+  }
 
   const newlyProcessed: ProcessedVideo[] = [];
+  newlyProcessed.push(...skippedNonDisneyVideos.map(video => ({
+    videoId: video.id,
+    processedAt: new Date().toISOString(),
+    tipCount: 0,
+  })));
 
   // Use concurrency
   const CONCURRENCY_LIMIT = 3;
@@ -621,6 +571,8 @@ async function main() {
   const lastmod = data.lastUpdated.split('T')[0];
   const pages = [
     '',
+    '/plan.html',
+    '/tips.html',
     '/about.html',
     '/parks.html',
     '/dining.html',

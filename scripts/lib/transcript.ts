@@ -49,7 +49,7 @@ export function buildTranscriptRuntimeConfig(env: NodeJS.ProcessEnv = process.en
   return {
     proxyHost,
     proxyPort: Number.isFinite(proxyPort) && proxyPort > 0 ? proxyPort : 1080,
-    proxyUrl: `socks5://${proxyHost}:${Number.isFinite(proxyPort) && proxyPort > 0 ? proxyPort : 1080}`,
+    proxyUrl: `socks5h://${proxyHost}:${Number.isFinite(proxyPort) && proxyPort > 0 ? proxyPort : 1080}`,
     denoPath,
     strictPreflight,
     useDenoRuntime,
@@ -66,9 +66,7 @@ async function commandExists(command: string): Promise<boolean> {
   }
 }
 
-async function isProxyReachable(host: string, port: number): Promise<boolean> {
-  // Port-level sanity check. End-to-end verification is done by ensure-warp.sh
-  // (ExecStartPre) before the pipeline starts — this just catches mid-run failures.
+async function isProxyPortOpen(host: string, port: number): Promise<boolean> {
   return new Promise((resolve) => {
     const socket = new Socket();
     const done = (ok: boolean) => {
@@ -83,6 +81,28 @@ async function isProxyReachable(host: string, port: number): Promise<boolean> {
     socket.once('error', () => done(false));
     socket.connect(port, host);
   });
+}
+
+async function isProxyReachable(config: TranscriptRuntimeConfig): Promise<boolean> {
+  if (!config.proxyUrl) return false;
+
+  try {
+    const { stdout } = await execFileAsync(
+      'curl',
+      [
+        '--proxy', config.proxyUrl,
+        '-sS',
+        '-o', '/dev/null',
+        '-w', '%{http_code}',
+        '--max-time', '8',
+        'https://www.youtube.com/robots.txt',
+      ],
+      { timeout: 12000 },
+    );
+    return stdout.trim() === '200';
+  } catch {
+    return isProxyPortOpen(config.proxyHost, config.proxyPort);
+  }
 }
 
 export async function runTranscriptPreflight(
@@ -103,9 +123,9 @@ export async function runTranscriptPreflight(
     config.useDenoRuntime = false;
   }
 
-  const proxyOk = await isProxyReachable(config.proxyHost, config.proxyPort);
+  const proxyOk = await isProxyReachable(config);
   if (!proxyOk) {
-    failures.push(`WARP proxy at ${config.proxyHost}:${config.proxyPort} is not routing traffic to YouTube (port may be open but tunnel is broken)`);
+    failures.push(`WARP proxy at ${config.proxyHost}:${config.proxyPort} is not routing traffic to YouTube`);
     config.proxyUrl = undefined;
   }
 

@@ -8,22 +8,22 @@
   ></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disney Parks Tips</title>
-  <meta name="description" content="1000+ insider tips for Walt Disney World & Disneyland, updated daily from top YouTube creators.">
+  <title>Disney Family Trip Planner | Bound Tips</title>
+  <meta name="description" content="A web-first Disney planning assistant for parents who need clear decisions on what to book, buy, skip, and save before the trip.">
 
   <!-- Open Graph (Facebook, iMessage, Slack, LinkedIn) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://disney.bound.tips/">
-  <meta property="og:title" content="Disney Parks Tips">
-  <meta property="og:description" content="1000+ insider tips for Walt Disney World & Disneyland, updated daily from top YouTube creators.">
+  <meta property="og:title" content="Disney Family Trip Planner">
+  <meta property="og:description" content="Know what to book, buy, and skip for your exact Disney family trip.">
   <meta property="og:image" content="https://disney.bound.tips/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Disney Parks Tips">
-  <meta name="twitter:description" content="1000+ insider tips for Walt Disney World & Disneyland, updated daily from top YouTube creators.">
+  <meta name="twitter:title" content="Disney Family Trip Planner">
+  <meta name="twitter:description" content="Know what to book, buy, and skip for your exact Disney family trip.">
   <meta name="twitter:image" content="https://disney.bound.tips/og-image.png">
   <link rel="canonical" href="https://disney.bound.tips/">
   <link rel="alternate" type="application/rss+xml" title="Disney Tips RSS Feed" href="/feed.xml">
@@ -31,12 +31,12 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Disney Parks Tips",
+      "name": "Disney Family Trip Planner",
       "url": "https://disney.bound.tips/",
-      "description": "Insider tips for Walt Disney World and Disneyland, updated daily from top creators.",
+      "description": "A web-first Disney planning assistant for parents who need clear decisions before the trip.",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://disney.bound.tips/?q={search_term_string}",
+        "target": "https://disney.bound.tips/tips.html?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -44,120 +44,75 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=Nunito+Sans:wght@400;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/src/styles.css">
-  <style>
-    /* Critical CSS for above-the-fold content - prevents FOUC */
-    :root {
-      --bg-color: #021024;
-      --text-main: #f3f4f6;
-      --text-muted: #9ca3af;
-      --white: #ffffff;
-      --soft-gold: #fcd34d;
-    }
-    body {
-      font-family: 'Lato', sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-main);
-      margin: 0;
-    }
-    .hero {
-      text-align: center;
-      padding: 2.5rem 1rem 1rem;
-    }
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      color: var(--white);
-      margin: 0 0 0.25rem;
-      font-weight: 400;
-    }
-  </style>
 </head>
 
-<body>
-  <main>
-  <div class="hero">
-    <div class="hero-content">
-      <div class="logo">🏰</div>
-      <h1>Disney Parks Tips</h1>
-      <p class="subtitle">Insider tips for your next adventure</p>
-      <div class="search-hero">
-        <input type="text" class="search-box" id="search" placeholder="Search 2,700+ tips..." autocomplete="off">
-        <button id="random-tip-btn" class="shuffle-btn" title="Random tip (r)">&#x21bb;</button>
+<body class="home-page landing-page">
+  <main class="landing-shell">
+    <nav class="landing-nav" aria-label="Primary">
+      <a class="landing-brand" href="/" aria-label="Disney Family Trip Planner home">
+        <span class="castle-emoji" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path class="castle-body" d="M4 21V10h3V5h3v5h4V5h3v5h3v11H4Z" />
+            <path class="castle-door" d="M10 21v-4a2 2 0 0 1 4 0v4Z" />
+            <path class="castle-lines" d="M4 13h16M8.5 10V7M15.5 10V7" />
+          </svg>
+        </span>
+        Disney plans
+      </a>
+      <div class="landing-nav-links">
+        <a href="plan.html">Trip plan</a>
+        <a href="tips.html">Tips</a>
+        <a href="about.html">How it works</a>
       </div>
-      <div class="suggested-searches" id="suggested-searches">
-        <button class="suggested-pill" data-query="rope drop">rope drop</button>
-        <button class="suggested-pill" data-query="dining reservations">dining reservations</button>
-        <button class="suggested-pill" data-query="lightning lane">lightning lane</button>
-        <button class="suggested-pill" data-query="best rides for kids">best rides for kids</button>
-        <button class="suggested-pill" data-query="hotel tips">hotel tips</button>
-        <button class="suggested-pill" data-query="save money">save money</button>
-      </div>
-      <div class="stats">
-        <span id="tip-count">Loading...</span>
-        <span id="last-updated"></span>
-      </div>
-      <form id="email-signup" class="email-signup" action="/api/subscribe" method="POST">
-        <p class="signup-label">Get weekly Disney tips in your inbox</p>
-        <div class="signup-row">
-          <input type="email" name="email" required placeholder="you@example.com" class="signup-input" autocomplete="email">
-          <button type="submit" class="signup-btn">Subscribe</button>
+    </nav>
+
+    <section class="landing-hero" aria-labelledby="landing-title">
+      <div class="landing-copy">
+        <p class="bubble-kicker">$39 launch price</p>
+        <h1 id="landing-title">A Disney trip plan for about the price of one bubble wand.</h1>
+        <p class="landing-subtitle">
+          Send your dates, kids, budget, and must-dos. Get a simple family plan for what to book, what to skip, and where to rest.
+        </p>
+        <div class="landing-actions" aria-label="Primary actions">
+          <a class="hero-cta primary" href="plan.html">Get the $39 plan</a>
+          <a class="hero-cta secondary" href="tips.html">Browse tips</a>
         </div>
-        <p id="signup-msg" class="signup-msg"></p>
-      </form>
-    </div>
-  </div>
-
-  <div class="container">
-
-    <div class="filter-bar" id="filter-bar">
-      <div class="filter-scroll" id="filter-scroll">
-        <!-- View + category pills + dropdowns injected by JS -->
+        <p class="landing-price-note">
+          The trade: one park souvenir you will step over in the stroller basket, or a plan for the trip.
+        </p>
       </div>
-    </div>
+    </section>
 
-    <div class="results-count" id="results-count"></div>
+    <section class="landing-proof" aria-label="What the plan covers">
+      <p>For parents who want fewer expensive guesses.</p>
+      <ul>
+        <li>Park order</li>
+        <li>Lightning Lane and dining choices</li>
+        <li>Breaks, backup moves, and spend skips</li>
+      </ul>
+    </section>
 
-    <div class="tips-grid" id="tips-container">
-      <!-- Skeletons will be injected here by JS -->
-      <div class="skeleton-card skeleton"></div>
-      <div class="skeleton-card skeleton"></div>
-      <div class="skeleton-card skeleton"></div>
-      <div class="skeleton-card skeleton"></div>
-      <div class="skeleton-card skeleton"></div>
-      <div class="skeleton-card skeleton"></div>
-    </div>
-
-    <div id="pagination" class="pagination"></div>
-  </div>
-
-  <div id="toast" class="toast">Copied to clipboard</div>
+    <section class="landing-routes" aria-label="Choose a path">
+      <a class="route-panel route-plan" href="plan.html">
+        <span>Trip plan</span>
+        <strong>Get the full plan</strong>
+        <p>A week-by-week email plan for your family, with one follow-up included.</p>
+      </a>
+      <a class="route-panel route-tips" href="tips.html">
+        <span>Tip archive</span>
+        <strong>Search the research</strong>
+        <p>Browse thousands of Disney planning tips when you want to dig deeper.</p>
+      </a>
+    </section>
   </main>
 
-  <footer>
-    <div class="footer-links">
-      <a href="about.html">How it works</a>
-      <span class="separator">|</span>
-      <a href="parks.html">Parks</a>
-      <span class="separator">|</span>
-      <a href="dining.html">Dining</a>
-      <span class="separator">|</span>
-      <a href="hotels.html">Hotels</a>
-      <span class="separator">|</span>
-      <a href="budget.html">Budget</a>
-      <span class="separator">|</span>
-      <a href="planning.html">Planning</a>
-      <span class="separator">|</span>
-      <a href="transportation.html">Transportation</a>
-    </div>
-    <div class="footer-meta">
-      <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, INC 2026</a>
-    </div>
+  <footer class="landing-footer">
+    <a href="about.html">How it works</a>
+    <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, INC 2026</a>
   </footer>
-
-  <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>

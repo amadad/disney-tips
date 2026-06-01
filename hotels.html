@@ -34,44 +34,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&family=Nunito+Sans:wght@400;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/src/styles.css">
-  <style>
-    /* Critical CSS for above-the-fold content - prevents FOUC */
-    :root {
-      --bg-color: #021024;
-      --text-main: #f3f4f6;
-      --text-muted: #9ca3af;
-      --white: #ffffff;
-      --soft-gold: #fcd34d;
-    }
-    body {
-      font-family: 'Lato', sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-main);
-      margin: 0;
-    }
-    .hero {
-      text-align: center;
-      padding: 4rem 1rem 2rem;
-    }
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      color: var(--white);
-      margin: 0 0 0.25rem;
-      font-weight: 400;
-    }
-  </style>
 </head>
 
-<body>
-  <div class="hero">
+<body class="category-page category-hotels">
+  <nav class="landing-nav" aria-label="Primary">
+    <a class="landing-brand" href="/" aria-label="Disney Family Trip Planner home">
+      <span class="castle-emoji" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          <path class="castle-body" d="M4 21V10h3V5h3v5h4V5h3v5h3v11H4Z" />
+          <path class="castle-door" d="M10 21v-4a2 2 0 0 1 4 0v4Z" />
+          <path class="castle-lines" d="M4 13h16M8.5 10V7M15.5 10V7" />
+        </svg>
+      </span>
+      Disney plans
+    </a>
+    <div class="landing-nav-links">
+      <a href="plan.html">Trip plan</a>
+      <a href="tips.html">Tips</a>
+      <a href="about.html">How it works</a>
+    </div>
+  </nav>
+
+  <main>
+  <div class="hero category-page-hero">
     <div class="hero-content">
-      <div class="logo">🏰</div>
-      <h1>Disney Parks Tips</h1>
-      <p class="subtitle">Insider tips for your next adventure</p>
+      <p class="section-kicker">Hotels</p>
+      <h1>Disney hotel tips.</h1>
+      <p class="subtitle">Resort choices, room tradeoffs, transport access, and rest-day strategy.</p>
       <div class="stats">
         <span id="tip-count">Loading...</span>
         <span id="last-updated"></span>
@@ -81,47 +73,16 @@
   </div>
 
   <div class="container">
-    <div class="search-wrapper">
-      <input type="text" class="search-box" id="search" placeholder="Search the collection...">
-      <button id="random-tip-btn" class="random-btn" title="Show a random tip">Surprise Me</button>
+    <div class="search-hero category-search">
+      <input type="text" class="search-box" id="search" placeholder="Search the collection..." autocomplete="off">
+      <button id="random-tip-btn" class="shuffle-btn" title="Random tip">&#x21bb;</button>
     </div>
 
-    <div class="filter-controls">
-      <div class="view-toggle" id="view-toggle">
-        <button class="view-btn active" data-view="top">Top Tips</button>
-        <button class="view-btn" data-view="all">All Tips</button>
-      </div>
-      <div class="filter-actions">
-        <button id="filters-toggle" class="filters-toggle" aria-expanded="false">More Filters</button>
-      </div>
-      <div class="category-select">
-        <select id="category-select" class="filter-select" aria-label="Filter by Category">
-          <option value="all">All Categories</option>
-        </select>
-      </div>
-      <div class="category-scroll" id="category-filters">
-        <!-- Categories injected here -->
-      </div>
-      <div class="secondary-filters" id="secondary-filters">
-        <select id="sort-select" class="filter-select" aria-label="Sort by">
-          <option value="newest">Newest First</option>
-          <option value="priority">Highest Priority</option>
-          <option value="oldest">Oldest First</option>
-        </select>
-        <select id="park-select" class="filter-select" aria-label="Filter by Park">
-          <option value="all">All Parks</option>
-        </select>
-        <select id="priority-select" class="filter-select" aria-label="Filter by Impact">
-          <option value="all">All Impact Levels</option>
-        </select>
-        <select id="season-select" class="filter-select" aria-label="Filter by Season">
-          <option value="all">Any Season</option>
-        </select>
-        <button id="clear-filters-btn" class="clear-btn" style="display: none;">Clear Filters</button>
-      </div>
+    <div class="filter-bar" id="filter-bar">
+      <div class="filter-scroll" id="filter-scroll" aria-label="Tip filters"></div>
     </div>
 
-    <div class="filtered-count" id="filtered-count"></div>
+    <div class="results-count" id="results-count"></div>
 
     <div class="tips-grid" id="tips-container">
       <!-- Skeletons will be injected here by JS -->
@@ -137,9 +98,16 @@
   </div>
 
   <div id="toast" class="toast">Copied to clipboard</div>
+  </main>
 
   <footer>
     <div class="footer-links">
+      <a href="/">Home</a>
+      <span class="separator">|</span>
+      <a href="plan.html">Trip plan</a>
+      <span class="separator">|</span>
+      <a href="tips.html">Tips</a>
+      <span class="separator">|</span>
       <a href="about.html">How it works</a>
       <span class="separator">|</span>
       <a href="parks.html">Parks</a>

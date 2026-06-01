@@ -4,6 +4,7 @@ dist/
 .env
 .DS_Store
 *.log
+data/private/
 
 # Night Nurse
 logs/night-nurse.log

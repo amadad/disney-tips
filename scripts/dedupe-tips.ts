@@ -1,6 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
 import { readFileSync, writeFileSync } from 'fs';
 import type { ExtractedTip, TipsData, TipCategory } from './types.js';
+import { isDisneyRelevantVideoTitle, isHighQualityTipText, normalizeTipTags } from '../shared/tipQuality.js';
 
 // Validate API key early
 if (!process.env.GEMINI_API_KEY) {
@@ -10,49 +11,6 @@ if (!process.env.GEMINI_API_KEY) {
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 const MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
-
-// Quality filter patterns (same as extract-tips.ts)
-const GENERIC_PHRASES = [
-  'arrive early', 'plan ahead', 'be prepared', 'pack light',
-  'stay hydrated', 'wear comfortable', 'download the app',
-  'make a reservation', 'book in advance', 'check the weather',
-  'bring sunscreen', 'bring a poncho', 'stay cool', 'take breaks',
-  'be patient', 'have fun', 'enjoy yourself', 'take your time'
-];
-
-const MERCHANDISE_PATTERNS = [
-  /\bis available\b/i,
-  /\bnow available\b/i,
-  /\bnew (shirt|ears|necklace|bag|backpack|loungefly|spirit jersey|merchandise)\b/i,
-  /\b(shirt|ears|jersey) is\b/i,
-  /themed (ears|merchandise|apparel)\b/i
-];
-
-function isHighQualityTip(text: string): boolean {
-  const lowerText = text.toLowerCase();
-
-  for (const phrase of GENERIC_PHRASES) {
-    if (lowerText.includes(phrase)) return false;
-  }
-
-  for (const pattern of MERCHANDISE_PATTERNS) {
-    if (pattern.test(text)) return false;
-  }
-
-  if (text.length < 50) return false;
-
-  const actionablePatterns = [
-    /\b(try|get|use|ask|book|order|arrive|head|go|visit|check|grab|skip|avoid|consider|take|make sure|don't|do not)\b/i
-  ];
-
-  const hasActionableVerb = actionablePatterns.some(p => p.test(text));
-  if (!hasActionableVerb) {
-    const disneyTerms = /\b(lightning lane|genie\+|rope drop|fireworks|parade|skyliner|monorail|magic kingdom|epcot|hollywood studios|animal kingdom)\b/i;
-    if (!disneyTerms.test(text)) return false;
-  }
-
-  return true;
-}
 
 // Fix invalid categories
 const VALID_CATEGORIES = ['parks', 'dining', 'hotels', 'budget', 'planning', 'transportation'];
@@ -175,10 +133,11 @@ async function main() {
   // Step 1: Apply quality filter and normalize categories
   console.log('\nStep 1: Applying quality filter...');
   const qualityTips = data.tips
-    .filter(tip => isHighQualityTip(tip.text))
+    .filter(tip => isHighQualityTipText(tip.text) && isDisneyRelevantVideoTitle(tip.source.videoTitle))
     .map(tip => ({
       ...tip,
-      category: normalizeCategory(tip.category)
+      category: normalizeCategory(tip.category),
+      tags: normalizeTipTags(tip.tags),
     }));
   console.log(`After quality filter: ${qualityTips.length} tips (removed ${data.tips.length - qualityTips.length})`);
 

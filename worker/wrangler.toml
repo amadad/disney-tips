@@ -1,7 +1,0 @@
-name = "yt-transcript-proxy"
-main = "yt-transcript.js"
-compatibility_date = "2024-12-01"
-
-# Bearer token for auth — set via: wrangler secret put YT_PROXY_BEARER
-# [vars]
-# (no plain-text vars needed; YT_PROXY_BEARER is a secret)
