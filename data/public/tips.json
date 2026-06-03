@@ -1,8 +1,2982 @@
 {
-  "lastUpdated": "2026-06-01T14:10:11.698Z",
-  "lastChecked": "2026-06-01T14:10:11.698Z",
-  "totalTips": 5009,
+  "lastUpdated": "2026-06-03T14:06:09.568Z",
+  "lastChecked": "2026-06-03T14:06:09.568Z",
+  "totalTips": 5163,
   "tips": [
+    {
+      "id": "4c151c25-23d5-47de-a8ac-597c8e004568",
+      "text": "If you don't have Lightning Lane for Seven Dwarfs Mine Train at Magic Kingdom, head there immediately at rope drop to avoid waits over 90 minutes.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "22W8X9rZIDg",
+        "channelName": "MammothClub",
+        "videoTitle": "We Spent A Week With A Professional Soccer Team",
+        "publishedAt": "2026-06-03T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:40.551Z"
+    },
+    {
+      "id": "c7bc5f04-99cb-4300-bf15-60e570b5b506",
+      "text": "Check the stadium's website for bag restrictions before attending a game, as only small or clear bags are permitted.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "stadium-rules"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "22W8X9rZIDg",
+        "channelName": "MammothClub",
+        "videoTitle": "We Spent A Week With A Professional Soccer Team",
+        "publishedAt": "2026-06-03T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:40.551Z"
+    },
+    {
+      "id": "13a52987-6636-4ee2-adf4-d41e830bc9c1",
+      "text": "For a unique snack at Inter & Co Stadium, try the loaded tostones from Vampo Food Truck, described as elevated nachos with pulled pork.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "food-truck",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "22W8X9rZIDg",
+        "channelName": "MammothClub",
+        "videoTitle": "We Spent A Week With A Professional Soccer Team",
+        "publishedAt": "2026-06-03T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:40.551Z"
+    },
+    {
+      "id": "9ba7b46b-a9ec-49c5-8fe4-3eb87da6934b",
+      "text": "The achiote pork tacos at Black Rooster Taqueria are slow-cooked for over 3 days and are considered a must-try menu item.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "tacos",
+        "slow-cooked"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "22W8X9rZIDg",
+        "channelName": "MammothClub",
+        "videoTitle": "We Spent A Week With A Professional Soccer Team",
+        "publishedAt": "2026-06-03T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:40.551Z"
+    },
+    {
+      "id": "0125d226-4cb3-40fa-ad5b-989ad7261c6a",
+      "text": "Try the handmade corn tortillas with slow-cooked brisket at Black Rooster Taqueria for a delicious taco experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "tacos",
+        "handmade-tortillas"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "22W8X9rZIDg",
+        "channelName": "MammothClub",
+        "videoTitle": "We Spent A Week With A Professional Soccer Team",
+        "publishedAt": "2026-06-03T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:40.551Z"
+    },
+    {
+      "id": "61fd61b3-a9cc-43ca-a869-4ab1c2e988ff",
+      "text": "To see zebras, giraffes, and kudu, book a savanna view room at Animal Kingdom Lodge.",
+      "category": "hotels",
+      "park": "animal-kingdom",
+      "tags": [
+        "resort-stay",
+        "animal-view"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "HZNBglFm824",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "22 Days Of Straight Travel. (Disney Still Wants My Wife)",
+        "publishedAt": "2026-06-02T20:52:23+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:36.898Z"
+    },
+    {
+      "id": "e57629a2-3955-43a3-bbcc-13b63a50ae51",
+      "text": "Do not feed the animals from your balcony at Animal Kingdom Lodge and do not leave items on the balcony.",
+      "category": "hotels",
+      "park": "animal-kingdom",
+      "tags": [
+        "resort-rules",
+        "animal-safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HZNBglFm824",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "22 Days Of Straight Travel. (Disney Still Wants My Wife)",
+        "publishedAt": "2026-06-02T20:52:23+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:36.898Z"
+    },
+    {
+      "id": "202497fe-f9ca-4a3f-bf93-7e663b93ec44",
+      "text": "For fireworks view at Magic Kingdom, watch from behind Cinderella Castle in Fantasyland to see them launch in front of and behind you.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "show-view"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HZNBglFm824",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "22 Days Of Straight Travel. (Disney Still Wants My Wife)",
+        "publishedAt": "2026-06-02T20:52:23+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:36.898Z"
+    },
+    {
+      "id": "56748655-7dc6-4cee-a7f1-d6233f92eb01",
+      "text": "Grab a window seat at Pinocchio Village Haus in Magic Kingdom for a view of the Small World boats.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "views"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "HZNBglFm824",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "22 Days Of Straight Travel. (Disney Still Wants My Wife)",
+        "publishedAt": "2026-06-02T20:52:23+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:36.898Z"
+    },
+    {
+      "id": "03e05e10-0450-40a0-8101-1a289c7d1e5a",
+      "text": "Try the Gideon's Bakehouse peanut butter cold brew at Disney Springs if you are a fan of their cookies.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "snacks",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HZNBglFm824",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "22 Days Of Straight Travel. (Disney Still Wants My Wife)",
+        "publishedAt": "2026-06-02T20:52:23+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:36.899Z"
+    },
+    {
+      "id": "bb0f5a0c-fff9-4a41-ae92-e2007c23f77e",
+      "text": "Consider using Breeze Airways for flights from Huntsville; they were fantastic for our trip.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "flights",
+        "budget-travel"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.851Z"
+    },
+    {
+      "id": "a45b795e-36c8-40f6-aeac-b6c6cb820407",
+      "text": "If visiting during Labor Day weekend, consider purchasing Lightning Lane selections.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "planning",
+        "holiday-weekend"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.851Z"
+    },
+    {
+      "id": "6f573d45-777c-45f4-8807-86f0760a6803",
+      "text": "Take frequent breaks and get into the air conditioning when visiting Walt Disney World during the first trimester of pregnancy.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "pregnancy",
+        "planning",
+        "heat-management"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "901956b8-da9b-4158-8aa9-388c737c9b80",
+      "text": "On Mickey's Not-So-Scary Halloween Party days, enjoy significantly lower crowds in Magic Kingdom, potentially even skipping Lightning Lanes.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "halloween-party",
+        "crowds",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "halloween",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "906cacbd-76cc-4e13-8ee5-f66196c84e02",
+      "text": "Watch the Magic Kingdom fireworks from the Polynesian Resort beach or the Grand Floridian Resort's quick-service area for a great view with piped-in music.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "resort-viewing",
+        "dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "a2f1a4a3-78db-46a7-91f3-553ece7008ed",
+      "text": "Try Ohana's sticky chicken wings and consider eating at Tambu Lounge instead of Ohana for a potentially better value.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "resort-dining",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "12d6f243-6fad-45ac-b933-f830a27894a3",
+      "text": "Utilize all the pools and splash pads at the Polynesian Resort, as well as those at other resorts if permitted.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-perks",
+        "pools"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "598b02c8-7232-414c-b136-1a624d7a6c3d",
+      "text": "Use Lightning Lanes for Big Thunder Mountain, Buzz Lightyear's Space Ranger Spin, and Space Mountain at Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "ride-selection"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "23d97e6e-a4f1-4a56-b9dc-e853c26ca4a4",
+      "text": "Prioritize Lightning Lane selections for Test Track, Journey of the Imagination with Figment, and Spaceship Earth at Epcot.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "lightning-lane",
+        "ride-selection"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "3702b0f4-b652-441a-816c-507538f748b7",
+      "text": "Consider using Lightning Lane for Nemo & Friends at Epcot due to its long queue, especially with small children.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "toddlers"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "c95a8f48-a34c-4f1f-8850-832d83aa834d",
+      "text": "Prioritize Lightning Lane for Kilimanjaro Safaris and Expedition Everest at Animal Kingdom.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "lightning-lane",
+        "ride-selection"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "6026ce6c-05e9-4d79-bec6-79f7f2f1d657",
+      "text": "Focus on Lightning Lane selections for Slinky Dog Dash, Toy Story Mania!, and Alien Swirling Saucers at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "ride-selection"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "806103ac-5961-4009-be44-30f557a5e98a",
+      "text": "Caribbean Beach Resort now offers churro Mickey waffles.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "resort-dining",
+        "snacks",
+        "new-item"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "FPbRzwNezWY",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Road Trip Q&A 🚗 Driving to Disney?! Moving Again?!",
+        "publishedAt": "2026-06-02T18:00:34+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:39.852Z"
+    },
+    {
+      "id": "cc6eb886-12e9-4384-a6c9-4585988bee98",
+      "text": "Use Lightning Lane for Seven Dwarfs Mine Train if you don't plan to rope drop the attraction.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "50f509e8-5acd-46c5-acf0-25067d51a6aa",
+      "text": "Visit the Haunted Mansion section in the Oklahoma Wonder House, which includes themed decor and a Bob Gurr signed poster.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "attractions",
+        "props"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "2260fea7-cbf1-4ed1-9bb0-9ecb75349b09",
+      "text": "Check out the 'churros' area in the Oklahoma Wonder House, which has Disney-inspired dolls and a Tiki Bar nod.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "themed-decor",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "fe38f513-bb47-4eca-96c6-c86399456f20",
+      "text": "Admire the Disneyland tribute in the Oklahoma Wonder House, which includes Magic Key popcorn buckets and actual used signs from Disneyland.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "themed-decor",
+        "memorabilia"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "4691516a-4db7-4f73-aca1-4fbd71ca175e",
+      "text": "See Harry Houdini's actual leg irons, which were previously displayed at Disneyland, in the Oklahoma Wonder House.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "memorabilia",
+        "props"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "bb98a455-0db6-4b86-acab-4ccaff3e6bff",
+      "text": "Check out the vintage BMX bikes from the 80s and 90s displayed in the Oklahoma Wonder House.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "memorabilia",
+        "vintage"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w2j-PE_Rb0A",
+        "channelName": "JustinScarred",
+        "videoTitle": "Some Guy in Oklahoma turned his house into Disneyland (RETURN to the Oklahoma City Wonder House!)",
+        "publishedAt": "2026-06-02T15:00:11+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:41.734Z"
+    },
+    {
+      "id": "01e343c8-7b6c-411b-8d31-d86e0fd19c3e",
+      "text": "For Buzz Lightyear Space Ranger Spin in Tomorrowland, utilize early theme park entry if staying at a Disney hotel to get a head start.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "early-entry"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "31c2fc95-772d-4bf9-a15f-ba407edf329b",
+      "text": "Consider Be Our Guest Restaurant in Adventureland for lunch and drinks, as it offers a Pirates of the Caribbean theme.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "9ce24d52-594d-4dfb-af06-b776f16f1efe",
+      "text": "Find a viewing spot for the Disney Starlight Dream the Night Parade in Frontier Land, Liberty Square, or Main Street, USA.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "fireworks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "05a1dd3b-a9a5-4406-9b89-f3e26586870a",
+      "text": "Prioritize riding Frozen Ever After in the Norway Pavilion first thing, either during early theme park entry or at rope drop, due to its popularity and recent animatronic upgrades.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "rope-drop",
+        "early-entry",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "f098f15a-2a7d-4731-9b8f-5690e0812e48",
+      "text": "Opt for the single rider line at Test Track in World Discovery or Remy's Ratatouille Adventure in the France Pavilion if wait times are long and you do not have Lightning Lane access, provided your group members are at least seven years old.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "single-rider",
+        "wait-times",
+        "lightning-lane"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "d0385cac-3e08-41f0-aef2-04614c731218",
+      "text": "Experience the limited-time overlay 'Soarin' Across America' at The Land Pavilion in Epcot in honor of America's 250th anniversary.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-overlay",
+        "limited-time"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "cdf0dffc-c28b-4f7e-bcdc-750547a0272a",
+      "text": "Visit the 21+ only GO82 lounge extension for Spaceship Earth in Epcot for drinks and bites.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "lounge",
+        "adults-only"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "cd9a6138-311d-4747-85ab-4649d45fc3b1",
+      "text": "Ride Rock 'n' Roller Coaster Starring Aerosmith on Sunset Boulevard in Hollywood Studios, noting the Muppets have taken over.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-overlay"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "afbf38db-e33d-47d0-8d1e-85b6844a0dbb",
+      "text": "Ride Millennium Falcon: Smugglers Run in Galaxy's Edge at Hollywood Studios to try out their new missions.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "interactive-ride",
+        "new-missions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "e93a6d5d-c178-4408-b366-e28cfc135a6b",
+      "text": "Try the Pizza Planet spring rolls from the new popcorn and snack stand in Toy Story Land at Hollywood Studios.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "new-item"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.439Z"
+    },
+    {
+      "id": "d5853eac-a825-4f02-a914-5757c5a4d92c",
+      "text": "Explore the Walt Disney Studios area in Hollywood Studios, formerly Animation Courtyard, for new shows, a playground, and meet and greets.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-area",
+        "meet-and-greet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "f4c848cd-1839-4bbf-92e0-928f3813edb0",
+      "text": "To meet Bluey and Bingo at Animal Kingdom, take the Wildlife Express train to Bluey's Wild World and secure your spot using a virtual queue on the My Disney Experience app.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-meet",
+        "virtual-queue"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "bba4fbb9-a585-48aa-8e0a-34fb275c41f7",
+      "text": "Try the specialty cold brew flight at Satu'li Canteen in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drinks",
+        "specialty-coffee"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "83a28242-7806-46a8-bc72-fe127fea6e7e",
+      "text": "Sample the cheesy arepas from The Smiling Crocodile in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "c79ef8db-2224-415c-9d17-bae4d8d05a77",
+      "text": "Order the pretzels with homemade cheese and blueberry mustard dipping sauce from the Isle of Java in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "pretzels"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "c902ed4a-4371-4e4d-98bd-64bb386d11a5",
+      "text": "Experience the Zootopia 'Better Together' 4D attraction at the Tree of Life in Animal Kingdom and then meet Nick Wilde and Judy Hopps.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "attraction",
+        "character-meet",
+        "4d"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "ae26c512-dde9-455d-9d85-9e5bf5c82a82",
+      "text": "If attempting a four-park day, start at Animal Kingdom as it typically opens earliest and consider using extended evening hours if staying at a deluxe resort to maximize park time.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "park-hopper",
+        "strategy",
+        "extended-evening-hours"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "59222200-a0ed-41e0-9f54-adad80fc1894",
+      "text": "Utilize Disney World transportation whenever possible for park hopping to avoid backtracking to your car and save time, especially when traveling to and from the Transportation and Ticket Center.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "park-hopper",
+        "disney-transportation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "40fb430f-8322-459f-8df2-fbc893acbd86",
+      "text": "For a park hopper day, consider this transportation route: Disney bus from Animal Kingdom to Hollywood Studios, Disney Skyliner from Hollywood Studios to Epcot, and Epcot Monorail to Magic Kingdom (with a transfer at the TTC).",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "park-hopper",
+        "disney-transportation",
+        "skyliner",
+        "monorail"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "4d2d27e2-fc4a-4fa8-bd0e-c0e9ae4efdf8",
+      "text": "Spend a day exploring Disney Springs starting around 10:00 a.m. to avoid larger crowds, visiting shops like World of Disney, M&M Store, and Lego store.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "shopping",
+        "no-park-ticket"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "ffe05db2-750b-4145-8a50-3b9f859f34fa",
+      "text": "Try a well-loved snack from Gideon's Bakehouse, Swirls on the Water, or The Daily Poutine in Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "snacks",
+        "no-park-ticket"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "9f185f30-b3a5-45ea-ba2a-64611db7dc2b",
+      "text": "Take a free Disney Springs river boat to nearby resorts like Saratoga Springs, Old Key West, or Port Orleans to explore their dining and shopping options.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "resort-hopping",
+        "no-park-ticket"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "2d1f6176-ab55-4260-9ae9-61ea3f0de3be",
+      "text": "Check resort activity schedules online via the Disney World website's recreation tab for options at various Disney Springs area resorts.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "resort-hopping",
+        "no-park-ticket",
+        "activities"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "ec7a2eb9-aee9-4823-b8e0-ef43295bd9ea",
+      "text": "Plan your resort pool visits around dinner time to avoid afternoon crowds and secure better lounge chairs and floaties.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-pool",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "253e9ed7-a368-4cdf-9e8c-ccf5e52a38ec",
+      "text": "Book Disney's Enchanting Extras collection tours like the 5-hour Keys to the Kingdom tour in Magic Kingdom, which includes access to underground utilidors.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "behind-the-scenes",
+        "paid-tour"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "8d376eab-bc93-4c4d-be24-3f6897a0c25b",
+      "text": "Consider the 3-hour Wild Africa Trek tour in Animal Kingdom, which traverses the Safi River Valley by safari vehicle and rope bridges.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "behind-the-scenes",
+        "paid-tour"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "3a232704-2f25-4b80-9219-af6400595180",
+      "text": "Book the 8:30 a.m. Wilderness Backtrail Adventure tour at Wilderness Lodge for a 2-hour Segway circuit.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "paid-tour",
+        "resort-activity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "09249c1d-79e9-4bea-b67e-41d1bfce0586",
+      "text": "Visit Epcot's Greenhouse tours for a behind-the-scenes look, which requires a park ticket purchase and costs $39-$49.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "behind-the-scenes",
+        "paid-tour"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "7361ec16-9442-4de1-840c-f65981a818b4",
+      "text": "Take the Starlight Safari tour at Animal Kingdom Lodge, which can run as late as 10:00 p.m.",
+      "category": "hotels",
+      "park": "animal-kingdom",
+      "tags": [
+        "paid-tour",
+        "night-activity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "94132f1d-ddc6-447c-ac35-55dc27fa0c43",
+      "text": "Explore Walt Disney Presents in Hollywood Studios for photos, models, and sketches documenting Walt Disney's life and future projects.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "exhibit",
+        "history"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "d3ce3a21-b1b0-4e5c-b1e7-f5792eafe27b",
+      "text": "Immerse yourself in Epcot's cultural exhibits around the World Showcase to learn about each pavilion's history and view unique international displays.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "exhibit",
+        "culture"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "787ac24b-4a76-4924-8b48-021a4c9741d8",
+      "text": "Walk the Maharaja Jungle Trek and Gorilla Falls Exploration Trail in Animal Kingdom to observe unique animals in crafted habitats.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animal-watching",
+        "walking-trail"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "9a45ed41-bb30-461b-b724-841194eebd51",
+      "text": "Try the Stack Burger from Steakhouse 71 at the Contemporary Resort for a great carnivorous option.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "f51f5887-bcb7-4659-a068-8e61690c260f",
+      "text": "Enjoy the Ronto Wrap from Ronto Roasters at Hollywood Studios for a popular meat-based snack.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "bd83b1a2-da1f-4fb2-a3af-98a890ff5d32",
+      "text": "Order the Grilled Tofu Poke Bowl from 'Ohana Bar and Grill at Polynesian Village Resort for a vegetarian choice.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "resort-dining",
+        "vegetarian"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "8ce25d96-5556-4120-8cb0-e9d5289f0fe8",
+      "text": "Explore the many vegan treats available at Erin McKenna's Bakery NYC at Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "vegan",
+        "bakery"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "d55a9fa6-f893-4731-b158-299c05f1fd7f",
+      "text": "Try the 'No Way Jose' Sundae from Beaches and Cream Soda Shop at the Beach Club Resort for an ice cream specialty.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "resort-dining",
+        "ice-cream"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "4c54f83e-7177-42a2-95aa-9d7c03e1e742",
+      "text": "Sample the Cold Brew Black Caf at Katsak's Kettle in Hollywood Studios for a unique coffee and cereal combination.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "coffee"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "bf2d947e-fa51-4c4a-9e39-5426b33bd8c9",
+      "text": "Get the Peanut Butter Cold Brew from Gideon's Bakehouse in Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "coffee",
+        "bakery"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "3f2b19b9-6779-4f92-8117-fe878b7a941f",
+      "text": "Enjoy the Ham and Gruyère Sandwich from Gaston's Tavern in Magic Kingdom.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "sandwich"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "ec142bad-6683-4cf8-885f-e15148996447",
+      "text": "Try the Thigh-High Chicken Sliders from Homecoming at Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "table-service",
+        "florida-cuisine"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "69585412-3e16-4c39-85d1-98225979fbc9",
+      "text": "Don't miss the Mickey-shaped beignets at Scat Cat's Club Cafe at Port Orleans French Quarter Resort.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "resort-dining",
+        "snacks",
+        "mickey-shaped"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "0c8586bd-738a-400e-8f0c-a6640a24ceda",
+      "text": "Order the house-made mac and cheese from Gasparilla Island Grill at Grand Floridian Resort.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "3aa91962-475f-4491-900b-12167cdf331e",
+      "text": "Order AJ's Birthday Fries (French fries with pulled pork and cheese) from Flame Tree Barbecue in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "barbecue"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "13ce9203-6122-4ec8-9760-9ee2c7683373",
+      "text": "Rope drop character meet and greet locations that tend to have the longest wait times, such as Princess Fairytale Hall in Magic Kingdom or Mickey and Minnie's Red Carpet Dreams in Hollywood Studios.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "7f8fc63a-2b8c-4633-bdef-55e33710c11e",
+      "text": "Check the My Disney Experience app for updated character meet and greet times, including those for roaming characters.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "mobile-app"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "723c46d2-d64d-4818-a42d-8058aa63df78",
+      "text": "Book character dining experiences for characters you know you won't see elsewhere, like Aladdin (Prince Ali look) and Tiana at 1900 Park Fare in Grand Floridian.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-dining",
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "66d2e602-d44e-4fd3-8fcb-81426eae0873",
+      "text": "Consider Ohana breakfast at Polynesian Village Resort for character dining with Lilo, Stitch, Mickey, and Pluto.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-dining",
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "4200ca44-5da5-4c0a-a7ad-4da06f57560e",
+      "text": "Experience Storybook Dining at Artist Point in Wilderness Lodge for Snow White, Dopey, Grumpy, and the Evil Queen.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-dining",
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "006132b0-1273-4537-9723-e045ad0ce665",
+      "text": "Consider Magic Kingdom's parades and cavalcades as opportunities for character encounters, especially for shy children.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "215650b1-4cd5-4aea-9ca7-129f0677647b",
+      "text": "Participate in Enchanted Tales with Belle in Magic Kingdom's Fantasyland for a chance to interact with Belle during a skit.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "interactive-show",
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "aad8ff69-1771-4f07-a8f8-9d38f3c15f4f",
+      "text": "Ask for a free celebration button at the resort front desk or guest relations upon check-in or when visiting your first park.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "celebration-button",
+        "freebie"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wbLdi21uC_4",
+        "channelName": "DFBGuide",
+        "videoTitle": "How to Plan the PERFECT Disney World Trip",
+        "publishedAt": "2026-06-02T14:30:37+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:58.440Z"
+    },
+    {
+      "id": "9f585f11-ca62-4a0c-94f1-d211738c0e53",
+      "text": "Mobile order fish and chips at the UK pavilion's quick-service location.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "1c79a410-7e28-411b-9547-511da692550c",
+      "text": "Get a side of chips and enjoy unlimited salsa at La Cantina de San Angel in Epcot's Mexico pavilion.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "salsa"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "1e4117ab-10b2-4687-9e38-67c56d2faeb3",
+      "text": "Try the sangria from the hidden drink cart in the back of Morocco, which can be enjoyed in the Fez House.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "snack",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "42e0fa3f-9f97-45c5-b23b-31bbf5fe99b4",
+      "text": "Explore the Shanghai Disneyland exhibit located inside the China pavilion for a cool break and to learn about another park.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "exhibit",
+        "indoor-attraction"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "e286b1d7-976c-4e00-84ec-2c2542540b64",
+      "text": "Use the Gachapon (capsule toy) machines in the Japan pavilion to get a unique souvenir.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "souvenir",
+        "vending-machine"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "d52ee3dd-555a-4e3d-bdab-4eb5821c7e4d",
+      "text": "See the Voices of Liberty performing American songs in the American Adventure pavilion; try to see them twice if you can.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "live-entertainment",
+        "show",
+        "music"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "03327099-2456-4998-8c94-b9954d0b7382",
+      "text": "Try the sorbetto or gelato at Gelataria Toscana in Italy for a refreshing treat.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "dessert",
+        "gelato",
+        "sorbet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "632621ea-e6de-4995-a515-73c29b781dd6",
+      "text": "Visit the VIP Passholder Lounge in Morocco for complimentary snacks and refreshments if you are an annual passholder.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "annual-passholder",
+        "perk",
+        "snacks"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "cf662c0f-603b-44c0-971a-b1fb05dd4af6",
+      "text": "Visit the Kidcot Fun Stops in each World Showcase pavilion to collect a souvenir card.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "kidcot",
+        "souvenir",
+        "family-activity"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "pzTU8LryKVM",
+        "channelName": "AllEars.net",
+        "videoTitle": "EPCOT Left VS Right CHALLENGE -- World Showcase 3",
+        "publishedAt": "2026-06-02T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-03T14:04:47.294Z"
+    },
+    {
+      "id": "49d7b00b-6563-468a-ab0b-5aac5a3cd78f",
+      "text": "Find a quiet spot to get a snack or drink and people watch to recharge and break up your park day.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "recharge",
+        "snacks",
+        "atmosphere"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "53f7da92-7d10-4810-ab63-462cd60f7ef5",
+      "text": "Head behind Ye Olde Christmas Shoppe in Liberty Square at Magic Kingdom for a shaded, quiet spot with picnic tables and benches.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "quiet-spots",
+        "recharge",
+        "liberty-square"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "5c5df699-af1f-4528-8e2e-841dd408226e",
+      "text": "Consider using Loop earplugs to help muffle park noise without completely blocking out the atmosphere.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "sensory-overload",
+        "noise-reduction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "dc3bda21-31da-4163-880d-5361a60753b2",
+      "text": "Visit Nomad Lounge in Animal Kingdom and sit on the patio with a beverage to enjoy the atmosphere and relax.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "lounge",
+        "relax",
+        "atmosphere",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "d5e1ec48-a171-475f-8f31-f55d69d3a7e5",
+      "text": "Enjoy a drink at Baseline Tap House in Hollywood Studios to help relax and take the edge off the park environment.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "lounge",
+        "relax",
+        "atmosphere",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "4530ef0a-1d9d-414c-bf6a-90d13c0beeff",
+      "text": "Opt for quick-service locations with condiment bars, like Backlot Express or ABC Commissary in Hollywood Studios, for easier ketchup access and refills.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "ketchup",
+        "condiments"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "919200ac-3d7c-4027-b999-dad20dc3b6c8",
+      "text": "When dining at Whispering Canyon Cafe or 50's Prime Time Cafe, servers may adjust interactions based on your comfort level, but be aware some interaction is likely.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "character-dining",
+        "interaction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "4f986f6c-77ce-4850-b780-3524e560b902",
+      "text": "Use your notes app to prepare conversation topics for lines or when with new people to ease social interactions.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "social-anxiety",
+        "communication"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "3a0e451c-86d3-42a6-8a13-7a7b86388d41",
+      "text": "Leave a small buffer zone between yourself and the person in front of you in some queue lines to create personal space.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "personal-space",
+        "queues"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "525f619d-00a1-423c-a05d-ac7c76561dd9",
+      "text": "Consider staying at Animal Kingdom Lodge or Wilderness Lodge for their cozy, dark, and grounding atmospheres, which can be a nice contrast to the parks.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resorts",
+        "atmosphere",
+        "recharge"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "m2ZMVtuFt_o",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney World for Introverts (w/Steven from Dintroverts) - PREP 516",
+        "publishedAt": "2026-06-02T10:00:05+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:26.304Z"
+    },
+    {
+      "id": "87ac42bc-5912-4cb0-bbf3-60589a2557a8",
+      "text": "Book with Getaway Today and mention it at check-in for free breakfast at the Anaheim Majestic Garden Hotel.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "deals",
+        "breakfast"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "feb4bd0a-30d5-4b1b-be64-c2791e484b8c",
+      "text": "Use the free shuttle to the parks from the Anaheim Majestic Garden Hotel if you prefer not to walk.",
+      "category": "transportation",
+      "park": "disneyland",
+      "tags": [
+        "shuttle",
+        "hotels"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "381b8a04-1d51-4636-8c96-239be228b354",
+      "text": "Take the free Disney bus transportation from the Toy Story Lot to the park if staying at the Clarion Hotel.",
+      "category": "transportation",
+      "park": "disneyland",
+      "tags": [
+        "bus-shuttle",
+        "hotels"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "8c34aa49-9525-441c-ae22-faa5e7ff5253",
+      "text": "Arrive at the Toy Story Lot around 11 AM to avoid long security lines for parking.",
+      "category": "transportation",
+      "park": "disneyland",
+      "tags": [
+        "parking",
+        "lot-strategies"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "14343957-0384-40d0-9a47-aa7299b27a19",
+      "text": "For rope drop, head to Mickey and Friends parking lot for a potentially quicker arrival to the park compared to the Toy Story Lot.",
+      "category": "transportation",
+      "park": "disneyland",
+      "tags": [
+        "parking",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "42217574-ef1c-4f2f-a088-fd6c64e80ce2",
+      "text": "Consider Hotel Lulu for an affordable stay with an 'edge of luxury' feel.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "value",
+        "boutique"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "7447654e-f9c3-44ad-aeab-2ea9ab0edf54",
+      "text": "Watch the fireworks from the pool area at the Anaheim Hotel for great views.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "fireworks",
+        "hotel-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "1b8d1eb9-2c37-487e-8713-08b114945e5b",
+      "text": "Take the free Disney shuttle from the Toy Story bus terminal, which is an 8-minute walk from the Clementine hotel.",
+      "category": "transportation",
+      "park": "disneyland",
+      "tags": [
+        "bus-shuttle",
+        "hotels"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "270c463a-137f-4227-8f0a-abab573ec389",
+      "text": "The Best Western Plus Park Place Inn and Mini Suites is directly across from the Disneyland entrance and offers free breakfast.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "proximity",
+        "breakfast"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "39f9486a-4b7c-40b0-9278-c77234e1bcdf",
+      "text": "Watch fireworks from the rooftop pool at The Viv for amazing views.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "fireworks",
+        "hotel-perks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "c0a86173-99ae-4cd5-83aa-eb1f8a28b2be",
+      "text": "Utilize the dedicated theme park entrance to Disney California Adventure when staying at the Grand Californian Hotel.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "exclusive-access",
+        "hotels"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "0df5dad2-0460-4377-8102-c643bcd06cb0",
+      "text": "The Anaheim Resort Suites (formerly Cambria) offers a large free breakfast and an excellent water park play area with slides.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "breakfast",
+        "water-park",
+        "family-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "7ff21b6a-51a1-4294-a74e-2500cb0f08d8",
+      "text": "Stay in a firework view room in the tower at the Howard Johnson to overlook the park and see fireworks.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "fireworks-view",
+        "rooms"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TivAPHGk2Fg",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "15 BEST Hotels Near Disneyland RANKED | Inside Look",
+        "publishedAt": "2026-06-01T22:00:37+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:28.048Z"
+    },
+    {
+      "id": "7418d1af-27a9-4100-9fb2-507b1f1d546d",
+      "text": "Head to Indiana Jones Adventure and look to the right for construction walls, which may be related to the Adventureland Treehouse.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "construction",
+        "attraction-update"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "1l1fuHW2SFM",
+        "channelName": "FreshBaked",
+        "videoTitle": "What are they building?! | Disneyland Construction Mysteries",
+        "publishedAt": "2026-06-01T17:00:13+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:25.364Z"
+    },
+    {
+      "id": "67363e99-1a5b-4439-9bd6-1f61856ec846",
+      "text": "The construction walls at Blue Bayou detract from the dining experience, with service for two estimated around $150.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "table-service",
+        "construction",
+        "dining-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1l1fuHW2SFM",
+        "channelName": "FreshBaked",
+        "videoTitle": "What are they building?! | Disneyland Construction Mysteries",
+        "publishedAt": "2026-06-01T17:00:13+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:25.364Z"
+    },
+    {
+      "id": "461a5834-98c5-4ef2-89ff-fea82267207d",
+      "text": "Hungry Bear Restaurant is undergoing refurbishment, with a permit filed for tenant improvement to extend the outdoor dining seating area.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "refurbishment",
+        "quick-service",
+        "outdoor-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1l1fuHW2SFM",
+        "channelName": "FreshBaked",
+        "videoTitle": "What are they building?! | Disneyland Construction Mysteries",
+        "publishedAt": "2026-06-01T17:00:13+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:25.364Z"
+    },
+    {
+      "id": "34b80e70-ad3f-4ab1-a8c6-baa6b27484bf",
+      "text": "The concrete planter area near Boardwalk Pizza and Pasta in Disneyland has been removed, with indications of electrical closet and lighting infrastructure work.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "construction",
+        "area-update"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "1l1fuHW2SFM",
+        "channelName": "FreshBaked",
+        "videoTitle": "What are they building?! | Disneyland Construction Mysteries",
+        "publishedAt": "2026-06-01T17:00:13+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:25.364Z"
+    },
+    {
+      "id": "fc164bb9-a5d7-460d-b3a0-54a4d29fe9a7",
+      "text": "Buzz Lightyear Astro Blasters in Disneyland is closed behind scrim and scaffolding for an unknown refurbishment with no reopening date.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "refurbishment",
+        "attraction-update"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "1l1fuHW2SFM",
+        "channelName": "FreshBaked",
+        "videoTitle": "What are they building?! | Disneyland Construction Mysteries",
+        "publishedAt": "2026-06-01T17:00:13+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:25.364Z"
+    },
+    {
+      "id": "454fa468-97e4-45bb-9255-e46f648ffb86",
+      "text": "Consider dining at Jiko at Animal Kingdom Lodge or Toledo Tapas Steak and Seafood at Coronado Springs if they are on your personal bucket list, even though they are further from the parks.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "resort-dining",
+        "table-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "89d519ce-d01f-4949-a73a-5cb65e8418bb",
+      "text": "If you want to dine at Le Cellier Steakhouse in Epcot but your group prefers not to, it's okay to split up and enjoy the meal solo.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "solo-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "46dfdd7b-eec1-4611-a053-effe0c32b285",
+      "text": "Try an immersive lounge like Oga's Cantina at Hollywood Studios or Trader Sam's Grog Grotto at Polynesian Village Resort.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "lounge",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "14541046-71ff-45bd-a4b9-9b9f331e8c47",
+      "text": "Consider Victoria and Albert's at the Grand Floridian, Takumi-Tei or Monsieur Paul at Epcot, California Grill at the Contemporary Resort, Tiffins at Animal Kingdom, or Flying Fish at Boardwalk for a high-end, signature dining experience if your budget allows.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "signature-dining",
+        "table-service",
+        "splurge"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "dc36064e-9c0c-4894-9490-ba895a035bbd",
+      "text": "Book Cinderella's Royal Table at Magic Kingdom for princess meet-and-greets inside the castle, or Chef Mickey's at the Contemporary Resort for the chance to meet all five members of the Fab Five.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-dining",
+        "table-service",
+        "princess-meet"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "5882b7bd-05af-43d6-b0ff-0099d4f39cbc",
+      "text": "Dine at The Crystal Palace at Magic Kingdom for Winnie the Pooh characters, Ohana (breakfast only) for Lilo and Stitch, or Storybook Dining at Artist Point in Wilderness Lodge for Snow White characters.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-dining",
+        "table-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "8701bfbc-a32d-4cab-b5c1-fda8d7434445",
+      "text": "Try Tusker House in Animal Kingdom for unique African-inspired dishes and character dining, Topolino's Terrace at the Riviera for a unique pre-fix breakfast, or Garden Grill at Epcot for Farmer Mickey and comfortable food in a rotating dining room.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "character-dining",
+        "table-service",
+        "breakfast"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "0e2eb518-c5eb-42a9-8b45-9ad06fd49643",
+      "text": "During Epcot festivals, taste test your way around the limited-time food booths in World Showcase instead of eating at a regular restaurant.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "food-booths"
+      ],
+      "priority": "medium",
+      "season": "food-wine",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "ade4b265-1f2e-45f2-b12c-108b7d06745e",
+      "text": "When attending an Epcot festival, be aware that the food lineup changes with each event, so consult updated guides for current recommendations.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "68911ba7-b5e4-42b9-b6e3-cd81245fd1a5",
+      "text": "Try the Artist's Palette Jumbo Chocolate Chip Cookie from Festival of the Arts, which can be painted.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "snack",
+        "kids-friendly"
+      ],
+      "priority": "low",
+      "season": "festival-arts",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "5839034b-efeb-439a-99ac-b3e40151aea5",
+      "text": "During Flower and Garden Festival, try the Garden Vegetable Flatbread from Trowel &amp; Trellis or the liquid nitro honey mascarpone cheesecake.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "plant-based",
+        "snack"
+      ],
+      "priority": "medium",
+      "season": "flower-garden",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "9a98560d-8380-49da-94b3-d3ac4c9d0f0c",
+      "text": "For Food &amp; Wine Festival, try the warm raclette Swiss cheese and Alpine ham paired with frozen rosé, or the Gulf Coast style seafood roll paired with a beer flight.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "food-and-wine",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "food-wine",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "1b893d55-8346-47d3-b7d3-59147c1784fa",
+      "text": "During Festival of the Holidays, try the gingerbread macaron from March de Noel or the pork schnitzel from Bavaria Holiday Kitchen.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "festival-food",
+        "holiday-food",
+        "sweet"
+      ],
+      "priority": "medium",
+      "season": "christmas",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "c852ea57-827a-4c7d-b841-c8bf882785a5",
+      "text": "Challenge yourself to try something new, like the massive kitchen sink ice cream sundae from Beaches and Cream at Beach Club Resort.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snack",
+        "dessert",
+        "sharing"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "60c50991-4d9c-4caa-b38c-70f24f1f20f2",
+      "text": "Try the fuzzy tauntaun cocktail at Oga's Cantina in Hollywood Studios if you want to step out of your comfort zone.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "drinks",
+        "themed-bar"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "0a486d0a-33e6-4073-9f79-726a6d112a4c",
+      "text": "Try the Ocean Moon Bowl at Satu'li Canteen in Animal Kingdom for a unique dining experience.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "unique-food"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "cb62f95a-7fda-4db5-8682-2f6ec04b61e0",
+      "text": "Get a Ronto Wrap from Ronto Roasters at Hollywood Studios for a unique and satisfying option.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "snack"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "7d937f1d-0ba4-47f0-b60a-554ab3fc47d1",
+      "text": "Try the Kraken's Catch (octopus tentacle ceviche) at Be Our Guest Restaurant in Magic Kingdom if you are adventurous.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "adventurous-eating"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "73d22be1-22b3-4c03-8a24-dbe0b6e70c9c",
+      "text": "Order the prosciutto and melon wood-fired pizza at Via Napoli in Epcot for an elevated pizza experience.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "pizza"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "cb97f8da-6c05-450f-a04c-9e14b1396202",
+      "text": "Try the Stack Burger at Steakhouse 71 in the Contemporary Resort, loaded with pork belly and aioli.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "burger"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "dfb33fdb-a0dc-4626-9503-271df8c3cd19",
+      "text": "Get the buffalo ranch chicken strips at Cosmic Ray's Starlight Cafe in Magic Kingdom for a jazzed-up version of a classic.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "chicken-strips"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "s0jKGvoZlLA",
+        "channelName": "DFBGuide",
+        "videoTitle": "If You Only Eat 5 Things at Disney World… Make It These",
+        "publishedAt": "2026-06-01T14:30:34+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:33.748Z"
+    },
+    {
+      "id": "c8197aac-bcdd-4f30-8f4a-a5a9b4ae6159",
+      "text": "Do not use flash photography on dark rides as it ruins the immersive experience and night vision for everyone.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "dark-rides",
+        "photography"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "7f4d04b0-8685-4aa0-b61a-0def9eaabd6f",
+      "text": "If your child cannot see during fireworks, move further back, watch from an angle, or use a less crowded viewing area instead of putting them on shoulders.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "viewing-areas"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "bb7dc98f-fca0-4361-8665-e3c1cc65616e",
+      "text": "If you need to check your phone, regroup your family, or reapply sunscreen, move to the side of walkways instead of stopping in the middle of pedestrian traffic.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "etiquette",
+        "navigation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "bab386af-30dd-45f7-9f10-ebf82f8b4fee",
+      "text": "Do not cut in line by having one person hold a spot for a large group that arrives later, as this is considered line-cutting and creates tension.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "queues",
+        "etiquette"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "5854114b-e93f-452b-9a28-de8beb1dd319",
+      "text": "Pace yourself during your trip by taking breaks, staying hydrated, and not trying to maximize every single second to avoid exhaustion.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "stamina",
+        "breaks",
+        "hydration"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "de7c9445-b13e-4007-89b9-ce5fdc37a4bb",
+      "text": "Learn to use the Disney World app before your trip by practicing with mobile ordering, wait times, maps, and Lightning Lane booking.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "disney-app",
+        "technology"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "64cb41b4-1ffb-49b4-b90e-b8337d0ac235",
+      "text": "Avoid broadcasting your entire experience or spreading misinformation in queues and on transportation, as it creates a more exhausting environment for others.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "etiquette",
+        "transportation",
+        "queues"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "599c7d83-0dfd-43e4-bd28-d508d15b48c0",
+      "text": "Give people adequate personal space in queues, and do not crawl up their backs or repeatedly bump into them.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "queues",
+        "etiquette"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "52fa023a-20cb-4094-ad96-640c26f7ac79",
+      "text": "Bring portable snacks like pretzels, protein bars, or fruit snacks and have them delivered to your hotel to save money and avoid emergency purchases in the parks.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "budgeting",
+        "packing"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "02e3c50f-2101-4480-aeb3-675b1d6903a5",
+      "text": "Maintain active visual confirmation of children at all times, especially in crowded and distracting environments like parades and fireworks exits.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "child-safety",
+        "crowds"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "825e7d5d-6805-401f-b45b-4fed6df37248",
+      "text": "Do not pressure cast members for 'magical moments' or special treatment; genuine magic happens through calm, kind, and normal interactions.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "cast-members",
+        "etiquette"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "df391aa8-c514-410b-95fa-1ac343d5420a",
+      "text": "Use the restroom before entering long queues or crowded areas like transportation loading zones to avoid the stress and difficulty of leaving mid-experience.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "queues",
+        "planning",
+        "transportation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "jXPpyCzkKiQ",
+        "channelName": "AllEars.net",
+        "videoTitle": "22 Things You Need To Stop Doing On Your Disney World Trip!",
+        "publishedAt": "2026-06-01T14:00:26+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:34.003Z"
+    },
+    {
+      "id": "b3a9baaf-1f91-479b-baf9-1badce3d66d4",
+      "text": "If you want to ride The Land pavilion attractions, check the wait times early as they can increase significantly throughout the day.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "wait-times",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eSKnfTLxs2k",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Magical Monday at Epcot - Last Day of Flower & Garden Festival - Disney Live Stream - 6-1-26",
+        "publishedAt": "2026-06-01T00:27:52+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:30.335Z"
+    },
+    {
+      "id": "8278afb1-ab25-4dad-ab4b-554bc938bb70",
+      "text": "Take advantage of the cooler indoor queues and attractions like The Land pavilion to escape the Florida heat and humidity.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "beat-the-heat"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eSKnfTLxs2k",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Magical Monday at Epcot - Last Day of Flower & Garden Festival - Disney Live Stream - 6-1-26",
+        "publishedAt": "2026-06-01T00:27:52+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:30.335Z"
+    },
+    {
+      "id": "c607dacc-fedf-480e-8d13-8110d95bca07",
+      "text": "Consider riding Living with the Land in the morning as wait times are typically lower then and it's a relaxing way to start the day.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "ride-strategy",
+        "morning-strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "eSKnfTLxs2k",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Magical Monday at Epcot - Last Day of Flower & Garden Festival - Disney Live Stream - 6-1-26",
+        "publishedAt": "2026-06-01T00:27:52+00:00"
+      },
+      "extractedAt": "2026-06-02T14:03:30.335Z"
+    },
     {
       "id": "ce74ceee-b6cf-4912-97b0-6c05829908ff",
       "text": "Consider staying at Renaissance Orlando Resort, one of the official Disney World hotels near Disney Springs, for potentially more affordable rates than Disney-owned resorts while still offering perks like 30-minute early park entry.",
@@ -96916,106 +99890,105 @@
     }
   ],
   "topTips": [
-    "64e3269b-35d1-46f7-a973-1f82816f987a",
-    "5379c2e6-4d1e-4562-b510-f290cea0f555",
-    "af0d978d-91c4-45fb-86e4-d65ccf60e14e",
-    "7261cdac-7a8f-4c89-8979-0d2ad025a63f",
-    "24f1d553-4273-4a2a-bcf8-24ab2cb4552b",
-    "049ad4c1-6e2e-4881-9bab-78eb088d2d76",
-    "ee42f2af-a95a-4d50-9678-9eadc3096f01",
-    "8acf5f92-e470-476a-a674-8323372513dd",
-    "bdd7ce15-917d-4832-9170-ba62080da9bf",
-    "73471c04-ff08-4a62-b461-2b5422bada5f",
-    "fc66e565-2c91-4b93-9b2a-3be6a7915edb",
-    "3b2463e4-9408-4cf7-a036-919b9472fa61",
-    "8ecc2530-2279-4edd-928c-2983efe19cbd",
-    "db13ed60-0f5e-43fb-a93c-052bb3ae88c0",
-    "45f8a1c8-a371-4d74-a459-9894bc0c94c1",
-    "8ab5d584-92f3-48a4-990c-ed7633608fc6",
+    "4c151c25-23d5-47de-a8ac-597c8e004568",
+    "202497fe-f9ca-4a3f-bf93-7e663b93ec44",
+    "a45b795e-36c8-40f6-aeac-b6c6cb820407",
+    "6f573d45-777c-45f4-8807-86f0760a6803",
+    "901956b8-da9b-4158-8aa9-388c737c9b80",
+    "906cacbd-76cc-4e13-8ee5-f66196c84e02",
+    "598b02c8-7232-414c-b136-1a624d7a6c3d",
+    "23d97e6e-a4f1-4a56-b9dc-e853c26ca4a4",
+    "3702b0f4-b652-441a-816c-507538f748b7",
+    "c95a8f48-a34c-4f1f-8850-832d83aa834d",
+    "6026ce6c-05e9-4d79-bec6-79f7f2f1d657",
+    "cc6eb886-12e9-4384-a6c9-4585988bee98",
+    "50f509e8-5acd-46c5-acf0-25067d51a6aa",
+    "fe38f513-bb47-4eca-96c6-c86399456f20",
+    "4691516a-4db7-4f73-aca1-4fbd71ca175e",
+    "bb98a455-0db6-4b86-acab-4ccaff3e6bff",
+    "01e343c8-7b6c-411b-8d31-d86e0fd19c3e",
+    "c7bc5f04-99cb-4300-bf15-60e570b5b506",
+    "ae26c512-dde9-455d-9d85-9e5bf5c82a82",
+    "aad8ff69-1771-4f07-a8f8-9d38f3c15f4f",
+    "4f986f6c-77ce-4850-b780-3524e560b902",
+    "5854114b-e93f-452b-9a28-de8beb1dd319",
+    "de7c9445-b13e-4007-89b9-ce5fdc37a4bb",
+    "02e3c50f-2101-4480-aeb3-675b1d6903a5",
+    "825e7d5d-6805-401f-b45b-4fed6df37248",
+    "fd640009-99d1-494c-93a0-f75ec119e328",
+    "a8009369-84b3-4473-88bd-a3dfde6b643f",
+    "a0b89fae-2a4e-40c0-af9e-d3816c133e85",
+    "a1e15ceb-4eae-4e1f-a1e7-03e363a12c8a",
+    "59389468-f9ce-4159-874c-d98aef24c189",
+    "ebe1b932-6b74-4400-9296-bab0340b85a1",
+    "2f32de68-9fe2-4202-943b-14a6edd2057e",
+    "002a2111-3152-4dab-9757-629811d3da21",
+    "31bde5e7-ba0a-46b1-9f59-f2b3216164f6",
+    "13a52987-6636-4ee2-adf4-d41e830bc9c1",
+    "9ba7b46b-a9ec-49c5-8fe4-3eb87da6934b",
+    "0125d226-4cb3-40fa-ad5b-989ad7261c6a",
+    "56748655-7dc6-4cee-a7f1-d6233f92eb01",
+    "03e05e10-0450-40a0-8101-1a289c7d1e5a",
+    "a2f1a4a3-78db-46a7-91f3-553ece7008ed",
+    "806103ac-5961-4009-be44-30f557a5e98a",
+    "2260fea7-cbf1-4ed1-9bb0-9ecb75349b09",
+    "31c2fc95-772d-4bf9-a15f-ba407edf329b",
+    "cdf0dffc-c28b-4f7e-bcdc-750547a0272a",
+    "e93a6d5d-c178-4408-b366-e28cfc135a6b",
+    "bba4fbb9-a585-48aa-8e0a-34fb275c41f7",
+    "83a28242-7806-46a8-bc72-fe127fea6e7e",
+    "c79ef8db-2224-415c-9d17-bae4d8d05a77",
+    "4d2d27e2-fc4a-4fa8-bd0e-c0e9ae4efdf8",
+    "ffe05db2-750b-4145-8a50-3b9f859f34fa",
+    "9a45ed41-bb30-461b-b724-841194eebd51",
+    "61fd61b3-a9cc-43ca-a869-4ab1c2e988ff",
+    "e57629a2-3955-43a3-bbcc-13b63a50ae51",
+    "12d6f243-6fad-45ac-b933-f830a27894a3",
+    "2d1f6176-ab55-4260-9ae9-61ea3f0de3be",
+    "ec7a2eb9-aee9-4823-b8e0-ef43295bd9ea",
+    "7361ec16-9442-4de1-840c-f65981a818b4",
+    "525f619d-00a1-423c-a05d-ac7c76561dd9",
+    "87ac42bc-5912-4cb0-bbf3-60589a2557a8",
+    "42217574-ef1c-4f2f-a088-fd6c64e80ce2",
+    "270c463a-137f-4227-8f0a-abab573ec389",
+    "0df5dad2-0460-4377-8102-c643bcd06cb0",
+    "7ff21b6a-51a1-4294-a74e-2500cb0f08d8",
+    "ce74ceee-b6cf-4912-97b0-6c05829908ff",
+    "68bc99a4-2ab9-48a5-817c-18af389b8c7b",
+    "5053de2f-f539-49d8-b273-b3682030a51c",
+    "0fdab653-35c2-4444-b9bd-2bad79fdf02e",
+    "af2c89df-3adf-4931-92e3-b0382ac8cad3",
+    "bb0f5a0c-fff9-4a41-ae92-e2007c23f77e",
+    "59222200-a0ed-41e0-9f54-adad80fc1894",
+    "40fb430f-8322-459f-8df2-fbc893acbd86",
+    "9f185f30-b3a5-45ea-ba2a-64611db7dc2b",
+    "feb4bd0a-30d5-4b1b-be64-c2791e484b8c",
+    "381b8a04-1d51-4636-8c96-239be228b354",
+    "8c34aa49-9525-441c-ae22-faa5e7ff5253",
+    "14343957-0384-40d0-9a47-aa7299b27a19",
+    "1b8d1eb9-2c37-487e-8713-08b114945e5b",
+    "9cf1de94-647b-4692-a870-67274fa8ad43",
+    "25f1b0ce-7849-4147-b1f4-dc82e4ea7470",
+    "5ae1eb81-5974-4cb4-b9d7-1b0db7d1e3b5",
+    "db542ebf-2ca5-48b4-a187-ed42a7616d77",
     "a1dcda5d-6c4d-4bb4-86a4-e4f307abb11c",
-    "fc3202d7-bdf6-41fc-b997-50bd7fee6c82",
-    "1ede19ff-453b-41ab-92fe-70cc1cce43e6",
-    "16402050-9f35-4037-ab73-570fbc51a3eb",
-    "450a27de-02df-472b-a033-07dc80a7f0b4",
-    "f9a16856-1aba-48c4-a082-1d4c8741547e",
-    "30ebe19c-ccd5-4025-b1da-002fb293eb57",
-    "396d541c-29f2-4ee7-9ffc-71699b3383ae",
-    "f87830ba-1941-46cb-9a28-2b715db20cf8",
-    "315b304d-3a8a-4f30-9b38-12153d30e58d",
-    "4e6e791e-89db-4f6b-b29a-8b14eb537a74",
-    "1736d77f-94a9-43f2-97ab-03807797a698",
-    "0e3e8faa-94f4-4896-9f10-4b84f85d87b4",
-    "80662d90-b34e-465e-a21b-eff255ecdcd3",
-    "aa988363-8710-4548-aeba-25de7e37607f",
-    "9eb9d17d-d00a-487f-8d1a-ec6bdf36884a",
-    "4b0f9172-6af5-474d-a18c-1bbeaae7009c",
-    "f3c97d2b-0cbb-4b66-ba49-1c07834a0539",
-    "85313c7c-c67d-43fa-8127-b2c5afe16738",
-    "533ebd9c-55e0-4504-9011-fc0787e6aaee",
-    "02bd7a8c-7137-4b68-81a5-705082dc46ce",
-    "ab360ce2-d6ab-4ae2-8556-4579a11ab261",
-    "ebd5686f-9600-4c66-a840-5aa0d7c39867",
-    "2b34d47d-17fe-4ff3-95d0-764f3086b558",
-    "71f96a25-0ed5-4c72-99d2-b80a2a19ace4",
-    "3ef5e862-cdcb-4a20-a5fb-516c16daa7ac",
-    "538afc01-33b9-4844-8c59-d6ff41dc2a1b",
-    "fed05fa4-145b-48ae-91d6-64d13761c4f4",
-    "8466a94c-a8bc-48aa-be10-9fbe57c53d6b",
-    "81272331-e7c5-41ff-a765-6b377cc7860d",
-    "42e9d937-466f-47cd-9b82-9d973d804f22",
-    "b3fbcd8a-4721-4ccf-9ea3-cc7201e53660",
-    "36f88bc7-f7d2-469e-b8ae-a3ef9851dcb",
-    "d480a2e9-dc9e-4a03-9e03-c7693a295d25",
-    "6caa5361-24b6-47d4-9051-155ed989bd49",
-    "09c35f1b-7bc4-48bf-9c32-0c39695eea62",
-    "7d851aea-9706-4956-a891-9e54048d6390",
-    "40fde5bd-adb8-4509-86eb-a36f0778204e",
-    "df6d1c49-a096-4a8e-b77f-8edb1a09e770",
-    "4f57593f-dd0d-49f2-a3b5-787053b29187",
-    "ba415d1a-184f-4507-948c-9156e86359b3",
-    "1d6349cb-26e4-48b3-b97a-d82358d17d9c",
-    "9d24242f-2cfd-4f3c-af16-43575ecb3508",
-    "3ec36425-ec6c-4cf4-a278-e00410e7ed40",
-    "b3b942cc-8279-45bc-9bf9-5cf2ed607eec",
-    "f0a4e30a-ef47-41db-96dd-569702ddee54",
-    "683ee6c8-55bf-4122-b36f-afdb871fe5ca",
-    "7d5066da-ec31-4713-89d5-16f98b366664",
-    "db07734b-0f99-43a1-810b-0580d53c8d50",
-    "6058d5cd-2307-453d-8403-4cde2a4287de",
-    "47fa028b-a456-4f9f-b28f-cbd7fcea415c",
-    "b8e99f87-17fe-4b44-80ad-0f6e1a75e8ac",
-    "332ba587-2ac3-4c6f-8905-ac9df0761a25",
-    "17afe26e-878d-4576-bf9f-31f8e2726493",
-    "49c6d423-6966-4db0-9a3a-2dab6d5816c3",
-    "feb6b8c8-6a23-4d94-b536-108c67ee80f7",
-    "e290a6b1-19da-4306-9b73-4b6f813acc73",
-    "6f6080f6-755e-4343-a6b9-a65d1e22a01b",
-    "b51980a7-5298-4d84-8a1a-3ad506ced2a4",
-    "635c44a7-87fd-4336-93cd-1d2d877aa36f",
-    "d786a717-792b-4c80-b03f-feba2c76a55f",
-    "afc9ea52-fad5-483a-8718-3fa4bcc0712c",
-    "fab50c75-8219-4213-aa34-60c83fd5328b",
-    "4ed903a6-9e7b-4075-a25c-d7210946e88a",
-    "d7c17dd2-4299-4c7c-8f84-ed3e07a5d638",
-    "037438a3-c3a6-4e40-b858-b7e428a0558f",
-    "b056c8ef-d7af-4449-8d4c-1dd9c6475aac",
-    "e15de099-d283-4fe1-abc6-3df467df02c9",
+    "2ce9f9c1-64c1-41ea-a35a-758880bfdb4a",
+    "8e467cf1-abc8-4f62-b12b-7b03563d485f",
+    "39a8e67c-7c16-4a7f-a636-935e09d3affb",
+    "e286b1d7-976c-4e00-84ec-2c2542540b64",
+    "632621ea-e6de-4995-a515-73c29b781dd6",
+    "52fa023a-20cb-4094-ad96-640c26f7ac79",
+    "ddcd0d42-e309-45bc-9297-73cb60924d8f",
+    "380e5981-3382-490f-93d4-ea0c1b71109a",
+    "fea19d8f-b04c-4fbf-bcda-9e5faead025d",
+    "d549d83a-a356-4a99-93a2-f774a1abc6b1",
     "1212fabb-6198-4a0a-ba37-8e7f70f843d0",
+    "b1c3108a-e09f-4e37-9b20-ca9c4877680d",
     "dc648262-8774-42e5-b798-f5142c1ed6c0",
+    "0e405700-d51f-467a-9c20-9e47b85f9512",
+    "5914d501-0719-4c49-8cf8-691ba84bb825",
     "00dbf63a-0450-44e2-abe1-8908ba83e3ce",
     "4f51c4c9-728d-4306-8109-d9be8c2988f1",
-    "087ef5ac-b80f-495b-8f6f-968469c9135d",
-    "1760467d-aae5-48cd-afe4-2ff784d9475b",
-    "da2ad899-7732-48ad-8ff4-a460bada593d",
-    "d8c91dcd-642b-45f7-a3c0-c64cb86a074c",
-    "4f87082d-3b7d-440c-9178-3e6dce7a2528",
-    "fbaf7403-805d-4f04-b61c-807a0783133d",
-    "28b6978d-fd51-4818-91d6-6fb540d677e1",
-    "e4d8245d-35a1-435f-99c1-4fb9308191d3",
-    "a7d6ae70-8b1a-46b4-b0a4-01fe69401011",
-    "d30d8682-764f-425b-b721-f999d4775344",
-    "54b9b034-f879-4a5b-9e94-bbe84479e3ed",
-    "4f7a3655-dc4a-490f-bb5e-5675c689a158",
-    "fc0262ca-6bff-4f3f-a22d-d56d3d809e84"
+    "d4014d97-3cc1-4cf0-8252-046353ba86a5"
   ]
 }
