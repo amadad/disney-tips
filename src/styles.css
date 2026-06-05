@@ -1,4 +1,4 @@
-/* Disney Family Trip Planner - storybook park map system */
+/* Disney Decision Desk - storybook park map system */
 
 :root {
   --site-max: 1120px;
@@ -408,12 +408,15 @@ h1 {
 }
 
 .landing-hero {
-  max-width: 860px;
-  padding: 5.25rem 0 3.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(360px, 0.76fr);
+  gap: 1.35rem;
+  align-items: start;
+  padding: 4.5rem 0 3.1rem;
 }
 
 .landing-copy {
-  max-width: 820px;
+  max-width: 760px;
 }
 
 .bubble-kicker {
@@ -465,6 +468,197 @@ h1 {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1.55rem;
+}
+
+.decision-ask-form {
+  display: grid;
+  gap: 0.72rem;
+  max-width: 690px;
+  margin-top: 1.45rem;
+}
+
+.decision-ask-form label {
+  color: var(--color-ink-black);
+  font-family: var(--font-park);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.decision-ask-form textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: vertical;
+  border: 2px solid var(--color-ink-black);
+  border-radius: 16px;
+  background: var(--color-ticket-white);
+  color: var(--color-ink-black);
+  font: inherit;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  padding: 1rem;
+  box-shadow: 7px 7px 0 rgba(16, 16, 16, 0.18);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.decision-ask-form textarea:focus {
+  outline: none;
+  border-color: var(--color-castle-indigo);
+  box-shadow: var(--shadow-gold-pop), 7px 7px 0 rgba(16, 16, 16, 0.18);
+}
+
+.decision-ask-form textarea::placeholder {
+  color: rgba(16, 16, 16, 0.48);
+}
+
+.decision-ask-form .hero-cta {
+  justify-self: start;
+}
+
+.decision-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.decision-example {
+  min-height: 2.1rem;
+  border: 2px solid var(--color-ink-black);
+  border-radius: var(--radius-sticker-pill);
+  background: #fffaf0;
+  color: var(--color-ink-black);
+  cursor: pointer;
+  font-family: var(--font-park);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.68rem;
+  transition: background-color 0.18s ease, transform 0.18s ease;
+}
+
+.decision-example:active {
+  transform: translateY(1px);
+}
+
+.decision-preview-panel {
+  position: sticky;
+  top: 1rem;
+}
+
+.decision-preview {
+  display: grid;
+  gap: 0.9rem;
+  min-height: 520px;
+  border: 2px solid var(--color-ink-black);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 212, 59, 0.24), transparent 38%),
+    var(--color-ticket-white);
+  color: var(--color-ink-black);
+  padding: 1rem;
+  box-shadow: 9px 9px 0 var(--color-ink-black);
+}
+
+.decision-preview-empty,
+.decision-preview.loading,
+.decision-preview.error {
+  align-content: center;
+}
+
+.preview-kicker {
+  width: fit-content;
+  border: 2px solid var(--color-ink-black);
+  border-radius: var(--radius-sticker-pill);
+  background: var(--color-churro-gold);
+  color: var(--color-ink-black);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  padding: 0.28rem 0.62rem;
+  text-transform: uppercase;
+}
+
+.decision-preview h2 {
+  color: var(--color-ink-black);
+  font-family: var(--font-park);
+  font-size: 1.55rem;
+  line-height: 1.16;
+}
+
+.decision-preview > p,
+.preview-question {
+  color: #4b3f35;
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.preview-question {
+  border-left: 4px solid var(--color-firework-red);
+  padding-left: 0.75rem;
+}
+
+.decision-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.decision-area {
+  border: 2px solid var(--color-ink-black);
+  border-radius: var(--radius-sticker-pill);
+  background: var(--color-lagoon-teal);
+  color: var(--color-ink-black);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 0.25rem 0.55rem;
+  text-transform: uppercase;
+}
+
+.preview-snippets {
+  display: grid;
+  gap: 0.72rem;
+}
+
+.preview-snippet {
+  display: grid;
+  gap: 0.55rem;
+  border: 2px solid rgba(16, 16, 16, 0.78);
+  border-radius: 12px;
+  background: #fffaf0;
+  padding: 0.82rem;
+}
+
+.preview-snippet p {
+  color: var(--color-ink-black);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.preview-snippet div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  color: #63564c;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.preview-snippet a {
+  color: var(--color-castle-indigo);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(51, 39, 168, 0.25);
+}
+
+.preview-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-top: 0.25rem;
 }
 
 .landing-price-note {
@@ -2096,7 +2290,16 @@ footer a:hover {
   }
 
   .landing-hero {
+    grid-template-columns: 1fr;
     padding: 3.1rem 0 2.2rem;
+  }
+
+  .decision-preview-panel {
+    position: static;
+  }
+
+  .decision-preview {
+    min-height: auto;
   }
 
   .landing-hero h1,
@@ -2243,6 +2446,17 @@ footer a:hover {
   .landing-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .decision-ask-form textarea {
+    min-height: 170px;
+    font-size: 1rem;
+  }
+
+  .decision-ask-form .hero-cta,
+  .preview-cta-row .hero-cta {
+    width: 100%;
+    justify-content: center;
   }
 
   .landing-footer {

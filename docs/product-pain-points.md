@@ -500,15 +500,17 @@ jobs.
 
 ## Current homepage
 
-The live homepage now starts with the $39 family planning pilot, shows a short
-sample plan, asks for intake, and only then exposes the searchable tips
-library. Keep that order unless validation evidence says search should move
-back above the offer.
+The live homepage now starts with one natural-language Disney decision prompt.
+The free preview pulls sourced snippets from the curated tips corpus, then asks
+whether the user wants a $39 human-reviewed decision plan. Keep that shape
+unless validation evidence says the paid form should move back in front of the
+Ask experience.
 
 ## Keep doing
 
 - keep homepage positioning away from generic "tips"
 - present pain-oriented entry points prominently
+- treat the tips corpus as the source layer behind decision previews
 - ensure the top-value guides answer:
   - what to book
   - what to skip
@@ -535,4 +537,4 @@ If one sentence needs to anchor the next stage of the repo, use this:
 
 That statement is compatible with the current wiki, stronger than a generic
 "tips" thesis, and broad enough to shape homepage copy, retrieval logic,
-and future trip-book outputs.
+and future decision-plan outputs.

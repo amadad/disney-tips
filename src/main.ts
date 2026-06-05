@@ -1,6 +1,19 @@
 import type { Tip, TipsData } from './types';
 import { PARK_LABELS, PRIORITY_ICONS, SEASON_LABELS } from './types';
 
+interface DecisionArea {
+  id: string;
+  label: string;
+  description: string;
+}
+
+interface DecisionPreviewResponse {
+  question: string;
+  areas: DecisionArea[];
+  results: Array<Tip & { score?: number }>;
+  planUrl: string;
+}
+
 // Clipboard helper with fallback for older browsers/insecure contexts
 async function copyToClipboard(text: string): Promise<boolean> {
   if (navigator.clipboard?.writeText) {
@@ -414,6 +427,123 @@ function formatSeason(season: string): string {
   return SEASON_LABELS[season as keyof typeof SEASON_LABELS] || season;
 }
 
+function renderDecisionPreviewLoading(): void {
+  const previewEl = document.getElementById('decision-preview');
+  if (!previewEl) return;
+
+  previewEl.className = 'decision-preview loading';
+  previewEl.innerHTML = `
+    <p class="preview-kicker">Searching the research</p>
+    <h2><span class="search-spinner"></span> Pulling sourced snippets...</h2>
+    <p>Checking the curated Disney planning library for decision signals.</p>
+  `;
+}
+
+function renderDecisionPreviewError(message: string): void {
+  const previewEl = document.getElementById('decision-preview');
+  if (!previewEl) return;
+
+  previewEl.className = 'decision-preview error';
+  previewEl.innerHTML = `
+    <p class="preview-kicker">Try again</p>
+    <h2>${escapeHtml(message)}</h2>
+    <p>Ask about a real Disney planning choice: what to book, buy, skip, or protect.</p>
+  `;
+}
+
+function renderDecisionPreview(preview: DecisionPreviewResponse): void {
+  const previewEl = document.getElementById('decision-preview');
+  if (!previewEl) return;
+
+  const areas = preview.areas.map(area => `
+    <span class="decision-area" title="${escapeHtml(area.description)}">${escapeHtml(area.label)}</span>
+  `).join('');
+
+  const snippets = preview.results.map(tip => {
+    const park = tip.park && tip.park !== 'all-parks' ? ` · ${escapeHtml(PARK_LABELS[tip.park] || tip.park)}` : '';
+    const sourceUrl = `https://youtube.com/watch?v=${encodeURIComponent(tip.source.videoId)}`;
+    return `
+      <article class="preview-snippet">
+        <p>${escapeHtml(tip.text)}</p>
+        <div>
+          <span>${escapeHtml(tip.category)}${park}</span>
+          <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(tip.source.channelName)}</a>
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  previewEl.className = 'decision-preview';
+  previewEl.innerHTML = `
+    <p class="preview-kicker">Sourced preview</p>
+    <h2>Start with these decision areas.</h2>
+    <div class="decision-areas">${areas}</div>
+    <div class="preview-question">"${escapeHtml(preview.question)}"</div>
+    <div class="preview-snippets">${snippets || '<p>No close snippets yet. Try a more specific Disney planning decision.</p>'}</div>
+    <div class="preview-cta-row">
+      <a class="hero-cta primary" href="${escapeHtml(preview.planUrl)}">Get the $39 decision plan</a>
+      <a class="hero-cta secondary" href="tips.html">Search more research</a>
+    </div>
+  `;
+}
+
+function setupDecisionAsk(): void {
+  const form = document.getElementById('decision-ask-form') as HTMLFormElement | null;
+  if (!form) return;
+
+  const textarea = document.getElementById('decision-question') as HTMLTextAreaElement | null;
+  const submit = form.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+  if (!textarea) return;
+
+  document.getElementById('decision-preview')?.addEventListener('click', (event) => {
+    const target = event.target as HTMLElement;
+    const link = target.closest('a[href*="plan.html"]') as HTMLAnchorElement | null;
+    if (!link) return;
+    const question = textarea.value.trim();
+    if (question) {
+      link.href = `/plan.html?decision=${encodeURIComponent(question)}#planning-request`;
+    }
+  });
+
+  document.querySelectorAll('.decision-example').forEach(button => {
+    button.addEventListener('click', () => {
+      const question = (button as HTMLElement).getAttribute('data-question') || '';
+      textarea.value = question;
+      form.requestSubmit();
+    });
+  });
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const question = textarea.value.trim();
+
+    if (question.length < 8) {
+      renderDecisionPreviewError('Ask a more specific Disney planning question.');
+      return;
+    }
+
+    renderDecisionPreviewLoading();
+    if (submit) submit.disabled = true;
+
+    try {
+      const response = await fetch('/api/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, limit: 5 }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || 'Could not search the research library.');
+      }
+      renderDecisionPreview(data);
+    } catch (error) {
+      renderDecisionPreviewError(error instanceof Error ? error.message : 'Could not search the research library.');
+    } finally {
+      if (submit) submit.disabled = false;
+    }
+  });
+}
+
 // Full tip card — used for top tips / browse mode
 function renderTipCard(tip: Tip, options: { highlight?: boolean; searchQuery?: string } = {}): string {
   const { highlight = false, searchQuery: query = '' } = options;
@@ -649,6 +779,12 @@ function setupPlanningRequestForm() {
   const form = document.getElementById('planning-request-form') as HTMLFormElement | null;
   if (!form) return;
 
+  const decisionInput = form.querySelector('[name="biggestDecision"]') as HTMLTextAreaElement | null;
+  const decisionParam = getUrlParams().get('decision');
+  if (decisionInput && decisionParam && !decisionInput.value) {
+    decisionInput.value = decisionParam;
+  }
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -673,6 +809,7 @@ function setupPlanningRequestForm() {
       party: String(data.get('party') || ''),
       budget: String(data.get('budget') || ''),
       priorities,
+      biggestDecision: String(data.get('biggestDecision') || ''),
       mustDos: String(data.get('mustDos') || ''),
       concerns: String(data.get('concerns') || ''),
       consent: data.get('consent') === 'on',
@@ -726,6 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupFilterListeners();
   }
   setupEmailSignup();
+  setupDecisionAsk();
   setupPlanningRequestForm();
 
   // Debounced search

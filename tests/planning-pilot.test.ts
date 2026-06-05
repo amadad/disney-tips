@@ -23,6 +23,7 @@ function request(id: string, email = `${id}@example.com`): StoredPlanningRequest
       party: '2 adults; kids 4 and 8',
       budget: 'balanced',
       priorities: ['wait-less'],
+      biggestDecision: 'Should we buy Lightning Lane for Magic Kingdom with young kids?',
       mustDos: '',
       concerns: '',
     },

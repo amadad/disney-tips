@@ -8,22 +8,22 @@
   ></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disney Family Trip Planner | Bound Tips</title>
-  <meta name="description" content="A web-first Disney planning assistant for parents who need clear decisions on what to book, buy, skip, and save before the trip.">
+  <title>Disney Decision Desk | Bound Tips</title>
+  <meta name="description" content="Ask a Disney planning decision and get sourced guidance from a curated Disney research library, with an optional human-reviewed family decision plan.">
 
   <!-- Open Graph (Facebook, iMessage, Slack, LinkedIn) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://disney.bound.tips/">
-  <meta property="og:title" content="Disney Family Trip Planner">
-  <meta property="og:description" content="Know what to book, buy, and skip for your exact Disney family trip.">
+  <meta property="og:title" content="Disney Decision Desk">
+  <meta property="og:description" content="Ask what to book, buy, skip, and save for your exact Disney family trip.">
   <meta property="og:image" content="https://disney.bound.tips/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Disney Family Trip Planner">
-  <meta name="twitter:description" content="Know what to book, buy, and skip for your exact Disney family trip.">
+  <meta name="twitter:title" content="Disney Decision Desk">
+  <meta name="twitter:description" content="Ask what to book, buy, skip, and save for your exact Disney family trip.">
   <meta name="twitter:image" content="https://disney.bound.tips/og-image.png">
   <link rel="canonical" href="https://disney.bound.tips/">
   <link rel="alternate" type="application/rss+xml" title="Disney Tips RSS Feed" href="/feed.xml">
@@ -31,9 +31,9 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Disney Family Trip Planner",
+      "name": "Disney Decision Desk",
       "url": "https://disney.bound.tips/",
-      "description": "A web-first Disney planning assistant for parents who need clear decisions before the trip.",
+      "description": "A Disney decision desk backed by curated planning research.",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://disney.bound.tips/tips.html?q={search_term_string}",
@@ -52,7 +52,7 @@
 <body class="home-page landing-page">
   <main class="landing-shell">
     <nav class="landing-nav" aria-label="Primary">
-      <a class="landing-brand" href="/" aria-label="Disney Family Trip Planner home">
+      <a class="landing-brand" href="/" aria-label="Disney Decision Desk home">
         <span class="castle-emoji" aria-hidden="true">
           <svg viewBox="0 0 24 24" focusable="false">
             <path class="castle-body" d="M4 21V10h3V5h3v5h4V5h3v5h3v11H4Z" />
@@ -60,10 +60,10 @@
             <path class="castle-lines" d="M4 13h16M8.5 10V7M15.5 10V7" />
           </svg>
         </span>
-        Disney plans
+        Disney decision desk
       </a>
       <div class="landing-nav-links">
-        <a href="plan.html">Trip plan</a>
+        <a href="plan.html">Decision plan</a>
         <a href="tips.html">Tips</a>
         <a href="about.html">How it works</a>
       </div>
@@ -71,38 +71,55 @@
 
     <section class="landing-hero" aria-labelledby="landing-title">
       <div class="landing-copy">
-        <p class="bubble-kicker">$39 launch price</p>
-        <h1 id="landing-title">A Disney trip plan for about the price of one bubble wand.</h1>
+        <p class="bubble-kicker">Sourced Disney planning answers</p>
+        <h1 id="landing-title">What Disney decision are you trying to make?</h1>
         <p class="landing-subtitle">
-          Send your dates, kids, budget, and must-dos. Get a simple family plan for what to book, what to skip, and where to rest.
+          Ask about Lightning Lane, park order, hotels, dining, breaks, or bad-spend traps. The preview comes from the curated research library; the paid plan is human-reviewed.
         </p>
-        <div class="landing-actions" aria-label="Primary actions">
-          <a class="hero-cta primary" href="plan.html">Get the $39 plan</a>
-          <a class="hero-cta secondary" href="tips.html">Browse tips</a>
+        <form id="decision-ask-form" class="decision-ask-form" action="/api/ask" method="POST">
+          <label for="decision-question">Ask the desk</label>
+          <textarea
+            id="decision-question"
+            name="question"
+            rows="4"
+            required
+            minlength="8"
+            placeholder="Two adults, kids 4 and 8, Pop Century in October. Should we buy Lightning Lane, and which park days need real breaks?"
+          ></textarea>
+          <button class="hero-cta primary" type="submit">Get sourced preview</button>
+        </form>
+        <div class="decision-examples" aria-label="Example questions">
+          <button class="decision-example" data-question="Should we buy Lightning Lane for Magic Kingdom with kids 4 and 8?">Lightning Lane worth it?</button>
+          <button class="decision-example" data-question="Which Disney World park order makes sense for a tired family staying at Pop Century?">Park order with breaks</button>
+          <button class="decision-example" data-question="What should we skip to avoid wasting money on a first Disney World trip?">Avoid bad spend</button>
         </div>
-        <p class="landing-price-note">
-          The trade: one park souvenir you will step over in the stroller basket, or a plan for the trip.
-        </p>
       </div>
+      <aside class="decision-preview-panel" aria-live="polite" aria-label="Sourced preview">
+        <div id="decision-preview" class="decision-preview decision-preview-empty">
+          <p class="preview-kicker">Preview</p>
+          <h2>Sourced snippets appear here.</h2>
+          <p>Ask a real trip decision and the desk will pull relevant research before asking you to buy anything.</p>
+        </div>
+      </aside>
     </section>
 
     <section class="landing-proof" aria-label="What the plan covers">
-      <p>For parents who want fewer expensive guesses.</p>
+      <p>For families who want fewer expensive guesses.</p>
       <ul>
-        <li>Park order</li>
-        <li>Lightning Lane and dining choices</li>
-        <li>Breaks, backup moves, and spend skips</li>
+        <li>Sourced preview first</li>
+        <li>$39 human-reviewed plan when it matters</li>
+        <li>No account, app, or automated itinerary maze</li>
       </ul>
     </section>
 
     <section class="landing-routes" aria-label="Choose a path">
       <a class="route-panel route-plan" href="plan.html">
-        <span>Trip plan</span>
-        <strong>Get the full plan</strong>
-        <p>A week-by-week email plan for your family, with one follow-up included.</p>
+        <span>Decision plan</span>
+        <strong>Turn a hard choice into a plan</strong>
+        <p>A concise email plan for what to book, buy, skip, and protect, with one follow-up included.</p>
       </a>
       <a class="route-panel route-tips" href="tips.html">
-        <span>Tip archive</span>
+        <span>Research archive</span>
         <strong>Search the research</strong>
         <p>Browse thousands of Disney planning tips when you want to dig deeper.</p>
       </a>
@@ -113,6 +130,7 @@
     <a href="about.html">How it works</a>
     <a href="https://scty.org/" target="_blank" rel="noopener">SCTY, INC 2026</a>
   </footer>
+  <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>

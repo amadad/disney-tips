@@ -10,13 +10,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # Pipeline
 npm run fetch            # Fetch new videos via RSS + yt-dlp transcripts
 npm run extract          # Extract tips from transcripts using Gemini
+npm run clean:tips       # Apply deterministic quality gates and regenerate public feed/sitemap/health
 npm run backfill         # Retry fetching transcripts for videos missing them
+npm run embed            # Generate/prune Gemini embeddings for semantic search
 npm run check-staleness  # Validate freshness / dist sync
 npm run pipeline         # fetch -> extract -> check-staleness
 npm run pipeline:deploy  # fetch -> backfill -> extract -> dedupe -> embed -> build -> check-staleness -> verify-live
 npm run verify-live      # Check live site matches local data
-npm run pilot -- readiness # Planning pilot launch readiness
-npm run pilot -- summary   # Planning pilot validation ledger
+npm run pilot -- readiness # Decision-plan pilot launch readiness
+npm run pilot -- summary   # Decision-plan pilot validation ledger
 
 # Frontend
 npm run dev
@@ -31,7 +33,7 @@ npm test
 
 - **Live site**: https://disney.bound.tips/
 - **Container**: Express server (Dockerfile), port 3000, behind Traefik
-- **Volumes**: `dist/` and `data/public/` are bind-mounted — pipeline rebuilds go live immediately (no container restart needed); `data/private/` is mounted writable for planning pilot leads
+- **Volumes**: `dist/` and `data/public/` are bind-mounted — pipeline rebuilds go live immediately (no container restart needed); `data/private/` is mounted writable for decision-plan pilot leads
 - **Health**: `https://disney.bound.tips/api/health` returns tip count, embeddings status, semantic search status
 - **Timer**: systemd `disney-tips-pipeline.timer` (daily 10 AM ET / America/New_York)
 - **Deploy**: `npm run pipeline:deploy` (includes verify-live check at the end)
@@ -40,7 +42,7 @@ npm test
 
 ## Architecture
 
-This is a **batch-first** Disney planning/tips site with an Express server:
+This is a **batch-first** Disney decision desk with an Express server:
 
 1. **Pipeline** (`scripts/`) - Runs daily via systemd timer (10 AM ET)
    - `ensure-warp.sh` runs as ExecStartPre — verifies WARP proxy e2e against YouTube, restarts once, then force-recreates the container if needed
@@ -54,16 +56,18 @@ This is a **batch-first** Disney planning/tips site with an Express server:
 
 2. **Server** (`server/index.ts`) - Express app (port 3000)
    - Serves static files from `dist/` and `data/public/`
-   - `POST /api/embed-query` — Returns 256-dim Gemini query vectors (LRU cached, 1K entries)
+   - `POST /api/ask` — Ask-first sourced preview for a natural-language Disney planning decision
    - `POST /api/search` — Server-side semantic search with text fallback
+   - `POST /api/embed-query` — Legacy query-vector endpoint; main UI uses `/api/search` and `/api/ask`
    - `POST /api/subscribe` — Email subscription via Resend
-   - `POST /api/planning-request` — Captures the $39 manual family planning pilot request to ignored `data/private/planning-requests.jsonl`; optionally emails `PLAN_REQUEST_RECIPIENT` via Resend
+   - `POST /api/planning-request` — Captures the $39 manual decision-plan request to ignored `data/private/planning-requests.jsonl`; optionally emails `PLAN_REQUEST_RECIPIENT` via Resend
    - `GET /api/health` — Health check
 
-3. **Frontend** (`src/`, `index.html`) - Vite static site
-   - Homepage leads with the compact paid/manual family planning pilot, then sample plan proof, intake, and the searchable tips library
-   - Client-side filtering by category and park, plus search
-   - Server-side semantic search calls `/api/search`, with text fallback when embeddings are unavailable.
+3. **Frontend** (`src/`, `index.html`, `plan.html`, `tips.html`) - Vite static site
+   - Homepage leads with one natural-language Ask box and renders sourced snippets from `/api/ask`
+   - Paid flow is a human-reviewed $39 decision plan delivered by email; `biggestDecision` is required
+   - Tips archive remains the research layer, with category/park filters and pain-oriented suggested searches
+   - Server-side semantic search calls `/api/search` and `/api/ask`, with text fallback when embeddings are unavailable
    - Theme-park planning notebook UI from `design.md`: light map background, ticket/sticker surfaces, black outlines, and no official Disney logos or character art
 
 ### Key Files
@@ -84,15 +88,17 @@ scripts/
   lib/state.ts               # Shared lastUpdated logic
 server/index.ts              # Express server (Gemini semantic search, subscribe, health)
 shared/embeddings.ts         # Shared Gemini embedding config + helpers
-shared/planningRequest.ts    # Planning pilot intake validation + email formatting
+shared/decisionPreview.ts    # Ask-first sourced preview contract + decision area classifier
+shared/planningRequest.ts    # Decision-plan request validation + email formatting
+shared/tipSearch.ts          # Shared category/park/text search helpers
 design.md                    # Frontend style reference and Disney-safe visual rules
 data/
   public/                    # Bind-mounted into container
-    tips.json                # Extracted structured tips (~4000 tips)
+    tips.json                # Extracted structured tips
     embeddings.json          # Gemini embeddings (256-dim, loaded server-side only)
     embeddings.meta.json     # Embedding model/signature guard for safe reloads
     feed.xml                 # RSS 2.0 feed
-  private/                   # Git-ignored planning pilot leads
+  private/                   # Git-ignored decision-plan pilot leads
   pipeline/                  # NOT deployed
     videos.json              # Raw video metadata + transcripts
     processed-videos.json    # Ledger of processed videos
@@ -129,8 +135,8 @@ GEMINI_API_KEY=               # Google AI Studio API key for tip extraction + se
 GEMINI_MODEL=                 # Override model (default: gemini-2.5-flash-lite)
 RESEND_API_KEY=               # Resend API key (email subscriptions + planning request notifications)
 RESEND_AUDIENCE_ID=           # Resend audience ID
-PLAN_REQUEST_RECIPIENT=       # required before outreach: planning pilot lead notification recipient
-RESEND_FROM_EMAIL=            # optional: sender for planning pilot notification emails
+PLAN_REQUEST_RECIPIENT=       # required before outreach: decision-plan pilot lead notification recipient
+RESEND_FROM_EMAIL=            # optional: sender for decision-plan pilot notification emails
 PLAN_PAYMENT_URL=             # optional: payment link returned after a planning request
 SITE_URL=                     # Site URL for RSS feed (default: https://disney.bound.tips)
 PORT=                         # Server port (default: 3000)

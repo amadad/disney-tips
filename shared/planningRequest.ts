@@ -36,6 +36,7 @@ export interface PlanningRequestPayload {
   party: string;
   budget: PlanningBudget;
   priorities: PlanningPriority[];
+  biggestDecision: string;
   mustDos: string;
   concerns: string;
 }
@@ -125,6 +126,11 @@ export function parsePlanningRequest(body: unknown): ParseResult {
     return { ok: false, status: 400, error: 'Choose a valid planning priority.' };
   }
 
+  const biggestDecision = cleanLongText(input.biggestDecision, 800);
+  if (biggestDecision.length < 10) {
+    return { ok: false, status: 400, error: 'Tell us the Disney decision you want solved.' };
+  }
+
   return {
     ok: true,
     value: {
@@ -136,6 +142,7 @@ export function parsePlanningRequest(body: unknown): ParseResult {
       party,
       budget: budget as PlanningBudget,
       priorities: priorities as PlanningPriority[],
+      biggestDecision,
       mustDos: cleanLongText(input.mustDos, 1200),
       concerns: cleanLongText(input.concerns, 1200),
     },
@@ -157,6 +164,7 @@ export function formatPlanningRequestEmail(record: StoredPlanningRequest): strin
     `Party: ${request.party}`,
     `Budget style: ${request.budget}`,
     `Priorities: ${request.priorities.join(', ')}`,
+    `Decision to solve: ${request.biggestDecision}`,
     '',
     `Must-dos: ${request.mustDos || '(not provided)'}`,
     '',

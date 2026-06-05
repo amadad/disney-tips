@@ -16,6 +16,7 @@ const validRequest = {
   party: '2 adults, kids 4 and 8',
   budget: 'balanced',
   priorities: ['wait-less', 'save-money'],
+  biggestDecision: 'Should we buy Lightning Lane or save the money for better dining?',
   mustDos: 'Princess meal, Slinky Dog, fireworks',
   concerns: 'Heat and too much walking',
   consent: true,
@@ -30,6 +31,7 @@ test('parsePlanningRequest accepts and normalizes a valid request', () => {
   assert.equal(result.value.email, 'maya@example.com');
   assert.equal(result.value.name, 'Maya');
   assert.deepEqual(result.value.priorities, ['wait-less', 'save-money']);
+  assert.equal(result.value.biggestDecision, 'Should we buy Lightning Lane or save the money for better dining?');
   assert.equal(result.value.concerns, 'Heat and too much walking');
 });
 
@@ -56,6 +58,16 @@ test('parsePlanningRequest rejects unknown priority values', () => {
   assert.match(result.error, /priority/i);
 });
 
+test('parsePlanningRequest rejects missing decision to solve', () => {
+  const result = parsePlanningRequest({ ...validRequest, biggestDecision: 'too vague' });
+
+  assert.equal(result.ok, false);
+  if (result.ok) return;
+
+  assert.equal(result.status, 400);
+  assert.match(result.error, /decision/i);
+});
+
 test('formatPlanningRequestEmail summarizes the paid manual offer lead', () => {
   const result = parsePlanningRequest(validRequest);
   assert.equal(result.ok, true);
@@ -72,6 +84,7 @@ test('formatPlanningRequestEmail summarizes the paid manual offer lead', () => {
   assert.match(text, /Plan request plan_123/);
   assert.match(text, /maya@example\.com/);
   assert.match(text, /wait-less, save-money/);
+  assert.match(text, /Should we buy Lightning Lane/);
   assert.match(text, /Launch offer: \$39 custom family plan/);
 });
 

@@ -2,7 +2,7 @@
 
 > Diátaxis: how-to
 
-This is the manual sales path for getting the first 5 validated family plans.
+This is the manual sales path for getting the first 5 validated family decision plans.
 Do not start broad outreach until `npm run pilot -- readiness` says the pilot
 is ready, or new form submissions may sit unnoticed.
 
@@ -92,11 +92,11 @@ requests are allowed. The first goal is conversation quality, not reach.
 
 ```text
 Hey [name] — quick Disney question. I’m testing a small $39 custom Disney
-planning offer for families who are trying to figure out what to book, what to
+decision plan for families who are trying to figure out what to book, what to
 skip, and where not to waste money.
 
 If you’re still thinking about [trip / Disney / Orlando], I’d like to make you
-a full-trip decision plan and see if it actually helps with the hard decisions.
+a decision plan and see if it actually helps with the hard choices.
 It costs about one Disney bubble wand. Useful or not relevant right now?
 ```
 
@@ -104,7 +104,7 @@ It costs about one Disney bubble wand. Useful or not relevant right now?
 
 ```text
 Hey [name] — I’m looking for 5 families planning Disney in the next year.
-I’m testing a $39 custom plan that answers what to book, what to skip, what to
+I’m testing a $39 custom decision plan that answers what to book, what to skip, what to
 pay for, and how to keep the day from collapsing with kids.
 
 Do you know one parent who is in planning mode and would give blunt feedback?
@@ -133,7 +133,7 @@ real enough to pay for.
 3. What part of planning feels most annoying or risky right now?
 4. What have you already tried?
 5. What decision would feel valuable to have solved this week?
-6. If I made a full-trip plan for your exact group for $39, would you want it?
+6. If I made a decision plan for your exact group for $39, would you want it?
 
 If the answer to question 6 is no, ask what would need to be different. Do not
 argue.
@@ -146,9 +146,9 @@ Only send the link after there is a real planning pain:
 This sounds like a fit for the pilot. Here’s the intake:
 https://disney.bound.tips/plan.html#planning-request
 
-The plan is $39 while I’m validating it. I’ll use your dates, party, budget
-style, must-dos, and concerns to send a practical full-trip plan with what to book,
-what to buy or skip, park rhythm, and backup plan.
+The plan is $39 while I’m validating it. I’ll use your decision, dates, party,
+budget style, must-dos, and concerns to send a practical plan with what to book,
+what to buy or skip, park rhythm, and backup moves.
 ```
 
 ## Follow-up after intake

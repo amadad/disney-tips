@@ -5,10 +5,13 @@ import { readFileSync } from 'fs';
 const homepage = readFileSync('index.html', 'utf-8');
 const planPage = readFileSync('plan.html', 'utf-8');
 
-test('homepage is a minimal bubble-wand landing page', () => {
-  assert.match(homepage, /price of one bubble wand/i);
+test('homepage is an ask-first decision desk', () => {
+  assert.match(homepage, /What Disney decision are you trying to make/i);
+  assert.match(homepage, /id="decision-ask-form"/);
+  assert.match(homepage, /id="decision-preview"/);
+  assert.match(homepage, /Get sourced preview/);
   assert.match(homepage, /class="castle-emoji"/);
-  assert.match(homepage, /Get the \$39 plan/);
+  assert.match(homepage, /Decision plan/);
   assert.match(homepage, /href="plan\.html"/);
   assert.match(homepage, /href="tips\.html"/);
   assert.doesNotMatch(homepage, /bubble-wand-card/);
@@ -20,8 +23,9 @@ test('homepage is a minimal bubble-wand landing page', () => {
 test('plan page shows a concrete sample planning deliverable and request form', () => {
   assert.match(planPage, /id="sample-plan"/);
   assert.match(planPage, /Example email plan/);
-  assert.match(planPage, /A full trip plan that explains each choice/);
-  assert.match(planPage, /Full trip plan/);
+  assert.match(planPage, /A decision plan that explains each choice/);
+  assert.match(planPage, /Decision plan/);
+  assert.match(planPage, /Decision you want solved/);
   assert.match(planPage, /Reservations and spend/);
   assert.match(planPage, /Backup moves/);
   assert.match(planPage, /Day 2 · Magic Kingdom/);

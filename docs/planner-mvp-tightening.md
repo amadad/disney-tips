@@ -1,12 +1,12 @@
-# Disney planner MVP tightening brief
+# Disney decision desk MVP tightening brief
 
 > Diátaxis: explanation
 
 ## Thesis
 
-The site should not present as a tips archive with a small paid form attached. It should present as a concierge-style Disney decision plan for families who are overwhelmed by booking windows, Lightning Lane, dining, budget traps, transportation, heat, naps, and backup plans.
+The site should not present as a tips archive with a small paid form attached. It should present as an Ask-first Disney decision desk for families who are overwhelmed by booking windows, Lightning Lane, dining, budget traps, transportation, heat, naps, and backup plans.
 
-The tips corpus remains valuable, but it should be framed as the research engine behind the plan, not the product users are buying.
+The tips corpus remains valuable, but it should be framed as the research engine behind the sourced preview and paid decision plan, not the product users are buying.
 
 ## URL/domain
 
@@ -38,7 +38,7 @@ This is directionally right but not yet emotionally sharp enough. The compelling
 
 Sharper promise:
 
-> Get a short custom Disney decision plan: what to book, what to skip, when to use Lightning Lane, where to rest, and what to do when the day goes sideways.
+> Ask a Disney planning decision, see sourced research immediately, then get a short custom decision plan when the choice matters.
 
 Supporting pains:
 
@@ -172,6 +172,6 @@ The site should feel like a competent human planner sat down with your family co
 
 The core validation is not whether people like Disney tips. It is:
 
-> Will a real trip planner pay $39 to have a competent human make the hard Disney decisions for their exact family?
+> Will a real Disney traveler pay $39 to have a competent human make the hard Disney decisions for their exact family?
 
 Everything in the MVP should support answering that question quickly.

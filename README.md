@@ -1,8 +1,8 @@
-# Disney Family Trip Planner
+# Disney Decision Desk
 
 > Diátaxis: reference
 
-Web-first Disney trip planning assistant backed by curated Walt Disney World & Disneyland tips extracted from expert YouTube channels.
+Ask-first Disney decision support backed by curated Walt Disney World & Disneyland tips extracted from expert YouTube channels.
 
 ## Live Site
 
@@ -15,14 +15,15 @@ Web-first Disney trip planning assistant backed by curated Walt Disney World & D
 # Pipeline
 npm run fetch            # RSS + transcript fetch (Disney YouTube channels)
 npm run extract          # Gemini 2.5 Flash Lite tip extraction
+npm run clean:tips       # Apply deterministic quality gates and regenerate public feed/sitemap/health
 npm run embed            # Generate Gemini embeddings for semantic search
 npm run backfill         # Retry videos with missing transcripts
 npm run check-staleness  # Validate freshness / dist sync
 npm run verify-live      # Check live site matches local data
-npm run pilot -- readiness # Planning pilot launch readiness
-npm run pilot -- summary   # Planning pilot validation ledger
+npm run pilot -- readiness # Decision-plan pilot launch readiness
+npm run pilot -- summary   # Decision-plan pilot validation ledger
 npm run pipeline         # fetch -> extract -> check-staleness
-npm run pipeline:deploy  # fetch -> extract -> embed -> build -> check-staleness -> verify-live
+npm run pipeline:deploy  # fetch -> backfill -> extract -> dedupe -> embed -> build -> check-staleness -> verify-live
 
 # Frontend
 npm run dev
@@ -71,13 +72,14 @@ YouTube RSS → yt-dlp (+ WARP proxy) → data/pipeline/videos.json
 **Pipeline** (`scripts/`): Runs via systemd timer. Fetches videos from the curated Disney YouTube source roster in `shared/types.ts`, extracts structured tips with Gemini, generates embeddings for semantic search.
 
 **Server** (`server/index.ts`): Express app serving static files from `dist/`, plus API endpoints:
+- `POST /api/ask` – Ask-first sourced preview for a natural-language Disney planning decision
 - `POST /api/search` – Semantic search (Gemini embeddings) with text fallback
-- `POST /api/embed-query` – Gemini query vector for browser-side semantic search
+- `POST /api/embed-query` – Legacy Gemini query-vector endpoint; main UI uses `/api/search` and `/api/ask`
 - `POST /api/subscribe` – Email subscription via Resend
-- `POST /api/planning-request` – Captures the $39 manual family planning request to `data/private/planning-requests.jsonl`
+- `POST /api/planning-request` – Captures the $39 manual decision-plan request to `data/private/planning-requests.jsonl`
 - `GET /api/health` – Health check (tip count, embeddings, semantic search status)
 
-**Frontend** (`src/`, `index.html`, `plan.html`, `tips.html`, `design.md`): Vite static site with a minimal bubble-wand landing page, a separate paid-plan page with sample plan proof and intake form, and a separate searchable tips library with category/park filters and semantic/text search.
+**Frontend** (`src/`, `index.html`, `plan.html`, `tips.html`, `design.md`): Vite static site with an Ask-first decision desk, a paid human-reviewed decision-plan page with sample proof and intake form, and a searchable research archive with category/park filters and semantic/text search.
 
 Key files:
 
@@ -88,7 +90,9 @@ scripts/
   lib/transcript.ts, lib/state.ts
 
 server/index.ts                  Express server
-shared/planningRequest.ts        Manual planning request validation + email formatting
+shared/decisionPreview.ts        Ask-first sourced preview contract + decision area classifier
+shared/planningRequest.ts        Manual decision-plan request validation + email formatting
+shared/tipSearch.ts              Shared category/park/text search helpers
 design.md                        Theme-park planning notebook style reference
 
 data/
@@ -96,14 +100,14 @@ data/
   pipeline/processed-videos.json Ledger of processed videos
   public/tips.json               Extracted structured tips (~4,000)
   public/embeddings.json         Gemini embeddings loaded server-side for semantic search
-  private/planning-requests.jsonl Ignored local/private lead capture for the planning pilot
+  private/planning-requests.jsonl Ignored local/private lead capture for the decision-plan pilot
   public/feed.xml                RSS 2.0 feed
   public/health.json, sitemap.xml, robots.txt
 
 src/main.ts, src/styles.css      Frontend application
 shared/types.ts                  Shared types (pipeline + frontend)
 
-docs/planning-pilot.md           Manual pilot operation and validation ledger
+docs/planning-pilot.md           Manual decision-plan pilot operation and validation ledger
 docs/first-customer-outreach.md  First five customer outreach scripts
 ```
 
@@ -115,7 +119,7 @@ Container uses bind-mounted `dist/` and `data/public/`, so pipeline rebuilds go 
 npm run pipeline:deploy    # Full pipeline with live verification
 npm run build              # Just rebuild static files
 npm run verify-live        # Check live site matches local data
-npm run pilot -- readiness # Check planning pilot env/validation status
+npm run pilot -- readiness # Check decision-plan pilot env/validation status
 ```
 
 ## Troubleshooting

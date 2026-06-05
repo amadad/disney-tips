@@ -1,19 +1,20 @@
-# Disney family planning launch offer
+# Disney decision-plan launch offer
 
 > Diátaxis: how-to
 
 This is the manual validation path for repositioning the site from passive
-tips into a web-first planning assistant.
+tips into an Ask-first Disney decision desk.
 
 Use `docs/first-customer-outreach.md` for the sales script and weekly outreach
 cadence once this offer is operationally ready.
 
 ## Offer
 
-- **Product**: custom family Disney trip plan
+- **Product**: custom family Disney decision plan
 - **Launch price**: $39
-- **Promise**: review the party, dates, hotel, budget style, must-dos, and
-  concerns; reply with what to book, buy, skip, and where to build in breaks
+- **Promise**: review the family's question, party, dates, hotel, budget style,
+  must-dos, and concerns; reply with what to book, buy, skip, and where to build
+  in breaks
 - **Goal**: fulfill 5-10 plans before building a native iOS app
 
 ## Intake

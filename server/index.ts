@@ -5,6 +5,7 @@ import { randomUUID } from 'crypto';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { marked } from 'marked';
+import { buildDecisionPreview } from '../shared/decisionPreview.js';
 import {
   createEmbeddingClient,
   EMBEDDING_DIMENSIONS,
@@ -60,6 +61,8 @@ interface TipsData {
   tips: Tip[];
   topTips?: string[];
 }
+
+type EnrichedTip = Tip & { score: number };
 
 let tipsData: TipsData = { tips: [] };
 let embeddingsMap: Map<string, number[]> = new Map();
@@ -212,6 +215,16 @@ function textSearch(query: string, filters: TipSearchFilters, limit: number): st
   return tipsData.topTips?.slice(0, limit) || [];
 }
 
+function enrichTipIds(ids: string[]): EnrichedTip[] {
+  const tipMap = new Map(tipsData.tips.map(t => [t.id, t]));
+  return ids
+    .map((id, i) => {
+      const tip = tipMap.get(id);
+      return tip ? { ...tip, score: ids.length > 0 ? 1 - i / ids.length : 1 } : null;
+    })
+    .filter((tip): tip is EnrichedTip => tip !== null);
+}
+
 const app = express();
 
 // Trust proxy for correct client IPs behind Traefik
@@ -261,15 +274,31 @@ app.post('/api/search', async (req, res) => {
 
   // If ?enrich=true, return full tip objects with scores
   if (req.query.enrich === 'true') {
-    const tipMap = new Map(tipsData.tips.map(t => [t.id, t]));
-    const results = ids.map((id, i) => {
-      const tip = tipMap.get(id);
-      return tip ? { ...tip, score: 1 - i / ids.length } : null;
-    }).filter(Boolean);
-    return res.json({ results });
+    return res.json({ results: enrichTipIds(ids) });
   }
 
   res.json({ ids });
+});
+
+app.post('/api/ask', async (req, res) => {
+  const ip = getClientIp(req);
+  if (isSearchRateLimited(ip)) {
+    return res.status(429).json({ error: 'Too many searches. Please try again in a minute.' });
+  }
+
+  const { question } = req.body;
+  if (!question || typeof question !== 'string' || question.trim().length < 8) {
+    return res.status(400).json({ error: 'Ask a Disney planning question.' });
+  }
+
+  const trimmedQuestion = question.trim();
+  const limit = normalizeSearchLimit(req.body.limit ?? 5);
+  console.log(`Ask: "${trimmedQuestion}"`);
+
+  const ids = await semanticSearch(trimmedQuestion, {}, limit) || textSearch(trimmedQuestion, {}, limit);
+  const preview = buildDecisionPreview(trimmedQuestion, enrichTipIds(ids));
+
+  res.json(preview);
 });
 
 // Legacy query-vector endpoint; the main UI now uses /api/search to avoid shipping embeddings to browsers.
