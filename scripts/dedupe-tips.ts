@@ -1,6 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import type { ExtractedTip, TipsData, TipCategory } from './types.js';
+import { writePublicArtifactSync } from './lib/public-artifacts.js';
 import { isDisneyRelevantVideoTitle, isHighQualityTipText, normalizeTipTags } from '../shared/tipQuality.js';
 
 // Validate API key early
@@ -180,7 +181,7 @@ async function main() {
     topTips: topTipIds
   };
 
-  writeFileSync('data/public/tips.json', JSON.stringify(output, null, 2));
+  writePublicArtifactSync('data/public/tips.json', JSON.stringify(output, null, 2));
   console.log(`\nDone! Saved ${dedupedTips.length} tips with ${topTipIds.length} top tips`);
 }
 

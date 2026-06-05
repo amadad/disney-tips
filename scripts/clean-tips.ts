@@ -1,6 +1,7 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import { CATEGORY_LABELS, PARK_LABELS, type ExtractedTip, type TipsData } from './types.js';
 import { isDisneyRelevantVideoTitle, isHighQualityTipText, normalizeTipTags } from '../shared/tipQuality.js';
+import { writePublicArtifactSync } from './lib/public-artifacts.js';
 
 const TIPS_PATH = 'data/public/tips.json';
 const FEED_PATH = 'data/public/feed.xml';
@@ -96,11 +97,11 @@ function writeFeed(tips: ExtractedTip[], lastUpdated: string): void {
     '  </channel>',
   ].join('\n');
 
-  writeFileSync(FEED_PATH, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n${channel}\n</rss>\n`);
+  writePublicArtifactSync(FEED_PATH, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n${channel}\n</rss>\n`);
 }
 
 function writeHealth(totalTips: number, lastUpdated: string): void {
-  writeFileSync(HEALTH_PATH, JSON.stringify({
+  writePublicArtifactSync(HEALTH_PATH, JSON.stringify({
     status: 'ok',
     lastUpdated,
     totalTips,
@@ -126,7 +127,7 @@ function writeSitemap(lastUpdated: string): void {
     .map(path => `  <url>\n    <loc>${escapeXml(`${siteUrl}${path}`)}</loc>\n    <lastmod>${escapeXml(lastmod)}</lastmod>\n  </url>`)
     .join('\n');
 
-  writeFileSync(
+  writePublicArtifactSync(
     SITEMAP_PATH,
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>\n`,
   );
@@ -152,7 +153,7 @@ function main(): void {
     ...(topTips ? { topTips } : {}),
   };
 
-  writeFileSync(TIPS_PATH, JSON.stringify(output, null, 2));
+  writePublicArtifactSync(TIPS_PATH, JSON.stringify(output, null, 2));
   writeFeed(tips, lastUpdated);
   writeHealth(tips.length, lastUpdated);
   writeSitemap(lastUpdated);

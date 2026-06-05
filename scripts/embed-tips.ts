@@ -1,6 +1,6 @@
 import { config } from 'dotenv';
 config({ path: '.env.local' });
-import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import {
   buildEmbeddingsMetadata,
   createEmbeddingClient,
@@ -10,6 +10,7 @@ import {
   pruneEmbeddingsForTipIds,
   type EmbeddingEntry,
 } from '../shared/embeddings.js';
+import { ensurePublicArtifactModeSync, writePublicArtifactSync } from './lib/public-artifacts.js';
 
 interface Tip {
   id: string;
@@ -102,8 +103,11 @@ async function main() {
   if (needsEmbedding.length === 0) {
     console.log('All tips already embedded.');
     if (pruned > 0 || !existsSync(EMBEDDINGS_META_PATH)) {
-      writeFileSync(EMBEDDINGS_PATH, JSON.stringify(existing));
-      writeFileSync(EMBEDDINGS_META_PATH, JSON.stringify(buildEmbeddingsMetadata(), null, 2));
+      writePublicArtifactSync(EMBEDDINGS_PATH, JSON.stringify(existing));
+      writePublicArtifactSync(EMBEDDINGS_META_PATH, JSON.stringify(buildEmbeddingsMetadata(), null, 2));
+    } else {
+      ensurePublicArtifactModeSync(EMBEDDINGS_PATH);
+      ensurePublicArtifactModeSync(EMBEDDINGS_META_PATH);
     }
     return;
   }
@@ -131,8 +135,8 @@ async function main() {
       });
     }
 
-    writeFileSync(EMBEDDINGS_PATH, JSON.stringify(allEmbeddings));
-    writeFileSync(EMBEDDINGS_META_PATH, JSON.stringify(buildEmbeddingsMetadata(), null, 2));
+    writePublicArtifactSync(EMBEDDINGS_PATH, JSON.stringify(allEmbeddings));
+    writePublicArtifactSync(EMBEDDINGS_META_PATH, JSON.stringify(buildEmbeddingsMetadata(), null, 2));
     console.log(`Saved checkpoint with ${allEmbeddings.length} embeddings`);
 
     if (i + BATCH_SIZE < needsEmbedding.length) {

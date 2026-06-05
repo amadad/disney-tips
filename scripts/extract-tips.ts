@@ -5,6 +5,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { randomUUID } from 'crypto';
 import { z } from 'zod';
 import { CATEGORY_LABELS, PARK_LABELS } from './types.js';
+import { writePublicArtifactSync } from './lib/public-artifacts.js';
 import { resolveLastUpdated } from './lib/state.js';
 import { isDisneyRelevantVideoTitle, isHighQualityTipText, normalizeTipTags } from '../shared/tipQuality.js';
 import type { Video, VideosData, ExtractedTip, TipsData, TipCategory, Park, ChannelName } from './types.js';
@@ -523,7 +524,7 @@ async function main() {
     tips: dedupedTips
   };
 
-  writeFileSync('data/public/tips.json', JSON.stringify(data, null, 2));
+  writePublicArtifactSync('data/public/tips.json', JSON.stringify(data, null, 2));
 
   const siteUrl = process.env.SITE_URL || 'https://disney.bound.tips';
   const rssChannel: RssChannel = {
@@ -559,14 +560,14 @@ async function main() {
     };
   });
   const rssFeed = generateRssFeed(rssChannel, rssItems);
-  writeFileSync('data/public/feed.xml', rssFeed);
+  writePublicArtifactSync('data/public/feed.xml', rssFeed);
 
   const health = {
     status: 'ok',
     lastUpdated: data.lastUpdated,
     totalTips: data.totalTips
   };
-  writeFileSync('data/public/health.json', JSON.stringify(health, null, 2));
+  writePublicArtifactSync('data/public/health.json', JSON.stringify(health, null, 2));
 
   const lastmod = data.lastUpdated.split('T')[0];
   const pages = [
@@ -583,7 +584,7 @@ async function main() {
   ];
   const sitemapEntries = pages.map(path => `  <url>\n    <loc>${siteUrl}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`).join('\n');
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries}\n</urlset>\n`;
-  writeFileSync('data/public/sitemap.xml', sitemap);
+  writePublicArtifactSync('data/public/sitemap.xml', sitemap);
 
   console.log(`Done! Saved ${dedupedTips.length} tips to data/tips.json (Deduplicated from ${allTips.length})`);
 }
