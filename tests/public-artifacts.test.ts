@@ -1,11 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { chmodSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from 'fs';
+import { chmodSync, mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from 'fs';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import {
   ensurePublicArtifactModeSync,
+  ensurePublicTreeModeSync,
   PUBLIC_ARTIFACT_MODE,
+  PUBLIC_DIRECTORY_MODE,
   writePublicArtifactSync,
 } from '../scripts/lib/public-artifacts.js';
 
@@ -21,6 +23,31 @@ test('writePublicArtifactSync corrects restrictive modes on existing public file
 
     assert.equal(statSync(path).mode & 0o777, PUBLIC_ARTIFACT_MODE);
     assert.equal(readFileSync(path, 'utf-8'), '{"ok":true}');
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('ensurePublicTreeModeSync repairs static build tree permissions', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'disney-public-tree-'));
+  const assets = join(dir, 'assets');
+  const html = join(dir, 'index.html');
+  const js = join(assets, 'main.js');
+
+  try {
+    mkdirSync(assets, { mode: 0o700 });
+    writeFileSync(html, '<html></html>', { mode: 0o600 });
+    writeFileSync(js, 'console.log("ok")', { mode: 0o600 });
+    chmodSync(assets, 0o700);
+    chmodSync(html, 0o600);
+    chmodSync(js, 0o600);
+
+    ensurePublicTreeModeSync(dir);
+
+    assert.equal(statSync(dir).mode & 0o777, PUBLIC_DIRECTORY_MODE);
+    assert.equal(statSync(assets).mode & 0o777, PUBLIC_DIRECTORY_MODE);
+    assert.equal(statSync(html).mode & 0o777, PUBLIC_ARTIFACT_MODE);
+    assert.equal(statSync(js).mode & 0o777, PUBLIC_ARTIFACT_MODE);
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }

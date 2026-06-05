@@ -5,8 +5,9 @@
  * 
  * The SPA JS will replace these on hydration — progressive enhancement.
  */
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import { join } from 'path';
+import { ensurePublicTreeModeSync, writePublicArtifactSync } from './lib/public-artifacts.js';
 
 const DIST = join(import.meta.dirname, '..', 'dist');
 
@@ -180,10 +181,11 @@ ${displayTips.map(renderer).join('\n')}
       }
     }
 
-    writeFileSync(filePath, html);
+    writePublicArtifactSync(filePath, html);
     console.log(`  ✓ ${page}: ${displayTips.length} tips injected`);
   }
 
+  ensurePublicTreeModeSync(DIST);
   console.log('Prerendering complete.');
 }
 
