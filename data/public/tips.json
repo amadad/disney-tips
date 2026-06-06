@@ -1,8 +1,730 @@
 {
-  "lastUpdated": "2026-06-05T14:06:41.104Z",
-  "lastChecked": "2026-06-05T14:06:41.104Z",
-  "totalTips": 5301,
+  "lastUpdated": "2026-06-06T14:07:25.300Z",
+  "lastChecked": "2026-06-06T14:07:25.300Z",
+  "totalTips": 5338,
   "tips": [
+    {
+      "id": "93dc144a-cd05-4854-9ce9-8a5e7c462243",
+      "text": "When staying at the All-Star Resorts, consider them a great value option for a well-themed and affordable place to stay while visiting the parks.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "resorts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HVMc22NtQvI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live - Disney Skyliner & Epcot Resort Hopping - 6-5-26 - Walt Disney World",
+        "publishedAt": "2026-06-06T03:21:18+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:02.308Z"
+    },
+    {
+      "id": "5e6ee6a8-c074-4227-9131-70ad353477e9",
+      "text": "If you choose to stay at Disney's Art of Animation Resort, it's considered a favorite for its colorful and immersive theming.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resorts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "HVMc22NtQvI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live - Disney Skyliner & Epcot Resort Hopping - 6-5-26 - Walt Disney World",
+        "publishedAt": "2026-06-06T03:21:18+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:02.308Z"
+    },
+    {
+      "id": "6b2e28ff-8553-4069-964f-596c2d986316",
+      "text": "The tie-dye cheesecake available at Pop Century Resort is a popular snack choice.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "HVMc22NtQvI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live - Disney Skyliner & Epcot Resort Hopping - 6-5-26 - Walt Disney World",
+        "publishedAt": "2026-06-06T03:21:18+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:02.308Z"
+    },
+    {
+      "id": "a76f92c3-102b-4711-a145-ba13d4a704a9",
+      "text": "Try the prime rib at Blue Bayou for an excellent meal that complements the restaurant's ambiance.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "table-service",
+        "prime-rib"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "f7b7ca02-4cbe-4eb4-b262-2250437fd48b",
+      "text": "Pull off to the side of pathways when you need to stop to check your phone or mobile order to avoid blocking foot traffic.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "mobile-order",
+        "guest-etiquette"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "b37b484c-ea19-436c-ac85-0c143c3bce4c",
+      "text": "Consider purchasing a dining package for fireworks or parades to secure a good viewing spot without waiting for hours.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "fireworks",
+        "parade",
+        "dining-package"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "c3473f7b-a79c-4912-b5d6-e2d7afbd16ce",
+      "text": "Attend the second World of Color show to avoid crowds and potentially skip using a boarding group.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "world-of-color",
+        "nighttime-show"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "89aaf642-0bda-4a59-a374-6dee7bff4a1c",
+      "text": "If possible, book at least one night at a Disneyland Resort hotel like the Disneyland Hotel or Pixar Place for a magical experience.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "disney-resort",
+        "hotel-stay"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "89d477fe-2086-4f52-9efb-adf630b69976",
+      "text": "Do not send one person to hold a spot in line for an extended period for popular rides like Radiator Springs Racers or Rise of the Resistance.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "wait-times",
+        "line-etiquette"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "3176c5db-7364-4469-90d9-7015c36f4647",
+      "text": "Head to Pixar Pier attractions like Toy Story Midway Mania, Incredicoaster, and others first thing in the morning at Disney California Adventure to experience them with minimal crowds.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "rope-drop",
+        "pixar-pier",
+        "attractions"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "64bbe7aa-d335-4b0b-899e-4bca2d2900c1",
+      "text": "Participate in the free cupcake decorating for kids during the Food and Wine Festival at Disney California Adventure.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "food-and-wine-festival",
+        "kids-activities",
+        "free-activity"
+      ],
+      "priority": "medium",
+      "season": "food-wine",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "5456121f-1f6c-4b64-8c55-2b2239285383",
+      "text": "Visit the Animation Academy at Disney California Adventure to draw characters in a comfortable, air-conditioned indoor space.",
+      "category": "parks",
+      "park": "california-adventure",
+      "tags": [
+        "animation-academy",
+        "indoor-activity",
+        "drawing-class"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "9d01bc33-73d3-45fc-9caa-99030c8bce88",
+      "text": "Prioritize rope drop by arriving when the park opens to experience rides with the lowest wait times.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "5b344f5e-932f-4967-8583-0e0327dd054f",
+      "text": "Consider character meals, such as breakfast at Plaza Inn, to see characters interact with your table without long waits in line.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "character-meal",
+        "breakfast",
+        "plazainn"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "997a7525-d8be-4fce-a81a-cba44d4e20d2",
+      "text": "Do not occupy tables at quick-service restaurants if you are not eating, to ensure space for guests with food, especially during busy meal times.",
+      "category": "dining",
+      "park": "disneyland",
+      "tags": [
+        "quick-service",
+        "dining-etiquette"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "8f8d0fc7-d0b5-4973-9463-f39b80ba918a",
+      "text": "Try Davy Crockett's Explorer Canoes for an interactive attraction with engaging cast members and Jungle Cruise-style humor.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "davy-crocketts-explorer-canoes",
+        "attraction",
+        "interactive"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3HHwiVN_QUk",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disneyland Hot Takes I STILL Stand By (And Some I’ve Changed My Mind On)",
+        "publishedAt": "2026-06-05T22:00:30+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.616Z"
+    },
+    {
+      "id": "cb723ae1-f214-4c2e-bc14-786a1a2c8ab9",
+      "text": "To see the bioluminescent flora and glowing effects in Pandora, visit Animal Kingdom during the winter months when the park is open later.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "pandora",
+        "nighttime",
+        "bioluminescence"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "n1vJcdv-5bE",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "I Was The Only ONE At Animal Kingdom After Dark! Completely EMPTY",
+        "publishedAt": "2026-06-05T21:00:26+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:01.378Z"
+    },
+    {
+      "id": "54df0312-ddfb-4faa-93b2-20f46df1c5ea",
+      "text": "If you have a fear of flying or heights, consider waiting for your party at the attraction exit after riding Soarin' Around the World.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-advice",
+        "fear-of-heights"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "H96NuytuZsM",
+        "channelName": "TPMvids",
+        "videoTitle": "NEW Soarin' Across America FULL POV [4K] - EPCOT Walt Disney World",
+        "publishedAt": "2026-06-05T20:40:54+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:02.409Z"
+    },
+    {
+      "id": "51f5e9e3-391f-4655-9c94-fcc24ef1326e",
+      "text": "Book a DVC rental for a significant saving on Deluxe Villa stays, potentially cutting costs by up to 50% compared to rack rates.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "dvc-rental",
+        "budget-travel",
+        "hotels"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "a550f7d2-28eb-4182-8f92-219d04f9887f",
+      "text": "Take advantage of the washer and dryer within your DVC villa at Wilderness Lodge for convenient laundry during your stay.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "dvc-villa",
+        "laundry",
+        "wilderness-lodge"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "11d67797-eb4e-4aa8-bcd5-7bace61e8823",
+      "text": "Enjoy the spacious balcony at Wilderness Lodge's Copper Creek Villas, which extends across multiple rooms and offers a view of the pool and neighboring resort.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "wilderness-lodge",
+        "villas",
+        "balcony-view"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "31f344c6-1201-4a21-a6a2-692dbd234d43",
+      "text": "Head to Geyser Point at Wilderness Lodge for a potential breakfast option, as it is within walking distance of the Copper Creek Villas.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "geyser-point",
+        "wilderness-lodge",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "9b6624c1-cc1c-41d5-bd2d-c28063024b08",
+      "text": "Park in the surface lots at Disney Springs' Watermelon lot when visiting City Works for convenient access.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "parking",
+        "disney-springs",
+        "cityworks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "7cf0f8d0-9589-4d53-bb37-001d03a8e845",
+      "text": "Try the crab rangoon mozzarella sticks at City Works Disney Springs, a highly recommended appetizer.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cityworks",
+        "appetizers",
+        "disney-springs"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "f4f28174-de51-4608-841e-68343a4fb3ff",
+      "text": "Order the steak bowl with kimchi at City Works Disney Springs for a flavorful and slightly spicy meal.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cityworks",
+        "bowls",
+        "disney-springs"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "91759491-aaba-4920-abad-6fb94010da37",
+      "text": "Consider the Thai chili noodles at City Works Disney Springs if you are looking for a vegan option.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cityworks",
+        "vegan",
+        "noodles",
+        "disney-springs"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "3d734dd5-0f6f-4739-acda-4c947c868ffc",
+      "text": "Indulge in the Peanut Butter Snickers pie at City Works Disney Springs for a decadent dessert.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cityworks",
+        "dessert",
+        "pie",
+        "disney-springs"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NMlBK0zSYGI",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Our 24 Hour Disney World Date-cation! Wilderness Lodge Check In, House Of Blues & City Works Dinner!",
+        "publishedAt": "2026-06-05T19:03:15+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:05.340Z"
+    },
+    {
+      "id": "be0f517a-a77f-4332-8078-93592acb4d8f",
+      "text": "Skip Spaceship Earth at the beginning of the day and visit later when wait times decrease.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "wait-times",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "7fd69e03-52ed-4780-b70a-8b12713377a5",
+      "text": "Consider seeing the CabaREMO 'it's a small world' singalong show at Communicore Plaza, where Bruno and Mirabel might appear.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "shows",
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "0fbc6f22-92e3-44a2-a2f9-2a0d9519ba2c",
+      "text": "Prioritize Guardians of the Galaxy: Cosmic Rewind during early theme park entry or purchase an individual Lightning Lane due to its consistently long wait times.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "rope-drop",
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "96a8f148-39aa-423b-87db-79d719a8e280",
+      "text": "Use the single rider queue for Test Track to potentially reduce wait times if you don't mind splitting your group.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "strategy",
+        "wait-times",
+        "single-rider"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "4bb8eff3-4aa0-4187-b7dc-8bc645a844f7",
+      "text": "Visit Living with the Land for a relaxing, slow-paced boat ride through Epcot's greenhouses.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attractions",
+        "boat-ride"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "c1d11770-6ca6-4ba6-a1d3-6a24e5e21709",
+      "text": "Rope drop Frozen Ever After in the Norway Pavilion, as it is a very popular ride with long waits.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "3ab324a9-e446-45a7-b008-3c23967a5ad7",
+      "text": "Use the single rider line for Remy's Ratatouille Adventure to potentially shorten your wait.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "strategy",
+        "wait-times",
+        "single-rider"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "c893996e-41e5-43bd-a4fa-52f9587d6b0e",
+      "text": "Check the My Disney Experience app for updated showtimes for street performers and shows in World Showcase.",
+      "category": "planning",
+      "park": "epcot",
+      "tags": [
+        "app-usage",
+        "shows"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "4e7ea612-c355-4bf7-a951-8dbe8a560e43",
+      "text": "Watch the Luminous The Symphony of Us fireworks show over the World Showcase Lagoon.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "fireworks",
+        "shows"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
+    {
+      "id": "405f1103-4017-49ff-98ca-c8c7b5ccf5d8",
+      "text": "Alice and Mary Poppins take turns for meet and greets in the English Garden inside the UK Pavilion.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dQ1YT3tCvOY",
+        "channelName": "DFBGuide",
+        "videoTitle": "EPCOT Rides & Attractions in 2026",
+        "publishedAt": "2026-06-05T14:30:00+00:00"
+      },
+      "extractedAt": "2026-06-06T14:06:12.326Z"
+    },
     {
       "id": "f8faa3b9-392a-403f-bebd-a7293b99b84f",
       "text": "Use the server assistance at Polite Pig to order additional items after your initial counter order, avoiding a second wait in line.",
@@ -102562,40 +103284,11 @@
     }
   ],
   "topTips": [
-    "f8faa3b9-392a-403f-bebd-a7293b99b84f",
-    "94ae805e-e861-4a3f-984b-1dee45875012",
-    "86af41a7-894d-413d-a201-bdb2cd765d2f",
-    "4818c676-536e-48a2-b629-623c7b15fbf6",
-    "4aadcb08-2361-42a8-bd6b-14c1221fb5e3",
-    "2207041e-434b-40ed-8313-967c60773a23",
-    "22b5dece-a424-4f4f-9ae9-f127bdb9af81",
-    "cce317eb-27f5-4b70-a6ea-5fd57170fd69",
-    "805e2a70-3391-4f2f-a351-84cb987f7081",
-    "4d93a6bd-d1e3-4ea5-8d2a-77c3c0be51c7",
-    "60c23340-455f-4b58-a9e2-230e12fd923f",
-    "f7fe29a0-db1a-4984-8d0f-85b4edf1e28a",
-    "cde92d99-d722-4dc7-a5c4-8a4d04e1fa77",
-    "fb609a18-ddb2-4fde-a8ba-014acc95f92f",
-    "4d58c70a-dd63-4f81-8c98-787973d8c2d0",
-    "a1558a07-377a-406b-8c33-dda48407915a",
-    "85563a49-f52b-44b8-b94e-440ea08832e9",
-    "97d5b646-3bcf-465b-baea-4f632656ac32",
-    "5cf15c8e-c3d4-4320-9dfe-6c4693e2ec5a",
-    "50d8a809-66d4-430f-a394-1151aabfbe0a",
-    "1965c998-de5f-476e-9e75-aff91151fc3f",
-    "a3b0c638-950a-421f-a5d3-3b6b1ffcac4d",
-    "ea4f2215-3c9c-482e-be40-e465f9b56d62",
-    "8d7847ea-ab1f-44cc-bfff-166b51840ec4",
-    "d6cc893d-c711-4167-a029-3f99055c4e1c",
-    "d421da18-3983-4246-9417-9cc744fd8efb",
-    "1b90abbb-77f3-4f7b-96c5-01b1a9120b12",
-    "fc469a48-26c6-466c-aa6b-76a5a6ebde13",
-    "0c3071ad-d203-4341-8d17-ea74bd58d601",
-    "210e7791-0409-4805-8476-49d54b709c98",
-    "39b12a48-2c7e-4855-b9d7-90d08c6f5b3e",
-    "1d7f8bca-f2b8-4223-9e5b-33ae782c55c0",
-    "a86ea9fe-f811-4f7f-b4ae-ea106a65388e",
-    "970ca514-8fd5-4c19-8fc8-26ed2862070e",
+    "93dc144a-cd05-4854-9ce9-8a5e7c462243",
+    "5e6ee6a8-c074-4227-9131-70ad353477e9",
+    "89aaf642-0bda-4a59-a374-6dee7bff4a1c",
+    "a550f7d2-28eb-4182-8f92-219d04f9887f",
+    "11d67797-eb4e-4aa8-bcd5-7bace61e8823",
     "13e90da6-02e3-4b33-bb2a-c49f0a4f10f2",
     "884ef929-606c-4788-aaee-031723e65435",
     "510dfc38-4c3a-4a8f-b09b-86557857b81e",
@@ -102608,11 +103301,58 @@
     "7c2b81c7-0afa-4799-b25d-f16a5f6f98c4",
     "61fd61b3-a9cc-43ca-a869-4ab1c2e988ff",
     "e57629a2-3955-43a3-bbcc-13b63a50ae51",
-    "12d6f243-6fad-45ac-b933-f830a27894a3",
-    "2d1f6176-ab55-4260-9ae9-61ea3f0de3be",
-    "ec7a2eb9-aee9-4823-b8e0-ef43295bd9ea",
-    "7361ec16-9442-4de1-840c-f65981a818b4",
-    "525f619d-00a1-423c-a05d-ac7c76561dd9",
+    "6b2e28ff-8553-4069-964f-596c2d986316",
+    "a76f92c3-102b-4711-a145-ba13d4a704a9",
+    "5b344f5e-932f-4967-8583-0e0327dd054f",
+    "997a7525-d8be-4fce-a81a-cba44d4e20d2",
+    "31f344c6-1201-4a21-a6a2-692dbd234d43",
+    "7cf0f8d0-9589-4d53-bb37-001d03a8e845",
+    "f4f28174-de51-4608-841e-68343a4fb3ff",
+    "91759491-aaba-4920-abad-6fb94010da37",
+    "3d734dd5-0f6f-4739-acda-4c947c868ffc",
+    "f8faa3b9-392a-403f-bebd-a7293b99b84f",
+    "94ae805e-e861-4a3f-984b-1dee45875012",
+    "86af41a7-894d-413d-a201-bdb2cd765d2f",
+    "4818c676-536e-48a2-b629-623c7b15fbf6",
+    "4aadcb08-2361-42a8-bd6b-14c1221fb5e3",
+    "2207041e-434b-40ed-8313-967c60773a23",
+    "22b5dece-a424-4f4f-9ae9-f127bdb9af81",
+    "cce317eb-27f5-4b70-a6ea-5fd57170fd69",
+    "f7b7ca02-4cbe-4eb4-b262-2250437fd48b",
+    "c893996e-41e5-43bd-a4fa-52f9587d6b0e",
+    "27fff066-6ba3-4d39-9345-5528398f4dfc",
+    "81944b37-dc8d-42c1-968a-2607e8472276",
+    "bc70cf6c-d35a-4377-bd18-63e1e302dc6a",
+    "6f35a871-d976-49ad-85f2-39e60e793ed5",
+    "60367ca2-c2de-4708-8a7f-5472ed6da826",
+    "b4719ace-050b-4f66-bc96-97c6722a4ce8",
+    "fbfb3a43-c956-4d4d-bb0a-b322142a951d",
+    "786cad0f-147c-4c2b-b1aa-108ef5a94990",
+    "b3067744-1348-4a9c-9b7a-817fa124c6b3",
+    "28c9fda0-ca1e-4b53-9ca1-3c2274ec59cc",
+    "2ca70cbb-f865-4708-9784-1283fc10fd9e",
+    "c381b6f6-8155-4ddf-8357-552912d4a24b",
+    "1a700f7d-0ea5-40b2-b08c-c9768ee1f020",
+    "6f24c95a-d3cb-4d76-ba22-2c21835f2554",
+    "c049e7f0-3198-47a6-90bb-bcd7a44183d4",
+    "b37b484c-ea19-436c-ac85-0c143c3bce4c",
+    "c3473f7b-a79c-4912-b5d6-e2d7afbd16ce",
+    "89d477fe-2086-4f52-9efb-adf630b69976",
+    "3176c5db-7364-4469-90d9-7015c36f4647",
+    "64bbe7aa-d335-4b0b-899e-4bca2d2900c1",
+    "5456121f-1f6c-4b64-8c55-2b2239285383",
+    "9d01bc33-73d3-45fc-9caa-99030c8bce88",
+    "8f8d0fc7-d0b5-4973-9463-f39b80ba918a",
+    "cb723ae1-f214-4c2e-bc14-786a1a2c8ab9",
+    "54df0312-ddfb-4faa-93b2-20f46df1c5ea",
+    "be0f517a-a77f-4332-8078-93592acb4d8f",
+    "7fd69e03-52ed-4780-b70a-8b12713377a5",
+    "0fbc6f22-92e3-44a2-a2f9-2a0d9519ba2c",
+    "96a8f148-39aa-423b-87db-79d719a8e280",
+    "4bb8eff3-4aa0-4187-b7dc-8bc645a844f7",
+    "c1d11770-6ca6-4ba6-a1d3-6a24e5e21709",
+    "3ab324a9-e446-45a7-b008-3c23967a5ad7",
+    "51f5e9e3-391f-4655-9c94-fcc24ef1326e",
     "bde670f7-a339-41e1-bf59-23b592d27e06",
     "97e0b9c4-515f-4e29-b65a-80ac9992e640",
     "c0c7399c-f0f2-4f05-966b-58798a92b64d",
@@ -102629,24 +103369,7 @@
     "d549d83a-a356-4a99-93a2-f774a1abc6b1",
     "1212fabb-6198-4a0a-ba37-8e7f70f843d0",
     "b1c3108a-e09f-4e37-9b20-ca9c4877680d",
-    "dc648262-8774-42e5-b798-f5142c1ed6c0",
-    "27fff066-6ba3-4d39-9345-5528398f4dfc",
-    "81944b37-dc8d-42c1-968a-2607e8472276",
-    "bc70cf6c-d35a-4377-bd18-63e1e302dc6a",
-    "6f35a871-d976-49ad-85f2-39e60e793ed5",
-    "60367ca2-c2de-4708-8a7f-5472ed6da826",
-    "b4719ace-050b-4f66-bc96-97c6722a4ce8",
-    "fbfb3a43-c956-4d4d-bb0a-b322142a951d",
-    "786cad0f-147c-4c2b-b1aa-108ef5a94990",
-    "b3067744-1348-4a9c-9b7a-817fa124c6b3",
-    "28c9fda0-ca1e-4b53-9ca1-3c2274ec59cc",
-    "2ca70cbb-f865-4708-9784-1283fc10fd9e",
-    "c381b6f6-8155-4ddf-8357-552912d4a24b",
-    "1a700f7d-0ea5-40b2-b08c-c9768ee1f020",
-    "6f24c95a-d3cb-4d76-ba22-2c21835f2554",
-    "c049e7f0-3198-47a6-90bb-bcd7a44183d4",
-    "4f7c4ab5-d61f-43ba-ab68-74f3af31d4a7",
-    "17c96e81-497f-463f-b44e-e184e3602859",
+    "9b6624c1-cc1c-41d5-bd2d-c28063024b08",
     "76719090-93c7-46d1-b476-d2e138ef49c1",
     "1c7d5d62-2205-4e47-ae5a-a945766472d1",
     "3c5164c7-59de-4b32-94b0-f8673aa574b8",
@@ -102660,7 +103383,6 @@
     "381b8a04-1d51-4636-8c96-239be228b354",
     "8c34aa49-9525-441c-ae22-faa5e7ff5253",
     "14343957-0384-40d0-9a47-aa7299b27a19",
-    "1b8d1eb9-2c37-487e-8713-08b114945e5b",
-    "9cf1de94-647b-4692-a870-67274fa8ad43"
+    "1b8d1eb9-2c37-487e-8713-08b114945e5b"
   ]
 }
