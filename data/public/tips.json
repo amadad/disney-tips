@@ -1,8 +1,2358 @@
 {
-  "lastUpdated": "2026-06-06T14:07:25.300Z",
-  "lastChecked": "2026-06-06T14:07:25.300Z",
-  "totalTips": 5338,
+  "lastUpdated": "2026-06-08T14:06:06.406Z",
+  "lastChecked": "2026-06-08T14:06:06.406Z",
+  "totalTips": 5460,
   "tips": [
+    {
+      "id": "5d2b88f0-8367-431a-8621-d9ed3525b29e",
+      "text": "Consider a 'Christmas in July' couples trip if you enjoy the theming and comfort of the Christmas resort.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-planning",
+        "couples-trip"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "hzwEJpnCyxw",
+        "channelName": "AllEars.net",
+        "videoTitle": "Trapped in Tennessee – Our Trip Was Supposed To Be Over…",
+        "publishedAt": "2026-06-08T14:00:29+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:31.833Z"
+    },
+    {
+      "id": "58d44635-79e3-4a1e-b605-fb1c613fc3d5",
+      "text": "Consider the Mickey a mini cookie art with edible watercolor paints at Amorette's Patisserie for a unique treat.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "sweets",
+        "unique-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "e05173df-96de-4b00-bbfe-23223e98ed8d",
+      "text": "Book reservations for Earl of Sandwich in advance to secure a table and avoid a long wait, especially during peak times.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "7a61378c-55cb-4d77-ade5-c1b19a846d34",
+      "text": "Check out the Descendants dance party and Camp Rock Jam events at Disney Springs from 6:00 p.m. to 10:00 p.m. for summer entertainment.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "entertainment",
+        "summer-event"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "accde5b2-9430-4eb8-8e74-f63e658ca6dd",
+      "text": "Consider buying the new American-themed jewelry, including earrings, necklaces, and bracelets, at World of Disney for a festive accessory.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "patriotic"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "f0f0142a-191c-49b7-a36f-2e9873a011cb",
+      "text": "Check for Toy Story 5 merchandise at World of Disney, including shirts, cups, and figures like Bullseye and Jesse.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "def42e91-da03-4fef-8a18-31fb4d8053f5",
+      "text": "Consider the sparkly Toy Story 5 plushies, including Rex, Ham, and Jesse, available at World of Disney for $29.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "d0cd7e50-d794-42dc-b8a8-58412c9357f5",
+      "text": "Get the \"Lilyad\" interactive toy from Toy Story 5 at World of Disney for $19.99, allowing interaction with other toys.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "7a68196d-88f5-4452-8850-154e7d292561",
+      "text": "Get the Toy Story 5 water bottle with character art at World of Disney for $24.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "00b68316-8026-4cda-a0fb-0e907314569f",
+      "text": "Purchase the 'Try Me' Bullseye plush toy from Toy Story 5 at World of Disney for $35.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "516a24d6-e2f4-447c-8860-d8977102ab64",
+      "text": "Consider the plushy books featuring characters like Chip, Dale, Donald Duck, and Rex from Toy Story at World of Disney for $29.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "59c44121-a8d5-46f5-a356-4c33d52d6b1e",
+      "text": "Consider the \"It's a Small World\" doll set from the Disneyland version at World of Disney for $64.99, featuring four dolls and two separate characters.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "its-a-small-world"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "4c60e8e9-db31-41ed-8ba8-2acf088da4f8",
+      "text": "Check out the new \"It's a Small World\" character set at World of Disney for $39.99, featuring unique figures like a hippo and a cactus playing guitar.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "its-a-small-world"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "29113859-b63e-4587-ba93-05f348f372ea",
+      "text": "Consider the \"Stormtrooper\" jacket at World of Disney for $69.99, a stylish Star Wars-themed outerwear option.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "star-wars"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "7b5abbd0-aeb5-4946-81d5-bf19ec18a9be",
+      "text": "Check out the mini and larger bags at World of Disney, with the larger ones priced at $49.99 and smaller ones at $42.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "accessories"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "d2c9527d-553e-40cb-8b1c-9be6f67f97e5",
+      "text": "Get the \"Girls Cruise\" merchandise at World of Disney, including the Walt Disney World ring.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "59cd7fdc-5df8-475d-a5cd-d761e294797b",
+      "text": "Get the \"Dino\" cup designed like motor oil at World of Disney for $29.99, featuring Lightning McQueen.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "cars",
+        "mugs"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "d89c2ab8-760e-4492-a016-f6078583cd9e",
+      "text": "Get the embroidered shirt featuring Winnie the Pooh and friends at World of Disney for $42.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "5856de76-fe6a-4762-aece-410d6bf142c5",
+      "text": "Purchase the Stitch and 101 Dalmatians collectible book scenes at Disney Springs for a unique collectible.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "stitch"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "8b768a8c-fe3c-4c2f-a135-25701515a571",
+      "text": "Buy the new Toy Story movie merchandise at Disney Springs, including collectible scenes with characters like Smarty Pants and Forky.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "toy-story"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "2910780d-bad3-4861-92a6-1e35a62cad51",
+      "text": "Collect the new character sets at Disney Springs for $18.99 each, which can be connected to build a larger scene.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "collectible"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "d9cf6f63-2a12-4858-8f04-5a34fcdea77a",
+      "text": "Check for the Ewoks merchandise back in stock at Disney Springs for $16.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "star-wars"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "1c1429fe-c822-496c-a306-130ce7f21d7a",
+      "text": "Buy the Chip and Dale plush pencil cases at Disney Springs for $29.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "pencil-case"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "fbfc1474-68ca-415a-bb7c-7332d974d3f8",
+      "text": "Purchase the new tiny keychain \"Stanley\" style cups at Disney Springs for $14.99, featuring Polka Dot Minnie Mouse and Stitch.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "keychains"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "da3596ae-8118-4341-ad22-36fbe7b58d2e",
+      "text": "Consider the elegant Dapper Day dress available at Disney Springs for $128, featuring a fuller skirt for a vintage look.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "apparel",
+        "dapper-day"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "44412461-7237-4425-b55a-94c182c9db96",
+      "text": "Explore the \"Her Universe\" collection at Disney Springs, including a jacket for $149.99, a skirt with sequins, and a sweatshirt for $74.99.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "her-universe"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "9c1bda7f-5f61-4da8-9a4f-c39a54ee1841",
+      "text": "Buy the \"Her Universe\" tennis-style dress at Disney Springs for $79.99, featuring built-in shorts.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "her-universe",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "8c302f30-de6a-4441-8160-d5dd51a7bba3",
+      "text": "Get the \"Her Universe\" shoulder bag at Disney Springs for $64.99, a stylish and elegant accessory.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "her-universe",
+        "accessories"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "e1fe7bd8-2565-4717-b6a0-d42cc28be93c",
+      "text": "Consider the strawberry print mini dress at Disney Springs for $69.99, a cute and summery option.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "merchandise",
+        "apparel"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "e9315a7a-a5fc-4591-902e-2f0cc917f66b",
+      "text": "Try the new strawberry banana sundae at Swirls on the Water, featuring strawberry swirls and banana sauce.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "sweets",
+        "sundae"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "878d368c-c03a-4c93-a6f2-cbc5fb6a0dc1",
+      "text": "Try the cookie butter butterscotch cookie of the month at Gideon's Bakehouse for a unique and delicious flavor combination.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "sweets",
+        "cookies"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "bef6ee77-d1a3-421c-84f7-fe953b84f0a5",
+      "text": "Utilize the Mobile Order system at Starbucks in Disney Springs to minimize wait times.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "mobile-order",
+        "starbucks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "8-1zG8Z9Ug8",
+        "channelName": "ResortTV1",
+        "videoTitle": "What's New at Disney Springs - New Merch, Treats & A Surprise Location with New Merch! - June 2026",
+        "publishedAt": "2026-06-08T13:00:22+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:50.944Z"
+    },
+    {
+      "id": "7e4cbbf2-b210-4157-b706-6bb40c626cc3",
+      "text": "Use the Lightning Lane for Test Track to significantly reduce your wait time, even though it can still take around 16-19 minutes.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.686Z"
+    },
+    {
+      "id": "ae0f3b2d-68af-4def-a0ae-fac72065c9d6",
+      "text": "Try the blood orange margarita at Epcot for a delicious premixed cocktail you can take on the go.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "drinks",
+        "mobile-order"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.686Z"
+    },
+    {
+      "id": "4bd06e32-794d-4960-85a7-f0fec0717a77",
+      "text": "Consider using Getaway Today for booking your Disney trip; they offer competitive pricing and excellent customer service.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "booking",
+        "travel-agent"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.686Z"
+    },
+    {
+      "id": "340031fb-1b32-4770-988a-f4eb943fe487",
+      "text": "Head to Epcot's Connections Eatery for a great meal option that should not be overlooked.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.686Z"
+    },
+    {
+      "id": "b6211e23-0b7d-4210-895b-a240ef5cc3a8",
+      "text": "If you experience motion sickness, consider wearing 'vomit watches' on rides like Cosmic Rewind as they may offer some relief.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attractions",
+        "motion-sickness"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.687Z"
+    },
+    {
+      "id": "1e835c6c-66f7-432e-b23c-ad2173c02664",
+      "text": "Take the Epcot Monorail for a quick and convenient way to travel, often referred to as the 'highway in the sky'.",
+      "category": "transportation",
+      "park": "epcot",
+      "tags": [
+        "monorail",
+        "transportation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0cHaXmV5ZmQ",
+        "channelName": "FreshBaked",
+        "videoTitle": "Soarin Across America has CHANGED my mind",
+        "publishedAt": "2026-06-07T20:00:13+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:32.687Z"
+    },
+    {
+      "id": "0d13e8f2-22d7-41fd-b5a9-3ed1a55ef343",
+      "text": "Head to Buzz Lightyear Space Ranger Spin to experience the updated animatronic and interactive targets, which make it feel like a modern shooting dark ride.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "ride-update",
+        "interactive"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "a45abdc1-ce4d-47e8-95e3-a1e8100b1131",
+      "text": "Check out Soarin' Across America at Epcot, a limited-time attraction celebrating the US with a new 4.5-minute film.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-update",
+        "limited-time"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "b70d590b-c51b-46ba-bdad-c08124ef04d6",
+      "text": "Experience the updated mission on Millennium Falcon: Smugglers Run at Hollywood Studios, which now includes The Mandalorian and Grogu and offers easier ship control for pilots.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride-update",
+        "interactive"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "d18d70f9-d848-4bd7-b19c-37f0c5b14fd8",
+      "text": "Visit the reimagined Animation Courtyard at Hollywood Studios, featuring the \"Once Upon a Studio\" Theater, \"Drawn to Wonderland\" play area, and \"Olaf Draws\" animation experience.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "area-update",
+        "interactive",
+        "kids-activities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "259004f8-706a-4f61-907e-da9081f371f7",
+      "text": "See the new Disney Junior Mickey Mouse Clubhouse Live Show at Hollywood Studios, a permanent 18-minute stage show with singing and dancing suitable for all ages.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "show",
+        "live-entertainment",
+        "kids-activities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "59f57736-2413-4075-bedc-fba760870411",
+      "text": "Cool down at Goofy's Game Machine in Epcot's newly transformed Communicore Hall, which offers games and a DJ dance party between Goof Crew shows.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "interactive",
+        "kids-activities",
+        "cooling-station"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "bb7f9889-996e-4419-886d-43abbc65de14",
+      "text": "Enjoy Jesse's Roundup at the Diamond Horseshoe in Magic Kingdom, featuring interactive shows and activities like Dusty Strings and the Roundup Ropers, running daily from 9:30 AM to 6:00 PM.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "show",
+        "interactive",
+        "kids-activities",
+        "cooling-station"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "c387bab0-48b2-4b63-96a5-d068d83f203f",
+      "text": "Take the Wildlife Express train to Conservation Station in Animal Kingdom to experience Bluey's Wild World, an interactive space with Bluey and Bingo inspired by the show.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-experience",
+        "interactive",
+        "kids-activities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "3f1b178d-64b8-41b2-bc24-ac149c453a1a",
+      "text": "See kangaroos and wallabies at the front of Animal Kingdom along the Oasis Trail or at the Tree of Life Garden, even if you don't visit Bluey's Wild World.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animals",
+        "wildlife"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "b00b826a-594f-47ca-90ff-bec0bc86ca75",
+      "text": "Ride the reimagined Rock 'n' Roller Coaster Starring the Muppets at Hollywood Studios, featuring new songs and Muppet-themed decor, with a launch from 0-57 mph and three inversions.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride-update",
+        "coaster"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "ffb78a5a-dc9e-4a00-bba8-b6aba20a1f7d",
+      "text": "Experience the updated Carousel of Progress at Magic Kingdom before July 5th, as it will temporarily close on July 6th, 2026, for a major update including a new introduction by Walt Disney and decade shifts in each act.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction-update",
+        "limited-time",
+        "future-update"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "0779831f-bceb-4bd8-bab2-ef4a80f8d20b",
+      "text": "Visit the Tropical Americas area at Animal Kingdom to see the progress on the Encanto attraction's show building, slated for a 2027 opening.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "construction-update",
+        "future-attraction"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "fa4ebec3-4083-4a9e-a2c4-d11d77616191",
+      "text": "Explore the developing Monstropolis area at Hollywood Studios, which will feature immersive storytelling inspired by Shanghai's Zootopia and a new Quick Service restaurant replacing Pizza Rizzo.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "construction-update",
+        "future-land",
+        "dining-update"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "1a346a33-3709-4921-b214-ac3da7d88f47",
+      "text": "Observe the nearly complete Cinderella Castle at Magic Kingdom, now sporting its new color palette.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "refurbishment-complete",
+        "iconic-view"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "d2dce2b2-4ae7-4ae7-91ef-41744a146036",
+      "text": "Ride the Haunted Mansion at Magic Kingdom while exterior refurbishment is underway, as the attraction remains fully open.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "refurbishment",
+        "ride-open"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "3dfc23cf-6fa5-411b-bc75-cd633710d04b",
+      "text": "Explore the quiet back of Storybook Circus at Magic Kingdom, which is typically empty, even though Pete's Silly Sideshow and Big Top Souvenirs are closed for refurbishment.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "quiet-spot",
+        "refurbishment"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "NuRLODAvV00",
+        "channelName": "TPMvids",
+        "videoTitle": "Top 10 NEW Disney Rides, Updates & Changes at Walt Disney World- Summer 2026",
+        "publishedAt": "2026-06-07T17:31:25+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.655Z"
+    },
+    {
+      "id": "741d4688-07b2-4397-80c9-0d512812efc0",
+      "text": "Enjoy the themed dining experience at Boatwright's Dining Hall at Port Orleans Riverside, featuring a boat-building ambiance.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "cbd2a9de-6873-465f-9fee-d4541bd56d0a",
+      "text": "Consider the pimento cheese balls with pepper jelly at Boatwright's Dining Hall at Port Orleans Riverside for an appetizer.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "appetizers",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "7402fd55-eebd-49d1-b62e-cc27fb0c8034",
+      "text": "Order the butcher steak at Boatwright's Dining Hall at Port Orleans Riverside; it's a tender, flavorful cut from the shoulder with a black pepper seasoning.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "entrees",
+        "resort-dining",
+        "steak"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "0b725e17-7076-412b-b543-3ea7d4868b45",
+      "text": "The horse-drawn carriage rides at Port Orleans resort run nightly from 5:30 PM to 9:30 PM and cost $65.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "resort-activities",
+        "carriage-rides"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "d2e333f0-98da-4643-bb10-293dd62835f8",
+      "text": "Check the resort schedule for character story times in the lobby at Port Orleans Riverside, but confirm the days as they may not occur daily.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "resort-activities",
+        "character-meet",
+        "story-time"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "60b0972b-457e-4d3b-b085-0acb514d7174",
+      "text": "Visit the gift shop at Port Orleans Riverside to find resort-specific merchandise, including beignet ears and mugs.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "resort-shopping"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "8e1302da-eaa8-43f8-a8fa-2bcaa9de9a21",
+      "text": "Check out the 'Cool Kids Summer' reading library at Port Orleans Riverside, offering books for families to enjoy.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "resort-activities",
+        "library",
+        "kids-activities"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "7814bfe1-4611-442f-a090-06bcccd3b949",
+      "text": "Children can use the provided kids' shopping carts in the gift shop at Port Orleans Riverside to select their own souvenirs.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "resort-shopping",
+        "kids-activities"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "62bd7f8c-fdb2-4f15-a0ff-d692bdfee246",
+      "text": "Try the grape soda sour mints from 'UP' available in the gift shop at Port Orleans Riverside.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "resort-shopping"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "57a5182e-fe92-4ac0-872d-bf1a2e860d81",
+      "text": "Look for Epcot's fireworks from areas around Port Orleans Riverside, as they can sometimes be seen.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "fireworks",
+        "resort-views"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "005d89bf-26a5-4694-b53b-2bdc4a2012bf",
+      "text": "Disney beds are known for their comfort; expect a restful night's sleep after a long day at the parks or resort.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-rooms",
+        "comfort"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "x7RSEHnpC0o",
+        "channelName": "TheTimTracker",
+        "videoTitle": "First Time Staying At This Disney World Resort! Port Orleans Riverside Check In & Boatwrights Dinner",
+        "publishedAt": "2026-06-07T15:22:48+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:39.023Z"
+    },
+    {
+      "id": "51ecb900-ef6b-4bc7-9b23-4b6dec9b012c",
+      "text": "Check the virtual queue for Animal Kingdom experiences to ensure you don't miss your boarding time.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "virtual-queue",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "3a4b01bd-1212-4be0-add7-8b9314a4fb9f",
+      "text": "Try the walking taco from the Muppet-themed food cart while waiting for rides at Hollywood Studios.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "f964ad68-eb17-4d7b-bf50-3dbaea87615c",
+      "text": "Interact with characters in the newly themed area of Hollywood Studios, which offers organic and natural character interactions without long lines.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet",
+        "interactive-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "b67ba688-4793-46f8-ae99-2ca1707b07d0",
+      "text": "Visit the Magic of Disney Animation section in Hollywood Studios, which is receiving ongoing enhancements including a Mary Blair-inspired playground.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-update",
+        "playground"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "fb670f67-04c9-4420-9b5e-b9f5458969b3",
+      "text": "Experience the new Little Mermaid show at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "show",
+        "new-attraction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "7da717c8-2c0b-4aee-849a-469937a87254",
+      "text": "See the new Disney Junior-themed show at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "show",
+        "new-attraction"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "c609e4a6-44c4-4a70-a808-7e6a36e745e7",
+      "text": "Experience Jesse's Roundup at Magic Kingdom, a limited-time interactive character experience part of the Cool Kids Summer Celebration.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-meet",
+        "limited-time"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "80fadd62-4c87-4df6-99e8-890b5f382d86",
+      "text": "Observe the construction walls in Frontier Land at Magic Kingdom to understand the development of the future Cars Land.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "construction",
+        "future-land"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "d0398174-7244-4f82-ab90-4828ff4e38c6",
+      "text": "Ride the Wildlife Express Train to Conservation Station in Animal Kingdom to see the Bluey Experience.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "transportation",
+        "new-experience"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "42443dad-5bde-4cf5-9870-73e8af9b568c",
+      "text": "Visit the Bluey Experience at Animal Kingdom's Conservation Station for interactive games and a dance party.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-meet",
+        "interactive-experience",
+        "new-attraction"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "ce067a4d-9b23-4b16-aaf4-096d73e89ede",
+      "text": "See kangaroos and wallabies in the Jumping Junction section of Animal Kingdom's Conservation Station, themed to Australia.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animals",
+        "conservation-station"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "194cc7f3-39f8-47b7-879d-d1b03e385abc",
+      "text": "Purchase Bluey merchandise at the dedicated merchandise area in Animal Kingdom's Conservation Station or in the Discovery Island section.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "merchandise",
+        "shopping"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "c511cacd-1ff5-4953-ad31-adef972dd2ff",
+      "text": "Try Bluey-themed treats at Pizza Safari in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "themed-food",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "8c08d062-244e-45de-988d-9c2f9ce2f59b",
+      "text": "Utilize the standby line for the Bluey Experience at Animal Kingdom, as a virtual queue is no longer required.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "standby-line",
+        "new-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "w0DDQlUxin8",
+        "channelName": "MillennialOnMainStreet",
+        "videoTitle": "What's NEW at Disney World Right Now (June 2026)",
+        "publishedAt": "2026-06-07T14:00:37+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:41.951Z"
+    },
+    {
+      "id": "51ab6b58-39c6-4aef-85ba-119a821273b2",
+      "text": "Dollywood offers Doggie Wood, a kennel service where you can drop off your dog for the day so they can enjoy their own 'wood' while you visit the park.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "pet-friendly",
+        "resort-perk"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "wqgyifZfrS4",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friend To Face Her Biggest Fear at Dollywood",
+        "publishedAt": "2026-06-07T14:00:30+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:44.938Z"
+    },
+    {
+      "id": "9d127285-0bdc-42c4-adf1-f0c92e04b4ed",
+      "text": "Consider trying the Waltzing Swinger at Dollywood for a ride with a short wait time, especially if you want a relaxing experience.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "wait-times",
+        "attractions"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wqgyifZfrS4",
+        "channelName": "AllEars.net",
+        "videoTitle": "I Forced My Friend To Face Her Biggest Fear at Dollywood",
+        "publishedAt": "2026-06-07T14:00:30+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:44.938Z"
+    },
+    {
+      "id": "14e4fa1a-7cf7-4ff7-bc20-144e98674af5",
+      "text": "Utilize Lightning Lane for Buzz Lightyear's Space Ranger Spin to significantly reduce your wait time during After Hours.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "after-hours"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "wl3743rECvw",
+        "channelName": "FreshBaked",
+        "videoTitle": "Magic Kingdom AFTER HOURS - The park to ourselves!!",
+        "publishedAt": "2026-06-06T17:28:51+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:40.949Z"
+    },
+    {
+      "id": "db7e871b-dca3-4adc-a9d4-cc31700151bd",
+      "text": "Take the Tomorrowland Transit Authority PeopleMover during After Hours for a relaxing ride and unique views of Tomorrowland.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "after-hours",
+        "attractions"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wl3743rECvw",
+        "channelName": "FreshBaked",
+        "videoTitle": "Magic Kingdom AFTER HOURS - The park to ourselves!!",
+        "publishedAt": "2026-06-06T17:28:51+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:40.949Z"
+    },
+    {
+      "id": "18b6b25c-a497-4fe4-b6c2-feeef08ebf96",
+      "text": "Check if Carousel of Progress is open during After Hours, as it may not be operational for the event.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "carousel-of-progress",
+        "after-hours",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wl3743rECvw",
+        "channelName": "FreshBaked",
+        "videoTitle": "Magic Kingdom AFTER HOURS - The park to ourselves!!",
+        "publishedAt": "2026-06-06T17:28:51+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:40.949Z"
+    },
+    {
+      "id": "8cdbe049-1ec1-4554-a3c6-749e32b692ff",
+      "text": "Consider using the less-traveled bridge pathway towards the Crystal Palace in Frontier Land for a more tranquil experience.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "navigation",
+        "peaceful-experience"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "wl3743rECvw",
+        "channelName": "FreshBaked",
+        "videoTitle": "Magic Kingdom AFTER HOURS - The park to ourselves!!",
+        "publishedAt": "2026-06-06T17:28:51+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:40.949Z"
+    },
+    {
+      "id": "5641b3f4-7519-4092-a2af-5f9d0ed05550",
+      "text": "Utilize Magic Kingdom's deluxe resort extended evening hours to ride popular attractions like Tron and Seven Dwarfs Mine Train with lower waits, especially if Big Thunder Mountain and Tiana's Bayou Adventure are closed.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "extended-hours"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "99c76932-80b2-47b9-afb5-889c8376afd5",
+      "text": "Ride the Tomorrowland Transit Authority PeopleMover at night for a unique view of Tomorrowland, especially during Magic Kingdom's extended evening hours.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attractions",
+        "nighttime",
+        "extended-hours"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "0a413801-55c9-44c2-a235-462556008046",
+      "text": "For a 'walk-on' experience at Magic Kingdom, target attractions like Haunted Mansion, 'it's a small world', or The Little Mermaid during extended evening hours when other areas of the park are less populated.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "wait-times",
+        "extended-hours"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "0efb9f27-eeb5-48cb-89d6-b95647088627",
+      "text": "If staying at a deluxe resort, take advantage of the complimentary extended evening hours in parks like Magic Kingdom and Epcot, but do not upgrade solely for this perk if the cost difference is significant.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "hotels",
+        "extended-hours",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "629036fd-1109-4ab8-8b5f-9593f16304d7",
+      "text": "Consider that you may only be able to ride 3 attractions during the two-hour extended evening hours if you plan to ride headliners like Tron or Seven Dwarfs Mine Train due to wait times.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "extended-hours",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "d4168e5f-5cee-48a6-b9b5-ec86137b850b",
+      "text": "If you are a repeat visitor interested in Disney history, examine the detailed windows along Main Street, U.S.A. in Magic Kingdom and research their stories online or through tours.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "details",
+        "history"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "5ca1ca2c-e6c8-4362-a1d2-0952fede6c15",
+      "text": "Look for the paw prints of Lady and Tramp with a heart near Tony's Town Square Restaurant in Magic Kingdom for a charming, subtle detail.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "details",
+        "hidden-mickey"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "6a7dec95-3db2-49e0-8724-700fa177bf74",
+      "text": "If staying at Animal Kingdom Lodge, check for animals visible from your room, as sightings are common and add to the resort experience.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-guests",
+        "wildlife"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "af9262fe-92c3-4c6e-970c-3d3045ac26e6",
+      "text": "When leaving Magic Kingdom during extended evening hours, remember that shops and photo pass photographers will be closed, so plan accordingly.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "extended-hours",
+        "closing-time"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "b8211666-8baa-41cc-9d63-d6662c3a6ae4",
+      "text": "If Flight of Passage or Na'vi River Journey have long wait times during regular park hours at Animal Kingdom, consider prioritizing them during extended evening hours on your designated night.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "extended-hours",
+        "wait-times",
+        "pandora"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "fca70396-56b3-4d0a-812c-66f3d3c9bc7e",
+      "text": "To save time and money, consider riding headliner attractions during Animal Kingdom's extended evening hours if queues are long during the day, especially if you're already staying at a deluxe resort.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "extended-hours",
+        "budget",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "k1n-q2h7c1E",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "Magic Kingdom After dark ✨ Extended Evening Hours, Starlight Parade & Fireworks",
+        "publishedAt": "2026-06-06T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:43.273Z"
+    },
+    {
+      "id": "8a793552-5cd1-4237-9670-c91d2a3cfe5a",
+      "text": "If you're planning to ride the Wildlife Express Train or see the Bluey show at Animal Kingdom, rope drop the attraction or visit later in the day to potentially avoid long lines.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "91b48302-5da7-45a1-a470-f9aa49973395",
+      "text": "Purchase Oogie Boogie Bash tickets for Disneyland starting June 18th at 9:00 AM PST, with early access for Magic Key holders on June 16th.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "event-tickets",
+        "halloween"
+      ],
+      "priority": "medium",
+      "season": "halloween",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "01ef5652-c49f-442e-9bad-5af47c802556",
+      "text": "Purchase Disney World refillable resort mugs with character handle accessories for $4.99 to easily distinguish them in a group.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-mug",
+        "accessories"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "bc90bfa1-bf43-4dd1-ad07-c188b40d668d",
+      "text": "Try the Spatchka cocktail at Oga's Cantina in Galaxy's Edge for a refreshing gin-based drink perfect for summer.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "secret-menu",
+        "cocktails",
+        "galaxys-edge"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "a8a63ec9-126e-47f3-8c78-6bebd88a485b",
+      "text": "Opt for the Clarified Bees Knees cocktail at The Epcot's Space 220 Lounge for a less alcohol-forward, refreshing drink made with honey syrup from Disney property bees.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "cocktails",
+        "specialty-drinks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "88ffa2bc-c8ac-4a1a-81e5-d4881a4fafff",
+      "text": "Share the Hamon and Iberico Croquetas at The Epcot's Space 220 Lounge for a light, airy, and flavorful appetizer with a crunchy exterior and creamy center.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "appetizers",
+        "tapas"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "864d2e79-8c4b-4e33-b184-87ad95e35b53",
+      "text": "Annual Passholders can purchase a special squeeze bottle at Homecoming in Disney Springs for $24 and get refills of moonshine for $16 through July 31st.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "annual-passholder",
+        "discount",
+        "drinks"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "0fd567fd-f205-4707-9b06-980e8f08df11",
+      "text": "Try the Pina Colada mini donut from the summer mocktail trio at Everglazed in Disney Springs for a successful capture of its namesake's flavor.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "donuts",
+        "sweets",
+        "mocktails"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "a80e2502-6125-428f-94ba-b4701a6f808a",
+      "text": "Get the new Cherry Limeade float at Anti-gravity's Galactic Goodies in Magic Kingdom for a refreshing Shirley Temple-style treat on a hot day.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "float",
+        "refreshing-treat",
+        "summer-drink"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "6f875e36-f715-445d-a3f2-0b4f2ac5312d",
+      "text": "Purchase the famous cheeseburger spring rolls at the Backstretch Pool Bar at Saratoga Springs Resort without needing a park ticket.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "snacks",
+        "off-resort-dining",
+        "iconic-food"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "1b8bb992-d456-4535-83f8-fdbd8a997879",
+      "text": "Try the Rocket Fuel cocktail at Splitzville Luxury Lanes in Disney Springs for an adult version of a Bomb Pop with a strong alcohol kick.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cocktails",
+        "adult-drinks",
+        "summer-drinks"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "b028159c-ecff-4829-b318-0d0b62c4b531",
+      "text": "Order the Living the Dreamsicle at Splitzville Luxury Lanes in Disney Springs for a nostalgic creamsicle-flavored cocktail with a rum kick.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "cocktails",
+        "nostalgic-drinks",
+        "summer-drinks"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "77fa0916-cc9d-445b-8df6-bfbcb0d71dc3",
+      "text": "Order the Southern Smokehouse Crunch chicken sandwich at Chicken Guy! in Disney Springs for a crispy tenders, bacon, pimento cheese, and honey barbecue creation.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "chicken-sandwich",
+        "limited-time-offer"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "99f3508a-07f8-4969-b32f-4ca053b827a6",
+      "text": "Try the Apple Pie Crumble Shake at Chicken Guy! in Disney Springs for a smooth shake blending cinnamon sugar apples, oatmeal cookie crumble, and caramel.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "milkshake",
+        "limited-time-offer",
+        "dessert"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "4147c838-9024-4847-9aec-3b3f5baab189",
+      "text": "Try the Cotton Candy Margarita at EATS by Maneet Chauhan in Disney Springs for a sweet, refreshing, blue raspberry flavored alcoholic drink.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "margarita",
+        "sweet-drinks",
+        "summer-drinks"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "34d0ed02-9bf8-4d3b-8689-3009d7ded1e0",
+      "text": "Get the Summer Paws slushie mocktail at EATS by Maneet Chauhan in Disney Springs for a unique, refreshing cherry slushie, with an alcoholic version also available.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "mocktail",
+        "slushie",
+        "refreshing-drink"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "80e70845-0a06-4d6a-839e-403b4a3b56a6",
+      "text": "Take alternate routes during peak hours to avoid traffic delays on Buena Vista Drive and Western Way in Disney World due to road construction from June 29th to August 28th.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "road-construction",
+        "traffic-advisory"
+      ],
+      "priority": "high",
+      "season": "summer",
+      "source": {
+        "videoId": "0x9ntEh96pc",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: NEW Monsters Inc Land Details, Oogie Boogie News & MORE!",
+        "publishedAt": "2026-06-06T14:30:25+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:51.450Z"
+    },
+    {
+      "id": "a1c9d674-86ae-41f8-a838-529f5c238446",
+      "text": "Use the ride height measuring center to get a colored bracelet for your child, indicating which rides they are tall enough for.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "planning",
+        "kids"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "bf519987-7c02-4e34-80a8-abbb3e25fe54",
+      "text": "As a resort guest, take advantage of Golden Hour for the first hour of park operation and access to Timesaver.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "resort-guest",
+        "timesaver"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "cd6d02b8-6012-491d-b251-b3767858a3f4",
+      "text": "Skip the Dolly Parton Experience during the first hour of park time and circle back later for a break, especially during hotter weather.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "planning",
+        "rope-drop"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "f77ac85b-20e8-4f17-9e89-5eb0324b760f",
+      "text": "Mobile order at Dollywood by first thing in the morning, as slots fill up quickly for the entire day.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "e426683d-4489-4332-934a-9fcab277efd6",
+      "text": "Book a time slot in the morning to participate in the blacksmith experience and make your own knife.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "souvenirs",
+        "crafts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "181b195e-0745-41fe-b874-69ee17d80acd",
+      "text": "If visiting during a festival, check if the food items are part of a festival offering like the rotating baked potatoes.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "festivals",
+        "foodie"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Y-Islkbs6AY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Secret to Having the Best Day at Dollywood",
+        "publishedAt": "2026-06-06T14:00:06+00:00"
+      },
+      "extractedAt": "2026-06-07T14:04:44.554Z"
+    },
+    {
+      "id": "18e3ffd5-d52c-489e-8190-113128c22092",
+      "text": "Use the Mouse Times app on iOS for free to get weight time notifications for rides like Haunted Mansion, Big Thunder Mountain Railroad, and Space Mountain.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "wait-times",
+        "app-usage",
+        "lightning-lane"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4dlyJbYT8TI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Evening at Magic Kingdom - 6-6-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-06T06:03:18+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:43.216Z"
+    },
+    {
+      "id": "a9c9b325-f98f-4321-9571-da0df8616b3c",
+      "text": "Take the Tomorrowland Transit Authority PeopleMover for a great overview of Tomorrowland attractions, including views of TRON Lightcycle / Run.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction",
+        "tomorrowland"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "4dlyJbYT8TI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Evening at Magic Kingdom - 6-6-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-06T06:03:18+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:43.216Z"
+    },
+    {
+      "id": "cf166332-9a70-43a3-990a-5ab51e16e458",
+      "text": "Consider sitting in the back row of Walt Disney's Carousel of Progress for a more private viewing experience.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction",
+        "theater-show"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4dlyJbYT8TI",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Saturday Evening at Magic Kingdom - 6-6-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-06T06:03:18+00:00"
+      },
+      "extractedAt": "2026-06-08T14:04:43.216Z"
+    },
     {
       "id": "93dc144a-cd05-4854-9ce9-8a5e7c462243",
       "text": "When staying at the All-Star Resorts, consider them a great value option for a well-themed and affordable place to stay while visiting the parks.",
@@ -103284,6 +105634,10 @@
     }
   ],
   "topTips": [
+    "5d2b88f0-8367-431a-8621-d9ed3525b29e",
+    "005d89bf-26a5-4694-b53b-2bdc4a2012bf",
+    "6a7dec95-3db2-49e0-8724-700fa177bf74",
+    "01ef5652-c49f-442e-9bad-5af47c802556",
     "93dc144a-cd05-4854-9ce9-8a5e7c462243",
     "5e6ee6a8-c074-4227-9131-70ad353477e9",
     "89aaf642-0bda-4a59-a374-6dee7bff4a1c",
@@ -103297,27 +105651,47 @@
     "060857f7-8672-4941-897d-7cb037107021",
     "13c4bdbc-354f-48fd-ad4d-9670e3497e6f",
     "34cf4202-f50a-4cc0-a921-7942d52732af",
-    "3fd1ae85-7abd-437f-8e6d-2c42be0aab33",
-    "7c2b81c7-0afa-4799-b25d-f16a5f6f98c4",
-    "61fd61b3-a9cc-43ca-a869-4ab1c2e988ff",
-    "e57629a2-3955-43a3-bbcc-13b63a50ae51",
-    "6b2e28ff-8553-4069-964f-596c2d986316",
-    "a76f92c3-102b-4711-a145-ba13d4a704a9",
-    "5b344f5e-932f-4967-8583-0e0327dd054f",
-    "997a7525-d8be-4fce-a81a-cba44d4e20d2",
-    "31f344c6-1201-4a21-a6a2-692dbd234d43",
-    "7cf0f8d0-9589-4d53-bb37-001d03a8e845",
-    "f4f28174-de51-4608-841e-68343a4fb3ff",
-    "91759491-aaba-4920-abad-6fb94010da37",
-    "3d734dd5-0f6f-4739-acda-4c947c868ffc",
-    "f8faa3b9-392a-403f-bebd-a7293b99b84f",
-    "94ae805e-e861-4a3f-984b-1dee45875012",
-    "86af41a7-894d-413d-a201-bdb2cd765d2f",
-    "4818c676-536e-48a2-b629-623c7b15fbf6",
-    "4aadcb08-2361-42a8-bd6b-14c1221fb5e3",
-    "2207041e-434b-40ed-8313-967c60773a23",
-    "22b5dece-a424-4f4f-9ae9-f127bdb9af81",
-    "cce317eb-27f5-4b70-a6ea-5fd57170fd69",
+    "58d44635-79e3-4a1e-b605-fb1c613fc3d5",
+    "e05173df-96de-4b00-bbfe-23223e98ed8d",
+    "e9315a7a-a5fc-4591-902e-2f0cc917f66b",
+    "878d368c-c03a-4c93-a6f2-cbc5fb6a0dc1",
+    "bef6ee77-d1a3-421c-84f7-fe953b84f0a5",
+    "ae0f3b2d-68af-4def-a0ae-fac72065c9d6",
+    "340031fb-1b32-4770-988a-f4eb943fe487",
+    "741d4688-07b2-4397-80c9-0d512812efc0",
+    "cbd2a9de-6873-465f-9fee-d4541bd56d0a",
+    "7402fd55-eebd-49d1-b62e-cc27fb0c8034",
+    "62bd7f8c-fdb2-4f15-a0ff-d692bdfee246",
+    "3a4b01bd-1212-4be0-add7-8b9314a4fb9f",
+    "c511cacd-1ff5-4953-ad31-adef972dd2ff",
+    "bc90bfa1-bf43-4dd1-ad07-c188b40d668d",
+    "a8a63ec9-126e-47f3-8c78-6bebd88a485b",
+    "88ffa2bc-c8ac-4a1a-81e5-d4881a4fafff",
+    "0fd567fd-f205-4707-9b06-980e8f08df11",
+    "7a61378c-55cb-4d77-ade5-c1b19a846d34",
+    "accde5b2-9430-4eb8-8e74-f63e658ca6dd",
+    "f0f0142a-191c-49b7-a36f-2e9873a011cb",
+    "def42e91-da03-4fef-8a18-31fb4d8053f5",
+    "d0cd7e50-d794-42dc-b8a8-58412c9357f5",
+    "7a68196d-88f5-4452-8850-154e7d292561",
+    "00b68316-8026-4cda-a0fb-0e907314569f",
+    "516a24d6-e2f4-447c-8860-d8977102ab64",
+    "59c44121-a8d5-46f5-a356-4c33d52d6b1e",
+    "4c60e8e9-db31-41ed-8ba8-2acf088da4f8",
+    "29113859-b63e-4587-ba93-05f348f372ea",
+    "7b5abbd0-aeb5-4946-81d5-bf19ec18a9be",
+    "d2c9527d-553e-40cb-8b1c-9be6f67f97e5",
+    "59cd7fdc-5df8-475d-a5cd-d761e294797b",
+    "d89c2ab8-760e-4492-a016-f6078583cd9e",
+    "5856de76-fe6a-4762-aece-410d6bf142c5",
+    "8b768a8c-fe3c-4c2f-a135-25701515a571",
+    "4bd06e32-794d-4960-85a7-f0fec0717a77",
+    "51ecb900-ef6b-4bc7-9b23-4b6dec9b012c",
+    "0efb9f27-eeb5-48cb-89d6-b95647088627",
+    "629036fd-1109-4ab8-8b5f-9593f16304d7",
+    "af9262fe-92c3-4c6e-970c-3d3045ac26e6",
+    "fca70396-56b3-4d0a-812c-66f3d3c9bc7e",
+    "18e3ffd5-d52c-489e-8190-113128c22092",
     "f7b7ca02-4cbe-4eb4-b262-2250437fd48b",
     "c893996e-41e5-43bd-a4fa-52f9587d6b0e",
     "27fff066-6ba3-4d39-9345-5528398f4dfc",
@@ -103328,47 +105702,9 @@
     "b4719ace-050b-4f66-bc96-97c6722a4ce8",
     "fbfb3a43-c956-4d4d-bb0a-b322142a951d",
     "786cad0f-147c-4c2b-b1aa-108ef5a94990",
-    "b3067744-1348-4a9c-9b7a-817fa124c6b3",
-    "28c9fda0-ca1e-4b53-9ca1-3c2274ec59cc",
-    "2ca70cbb-f865-4708-9784-1283fc10fd9e",
-    "c381b6f6-8155-4ddf-8357-552912d4a24b",
-    "1a700f7d-0ea5-40b2-b08c-c9768ee1f020",
-    "6f24c95a-d3cb-4d76-ba22-2c21835f2554",
-    "c049e7f0-3198-47a6-90bb-bcd7a44183d4",
-    "b37b484c-ea19-436c-ac85-0c143c3bce4c",
-    "c3473f7b-a79c-4912-b5d6-e2d7afbd16ce",
-    "89d477fe-2086-4f52-9efb-adf630b69976",
-    "3176c5db-7364-4469-90d9-7015c36f4647",
-    "64bbe7aa-d335-4b0b-899e-4bca2d2900c1",
-    "5456121f-1f6c-4b64-8c55-2b2239285383",
-    "9d01bc33-73d3-45fc-9caa-99030c8bce88",
-    "8f8d0fc7-d0b5-4973-9463-f39b80ba918a",
-    "cb723ae1-f214-4c2e-bc14-786a1a2c8ab9",
-    "54df0312-ddfb-4faa-93b2-20f46df1c5ea",
-    "be0f517a-a77f-4332-8078-93592acb4d8f",
-    "7fd69e03-52ed-4780-b70a-8b12713377a5",
-    "0fbc6f22-92e3-44a2-a2f9-2a0d9519ba2c",
-    "96a8f148-39aa-423b-87db-79d719a8e280",
-    "4bb8eff3-4aa0-4187-b7dc-8bc645a844f7",
-    "c1d11770-6ca6-4ba6-a1d3-6a24e5e21709",
-    "3ab324a9-e446-45a7-b008-3c23967a5ad7",
-    "51f5e9e3-391f-4655-9c94-fcc24ef1326e",
-    "bde670f7-a339-41e1-bf59-23b592d27e06",
-    "97e0b9c4-515f-4e29-b65a-80ac9992e640",
-    "c0c7399c-f0f2-4f05-966b-58798a92b64d",
-    "5ef729fa-5e4c-4e23-b6bb-94cbc9096801",
-    "855eab4b-3624-4d64-bbeb-7f863f1e243d",
-    "6fff2f5a-2aa1-4021-8cf3-b8b279078755",
-    "d521f9d4-853b-425a-806b-b4214096f802",
-    "e286b1d7-976c-4e00-84ec-2c2542540b64",
-    "632621ea-e6de-4995-a515-73c29b781dd6",
-    "52fa023a-20cb-4094-ad96-640c26f7ac79",
-    "ddcd0d42-e309-45bc-9297-73cb60924d8f",
-    "380e5981-3382-490f-93d4-ea0c1b71109a",
-    "fea19d8f-b04c-4fbf-bcda-9e5faead025d",
-    "d549d83a-a356-4a99-93a2-f774a1abc6b1",
-    "1212fabb-6198-4a0a-ba37-8e7f70f843d0",
-    "b1c3108a-e09f-4e37-9b20-ca9c4877680d",
+    "1e835c6c-66f7-432e-b23c-ad2173c02664",
+    "0b725e17-7076-412b-b543-3ea7d4868b45",
+    "80e70845-0a06-4d6a-839e-403b4a3b56a6",
     "9b6624c1-cc1c-41d5-bd2d-c28063024b08",
     "76719090-93c7-46d1-b476-d2e138ef49c1",
     "1c7d5d62-2205-4e47-ae5a-a945766472d1",
@@ -103383,6 +105719,20 @@
     "381b8a04-1d51-4636-8c96-239be228b354",
     "8c34aa49-9525-441c-ae22-faa5e7ff5253",
     "14343957-0384-40d0-9a47-aa7299b27a19",
-    "1b8d1eb9-2c37-487e-8713-08b114945e5b"
+    "60b0972b-457e-4d3b-b085-0acb514d7174",
+    "7814bfe1-4611-442f-a090-06bcccd3b949",
+    "864d2e79-8c4b-4e33-b184-87ad95e35b53",
+    "51f5e9e3-391f-4655-9c94-fcc24ef1326e",
+    "bde670f7-a339-41e1-bf59-23b592d27e06",
+    "97e0b9c4-515f-4e29-b65a-80ac9992e640",
+    "c0c7399c-f0f2-4f05-966b-58798a92b64d",
+    "5ef729fa-5e4c-4e23-b6bb-94cbc9096801",
+    "855eab4b-3624-4d64-bbeb-7f863f1e243d",
+    "6fff2f5a-2aa1-4021-8cf3-b8b279078755",
+    "d521f9d4-853b-425a-806b-b4214096f802",
+    "e286b1d7-976c-4e00-84ec-2c2542540b64",
+    "632621ea-e6de-4995-a515-73c29b781dd6",
+    "52fa023a-20cb-4094-ad96-640c26f7ac79",
+    "ddcd0d42-e309-45bc-9297-73cb60924d8f"
   ]
 }
