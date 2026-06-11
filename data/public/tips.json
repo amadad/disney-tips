@@ -1,8 +1,2073 @@
 {
-  "lastUpdated": "2026-06-08T14:06:06.406Z",
-  "lastChecked": "2026-06-08T14:06:06.406Z",
-  "totalTips": 5460,
+  "lastUpdated": "2026-06-10T14:08:08.928Z",
+  "lastChecked": "2026-06-10T14:08:08.928Z",
+  "totalTips": 5566,
   "tips": [
+    {
+      "id": "17e0bf22-a175-43e0-96f7-afd3b0d469bb",
+      "text": "Meet Edna Mode in Toy Story Land at Hollywood Studios; she often has no line and her meet-and-greet is a great experience.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet",
+        "wait-times"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "cafdc83b-283b-4817-b05d-202fe9b73e74",
+      "text": "Find a Merida pin featuring her brothers in the 'Animated Features' section of the pin trading boards at Hollywood Studios if you can't find specific Brave merchandise.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "merchandise",
+        "pins"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "689e5b69-e6d5-4328-974d-3e1575f4c6fc",
+      "text": "Visit Walt Disney Presents at Hollywood Studios to see exhibits about Walt Disney's life and early animation, including references to Snow White and the Seven Dwarfs.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "exhibit",
+        "history"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "f767bd8b-527b-42be-9d52-58b058d14f4e",
+      "text": "Try the carrot cake whoopie pie at the Trolley Car Cafe (Starbucks) in Hollywood Studios; it's a substantial and well-balanced dessert.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "dessert"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "49e24354-5c15-428f-b7f6-c0fb0d9993a5",
+      "text": "If it rains at Hollywood Studios, most attractions will remain open except for Slinky Dog Dash, and indoor shows and shops offer good refuge.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "weather",
+        "rainy-day",
+        "indoor-shows"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "3f64de2b-7a82-499f-b855-9a736f6f2fe0",
+      "text": "Seek out Darkwing Duck merchandise in shops like Sunset Club Couture at Hollywood Studios, though it can be difficult to find.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "c5fb47bd-bf1c-457a-8c9c-7368f5399dee",
+      "text": "Get a Colombian coffee blend at Joffrey's in Hollywood Studios, known for ethically sourced beans, to honor the film Encanto.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "coffee",
+        "beverages"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "becf6d7e-e4a2-4aa0-af4f-20780a52f0b9",
+      "text": "Try the pepperoni spring rolls from the new snack cart across from Alien Swirling Saucers in Hollywood Studios for a savory snack.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "c0749bc6-4b3b-4f0a-8576-7a5169f9efda",
+      "text": "Ride Toy Story Mania at Hollywood Studios for a fun, interactive experience where you can compete with friends and family by shooting targets in 3D.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride",
+        "interactive",
+        "competition"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "3f0db62f-d547-4752-ae3f-0da8dd2b48e0",
+      "text": "Consider placing a small wager with friends or family when riding Toy Story Mania to make the game even more engaging.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride",
+        "interactive",
+        "wager"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "af09cbfe-5e13-498b-a879-25bbea29b541",
+      "text": "Ride Alien Swirling Saucers at Hollywood Studios, a fun spinner attraction with a Toy Story theme that plays various songs from the franchise.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "ride",
+        "family-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "351276e2-6a9b-44a2-b098-856200605df1",
+      "text": "Enjoy the house-made chips with ranch seasoning and beer cheese dip at Baseline Tap House in Hollywood Studios for an underrated sharable snack.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "appetizers",
+        "shareable"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "0327f0b5-d5ca-48aa-8f8c-aee762525e96",
+      "text": "Try a mixed beer drink at Baseline Tap House in Hollywood Studios, like the cider and wheat beer mix, for a refreshing beverage.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "drinks",
+        "beer"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "928c09cb-2750-4fd2-9215-6154479059f1",
+      "text": "If you are looking for Merida merchandise, consider purchasing the archer pin set at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "merchandise",
+        "pins"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "txLd416tj9A",
+        "channelName": "MammothClub",
+        "videoTitle": "You'll NEVER Guess What We Let Decide Our Day at Disney World! | Hollywood Studios, Disney Lorcana",
+        "publishedAt": "2026-06-10T13:00:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.926Z"
+    },
+    {
+      "id": "3d760df1-e318-42ee-912f-379e33b3debf",
+      "text": "Use the mobile check-in for Roundup Rodeo Barbecue if you have a reservation and ensure all party members are present.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "mobile-order",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "AOZqNF4qUkc",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "This Disney Restaurant Is CRAZY!!",
+        "publishedAt": "2026-06-09T20:59:32+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:45.406Z"
+    },
+    {
+      "id": "7d3ce9ad-552a-46e4-9aff-dbabd475de35",
+      "text": "Book dining reservations for Roundup Rodeo Barbecue well in advance, as they are highly recommended and the restaurant fills up quickly.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "dining-reservation",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "AOZqNF4qUkc",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "This Disney Restaurant Is CRAZY!!",
+        "publishedAt": "2026-06-09T20:59:32+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:45.407Z"
+    },
+    {
+      "id": "65f3a835-75ac-47e8-a1df-e0d8c3a5cda9",
+      "text": "The Roundup Rodeo Barbecue is open for lunch and dinner, with seating beginning at 10:45 AM, and is not a character dining experience.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "hours",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "AOZqNF4qUkc",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "This Disney Restaurant Is CRAZY!!",
+        "publishedAt": "2026-06-09T20:59:32+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:45.407Z"
+    },
+    {
+      "id": "ad360b7a-8d30-4d67-8d65-6156555186c9",
+      "text": "Consider the Roundup Rodeo Barbecue for a meal that can provide enough food to last for the rest of the day, making it a good value for filling up.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "value",
+        "all-you-can-eat"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "AOZqNF4qUkc",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "This Disney Restaurant Is CRAZY!!",
+        "publishedAt": "2026-06-09T20:59:32+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:45.407Z"
+    },
+    {
+      "id": "1791c7a9-9823-4e2b-b268-969c85a982be",
+      "text": "Use mobile order for breakfast at Port Orleans Riverside food court for a quick and easy meal pickup.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "quick-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "54961b3c-53ad-491d-823c-bdf348432396",
+      "text": "Grab a 'Cool Kids Summer Map' at Animal Kingdom for kid-friendly activities, food items, and animal encounters.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kid-friendly",
+        "activities",
+        "maps"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "75eeb6f5-456b-4273-9e34-f54b62000235",
+      "text": "Try the Bluey-themed treats at Pizzafari in Animal Kingdom, such as the Fairy Bread Cake and Wackadoo Fruit Freeze.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "bluey",
+        "themed-food",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "c936ec5d-5fab-40bc-8e47-77ca608c91c9",
+      "text": "Check the resort's QR code for the activity schedule to find times for story time and character meet-and-greets.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "resort-activities",
+        "scheduling"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "11176aa9-c64a-40bc-9360-461056ae6a8e",
+      "text": "Character meet-and-greets, like Minnie's, can happen in the resort lobby in the morning around 8 AM and also in the afternoon.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "character-meet",
+        "resort-lobby"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "e9af7e7b-7241-45bf-99e7-5df2cc6bca78",
+      "text": "Consider the food court options at Port Orleans Riverside for dinner, including chicken tenders, smothered beef, and gumbo.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "quick-service",
+        "resort-dining",
+        "dinner"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "bJlg1xSM_6M",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Disney Cool Kids Summer Staycation! | Bluey At Animal Kingdom, Trying NEW Snacks & Pool Party Time!",
+        "publishedAt": "2026-06-09T20:12:16+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:47.531Z"
+    },
+    {
+      "id": "78d4ebb0-c8bd-4cca-b5f1-14f9708953d4",
+      "text": "Try the Mediterranean restaurant Amare at Swan Reserve for a high-quality, adult-friendly dining experience, even if reservations don't seem immediately necessary.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "table-service",
+        "mediterranean-food",
+        "adults-travel"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "2fad4ceb-99cb-4a39-b77e-861003791cba",
+      "text": "Leverage the boat transportation from the Swan, Dolphin, and Swan Reserve hotels, which is shared with other Epcot resorts and provides a convenient option to Epcot and Hollywood Studios.",
+      "category": "transportation",
+      "park": "epcot",
+      "tags": [
+        "boat-transportation",
+        "resort-transportation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "32cc9c6a-3378-4346-a72c-da681c2eddf0",
+      "text": "Consider walking back from Hollywood Studios to the Swan, Dolphin, or Swan Reserve hotels at night as it can be faster than waiting for the boat or Skyliner.",
+      "category": "transportation",
+      "park": "hollywood-studios",
+      "tags": [
+        "walking-paths",
+        "late-night",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "38aca6ae-fdaf-4db8-84b8-1059aec81e33",
+      "text": "When traveling to Magic Kingdom from the Swan or Dolphin, take the bus from the Boardwalk resort instead of the Swan/Dolphin's bus which goes to the Transportation and Ticket Center.",
+      "category": "transportation",
+      "park": "magic-kingdom",
+      "tags": [
+        "bus-transportation",
+        "resort-hopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "8a7f426d-a5e4-41c3-ab9c-b73938d691e6",
+      "text": "The Drury Hotel in Disney Springs offers significant value with a $0 resort fee, complimentary nightly happy hour with three drinks, a light dinner, afternoon snacks and popcorn, and a full hot breakfast including Mickey waffles.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "value",
+        "all-inclusive",
+        "free-food",
+        "resort-fee"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "753a5ce4-c95b-46fd-9a73-50ad3f2e53a9",
+      "text": "For families needing space, the DoubleTree Suites in Disney Springs is recommended as all rooms are suites accommodating up to six people, with guaranteed connecting rooms available for larger groups.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "family-travel",
+        "suites",
+        "connecting-rooms"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "296eade3-0e9a-4e72-8fdd-8271808168d4",
+      "text": "If proximity to Disney Springs is a priority, choose the Hilton or Wyndham hotels, as they are closest and have pedestrian bridges for easy access.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "location",
+        "disney-springs-access"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "66d548f9-a40e-4cfa-926f-6432af5199a3",
+      "text": "The Hilton Palace hotel offers a lazy river, providing a resort-like amenity for guests looking for pool-focused relaxation.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "resort-amenities",
+        "lazy-river",
+        "pool-day"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "c22e9cb5-8af0-4f70-ade8-6c229b91ecf4",
+      "text": "The Wyndham hotel boasts the best pool area among the Disney Springs hotels, featuring multiple pools, a splash pad, and hot tubs, making it ideal for guests prioritizing swimming.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "resort-amenities",
+        "pool-day",
+        "family-fun"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "b2197431-93d2-483b-979b-538d73ffc61f",
+      "text": "For the most budget-friendly option among the Disney Springs hotels, consider the Holiday Inn.",
+      "category": "budget",
+      "park": "disney-springs",
+      "tags": [
+        "economical",
+        "budget-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "499f6be5-ab94-49e4-bb8c-50fdfeb99013",
+      "text": "The Renaissance Hotel in Disney Springs is best suited for couples, offering an adult atmosphere with great cocktail spaces, a spa, and a DJ by the pool.",
+      "category": "hotels",
+      "park": "disney-springs",
+      "tags": [
+        "adults-travel",
+        "couples-trip",
+        "resort-amenities"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "57431476-409c-440b-88d1-d87c8f281bac",
+      "text": "Use Minnie Vans for transportation from Coronado Springs Resort, as they are more reliable than ride-shares in navigating the large resort grounds.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "minnie-van",
+        "resort-navigation",
+        "coronado-springs"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "b36be4f9-9578-4bb1-81fd-d8bde117db54",
+      "text": "Take advantage of the free admission to Typhoon Lagoon on your check-in day at a Disney resort.",
+      "category": "parks",
+      "park": "water-parks",
+      "tags": [
+        "water-park",
+        "free-admission",
+        "check-in-perk"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "20d39907-fa0e-4995-8fe7-015c628e6149",
+      "text": "Use ride-share services to get to and from Typhoon Lagoon if it fits your budget, as it avoids the multi-step bus transfer process.",
+      "category": "transportation",
+      "park": "water-parks",
+      "tags": [
+        "rideshare",
+        "convenience",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "d20b66ed-564b-454d-9efd-3b0344eb3a20",
+      "text": "Utilize the laundry services at Coronado Springs Resort, which allow you to track washing machine times via a website and pay using your phone.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-amenities",
+        "laundry",
+        "coronado-springs"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "92661a10-1fb9-4152-b8be-8abf9c51900d",
+      "text": "Use a Lightning Lane for Big Thunder Mountain Railroad at Magic Kingdom to experience a significantly shorter wait time compared to the standby queue.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "big-thunder-mountain-railroad"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "4ec44084-deed-4a7e-8949-f570d24a5ee9",
+      "text": "Visit the new Jessie's Dance Party at Magic Kingdom's Diamond Horseshoe for an indoor, air-conditioned activity where children can dance and play games, with seating available at the back for adults.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-event",
+        "indoor-activity",
+        "kids-activities"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "5b10b63b-15b6-4aa7-988b-146128d2d586",
+      "text": "The new 'Songs of America' show at Epcot's American Adventure pavilion is underwhelming and transitions are weak; skip it if you are short on time.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "show-review",
+        "attraction-skip"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "b70935e1-491c-4785-881f-8bbb8a05ef1b",
+      "text": "Attend the Goofy Party at Epcot's Communicore Hall for an indoor, air-conditioned experience with a DJ and games, similar to the Jessie's Dance Party at Magic Kingdom.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "character-event",
+        "indoor-activity",
+        "kids-activities"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TdQjlBonrN4",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Recapping my May/June WDW trip - PREP 517",
+        "publishedAt": "2026-06-09T18:26:30+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.699Z"
+    },
+    {
+      "id": "ebd35d5f-d1bc-4340-9144-5ba50162813e",
+      "text": "If not using early entry at Magic Kingdom, head to Liberty Square and Frontier Land to ride Big Thunder Mountain and Tiana's Bayou Adventure before lines build.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "8c2107a8-bf78-486f-a44b-f6a1f7340a9e",
+      "text": "Check the My Disney Experience app for the daily times of the Adventure Friends Cavalcade, as it varies and is a great way to see characters like Raya and Marie.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "character-meet",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "3f6e302e-bd57-4321-889d-39fecff50817",
+      "text": "The Adventure Friends Cavalcade is a hidden gem in Magic Kingdom, offering a chance to see rarer characters and is often overlooked compared to other parades.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "22297191-4aaa-4ef9-8eb7-4ef278df8d13",
+      "text": "Prioritize drinking water and getting electrolytes throughout the day at Magic Kingdom, especially during warmer months, to avoid dehydration and fatigue.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "hydration",
+        "health",
+        "weather"
+      ],
+      "priority": "high",
+      "season": "summer",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "fbb5f0b1-afd1-41bd-9a64-8eff2dad79f8",
+      "text": "Consider riding attractions later in the day when crowds may thin out, especially for shows and game sessions within interactive areas.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "crowd-level",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "964ef121-fed8-4a86-a6f5-91ed459ea23d",
+      "text": "Grab a 'Cool Kids Summer' map upon arrival at Magic Kingdom for a free, entertaining guide listing kid-friendly food, attractions, and character locations.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "free-activities",
+        "kids",
+        "planning-tool"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "327c42d7-cf8d-4e39-ace2-37b646032d81",
+      "text": "The Jessie's Round-Up interactive character experience at Magic Kingdom is highly engaging, with kids wanting to spend over two hours there; manage expectations as it's a fun hangout rather than a traditional meet-and-greet.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "character-meet",
+        "interactive-experience",
+        "kids"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "ffd992ae-28cc-4458-b1bb-88cfd9d844df",
+      "text": "Utilize stroller parking near the Liberty Tree or Diamond Horseshoe in Magic Kingdom's Liberty Square for the Jessie's Round-Up area.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "stroller-parking",
+        "interactive-experience"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "db5ab855-c7d1-4e3c-9193-b00f96f8ee87",
+      "text": "The current wait times at Magic Kingdom, even on a Wednesday afternoon, can be impressively low, with the highest wait being around 65 minutes.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "wait-times",
+        "crowd-level"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "ff64c0d3-4b01-4f60-b5d6-e5fe9a760f83",
+      "text": "Don't skip Walt Disney's Carousel of Progress in Magic Kingdom; despite some fluff, it's an enjoyable classic attraction, especially for escaping the heat.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "carousel-of-progress",
+        "indoor-attraction"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "UWavrOg6dvs",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at MAGIC KINGDOM",
+        "publishedAt": "2026-06-09T18:00:23+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:51.523Z"
+    },
+    {
+      "id": "5feb1ba1-8494-479e-b292-2606f073d0b7",
+      "text": "Take advantage of free ship tours: a general walking tour for all ages and the 'Art of the Theme Show' tour for adults 18+.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "tours",
+        "free"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "33f4eefe-7fc2-41d1-9215-9d0a3711fd20",
+      "text": "Request free pixie dust at the Bibbidi Bobbidi Boutique on board, similar to the parks.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "bibbidi-bobbidi-boutique",
+        "free"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "7306b093-5c5c-4d7a-83ef-c688d2ac14e6",
+      "text": "Request complimentary baby-friendly amenities like Pack 'n Plays and bottle warmers for your stateroom in advance.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "stateroom",
+        "baby-friendly",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "bb8a42fb-9ae2-4cf8-ab17-1e96bff415c6",
+      "text": "Order complimentary pureed vegetables or use the free 24-hour room service for baby-friendly meal options.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "baby-friendly",
+        "room-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "c0a4918c-7f4f-4c36-9dc2-a11db502f9cf",
+      "text": "Check Cove Cafe for potential complimentary pastries with your specialty coffee purchase on classic Disney ships.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "cove-cafe",
+        "freebies",
+        "pastries"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "b42479ff-d030-49ed-9566-2fd90e182183",
+      "text": "Ask about the 'drink of the day' special, often half-price, by checking the Navigator app or asking a crew member.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "drink-specials",
+        "budget",
+        "navigator-app"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "125c9454-4d47-4985-af0d-39881c7fa9ae",
+      "text": "Use the Cafe Fanatic stamp card to get your sixth specialty coffee free after purchasing five.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "cafe",
+        "loyalty-program",
+        "budget"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "98ac399d-1a17-46d5-81eb-8dc0b9ec9b44",
+      "text": "Book a 'Tower Suite' for a luxurious, two-story accommodation with premium concierge services.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "suites",
+        "concierge"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "5f3d9297-b5e1-4e27-b860-95304a91d54f",
+      "text": "Check the Navigator app for free exercise classes like yoga and Pilates offered on board.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "fitness-classes",
+        "free",
+        "navigator-app"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "9be29f57-42dc-4cf9-b5d7-af49b4d88889",
+      "text": "Book private karaoke rooms for a personalized singing experience, with options for up to 10 guests.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "karaoke",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "PK3Uc0-sMrU",
+        "channelName": "DFBGuide",
+        "videoTitle": "15 Things You Didn't Know You Could Do on Disney Cruise Line",
+        "publishedAt": "2026-06-09T14:30:38+00:00"
+      },
+      "extractedAt": "2026-06-10T14:06:52.095Z"
+    },
+    {
+      "id": "14136609-27f8-41e8-9296-326e2f642224",
+      "text": "Book your tickets for Biltmore in advance, especially for peak times, to ensure availability as some slots fill up.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "tickets",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FJrwAreWqEE",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Can’t Go Home Until We Complete An Impossible Challenge",
+        "publishedAt": "2026-06-09T14:00:17+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:42.485Z"
+    },
+    {
+      "id": "fe173a97-2835-485f-b76d-4d1ea36020ee",
+      "text": "Consider a grounds-only entry ticket for Biltmore if you don't want to splurge on the house tour, as it's a more budget-friendly option.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "budget",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "FJrwAreWqEE",
+        "channelName": "AllEars.net",
+        "videoTitle": "We Can’t Go Home Until We Complete An Impossible Challenge",
+        "publishedAt": "2026-06-09T14:00:17+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:42.485Z"
+    },
+    {
+      "id": "0dc8755a-944e-4b41-bba9-02dd00e579b8",
+      "text": "Pre-order your Uber 2-3 days in advance for early morning airport pickups to ensure availability and avoid long waits.",
+      "category": "transportation",
+      "park": "all-parks",
+      "tags": [
+        "airport",
+        "uber"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "8e76b48b-cbc2-499f-8f6e-b634afc9433c",
+      "text": "If staying at a DVC Deluxe Studio at Disney's Riviera Resort, the Murphy bed table needs to be straddled by the bed's pull-down handles to lay flat.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "dvc",
+        "deluxe-studio",
+        "riviera-resort"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "9df75fa4-7888-46eb-be99-836f34943798",
+      "text": "Bring ponchos and consider an umbrella for Florida rain, as umbrellas alone may not be sufficient.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "packing",
+        "rainy-day"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "91220b2b-8dd5-4eee-b257-5e7b8418486e",
+      "text": "Confirm if complimentary bread service is offered at table-service restaurants to avoid unexpected charges, as seen at Via Napoli.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "complimentary-food"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "1851d222-83fe-49c9-8907-24a104db1479",
+      "text": "Guests can often order appetizers as entrees at Disney restaurants, especially if they are particularly appealing like the crab cakes at Topolino's Terrace.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "topolinos-terrace",
+        "appetizer-as-entree"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "d7308a73-4759-46c8-a72a-381e6cd53d9d",
+      "text": "If your party includes children under 10, you can order from the kids' menu at Topolino's Terrace even if some children are older.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "topolinos-terrace",
+        "kids-menu"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rSYLiLjLN_0",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "Disney World Travel Day! Riviera Resort Stay & Topolino's Terrace Dinner",
+        "publishedAt": "2026-06-08T22:00:35+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:44.401Z"
+    },
+    {
+      "id": "f1dd5580-6f94-4253-8e5c-524d26ba8211",
+      "text": "Take the Disneyland Railroad through the Dinosaur Diarama tunnel to see updates being made to the Grand Canyon and Primeval World dioramas.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "dioramas",
+        "railroad"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "OUZ0Em7Lm_c",
+        "channelName": "FreshBaked",
+        "videoTitle": "We have A DATE for new parking structure | Disneyland Construction",
+        "publishedAt": "2026-06-08T18:51:36+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:43.651Z"
+    },
+    {
+      "id": "c7f6e264-d18f-4efd-b6ec-87c4b4bb96ad",
+      "text": "Use the Epcot Kids Guide Maps, available at park entrances, to help children identify characters and find kid-friendly attractions.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "kid-friendly",
+        "visual-aid"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "e61ae063-83ab-46f8-9753-f1e4813937e7",
+      "text": "While the Epcot Kids Guide Map shows character locations, use the My Disney Experience app to check their exact meeting times as they vary daily.",
+      "category": "planning",
+      "park": "epcot",
+      "tags": [
+        "character-meet",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "7bbb2a48-eb34-4102-b6e5-a79a2793ea2b",
+      "text": "Attend the Encanto Sing-Along Dance Party at Epcot, where characters like Mirabel and Bruno may appear for dancing and photos.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "character-meet",
+        "dance-party",
+        "sing-along"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "3e14557d-fe73-44e0-bc80-43f272ca8f47",
+      "text": "Visit the Goofy's Dance Party at Communicore Hall in Epcot for interactive games, dancing with a DJ, and character greetings.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "dance-party",
+        "character-meet",
+        "indoor-activity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "f2fed1b6-354c-4dbf-b3a6-b197f446446b",
+      "text": "Try the Goof Troop Mac Snack (fried macaroni and cheese) and Chicken Goofs Up (chicken bites) at Goofy's Grab and Go in Epcot for kid-friendly options.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "kid-friendly"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "49ae3c53-b241-4299-aa5c-463864109af3",
+      "text": "If your child dislikes the boba-like pearls in Goofy's Gone Fishing drink at Epcot, ask for it without the pearls.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "drink",
+        "kid-friendly"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "259b7e08-b464-43ef-b787-3ee8d1c3e4b2",
+      "text": "The restrooms near Goofy's Grab and Go in Epcot's Communicore Hall are notably large, clean, and well-equipped with multiple changing tables.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "restroom",
+        "family-friendly"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "e3029b87-4c35-4960-bb56-d71086b41007",
+      "text": "To keep souvenir cups with specialty drinks cold longer at Epcot, fill the cup with ice water first, then add the specialty drink.",
+      "category": "budget",
+      "park": "epcot",
+      "tags": [
+        "souvenir-cup",
+        "drinks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "9bcff5a3-b7a6-4d28-a330-472696bd32d2",
+      "text": "Consider the 'Isabella' magic shot photo opportunity located between the Italy and Germany pavilions in Epcot's World Showcase.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "photo-opportunity",
+        "character-photo"
+      ],
+      "priority": "low",
+      "season": "flower-garden",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "72a2b669-9671-4421-b90b-b6db73542edf",
+      "text": "Seek out the character meet-and-greet with Elsa in Epcot's Norway pavilion for an immersive experience.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "character-meet",
+        "meet-and-greet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "gZCB1aaOV3s",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at EPCOT!",
+        "publishedAt": "2026-06-08T18:00:29+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:49.701Z"
+    },
+    {
+      "id": "0b078fab-7684-4ee8-9ab2-b88619ee3c4a",
+      "text": "To avoid long waits, head to Seven Dwarfs Mine Train immediately at rope drop if you haven't secured a Lightning Lane.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "rope-drop",
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "d6dbd88c-c492-4d42-98db-a525e25c3e00",
+      "text": "Do not use trash can lids as makeshift seats for children, as this is a safety hazard.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "safety",
+        "family"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "db3e90b8-0744-4e27-9def-e7c93c61aa24",
+      "text": "Avoid making animal noises or faces at wildlife, especially in Animal Kingdom, as it can be perceived as aggression and stress them out.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "wildlife",
+        "respect"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "40e40143-8c53-4697-9cf4-36efd2a5b7a3",
+      "text": "Children 48 inches or under are the only ones permitted to use water play areas at Disney hotels.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "water-parks",
+        "family",
+        "resorts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "96e041f7-a3eb-45f4-9ba5-f8b3c8c618cb",
+      "text": "Use hotel room appliances only for their intended purpose; do not use a Keurig as a laundromat or an iron as a panini press.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resorts",
+        "appliances"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "518bd2d4-e3fc-4b54-ac39-891e83b48424",
+      "text": "Do not stand under Cast Member umbrellas during inclement weather; instead, ask a Cast Member for directions to the nearest indoor shelter like a gift shop or quick-service location.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "weather",
+        "shelter"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "204f4524-687a-4bf4-82c9-ac2f0344a6e2",
+      "text": "You must be 21 or older to purchase and consume alcohol in any Disney park, including Epcot's pavilions.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "alcohol",
+        "rules"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "c6d0a63d-a304-4282-bf3a-a10a5819d0ea",
+      "text": "Do not bring non-Coast Guard approved flotation devices or swim noodles to Disney's water parks; utilize the complimentary inner tubes and life jackets provided.",
+      "category": "parks",
+      "park": "water-parks",
+      "tags": [
+        "water-parks",
+        "flotation-devices"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "a82fc133-f307-459e-80d3-e6d631ca37df",
+      "text": "Stand in designated taped-off areas for fireworks shows and parades to ensure pathways remain clear and for your safety.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "parade",
+        "safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "02a34780-6e11-42fc-a9cd-1c5ee1420e78",
+      "text": "Ensure strollers are no larger than 31 inches wide and 52 inches tall, and avoid stroller wagons, as oversized ones are banned from property.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "strollers",
+        "rules",
+        "transportation"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "7c4424ab-347b-4e04-869e-dd015fc8fdad",
+      "text": "Do not hoard table service reservations; book only what you intend to use to allow other guests the opportunity to dine at popular locations.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "81ed3b53-3de1-4e24-80c0-718c3582ed43",
+      "text": "Be aware that some Disney Springs happy hours are only available to those seated at the bar, and some bars have age restrictions (18+ or 21+).",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "happy-hour",
+        "discounts",
+        "bars"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "07563a30-a572-445d-be6b-f5df6ac618b6",
+      "text": "Check age restrictions for restaurants like Victoria & Albert's (10+), Monsieur Paul (10+), Takumi-Tei (8+), GEO 82 (21+), and Trader Sam's Grog Grotto (21+ after 8 PM) before booking.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "dining",
+        "age-restriction",
+        "restaurants"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "dc773b59-60ec-478b-82f0-6654e0bbd0e5",
+      "text": "Review Disney's height requirements for rides before your trip to avoid disappointment for younger guests.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "rides",
+        "height-requirement",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "3048e77f-8dee-4ab9-9059-0eada5678cf6",
+      "text": "Do not bring outside food and drinks, such as mai tais and chicken tenders, into resort pool areas; consume them at the pool bar or poolside loungers.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resorts",
+        "pool-rules",
+        "food"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "ec35331d-e73f-49b2-8c75-0fea74c6edf5",
+      "text": "Leave selfie sticks and tripods at home, as they are banned from the parks due to safety and distraction concerns, especially on rides.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "photography",
+        "rules",
+        "safety"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "f157031b-4590-4763-a97a-57ed8e4010e8",
+      "text": "Do not attempt to enter backstage areas, as these are restricted for Cast Members only and pose safety risks.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "backstage",
+        "safety",
+        "rules"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "5824125b-a876-47bb-89ee-f1d6ae1f0a93",
+      "text": "Smoking and vaping are banned inside Disney World parks; use designated smoking areas located outside the park gates.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "smoking",
+        "vaping",
+        "rules"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "de34f651-2f37-4198-81e8-db53efe29d06",
+      "text": "Turn off the flash on your handheld devices when taking photos or videos on dark rides and indoor stage shows to avoid distracting performers and other guests.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "photography",
+        "flash",
+        "etiquette"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "9f7f208e-f437-4aa0-a800-7fd497f99f99",
+      "text": "Avoid wearing Crocs on escalators at Disney Springs due to the risk of them getting caught and causing shutdowns; opt for the elevator instead.",
+      "category": "transportation",
+      "park": "disney-springs",
+      "tags": [
+        "escalator",
+        "footwear",
+        "safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "7466baa4-a7d5-450f-93af-1084fa95ccc4",
+      "text": "You cannot bring your own alcoholic beverages into a park or take open alcoholic beverages out of a park; consume them within the designated area before leaving or park hopping.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "alcohol",
+        "park-hopping",
+        "rules"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "0c2337b7-4f61-438a-a2d9-ada5a01e128f",
+      "text": "There is a limit of two alcoholic beverages per transaction at quick-service locations and Epcot festival booths.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "alcohol",
+        "quick-service",
+        "festivals"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "a59116c2-7bb2-4603-94b1-ae1b6edf87fa",
+      "text": "Do not scatter ashes in rides, as this is a biohazard, requires ride closures for cleanup, and the ashes will be vacuumed up.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "ashes",
+        "rules",
+        "safety"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
+    {
+      "id": "c4b893db-60ed-4963-9eeb-2ae754050bba",
+      "text": "Adults are generally not permitted to wear full character costumes in the parks, except during specific events like Mickey's Not-So-Scary Halloween Party at Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "costumes",
+        "halloween-party"
+      ],
+      "priority": "medium",
+      "season": "halloween",
+      "source": {
+        "videoId": "rqGB9LyIHuM",
+        "channelName": "DFBGuide",
+        "videoTitle": "50 Disney World Rules That Guests Break Every Single Day",
+        "publishedAt": "2026-06-08T14:30:32+00:00"
+      },
+      "extractedAt": "2026-06-09T14:03:57.665Z"
+    },
     {
       "id": "5d2b88f0-8367-431a-8621-d9ed3525b29e",
       "text": "Consider a 'Christmas in July' couples trip if you enjoy the theming and comfort of the Christmas resort.",
@@ -105634,57 +107699,48 @@
     }
   ],
   "topTips": [
-    "5d2b88f0-8367-431a-8621-d9ed3525b29e",
-    "005d89bf-26a5-4694-b53b-2bdc4a2012bf",
-    "6a7dec95-3db2-49e0-8724-700fa177bf74",
-    "01ef5652-c49f-442e-9bad-5af47c802556",
-    "93dc144a-cd05-4854-9ce9-8a5e7c462243",
-    "5e6ee6a8-c074-4227-9131-70ad353477e9",
-    "89aaf642-0bda-4a59-a374-6dee7bff4a1c",
-    "a550f7d2-28eb-4182-8f92-219d04f9887f",
-    "11d67797-eb4e-4aa8-bcd5-7bace61e8823",
-    "13e90da6-02e3-4b33-bb2a-c49f0a4f10f2",
-    "884ef929-606c-4788-aaee-031723e65435",
-    "510dfc38-4c3a-4a8f-b09b-86557857b81e",
-    "8330f2d1-ad49-48c1-973d-ecb92a9048d7",
-    "836bb538-35be-4cb8-8512-33749d54b88b",
-    "060857f7-8672-4941-897d-7cb037107021",
-    "13c4bdbc-354f-48fd-ad4d-9670e3497e6f",
-    "34cf4202-f50a-4cc0-a921-7942d52732af",
-    "58d44635-79e3-4a1e-b605-fb1c613fc3d5",
-    "e05173df-96de-4b00-bbfe-23223e98ed8d",
-    "e9315a7a-a5fc-4591-902e-2f0cc917f66b",
-    "878d368c-c03a-4c93-a6f2-cbc5fb6a0dc1",
-    "bef6ee77-d1a3-421c-84f7-fe953b84f0a5",
-    "ae0f3b2d-68af-4def-a0ae-fac72065c9d6",
-    "340031fb-1b32-4770-988a-f4eb943fe487",
-    "741d4688-07b2-4397-80c9-0d512812efc0",
-    "cbd2a9de-6873-465f-9fee-d4541bd56d0a",
-    "7402fd55-eebd-49d1-b62e-cc27fb0c8034",
-    "62bd7f8c-fdb2-4f15-a0ff-d692bdfee246",
-    "3a4b01bd-1212-4be0-add7-8b9314a4fb9f",
-    "c511cacd-1ff5-4953-ad31-adef972dd2ff",
-    "bc90bfa1-bf43-4dd1-ad07-c188b40d668d",
-    "a8a63ec9-126e-47f3-8c78-6bebd88a485b",
-    "88ffa2bc-c8ac-4a1a-81e5-d4881a4fafff",
-    "0fd567fd-f205-4707-9b06-980e8f08df11",
-    "7a61378c-55cb-4d77-ade5-c1b19a846d34",
-    "accde5b2-9430-4eb8-8e74-f63e658ca6dd",
-    "f0f0142a-191c-49b7-a36f-2e9873a011cb",
-    "def42e91-da03-4fef-8a18-31fb4d8053f5",
-    "d0cd7e50-d794-42dc-b8a8-58412c9357f5",
-    "7a68196d-88f5-4452-8850-154e7d292561",
-    "00b68316-8026-4cda-a0fb-0e907314569f",
-    "516a24d6-e2f4-447c-8860-d8977102ab64",
-    "59c44121-a8d5-46f5-a356-4c33d52d6b1e",
-    "4c60e8e9-db31-41ed-8ba8-2acf088da4f8",
-    "29113859-b63e-4587-ba93-05f348f372ea",
-    "7b5abbd0-aeb5-4946-81d5-bf19ec18a9be",
-    "d2c9527d-553e-40cb-8b1c-9be6f67f97e5",
-    "59cd7fdc-5df8-475d-a5cd-d761e294797b",
-    "d89c2ab8-760e-4492-a016-f6078583cd9e",
-    "5856de76-fe6a-4762-aece-410d6bf142c5",
-    "8b768a8c-fe3c-4c2f-a135-25701515a571",
+    "17e0bf22-a175-43e0-96f7-afd3b0d469bb",
+    "cafdc83b-283b-4817-b05d-202fe9b73e74",
+    "689e5b69-e6d5-4328-974d-3e1575f4c6fc",
+    "49e24354-5c15-428f-b7f6-c0fb0d9993a5",
+    "3f64de2b-7a82-499f-b855-9a736f6f2fe0",
+    "c0749bc6-4b3b-4f0a-8576-7a5169f9efda",
+    "3f0db62f-d547-4752-ae3f-0da8dd2b48e0",
+    "af09cbfe-5e13-498b-a879-25bbea29b541",
+    "928c09cb-2750-4fd2-9215-6154479059f1",
+    "54961b3c-53ad-491d-823c-bdf348432396",
+    "11176aa9-c64a-40bc-9360-461056ae6a8e",
+    "b36be4f9-9578-4bb1-81fd-d8bde117db54",
+    "92661a10-1fb9-4152-b8be-8abf9c51900d",
+    "4ec44084-deed-4a7e-8949-f570d24a5ee9",
+    "5b10b63b-15b6-4aa7-988b-146128d2d586",
+    "b70935e1-491c-4785-881f-8bbb8a05ef1b",
+    "ebd35d5f-d1bc-4340-9144-5ba50162813e",
+    "f767bd8b-527b-42be-9d52-58b058d14f4e",
+    "c5fb47bd-bf1c-457a-8c9c-7368f5399dee",
+    "becf6d7e-e4a2-4aa0-af4f-20780a52f0b9",
+    "351276e2-6a9b-44a2-b098-856200605df1",
+    "0327f0b5-d5ca-48aa-8f8c-aee762525e96",
+    "3d760df1-e318-42ee-912f-379e33b3debf",
+    "7d3ce9ad-552a-46e4-9aff-dbabd475de35",
+    "65f3a835-75ac-47e8-a1df-e0d8c3a5cda9",
+    "ad360b7a-8d30-4d67-8d65-6156555186c9",
+    "1791c7a9-9823-4e2b-b268-969c85a982be",
+    "75eeb6f5-456b-4273-9e34-f54b62000235",
+    "e9af7e7b-7241-45bf-99e7-5df2cc6bca78",
+    "78d4ebb0-c8bd-4cca-b5f1-14f9708953d4",
+    "bb8a42fb-9ae2-4cf8-ab17-1e96bff415c6",
+    "c0a4918c-7f4f-4c36-9dc2-a11db502f9cf",
+    "b42479ff-d030-49ed-9566-2fd90e182183",
+    "125c9454-4d47-4985-af0d-39881c7fa9ae",
+    "c936ec5d-5fab-40bc-8e47-77ca608c91c9",
+    "22297191-4aaa-4ef9-8eb7-4ef278df8d13",
+    "964ef121-fed8-4a86-a6f5-91ed459ea23d",
+    "14136609-27f8-41e8-9296-326e2f642224",
+    "9df75fa4-7888-46eb-be99-836f34943798",
+    "e61ae063-83ab-46f8-9753-f1e4813937e7",
+    "02a34780-6e11-42fc-a9cd-1c5ee1420e78",
+    "ec35331d-e73f-49b2-8c75-0fea74c6edf5",
     "4bd06e32-794d-4960-85a7-f0fec0717a77",
     "51ecb900-ef6b-4bc7-9b23-4b6dec9b012c",
     "0efb9f27-eeb5-48cb-89d6-b95647088627",
@@ -105694,14 +107750,13 @@
     "18e3ffd5-d52c-489e-8190-113128c22092",
     "f7b7ca02-4cbe-4eb4-b262-2250437fd48b",
     "c893996e-41e5-43bd-a4fa-52f9587d6b0e",
-    "27fff066-6ba3-4d39-9345-5528398f4dfc",
-    "81944b37-dc8d-42c1-968a-2607e8472276",
-    "bc70cf6c-d35a-4377-bd18-63e1e302dc6a",
-    "6f35a871-d976-49ad-85f2-39e60e793ed5",
-    "60367ca2-c2de-4708-8a7f-5472ed6da826",
-    "b4719ace-050b-4f66-bc96-97c6722a4ce8",
-    "fbfb3a43-c956-4d4d-bb0a-b322142a951d",
-    "786cad0f-147c-4c2b-b1aa-108ef5a94990",
+    "2fad4ceb-99cb-4a39-b77e-861003791cba",
+    "32cc9c6a-3378-4346-a72c-da681c2eddf0",
+    "38aca6ae-fdaf-4db8-84b8-1059aec81e33",
+    "57431476-409c-440b-88d1-d87c8f281bac",
+    "20d39907-fa0e-4995-8fe7-015c628e6149",
+    "0dc8755a-944e-4b41-bba9-02dd00e579b8",
+    "9f7f208e-f437-4aa0-a800-7fd497f99f99",
     "1e835c6c-66f7-432e-b23c-ad2173c02664",
     "0b725e17-7076-412b-b543-3ea7d4868b45",
     "80e70845-0a06-4d6a-839e-403b4a3b56a6",
@@ -105712,13 +107767,10 @@
     "ea5cd512-4efb-455c-b2bc-a5d21433c052",
     "01276da2-9b58-463e-96d8-f65ed996c93a",
     "bb0f5a0c-fff9-4a41-ae92-e2007c23f77e",
-    "59222200-a0ed-41e0-9f54-adad80fc1894",
-    "40fb430f-8322-459f-8df2-fbc893acbd86",
-    "9f185f30-b3a5-45ea-ba2a-64611db7dc2b",
-    "feb4bd0a-30d5-4b1b-be64-c2791e484b8c",
-    "381b8a04-1d51-4636-8c96-239be228b354",
-    "8c34aa49-9525-441c-ae22-faa5e7ff5253",
-    "14343957-0384-40d0-9a47-aa7299b27a19",
+    "8a7f426d-a5e4-41c3-ab9c-b73938d691e6",
+    "b2197431-93d2-483b-979b-538d73ffc61f",
+    "fe173a97-2835-485f-b76d-4d1ea36020ee",
+    "e3029b87-4c35-4960-bb56-d71086b41007",
     "60b0972b-457e-4d3b-b085-0acb514d7174",
     "7814bfe1-4611-442f-a090-06bcccd3b949",
     "864d2e79-8c4b-4e33-b184-87ad95e35b53",
@@ -105732,7 +107784,20 @@
     "d521f9d4-853b-425a-806b-b4214096f802",
     "e286b1d7-976c-4e00-84ec-2c2542540b64",
     "632621ea-e6de-4995-a515-73c29b781dd6",
-    "52fa023a-20cb-4094-ad96-640c26f7ac79",
-    "ddcd0d42-e309-45bc-9297-73cb60924d8f"
+    "753a5ce4-c95b-46fd-9a73-50ad3f2e53a9",
+    "296eade3-0e9a-4e72-8fdd-8271808168d4",
+    "66d548f9-a40e-4cfa-926f-6432af5199a3",
+    "c22e9cb5-8af0-4f70-ade8-6c229b91ecf4",
+    "499f6be5-ab94-49e4-bb8c-50fdfeb99013",
+    "d20b66ed-564b-454d-9efd-3b0344eb3a20",
+    "7306b093-5c5c-4d7a-83ef-c688d2ac14e6",
+    "98ac399d-1a17-46d5-81eb-8dc0b9ec9b44",
+    "5f3d9297-b5e1-4e27-b860-95304a91d54f",
+    "8e76b48b-cbc2-499f-8f6e-b634afc9433c",
+    "96e041f7-a3eb-45f4-9ba5-f8b3c8c618cb",
+    "3048e77f-8dee-4ab9-9059-0eada5678cf6",
+    "5d2b88f0-8367-431a-8621-d9ed3525b29e",
+    "005d89bf-26a5-4694-b53b-2bdc4a2012bf",
+    "6a7dec95-3db2-49e0-8724-700fa177bf74"
   ]
 }
