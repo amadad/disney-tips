@@ -1,8 +1,3659 @@
 {
-  "lastUpdated": "2026-06-10T14:08:08.928Z",
-  "lastChecked": "2026-06-10T14:08:08.928Z",
-  "totalTips": 5566,
+  "lastUpdated": "2026-06-15T14:07:31.494Z",
+  "lastChecked": "2026-06-15T14:07:31.494Z",
+  "totalTips": 5759,
   "tips": [
+    {
+      "id": "b120e550-8d34-4ace-9866-31f83f728f2d",
+      "text": "Use the My Disney Experience app for mobile check-in to potentially skip the front desk and use your phone as your room key.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "mobile-check-in",
+        "my-disney-experience-app"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GM32Kqe14hc",
+        "channelName": "AllEars.net",
+        "videoTitle": "The CLOSEST You Can Stay To Magic Kingdom -- TOUR of Bay Lake Tower at Disney's Contemporary Resort",
+        "publishedAt": "2026-06-14T14:00:28+00:00"
+      },
+      "extractedAt": "2026-06-15T14:06:12.272Z"
+    },
+    {
+      "id": "69326555-bdb0-4fc6-9410-6b4ef6878aed",
+      "text": "Consider renting DVC points through services like David's DVC Rentals to save 20-50% or more on deluxe Disney accommodations compared to cash rates.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "dvc-rentals",
+        "budget-travel"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "GM32Kqe14hc",
+        "channelName": "AllEars.net",
+        "videoTitle": "The CLOSEST You Can Stay To Magic Kingdom -- TOUR of Bay Lake Tower at Disney's Contemporary Resort",
+        "publishedAt": "2026-06-14T14:00:28+00:00"
+      },
+      "extractedAt": "2026-06-15T14:06:12.272Z"
+    },
+    {
+      "id": "4f1e43ae-f212-465c-ac2b-ce1fdf4d8391",
+      "text": "Mobile order dinner from Steakhouse 71 at the Contemporary Resort for a pseudo room service experience.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "table-service",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "GM32Kqe14hc",
+        "channelName": "AllEars.net",
+        "videoTitle": "The CLOSEST You Can Stay To Magic Kingdom -- TOUR of Bay Lake Tower at Disney's Contemporary Resort",
+        "publishedAt": "2026-06-14T14:00:28+00:00"
+      },
+      "extractedAt": "2026-06-15T14:06:12.272Z"
+    },
+    {
+      "id": "d3e236db-d97d-4484-94c1-b7f3ad9f4beb",
+      "text": "Mobile order the Mickey pretzel from The Lunching Pad for a quick and character-inspired snack.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "mobile-order",
+        "snacks",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "XthF2NUFeaI",
+        "channelName": "MammothClub",
+        "videoTitle": "A RANDOMIZER Game Chose Our Day In Disney World | Magic Kingdom, Walt Disney World Challenge",
+        "publishedAt": "2026-06-14T13:00:15+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:06.363Z"
+    },
+    {
+      "id": "13e11773-1c19-4d8c-9daf-4ba64c33a09e",
+      "text": "Book an Adventures by Disney trip through Be Our Guest Vacations for an all-inclusive, concierge-style experience.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "all-inclusive",
+        "concierge"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "ICQ6NSH3mBw",
+        "channelName": "TheTimTracker",
+        "videoTitle": "Adventures By Disney Costa Rica! Travel Day, Exploring The Hotel & What Is Adventures By Disney?",
+        "publishedAt": "2026-06-13T20:42:31+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:05.285Z"
+    },
+    {
+      "id": "baac9de9-d692-4c4a-a20b-4c898e50cbec",
+      "text": "Arrive at Disneyland or California Adventure by 7:30 AM to experience 'rope drop the rope drop' and minimize wait times for popular attractions.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Qf40AoMxbCI",
+        "channelName": "FreshBaked",
+        "videoTitle": "Disney's PARK HOPPING RULES are over!  Check out this demo!",
+        "publishedAt": "2026-06-13T20:29:01+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:06.890Z"
+    },
+    {
+      "id": "e449b3f1-9cd5-42a9-9edc-21dc7485988a",
+      "text": "Expect significant crowds and long waits for popular rides like Indiana Jones and Rise of the Resistance if arriving at Disneyland after 7:45 AM.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "crowds",
+        "wait-times",
+        "rope-drop"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Qf40AoMxbCI",
+        "channelName": "FreshBaked",
+        "videoTitle": "Disney's PARK HOPPING RULES are over!  Check out this demo!",
+        "publishedAt": "2026-06-13T20:29:01+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:06.890Z"
+    },
+    {
+      "id": "5719e10b-bb25-4a90-968d-8baf51cf292c",
+      "text": "Mission Breakout can accumulate a 75-minute wait by 8:07 AM; consider riding it early or using Genie+ if available.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "wait-times",
+        "rope-drop",
+        "theme-park-attraction"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Qf40AoMxbCI",
+        "channelName": "FreshBaked",
+        "videoTitle": "Disney's PARK HOPPING RULES are over!  Check out this demo!",
+        "publishedAt": "2026-06-13T20:29:01+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:06.890Z"
+    },
+    {
+      "id": "ddf1ee1a-03a5-408f-856d-a73ccfd0249a",
+      "text": "Listen to the Disney Junior Mickey Mouse Clubhouse live show album on Spotify if you enjoy the music but don't want to see the show.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "shows",
+        "music"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "BanyJgQRnMU",
+        "channelName": "AllEars.net",
+        "videoTitle": "No One is Taking Me SERIOUSLY About the BEST New Thing in Disney World 🗣️",
+        "publishedAt": "2026-06-13T19:15:25+00:00"
+      },
+      "extractedAt": "2026-06-15T14:06:12.173Z"
+    },
+    {
+      "id": "80f4cf1c-b13e-4745-9b44-53a4a1484b0d",
+      "text": "Prioritize seeing the Festival of the Lion King show at Animal Kingdom; it's considered one of the best shows and shouldn't be skipped.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "shows",
+        "must-do"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "f619f978-4be2-4890-8626-3cc9ebc50605",
+      "text": "The brownie cookie ice cream sandwich at Animal Kingdom is very rich and best shared.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "desserts",
+        "shareable"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "905d7329-e08d-4cb2-a3e6-9599198f4192",
+      "text": "Opt for the carrot cake sundae at Terra Treats in Animal Kingdom if you prefer a lighter, less rich dessert than the brownie cookie sandwich.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "desserts"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "d6e0ba3d-5139-4c6b-8f9c-fd69db60821c",
+      "text": "Kilimanjaro Safaris at Animal Kingdom currently has short wait times, making it a good attraction to do when wait times for other rides are long.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "wait-times",
+        "attractions"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "99cbfb97-dba7-435f-a3d1-6c2979d89729",
+      "text": "If you're looking for a more subtle souvenir, consider the baseball cap with 'Walt Disney World' and '71' on the side.",
+      "category": "budget",
+      "park": "animal-kingdom",
+      "tags": [
+        "souvenirs",
+        "merchandise"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "b46304cf-71dc-4ac7-a224-e6112dcf6dfc",
+      "text": "The tuna nachos at Yak & Yeti in Animal Kingdom are a popular and recommended dish.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service",
+        "popular-dishes"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "2c692e0e-4c2a-435b-a059-20d45cdea819",
+      "text": "Yak & Yeti at Animal Kingdom is a consistent restaurant with no bad meals, earning a five out of five rating.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service",
+        "highly-rated"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "3cfc2e92-9e3d-4ed8-929a-81b286057165",
+      "text": "Consider the Sci-Fi Dine-In Theater at Hollywood Studios for dinner if you enjoy themed dining experiences.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "DvwI_Lck7VI",
+        "channelName": "DisneyInDetail",
+        "videoTitle": "DISNEY WORLD VLOG 2026 🌳 Disney's Animal Kingdom, viral snacks and Yak & Yeti",
+        "publishedAt": "2026-06-13T16:00:30+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:09.414Z"
+    },
+    {
+      "id": "cfc1f288-710c-4a35-9c79-f47bae370c64",
+      "text": "Try the Quebec poutine and Montreala Vyond Fume at La Patinerie in Epcot's Canada Pavilion starting July 1st.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "new-menu"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "7e8188b2-d3e1-42e4-b952-9bf534d0fb04",
+      "text": "Sample the Fourth of July beignets at Scat Cats Club Cafe and Lounge at Port Orleans Resort French Quarter starting June 15th.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "seasonal-dining",
+        "resort-dining"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "68ec2d69-63f3-4028-9d3e-37e7dbfe3515",
+      "text": "Look for new solar-powered trash cans at Epcot, which feature a foot pedal to open, potentially increasing sanitation.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "unscheduled-attraction",
+        "facility-update"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "271bea10-0ed4-4848-a3dc-5704e4e2a7c2",
+      "text": "Check out the new Light Lounge in Epcot's Odyssey building for air-conditioned seating and unique snacks like apple caramel churro bites.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "air-conditioning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "ac759107-2b75-4d2a-8107-f09c47c184b4",
+      "text": "Park hopping at Disneyland is now easier as the 11:00 a.m. waiting period has been removed, allowing more flexibility.",
+      "category": "parks",
+      "park": "disneyland",
+      "tags": [
+        "park-hopper",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "471bfe2c-5bcc-4424-b001-4037a78ed8fb",
+      "text": "Consider staying at Disney Springs area hotels for perks like 30-minute early entry and park shuttles, often at a lower cost than other Disney resorts.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-perks",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "1a1fb684-a2ea-4fd4-b29e-cb181f0a71c4",
+      "text": "Teachers can receive 25% off stays at Disney Springs area hotels this summer if booked by August 31st and completed by September 7th, 2026.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "discounts",
+        "hotels"
+      ],
+      "priority": "high",
+      "season": "summer",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "aee700dd-f491-4d01-a004-2c7ba7e1fece",
+      "text": "Try the chocolate hazelnut bearclaw pastry, a returning favorite, at Trail's End Restaurant at Fort Wilderness Resort.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "resort-dining",
+        "pastry"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "0e468f4f-9627-4989-890c-a29454fd6d71",
+      "text": "The new 'El Drinkolore' cocktail at La Cantina de San Angel in Epcot is served in a light-up golden globe for $19.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "bar-drink",
+        "specialty-drink"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "1f019181-ad2a-4f66-a14e-99184785f894",
+      "text": "Sample the new maple bread or Hokkaido milk bread at Mitsukoshi in Epcot's Japan Pavilion for a soft and fluffy snack.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "ac563eba-27d6-4cf8-aa26-a7f4e66b7d06",
+      "text": "Get the new daily filled croissant (chocolate or strawberry) at The Cake Bake Shop in Disney Springs early, as they sell out quickly.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "pastry",
+        "dessert"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "dba2d3b8-b9ff-49e0-9349-81d020edde46",
+      "text": "Try the new Pride funnel cake at Epic Eats in Hollywood Studios, topped with Fruity Pebbles, ube frosting, and vanilla soft serve.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "dessert",
+        "seasonal-offering"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "c82027ef-4d6c-40e3-9daf-da6887f24ad4",
+      "text": "Enjoy the Mickey-shaped strawberry lemonade macaron at Sunshine Seasons in Epcot for a refreshing sweet and tart snack.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "dessert",
+        "snacks"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "ea1c34ca-d03f-42c7-8bc8-216f2143dda8",
+      "text": "Order the new maple mustard chicken strips with crispy garlic at Columbia Harbor House in Magic Kingdom for a flavorful, crunchy option.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "chicken-strips"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "9e1ae3d8-5517-4ddc-a760-c7165a0ec63a",
+      "text": "Share the bread and butter pudding bites with butterscotch and vanilla sauce at Cook's of Dublin in Disney Springs.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "dessert",
+        "snacks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "c91f54ee-eb5c-4691-a7f7-0b17935eeac4",
+      "text": "Try the Box Spice Bag at Cook's of Dublin in Disney Springs, featuring chips, chicken strips, peppers, onions, and curry sauce.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "entree"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "0f6578cc-c362-4ce7-9171-741d7a716c81",
+      "text": "Order the cooked spud bites with garlic mayo dip at Cook's of Dublin in Disney Springs for a crispy potato snack.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "quick-service",
+        "snacks",
+        "potatoes"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "00c823e9-6659-4ded-8700-3915e1b312c4",
+      "text": "Try the rainbow Bellini petite cake at Entremets Patisserie in Disney Springs for a light, airy dessert with a subtle peach flavor.",
+      "category": "dining",
+      "park": "disney-springs",
+      "tags": [
+        "dessert",
+        "pastry",
+        "specialty-cake"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "dbce7c1f-5df4-4c6e-a330-c362b185ca00",
+      "text": "The boat dock at Disney's Polynesian Village Resort has reopened, resuming boat service to and from Magic Kingdom.",
+      "category": "transportation",
+      "park": "magic-kingdom",
+      "tags": [
+        "resort-transportation",
+        "resort-hopping"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "697e66b9-bb5f-41dd-a38f-a8985efe707f",
+      "text": "Annual Passholders can get the exclusive 'Screen Time Swirl Float' at Woody's Lunchbox in Hollywood Studios from June 19th through July 31st.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "passholder-perk",
+        "limited-time-treat"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "d8ed39d5-40dd-4cab-b280-7aebb0d00cf3",
+      "text": "Annual Passholders can get an exclusive Disney PhotoPass Magic Shot with Jesse and Bullseye on Grand Avenue in Hollywood Studios from June 19th to July 31st.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "passholder-perk",
+        "photopass",
+        "character-meet"
+      ],
+      "priority": "low",
+      "season": "summer",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "f611e4e8-be64-4558-9290-30e9a320c2f6",
+      "text": "Experience a walkthrough experience at Jumping Junction in Animal Kingdom's Conservation Station to see kangaroos and wallabies up close.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animal-encounter",
+        "walkthrough",
+        "conservation-station"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "fd5456e7-1c3f-4fd8-8ad0-e59612779877",
+      "text": "Purchase the Lightning McQueen popcorn bucket at Disney World or Disneyland to celebrate the 20th anniversary of Cars; it lights up, rolls, and has sound effects.",
+      "category": "parks",
+      "park": "all-parks",
+      "tags": [
+        "merchandise",
+        "collectible",
+        "limited-release"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3dcHusje4nY",
+        "channelName": "DFBGuide",
+        "videoTitle": "Latest Disney News: Opening Date for New Snack Stand, New Trash Cans in EPCOT & MORE!",
+        "publishedAt": "2026-06-13T14:30:27+00:00"
+      },
+      "extractedAt": "2026-06-14T14:04:15.028Z"
+    },
+    {
+      "id": "47b5d314-7b25-4a1b-bab3-6766c0fd2e29",
+      "text": "If the single rider line for a ride is operational, consider streaming it on a GoPro for a unique perspective.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "477450dc-8adc-4ffc-b5bb-b7917aa8d9fe",
+      "text": "To potentially avoid copyright strikes on YouTube streams, strategically plan streams with less copyrighted music or footage.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "content-creation",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "d311e13b-19ba-4fcc-83ec-dd73ff78148f",
+      "text": "If one Fantasmic! show is rained out, consider attending the later showing as a backup.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "fantasmic",
+        "weather-strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "2e8a6215-05e0-4693-b982-1dd1cbe288d6",
+      "text": "Consider riding Mickey & Minnie's Runaway Railway after the 9:00 PM Fantasmic! show to avoid long lines, then head to the 10:30 PM show.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "wait-times",
+        "fantasmic"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "7175e194-f753-46c8-9391-66329bfc5720",
+      "text": "The music in Hollywood Studios, particularly the jazz in the animation courtyard, offers a chill atmosphere.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "atmosphere",
+        "music"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "fc3a9906-d361-4ca0-a51a-a5cca2262104",
+      "text": "When booking Lightning Lane selections, start booking 7 days in advance to secure the most popular options.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "booking-strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "0a21aa42-310c-4978-adec-9eb525a0bd30",
+      "text": "The Animation Courtyard area in Hollywood Studios has been reimagined to resemble a real Disney studio, featuring various characters and animation stills.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "animation",
+        "themepark-update"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "a665b7a3-6eb1-443a-bdf8-073514520269",
+      "text": "The new Disney animation area in Hollywood Studios is not fully open until late summer; look for 'coming soon' signage.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "animation",
+        "coming-soon"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "e4a262ed-7da5-4d29-adf4-2987280a77c7",
+      "text": "Use a thermostat app to monitor your home's temperature and power status when away to detect potential issues like flooding or power outages.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "home-monitoring",
+        "travel-safety"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jmhs95Z7Xtw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Friday Night Live at Hollywood Studios with Fantasmic - Walt Disney World - 6-12-26",
+        "publishedAt": "2026-06-13T03:43:58+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.597Z"
+    },
+    {
+      "id": "db00292f-15e0-470a-abfb-ff0b27e31473",
+      "text": "If you are leaving Animal Kingdom and need to catch a flight, allow ample time for potential traffic to the airport.",
+      "category": "transportation",
+      "park": "animal-kingdom",
+      "tags": [
+        "airport-transport",
+        "traffic"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "BgfSvEJU0D8",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "Horrendous Travel Day",
+        "publishedAt": "2026-06-12T21:00:35+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:10.267Z"
+    },
+    {
+      "id": "fa62d28f-e051-4bd0-840a-a378cc45aa42",
+      "text": "Purchase a Lightning Lane for Rock and Roller Coaster to guarantee a front-row ride.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "e0d13cd8-35ec-4cbe-8dd5-4d737b938581",
+      "text": "Consider the single rider line for Rock and Roller Coaster if the wait is long, as it can be significantly shorter.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "4693cc91-95af-4d0a-a210-5e08ced25628",
+      "text": "Try the Fruity Pebbles funnel cake with ube icing at Epic Eats if it's available seasonally; it's a thick and delicious treat.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "seasonal"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "84851231-1f07-443f-a218-c1fb6c21a471",
+      "text": "Use the single rider lines at Hollywood Studios for Smugglers Run, Rise of the Resistance, and Rock 'n' Roller Coaster to save time.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "07171745-04c4-4a6f-a047-241e983758b0",
+      "text": "If you want to be the pilot on Smugglers Run, you may need to book a Lightning Lane as single rider typically places you as an engineer.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "single-rider",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "9f774b8f-7919-4a88-9b4d-abc0bbde5036",
+      "text": "Order the pot roast at Docking Bay 7 for a flavorful dish served with mashed potatoes and carrots.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "0ae6359d-d48a-4330-b62c-22ae22b7f07f",
+      "text": "Skip the ribs at Docking Bay 7 if you're unsure about spicy flavors or the accompanying bread and mac and cheese.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "quick-service",
+        "themed-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Jf_npkelIFk",
+        "channelName": "PagingMrMorrow",
+        "videoTitle": "Disney’s Hollywood Studios 2026 | Park Update: NEW Muppets Coaster, Star Wars & Food | Disney World",
+        "publishedAt": "2026-06-12T15:25:10+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:12.124Z"
+    },
+    {
+      "id": "3eb6b6eb-ee25-44ba-a50b-4dacfe6dd79a",
+      "text": "Plan to watch at least one showing of Fantasmic! at Hollywood Studios, ideally starting around 6:00 PM Eastern Time.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "fireworks",
+        "shows"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "c1ba58f4-de93-4ead-b036-460af3c01dee",
+      "text": "Consider using the single rider line for Rock 'n' Roller Coaster at Hollywood Studios if available to potentially reduce wait times.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "single-rider",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "cfe84a7d-0daf-4f85-ae8a-27616c79f7e6",
+      "text": "If you plan to film on Rock 'n' Roller Coaster with a GoPro, check with the ride operators beforehand as they may allow it in a backpack but not while holding it.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "camera-policy",
+        "ride-tips"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "a492cb98-6e0d-4fe9-bf68-8c7d82c8366b",
+      "text": "Tune into the Friday Night Live stream from Hollywood Studios at 6:00 PM Eastern Time for live park updates and experiences.",
+      "category": "planning",
+      "park": "hollywood-studios",
+      "tags": [
+        "live-stream",
+        "event-coverage"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "e0a3ef56-4b28-4555-aa68-96ac9cbad39c",
+      "text": "Plan for a Sunday morning stream at Magic Kingdom, starting around 9:00 AM near park opening.",
+      "category": "planning",
+      "park": "magic-kingdom",
+      "tags": [
+        "live-stream",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "a847cfc5-01ad-45b8-8608-41b44ff4ac25",
+      "text": "Consider riding the PeopleMover in Magic Kingdom during your visit.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attractions",
+        "wait-times"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "3cAMJK9vrmQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "Friday Night Live Stream Announcement - 6-12-26 - Walt Disney World",
+        "publishedAt": "2026-06-12T13:00:14+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.942Z"
+    },
+    {
+      "id": "30702099-f66a-422a-8180-fc64f6caac82",
+      "text": "Book Oogie Boogie Bash tickets on the day they go on sale, as they can be difficult to get.",
+      "category": "parks",
+      "park": "disney-springs",
+      "tags": [
+        "halloween",
+        "tickets"
+      ],
+      "priority": "medium",
+      "season": "halloween",
+      "source": {
+        "videoId": "lhA4JOJZJvA",
+        "channelName": "FreshBaked",
+        "videoTitle": "FreshBaked! is live!",
+        "publishedAt": "2026-06-12T03:10:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.877Z"
+    },
+    {
+      "id": "9e1caa05-9fcd-4ced-991a-cd165c0cf3b1",
+      "text": "If you're seeking a quiet resort with amazing beds, consider the Hilton Garden Inn near Disneyland.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "hotels",
+        "beds"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "lhA4JOJZJvA",
+        "channelName": "FreshBaked",
+        "videoTitle": "FreshBaked! is live!",
+        "publishedAt": "2026-06-12T03:10:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.877Z"
+    },
+    {
+      "id": "1286ed82-3443-44a3-a27c-0dfd180d7ffb",
+      "text": "For a Disney resort, the beds at the Disneyland Hotel are not particularly comfortable.",
+      "category": "hotels",
+      "park": "disneyland",
+      "tags": [
+        "hotels",
+        "beds"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "lhA4JOJZJvA",
+        "channelName": "FreshBaked",
+        "videoTitle": "FreshBaked! is live!",
+        "publishedAt": "2026-06-12T03:10:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:45.877Z"
+    },
+    {
+      "id": "25890674-1864-4254-be40-3b1f764fd87d",
+      "text": "Book your Animal Kingdom hotel and tickets through the provided link for the cheapest rates.",
+      "category": "budget",
+      "park": "animal-kingdom",
+      "tags": [
+        "hotel-deals",
+        "ticket-deals"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4kAkfJ5_rGs",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "Animal Kingdom FULL TOUR 2026! What’s New",
+        "publishedAt": "2026-06-11T21:00:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.331Z"
+    },
+    {
+      "id": "8112ec9d-516b-4f99-a365-848dd1cc4dc1",
+      "text": "Take a 30-minute power nap at the Animal Kingdom Lodge to refresh before returning to the park.",
+      "category": "hotels",
+      "park": "animal-kingdom",
+      "tags": [
+        "resort-perks",
+        "rest"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "4kAkfJ5_rGs",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "Animal Kingdom FULL TOUR 2026! What’s New",
+        "publishedAt": "2026-06-11T21:00:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.331Z"
+    },
+    {
+      "id": "e8b36fb7-4903-41c4-87ee-83df4c26ead7",
+      "text": "Consider Expedition Everest and Flight of Passage as top attractions at Animal Kingdom, alongside the Festival of the Lion King.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "top-attractions",
+        "expedition-everest",
+        "flight-of-passage"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "4kAkfJ5_rGs",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "Animal Kingdom FULL TOUR 2026! What’s New",
+        "publishedAt": "2026-06-11T21:00:37+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.331Z"
+    },
+    {
+      "id": "033c640b-fa36-44cc-94d2-578acb571df9",
+      "text": "Check the Disney World app for the most current information on whether a virtual queue is needed for Bluey and Bingo's meet-and-greet at Animal Kingdom, as this can change.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "virtual-queue",
+        "app"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "00e0ca91-bdd9-4d25-9bff-3b5a0493ef26",
+      "text": "When attending the Bluey and Bingo show at Animal Kingdom, position yourself on the right side for Bluey or the left side for Bingo if you want to be closer to a specific character.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-meet",
+        "show"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "a460b136-6229-4885-9ef5-6d25e1273edd",
+      "text": "Understand that the Bluey and Bingo experience at Animal Kingdom is not a traditional meet-and-greet and characters do not stop for photos or poses.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-meet",
+        "show",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "6a327111-97af-4a76-bf9a-a3b595c5c50b",
+      "text": "Pack patience for the Bluey and Bingo experience at Animal Kingdom, as it requires waiting in line and is not a one-on-one interaction.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "character-meet",
+        "planning",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "151a0872-0904-4f25-a274-341a6cf87baa",
+      "text": "You can fold your stroller and bring it on the Wildlife Express train at Animal Kingdom, but check stroller tag colors as some may require parking outside the building.",
+      "category": "transportation",
+      "park": "animal-kingdom",
+      "tags": [
+        "stroller",
+        "transportation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "2e8d809c-4795-4aa8-8239-ac163a107848",
+      "text": "When visiting the kangaroos and wallabies at Animal Kingdom's new habitat, you can currently walk up and look at them, but will soon be able to stroll through once they are acclimated.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "animal-encounters"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "164e9bd6-67f2-444c-9f14-7412ab04d2ec",
+      "text": "For quick potty breaks before heading to Conservation Station at Animal Kingdom, use the restrooms near Tusker House to potentially avoid longer lines.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "restrooms",
+        "planning"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "52d5025f-374f-4cc5-9bca-e59b6275ac85",
+      "text": "Bring entertainment, like Bluey-themed coloring packs, to occupy children while waiting in lines for experiences like the Bluey and Bingo meet-and-greet at Animal Kingdom.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "planning",
+        "kids-activities"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "ebebf67b-24dc-4087-930d-283f1d13aac5",
+      "text": "Try the Blue-themed and fruit punch flavored drinks at Animal Kingdom; the fruit punch flavor is particularly recommended.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "drinks"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "d93c4181-1543-4708-ad6c-42b62fd55600",
+      "text": "Skip the viral ice cream sandwich at Animal Kingdom and opt for other treats like the pink drink, which is highly recommended.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snacks",
+        "treats",
+        "skip-the-line"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dLW1fLzy4gE",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at ANIMAL KINGDOM",
+        "publishedAt": "2026-06-11T18:00:25+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:50.506Z"
+    },
+    {
+      "id": "25d4c648-ed40-4fff-b5ef-6a7975ca8bbd",
+      "text": "Consider purchasing a multi-day ticket for Animal Kingdom on a weekday during the off-season, as these are the cheapest ticket options available.",
+      "category": "budget",
+      "park": "animal-kingdom",
+      "tags": [
+        "ticket-prices",
+        "off-peak"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "b8132eec-7f62-4f68-802a-23f23f40b286",
+      "text": "Look for promotions like the '4-Park 4-Day Magic Ticket' or 'Free Dining Plan for Kids,' which can be combined with room discounts for substantial savings.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "promotions",
+        "dining-plan"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "5cb61a78-2065-4775-8d71-0a170384cd62",
+      "text": "Skip the Lightning Lane 'perks' for rides unless you are visiting during a very busy period, as the cost can add up significantly for a family.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "budget"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "6c51d94a-6b09-4f3f-84d5-b805b48d6c21",
+      "text": "Take advantage of off-peak travel times, such as weekdays in September, to find cheaper hotel rates, similar to mid-range hotels in other popular vacation spots.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "hotels",
+        "off-peak"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "9ff5a1b1-6a2b-4fab-a7a0-a477490cf96a",
+      "text": "Be aware that Disney's Dynamic Pricing means ticket and Lightning Lane costs vary significantly by day, park, and season; plan accordingly to find lower-priced days.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "dynamic-pricing",
+        "ticket-prices"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "565a0d05-c9c9-4764-ae77-47d56eb714f3",
+      "text": "Decide in advance which specific upgrades, like Lightning Lane access for certain rides, are truly worth the cost for your family, as not all are essential.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "budgeting"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "ceb36456-ca30-4126-baad-c187b494253e",
+      "text": "For resort stays, consider value resorts and off-peak travel dates to find more affordable accommodation options.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "value-resorts",
+        "off-peak"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "2AgYdQxojP0",
+        "channelName": "DFBGuide",
+        "videoTitle": "How Did Disney Get So Incredibly Expensive?",
+        "publishedAt": "2026-06-11T14:30:19+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:51.448Z"
+    },
+    {
+      "id": "200d2294-8139-45d1-8000-f699c1519676",
+      "text": "Head to Slinky Dog Dash first thing at Hollywood Studios if you want to avoid waiting in the outdoor queue in the heat.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "wait-times",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "f0aa8339-28e3-400b-a5b5-3d612e62c8b3",
+      "text": "Prioritize Rock 'n' Roller Coaster featuring the Muppets at rope drop if you have early entry, as it will likely be the most popular new attraction.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "early-entry",
+        "new-attraction"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "7e4116fe-bdaf-480e-9085-68cea0aafb01",
+      "text": "Check if Rise of the Resistance is operational before heading there as your first attraction, as it frequently experiences downtime.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "strategy",
+        "wait-times",
+        "tip"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "3312d643-6b11-46b3-843d-9ab5578c3eca",
+      "text": "Ride Tower of Terror early in the day at Hollywood Studios when the posted wait time is around 13 minutes, as this often means a walk-on.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "49ddad8f-1094-4771-8754-11428cb9e2ce",
+      "text": "Factor in that wait times posted in the first hour after park opening at Hollywood Studios can be inaccurate estimates.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "wait-times",
+        "strategy",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "fd2e5562-df90-4864-9458-3172e4c43872",
+      "text": "Book a quick coffee or snack, as a minute or two detour will not significantly impact your park day strategy.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "strategy",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "b094ed47-7a8c-401a-84d3-0b6630eb5efc",
+      "text": "Utilize early entry at Hollywood Studios by arriving 30 minutes before official park opening to get a head start on popular rides.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "early-entry",
+        "rope-drop",
+        "strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "93ea03d3-863d-4ac1-bdbc-695df0ede34c",
+      "text": "Consider arriving at Hollywood Studios an hour before early entry starts if you want to be among the very first people in line for popular attractions.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "strategy",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "f6660c87-3baf-4a72-b6cd-4ad98b835475",
+      "text": "Arrive at Hollywood Studios right at park opening if you prefer a more reasonable morning, as you will still benefit from lower crowds.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "120bbcce-4688-4003-9015-cefa9d447e3a",
+      "text": "Be aware that Lightning Lane selections can slow down standby queues for popular rides like Slinky Dog Dash throughout the day.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "6f44e39a-745e-4451-971c-c3c883e2ae46",
+      "text": "Expect longer waits for Slinky Dog Dash and Rise of the Resistance at Hollywood Studios due to their popularity and sometimes lower ride capacity.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "wait-times",
+        "strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "6f70083b-10a8-4b50-b27f-429c622cc810",
+      "text": "Book Disney World Resort hotel stays to gain access to early entry, allowing you to enter theme parks 30 minutes before the general public.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "early-entry",
+        "resort-perks",
+        "planning"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "la_PfOiArUY",
+        "channelName": "AllEars.net",
+        "videoTitle": "The Best Way to START Your Day in Hollywood Studios -- Early Entry vs Rope Drop EXPERIMENT",
+        "publishedAt": "2026-06-11T14:00:00+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.848Z"
+    },
+    {
+      "id": "6849fdd3-a794-4929-9904-50e6eadd235b",
+      "text": "Use the Mouse Times app for ride alerts; it can tell you when wait times are low for rides you want to experience.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "app",
+        "wait-times",
+        "planning"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dOlhim5-xAQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: An Epcot Evening - 6-10-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-11T02:17:00+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:19.806Z"
+    },
+    {
+      "id": "019b892c-f141-4894-9f52-43adabd3c290",
+      "text": "Check the single rider line for Test Track if you don't mind riding alone to potentially reduce your wait time.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "single-rider",
+        "wait-times",
+        "test-track"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dOlhim5-xAQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: An Epcot Evening - 6-10-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-11T02:17:00+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:19.806Z"
+    },
+    {
+      "id": "0b5f7671-7099-4d6f-91f2-6bb6f623f94d",
+      "text": "Consider the behind-the-scenes walking tour for Living with the Land to get a closer look at the innovative farming techniques.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "living-with-the-land",
+        "behind-the-scenes",
+        "epcot-tours"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "dOlhim5-xAQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: An Epcot Evening - 6-10-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-11T02:17:00+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:19.806Z"
+    },
+    {
+      "id": "267e2750-0372-4667-9547-3e03907764fe",
+      "text": "See the Epcot 40th Anniversary Beacon of Magic show on Spaceship Earth after dark.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "fireworks",
+        "evening-show",
+        "beacon-of-magic"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "dOlhim5-xAQ",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: An Epcot Evening - 6-10-26 - Walt Disney World Live Stream",
+        "publishedAt": "2026-06-11T02:17:00+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:19.806Z"
+    },
+    {
+      "id": "2b65cfdd-03e0-4bd1-a465-a010484a7a56",
+      "text": "Purchase a Lightning Lane for Avatar Flight of Passage at Animal Kingdom to avoid potentially long wait times.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "lightning-lane",
+        "avatar-flight-of-passage"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "3dba624d-b8e7-4973-aef8-be44e5325c95",
+      "text": "Head to Kilimanjaro Safaris at Animal Kingdom in the morning as the wait times are often lower, especially if new attractions are drawing crowds elsewhere.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "wait-times",
+        "morning-strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "d756a89d-bdd5-4ee6-945b-bedd80e184e8",
+      "text": "Utilize the animal spotting guide located above your head on Kilimanjaro Safaris to identify the various animals you encounter.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "kilimanjaro-safaris",
+        "animal-viewing"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "9ab61931-d008-4b2d-b56c-75bed2d86462",
+      "text": "Consider breakfast at Satu'li Canteen in Animal Kingdom, especially if you enjoy the pork shoulder potato hash.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "breakfast",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "ff317c29-9fe4-4d23-9332-047fa336d0c8",
+      "text": "The Wayfinder Burger at 'Ohana or Kona Island (part of the Polynesian Village Resort) is considered one of the best burgers on Disney property.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "burger",
+        "table-service"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "4d396571-874c-4e51-8ad9-3f76f148cd2f",
+      "text": "If you enjoy POG juice, try the POG soda at Wul’e’e Poh Bar and Grill, which is a mix of POG juice and Sprite.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "drinks",
+        "resort-dining"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "59c03d0d-67e7-49d0-93c9-6fd64ae9fbcc",
+      "text": "The Polynesian Village Resort offers an excellent theme with great foliage and ambiance, making it a desirable resort for a stay.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-theme",
+        "ambiance"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "ee6cb3fb-e037-484b-a9ee-3be4a14f897f",
+      "text": "When booking a large group at Wul’e’e Poh Bar and Grill, be aware that table configurations may make it difficult to sit together and reservations can be tight; book well in advance.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "reservation",
+        "large-groups"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "068bf48b-38aa-49d4-bc7b-d254a8c8acd7",
+      "text": "When bringing neck fans through security at Walt Disney World parks, remove them from your bag before walking through the metal detectors to avoid extra checks.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "security",
+        "packing-tips"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "7Y7hm2X6mrM",
+        "channelName": "SoCalDisneyDad",
+        "videoTitle": "FIRST PARK DAY! Animal Kingdom & Magic Kingdom + Wailulu Bar & Grill Lunch",
+        "publishedAt": "2026-06-10T22:00:24+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:54.907Z"
+    },
+    {
+      "id": "f747541c-80e3-466f-b685-09ccb7f878fa",
+      "text": "Check out the \"Squeak Easy\" sign in the queue for Rock 'n' Roller Coaster Starring the Muppets, established in 1936, the birth year of Jim Henson.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "easter-eggs",
+        "queue-details"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Yc1JArqiEIo",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "SECRETS REVEALED Of Disneys Newest Ride",
+        "publishedAt": "2026-06-10T21:00:31+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:15.183Z"
+    },
+    {
+      "id": "40d38eb9-c13e-4fb0-adc4-5da85778ae40",
+      "text": "Try the 'Pink Lemon Muaade' and 'Watermelon Limeade' at Swedish Chef's Food Corner, named after Miss Piggy's catchphrase and water.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "themed-food"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Yc1JArqiEIo",
+        "channelName": "ProvostParkPass",
+        "videoTitle": "SECRETS REVEALED Of Disneys Newest Ride",
+        "publishedAt": "2026-06-10T21:00:31+00:00"
+      },
+      "extractedAt": "2026-06-13T14:05:15.183Z"
+    },
+    {
+      "id": "3916c8a5-736b-401a-bad5-a00ad0849ac5",
+      "text": "If you don't have a Lightning Lane for Mission: Breakout, expect extremely long wait times, potentially over 95 minutes, and consider it very difficult to ride without one.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "wait-times",
+        "mission-breakout"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "b5QA2cIQixY",
+        "channelName": "FreshBaked",
+        "videoTitle": "I was expecting CHANGE this Summer | State of California Adventure",
+        "publishedAt": "2026-06-10T18:32:02+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:18.791Z"
+    },
+    {
+      "id": "1922c9c2-1611-4e0d-8723-c0e6b6a3f198",
+      "text": "When mobile ordering at Pym Test Kitchen, aim for an 11:00 AM or 1:30 PM dining time to avoid the peak noon rush.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "mobile-order",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "b5QA2cIQixY",
+        "channelName": "FreshBaked",
+        "videoTitle": "I was expecting CHANGE this Summer | State of California Adventure",
+        "publishedAt": "2026-06-10T18:32:02+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:18.791Z"
+    },
+    {
+      "id": "4e630e10-a092-4baf-ad6c-8434c53a5e4b",
+      "text": "Check the My Disney Experience app for character meet-and-greet times and be at the location on time, as lines can be cut off early for popular characters like Bitsy and Sophia.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "character-meet",
+        "app-usage"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.053Z"
+    },
+    {
+      "id": "a0efad31-d5b5-47c5-b5eb-06714153ecb7",
+      "text": "The Aliens Key Lime Pie tarts at Woody's Lunch Box are enjoyable, even for those who don't always like the tarts.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "quick-service"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "992a061f-667c-4ce0-bd37-b132bcede59d",
+      "text": "Consider using a Lightning Lane for the new Mickey Mouse Clubhouse Plus show, as the line can be cut off significantly before the show starts.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "lightning-lane",
+        "shows"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "07ed8173-c107-4683-97d4-983027f877ef",
+      "text": "Star Tours has a much shorter wait time if you use the left queue when it splits, often resulting in a walk-on experience.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rides",
+        "wait-times"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "c0e4e97f-b371-4330-aa73-5290064158f1",
+      "text": "Character dining experiences can be less valuable than free-roaming character interactions, saving you money and potentially offering better engagement.",
+      "category": "budget",
+      "park": "all-parks",
+      "tags": [
+        "character-dining",
+        "character-meet"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "7359503d-7662-4133-8e12-aaf9fdd7e332",
+      "text": "Consider purchasing rain gear and stroller rain covers in advance rather than at the last minute to save precious vacation time.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "weather-prep",
+        "summer-tip"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "eeeb82a5-2836-43db-be8f-e6280308fab7",
+      "text": "Try the blue or pink milk at Galaxy's Edge, as it offers a unique and enjoyable sweet and sour flavor.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snacks",
+        "galaxy-s-edge"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "cc412720-32c6-4d99-b70b-19a2eb3fd3ed",
+      "text": "If you plan to ride Toy Story Mania!, prepare for crowds and consider using a Lightning Lane, as wait times can be long.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rides",
+        "toy-story-mania",
+        "lightning-lane"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "271560db-9702-4590-8d4e-08afaf120af7",
+      "text": "When facing long waits for popular rides like Slinky Dog Dash (100 minutes), consider alternative strategies or rides to maximize your park time.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rides",
+        "wait-times",
+        "strategy"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "JmHqT2elQC4",
+        "channelName": "PixieDustedMom",
+        "videoTitle": "Disney World Summer: 'Cool Kid Summer' at HOLLYWOOD STUDIOS",
+        "publishedAt": "2026-06-10T18:00:18+00:00"
+      },
+      "extractedAt": "2026-06-12T14:03:57.054Z"
+    },
+    {
+      "id": "98825b9c-4df7-49ed-acea-570866c56bc4",
+      "text": "Enjoy a ride on the People Mover in Magic Kingdom.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "attraction",
+        "classic-ride"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "e7d87833-d04a-49d9-bdf3-3af6a0b04d27",
+      "text": "Ride Spaceship Earth in Epcot for a classic, relaxing experience.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction",
+        "classic-ride"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "50040e1b-48b9-4180-8117-2d0670d5c30d",
+      "text": "Experience Living with the Land in Epcot for a calm and educational boat ride.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction",
+        "boat-ride"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "f4cf95ed-eda9-4c54-92d5-a492bb068fe3",
+      "text": "Ride Soarin' Across America in Epcot, a temporary overlay celebrating America's 250th birthday.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction",
+        "seasonal-event"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "aac6393c-b455-428a-b78c-0bf2cdb864a8",
+      "text": "Experience Remy's Ratatouille Adventure in Epcot, now in 2D with sharper graphics, eliminating the need for 3D glasses.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-update",
+        "ride-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "8036d55d-6a08-4362-bd84-15e0c0ef3512",
+      "text": "Ride Frozen Ever After in Epcot, which now features state-of-the-art animatronics similar to the newer Frozen Lands overseas.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "attraction-update",
+        "ride-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "706b833c-b1e5-43ab-a043-9451951ec76c",
+      "text": "Ride Millennium Falcon: Smugglers Run in Hollywood Studios with revamped missions that now include Mando and Grogu.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-update",
+        "interactive-ride"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "348678c7-2276-465a-aedf-5c129f86bc73",
+      "text": "Ride Kilimanjaro Safaris in Animal Kingdom for an 18-minute vehicle tour around the park's African-style savannah.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "attraction",
+        "safari-ride"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "2f5022e7-30f5-4bb3-8266-44b8639af617",
+      "text": "Ride Expedition Everest, Legend of the Forbidden Mountain, in Animal Kingdom for its incredible theming and thrilling coaster experience.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "attraction",
+        "roller-coaster"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "7f946b9a-dc5b-42af-a385-738798acff92",
+      "text": "Visit the new Lauteneri at Epcot, currently under construction.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "new-dining",
+        "construction-update"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "8a49764e-b845-41ab-b80e-a6cac2f6fd5a",
+      "text": "Explore the reimagined Animation Courtyard at Hollywood Studios, including the new Disney Junior Play and Dance show.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-attraction",
+        "entertainment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "1ecd9d45-e653-4d88-a02f-39e99d8b3f27",
+      "text": "Enjoy the new Disney Junior Play and Dance show in the Walt Disney Studios courtyard at Hollywood Studios.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-entertainment",
+        "kids-activity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "0fc9de06-aeb6-4b5b-888e-221b03c9d533",
+      "text": "Dino Land USA in Animal Kingdom is closed, impacting crowd flow and removing attractions like Dinosaur and Triceratops Spin.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "land-closure",
+        "construction-impact"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "49ee6863-d238-484c-9358-8d8dd28241eb",
+      "text": "Try the Buffalo Ranch chicken tenders at Cosmic Ray's Starlight Cafe in Magic Kingdom.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "quick-service",
+        "chicken-tenders"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "15d1baeb-94a7-4258-b020-c00709b3a81e",
+      "text": "Get a pineapple DOLE Whip float at Aloha Isle in Magic Kingdom.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "snack",
+        "iconic-treat"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "a72cbb0f-b11b-4708-ac9b-ea60f0bb816e",
+      "text": "Dine at The Crystal Palace in Magic Kingdom for character dining with Winnie the Pooh and friends.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "character-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "8a9ea3b4-8041-46fb-aaa3-6552c0b2ff4e",
+      "text": "Dine at Be Our Guest Restaurant in Magic Kingdom for an immersive experience inside the Beast's Castle.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "4dbebdfb-34ef-4ccc-b39b-45e78ff7b852",
+      "text": "Experience Cinderella's Royal Table in Magic Kingdom for a signature dining experience inside Cinderella Castle with princess meet-and-greets.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "character-dining",
+        "signature-dining"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "f5483d7c-35a1-4c4d-8dac-724fe1ca7c3c",
+      "text": "Book advanced dining reservations for Skipper Canteen in Adventureland, Magic Kingdom.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "table-service",
+        "dining-reservation"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "07043081-7f2c-42ec-9591-e96af495d3b4",
+      "text": "Visit the new Beacon Barrel Lounge in Adventureland, Magic Kingdom.",
+      "category": "dining",
+      "park": "magic-kingdom",
+      "tags": [
+        "lounge",
+        "new-offering"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "710ef6e2-3120-4b28-8e8c-5e27a7990c38",
+      "text": "Dine at Space 220 in Epcot for a unique space station-themed dining experience.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "dabd8fcd-e51b-4e03-bfd4-7829da95a412",
+      "text": "Experience the Oktoberfest-themed beer garden in Epcot's World Showcase.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "lounge",
+        "seasonal-event"
+      ],
+      "priority": "medium",
+      "season": "food-wine",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "25d3dde8-c268-4e5d-accb-96e52d20401e",
+      "text": "Try Grab and Go options at Communicore Hall in Epcot during Cool Kids Summer, including chicken breast bites and fried mac and cheese.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "quick-service",
+        "seasonal-offering"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "5afaf3fa-1c80-4a8e-885d-195d295e6468",
+      "text": "Get the carrot cake whoopie pie at Trolley Car Cafe on Hollywood Boulevard.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "snack",
+        "bakery-item"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "c5bb9570-221b-4dfa-86ba-014405b732f1",
+      "text": "Dine at Roundup Rodeo BBQ in Hollywood Studios and play along as a toy.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "3338645d-3f98-4459-80bf-b31ff817e271",
+      "text": "Experience 50s Prime Time Cafe in Hollywood Studios for comfort food in a 1950s themed setting with playful servers.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "7b731f48-7f55-4812-96a2-4c58f48a893a",
+      "text": "Dine at Sci-Fi Dine-In Theater Restaurant in Hollywood Studios for a unique drive-in movie experience.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "table-service",
+        "themed-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "be8954bd-139f-4b8a-80bd-caf85fd7e990",
+      "text": "Enjoy a classy signature meal at Hollywood Brown Derby in Hollywood Studios.",
+      "category": "dining",
+      "park": "hollywood-studios",
+      "tags": [
+        "table-service",
+        "signature-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "a6387914-03d3-4ddc-a775-29d723e4a801",
+      "text": "Try the Bluey-themed treats at Pizza Fazzeri in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "themed-treats"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "30998817-f05f-4f82-b866-f0ae770b0ff1",
+      "text": "Sample the fairy bread cake at Pizza Fazzeri in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "themed-treats"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "edc822ca-e12e-4e8b-b668-fe9011e15be4",
+      "text": "Try the blueberry mustard dipping sauce with pretzels from Isle of Java in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "unique-flavor"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "ff96ebf4-0b2e-428b-b618-cd06e8957403",
+      "text": "Sample the cheesy arrays from The Smiling Crocodile in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "savory-snack"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "3835e39e-fcd4-454c-b2ab-bb7ac5dcf112",
+      "text": "Try the cookie dough brownie ice cream sandwich from Tiffins Treats in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "dessert"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "24c27016-2858-4b69-a341-bf1945821bbe",
+      "text": "Order the updated baked mac and cheese dishes at Satu'li Canteen in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "updated-menu"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "128342ff-ec8d-457d-89bc-2b90ebde7bd2",
+      "text": "Get the key lime pie pop from Flame Tree Barbecue in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "dessert"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "758d7d27-b091-4866-ba6b-23424b5ac883",
+      "text": "Try cold brew flights from Satu'li Canteen in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drink",
+        "coffee-flight"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "69e3837e-3de1-4357-98f4-15e72dbaa07e",
+      "text": "Enjoy the Night Wraith Blaze, a frozen layered slush, from Pongu Pongu in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drink",
+        "frozen-slush"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "35aeee80-98ff-4e64-9b91-476af9bed93b",
+      "text": "Try the pistachio croissant from Kusafiri Coffee Shop and Bakery in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "snack",
+        "pastry"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "6a8020c9-807e-4145-bc33-2c359c58d109",
+      "text": "Get the cheeseburger pods from Satu'li Canteen in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "popular-item"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "5b92f2dd-6f72-41f4-bc95-79581e850ba6",
+      "text": "Try the boozy DOLE Whip floats from Tamu Tamu Refreshments in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "drink",
+        "alcoholic-drink"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "eba8d9e9-6ce8-47f6-8b4a-4fb3744df5ea",
+      "text": "Order the pulled pork and cheese fries from Flame Tree Barbecue in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "loaded-fries"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "cd1d92f5-5acc-4c70-946b-c43cf9a72296",
+      "text": "Enjoy the simple waffles with banana caramel sauce for breakfast at Tusker House in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service",
+        "breakfast"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "70bdd59e-f3d6-405c-8666-6cfd04f67921",
+      "text": "Try the AI tuna nachos at Yak & Yeti Restaurant in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "table-service",
+        "seafood-appetizer"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "0a996e2e-f0dd-45e2-9e6c-3fed81bba8be",
+      "text": "Order the chicken fried rice from Yak & Yeti Local Food Cafes in Animal Kingdom.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "quick-service",
+        "asian-cuisine"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "335c040f-1fc5-409b-8907-028868abad40",
+      "text": "Watch Disney's Starlight Magic nighttime parade in Magic Kingdom, featuring classic and new characters on dazzling floats.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "nighttime-entertainment"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "84145e48-a053-4b46-82b2-abc949f138df",
+      "text": "See Isabella from Encanto, Miguel from Coco, Peter Pan, and Wendy during the Disney Starlight Magic parade.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "parade",
+        "character-appearance"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "b886bf5f-d855-419d-a474-4c9123136359",
+      "text": "Participate in Jesse's Roundup at the Diamond Horseshoe Restaurant in Magic Kingdom during the Cool Kids Summer event.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "event-activity",
+        "kids-activity",
+        "summer"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "fc29d912-ecbe-4434-bdfc-afaa17c9efee",
+      "text": "Experience Goofy's Gone Fishing, a non-alcoholic drink with blue raspberry lemonade and gummy candies, at Communicore Hall in Epcot during Cool Kids Summer.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "drink",
+        "seasonal-offering",
+        "kids-drink",
+        "summer"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "db5180c1-a4d9-4805-beb8-d6f74b981d2e",
+      "text": "Attend the Goof Troop DJ Dance Pants and Goofy himself dance party at Communicore Hall in Epcot during Cool Kids Summer.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "entertainment",
+        "kids-activity",
+        "summer"
+      ],
+      "priority": "medium",
+      "season": "summer",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "60779ee8-9701-433b-b3ea-6995f4c24f24",
+      "text": "Explore the Walt Disney Studios courtyard at Hollywood Studios, featuring animal statues, cemented handprints, and a sparkling Sorcerer Mickey hat.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "attraction-update",
+        "photo-opportunity"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "f19d5f8e-e90c-4062-ad5b-488a716c661b",
+      "text": "Visit the Magic of Disney Animation building in the Walt Disney Studios courtyard at Hollywood Studios, which includes animation sketch classes and meet-and-greets.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "new-attraction",
+        "meet-and-greet",
+        "animation-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "TFkJ_xjIACE",
+        "channelName": "DFBGuide",
+        "videoTitle": "Disney World Park Rankings for 2026 Are VERY Different",
+        "publishedAt": "2026-06-10T14:30:24+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:34.015Z"
+    },
+    {
+      "id": "64b7e668-6051-42b6-a9b4-5bb94b7beb8d",
+      "text": "Consider a break day after every two to three park days for a more enjoyable trip, especially with young children.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "pacing",
+        "family-travel"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "0661a63a-667b-4aab-b94f-a36770fdf9af",
+      "text": "Rent a fireworks cruise out of the Yacht Club for a unique Epcot fireworks viewing experience without needing a park ticket.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "fireworks",
+        "unique-experience"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "8dbd40b8-6fe2-45bd-9a52-d5a7a7a06da0",
+      "text": "Dine at California Grill for excellent food, service, and views of the Epcot fireworks.",
+      "category": "dining",
+      "park": "epcot",
+      "tags": [
+        "table-service",
+        "fireworks-dining"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "511efa39-bbea-47dc-9227-4f7a6abbfdfc",
+      "text": "You do not need park tickets to make dining reservations, offering flexibility when booking.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "dining-reservation",
+        "booking"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "871d0b4c-6ebd-4b15-ba15-69cc8c82c13c",
+      "text": "Consider booking a package to secure park tickets ahead of time, but be mindful of cancellation dates.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "booking",
+        "packages"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "470b7f5c-30e6-4d92-8ad7-c61baa8e9f90",
+      "text": "Utilize the ferry or boat transportation from Fort Wilderness Beach to Magic Kingdom for a chance to see the Electrical Water Pageant.",
+      "category": "transportation",
+      "park": "magic-kingdom",
+      "tags": [
+        "transportation",
+        "electrical-water-pageant"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "34133627-85a8-4b33-a552-d1f804a4ab59",
+      "text": "For a girls' trip, consider a progressive dinner experience where you have appetizers, entrees, and desserts at different restaurants.",
+      "category": "dining",
+      "park": "all-parks",
+      "tags": [
+        "progressive-dinner",
+        "girls-trip"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "42e24221-93fa-40f5-835e-41265c42ecd6",
+      "text": "Reserve a pool cabana at a resort or water park for a special treat on a girls' trip.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-perks",
+        "girls-trip"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "edbdcf62-c158-4411-9afe-1b30f7f8a497",
+      "text": "After Magic Kingdom fireworks, consider riding one more attraction as crowds begin to leave.",
+      "category": "parks",
+      "park": "magic-kingdom",
+      "tags": [
+        "fireworks",
+        "late-night"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "86a10c3d-9d99-4a0c-837a-19459a2a6a8f",
+      "text": "Avoid watching the Epcot fireworks from inside Spice Road Table; opt for the balcony or surrounding areas for a better view.",
+      "category": "parks",
+      "park": "epcot",
+      "tags": [
+        "fireworks",
+        "dining-view"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "9994ec89-e98a-44c4-9fb0-39515084ea80",
+      "text": "At Hollywood Studios, consider rope dropping Tower of Terror and Rock 'n' Roller Coaster, using Lightning Lane for Slinky Dog, and a single rider pass for Rise of the Resistance.",
+      "category": "parks",
+      "park": "hollywood-studios",
+      "tags": [
+        "rope-drop",
+        "lightning-lane",
+        "single-rider"
+      ],
+      "priority": "high",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "ee157761-8193-412a-b800-9c13eab3a5cd",
+      "text": "For mom and daughter trips, Pop Century Resort is a great choice due to its access to the Skyliner.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "skyliner",
+        "family-resort"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "6f0e2d27-aa11-4759-b5d5-3cd0d8d5e0d4",
+      "text": "Use the Hey Disney device in your resort room to request additional coffee pods, towels, or other amenities without needing to call.",
+      "category": "hotels",
+      "park": "all-parks",
+      "tags": [
+        "resort-amenities",
+        "convenience"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "f3307f33-9f5b-4889-93f2-45d0411b5856",
+      "text": "Same-day Lightning Lane drops can offer quick return times, not just evening slots, and can be further influenced by modifications from other guests.",
+      "category": "planning",
+      "park": "all-parks",
+      "tags": [
+        "lightning-lane",
+        "booking-strategy"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
+    {
+      "id": "ffa5e460-c801-4ef4-8adc-f9dfe6310d7f",
+      "text": "Expect Disneyland to release 2027 dates in early summer, typically within the next month.",
+      "category": "planning",
+      "park": "disneyland",
+      "tags": [
+        "booking",
+        "advance-booking"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "ZRHj-w7h2Ow",
+        "channelName": "WDWPrepSchool",
+        "videoTitle": "Disney Travel Q&A",
+        "publishedAt": "2026-06-10T13:27:07+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:26.291Z"
+    },
     {
       "id": "17e0bf22-a175-43e0-96f7-afd3b0d469bb",
       "text": "Meet Edna Mode in Toy Story Land at Hollywood Studios; she often has no line and her meet-and-greet is a great experience.",
@@ -1269,6 +4920,62 @@
         "publishedAt": "2026-06-09T14:00:17+00:00"
       },
       "extractedAt": "2026-06-09T14:03:42.485Z"
+    },
+    {
+      "id": "c4142903-7514-4bf0-bd4b-7341c94fe951",
+      "text": "Head to Kilimanjaro Safaris first thing in the morning to minimize wait times.",
+      "category": "parks",
+      "park": "animal-kingdom",
+      "tags": [
+        "rope-drop",
+        "wait-times"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Hb_noP_nJkw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Tranquil Tuesday - A Beautiful Morning at Animal Kingdom - Walt Disney World - 6-9-26",
+        "publishedAt": "2026-06-09T02:55:35+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:27.487Z"
+    },
+    {
+      "id": "2e4c96ff-add8-447c-b0ba-97e3efc946ef",
+      "text": "Use the mobile order system for quicker food pickup at Animal Kingdom's quick-service restaurants.",
+      "category": "dining",
+      "park": "animal-kingdom",
+      "tags": [
+        "mobile-order",
+        "quick-service"
+      ],
+      "priority": "medium",
+      "season": "year-round",
+      "source": {
+        "videoId": "Hb_noP_nJkw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Tranquil Tuesday - A Beautiful Morning at Animal Kingdom - Walt Disney World - 6-9-26",
+        "publishedAt": "2026-06-09T02:55:35+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:27.487Z"
+    },
+    {
+      "id": "e33ba167-d890-4e96-b249-e6b26eb4c36f",
+      "text": "Consider Animal Kingdom a half-day park due to limited attractions, but it can fill an entire day if you do everything.",
+      "category": "planning",
+      "park": "animal-kingdom",
+      "tags": [
+        "park-strategy"
+      ],
+      "priority": "low",
+      "season": "year-round",
+      "source": {
+        "videoId": "Hb_noP_nJkw",
+        "channelName": "ResortTV1",
+        "videoTitle": "🔴Live: Tranquil Tuesday - A Beautiful Morning at Animal Kingdom - Walt Disney World - 6-9-26",
+        "publishedAt": "2026-06-09T02:55:35+00:00"
+      },
+      "extractedAt": "2026-06-11T14:05:27.487Z"
     },
     {
       "id": "0dc8755a-944e-4b41-bba9-02dd00e579b8",
@@ -107699,57 +111406,95 @@
     }
   ],
   "topTips": [
-    "17e0bf22-a175-43e0-96f7-afd3b0d469bb",
-    "cafdc83b-283b-4817-b05d-202fe9b73e74",
-    "689e5b69-e6d5-4328-974d-3e1575f4c6fc",
-    "49e24354-5c15-428f-b7f6-c0fb0d9993a5",
-    "3f64de2b-7a82-499f-b855-9a736f6f2fe0",
-    "c0749bc6-4b3b-4f0a-8576-7a5169f9efda",
-    "3f0db62f-d547-4752-ae3f-0da8dd2b48e0",
-    "af09cbfe-5e13-498b-a879-25bbea29b541",
-    "928c09cb-2750-4fd2-9215-6154479059f1",
-    "54961b3c-53ad-491d-823c-bdf348432396",
-    "11176aa9-c64a-40bc-9360-461056ae6a8e",
-    "b36be4f9-9578-4bb1-81fd-d8bde117db54",
-    "92661a10-1fb9-4152-b8be-8abf9c51900d",
-    "4ec44084-deed-4a7e-8949-f570d24a5ee9",
-    "5b10b63b-15b6-4aa7-988b-146128d2d586",
-    "b70935e1-491c-4785-881f-8bbb8a05ef1b",
-    "ebd35d5f-d1bc-4340-9144-5ba50162813e",
-    "f767bd8b-527b-42be-9d52-58b058d14f4e",
-    "c5fb47bd-bf1c-457a-8c9c-7368f5399dee",
-    "becf6d7e-e4a2-4aa0-af4f-20780a52f0b9",
-    "351276e2-6a9b-44a2-b098-856200605df1",
-    "0327f0b5-d5ca-48aa-8f8c-aee762525e96",
-    "3d760df1-e318-42ee-912f-379e33b3debf",
-    "7d3ce9ad-552a-46e4-9aff-dbabd475de35",
-    "65f3a835-75ac-47e8-a1df-e0d8c3a5cda9",
-    "ad360b7a-8d30-4d67-8d65-6156555186c9",
-    "1791c7a9-9823-4e2b-b268-969c85a982be",
-    "75eeb6f5-456b-4273-9e34-f54b62000235",
-    "e9af7e7b-7241-45bf-99e7-5df2cc6bca78",
-    "78d4ebb0-c8bd-4cca-b5f1-14f9708953d4",
-    "bb8a42fb-9ae2-4cf8-ab17-1e96bff415c6",
-    "c0a4918c-7f4f-4c36-9dc2-a11db502f9cf",
-    "b42479ff-d030-49ed-9566-2fd90e182183",
-    "125c9454-4d47-4985-af0d-39881c7fa9ae",
-    "c936ec5d-5fab-40bc-8e47-77ca608c91c9",
-    "22297191-4aaa-4ef9-8eb7-4ef278df8d13",
-    "964ef121-fed8-4a86-a6f5-91ed459ea23d",
-    "14136609-27f8-41e8-9296-326e2f642224",
-    "9df75fa4-7888-46eb-be99-836f34943798",
-    "e61ae063-83ab-46f8-9753-f1e4813937e7",
-    "02a34780-6e11-42fc-a9cd-1c5ee1420e78",
-    "ec35331d-e73f-49b2-8c75-0fea74c6edf5",
-    "4bd06e32-794d-4960-85a7-f0fec0717a77",
-    "51ecb900-ef6b-4bc7-9b23-4b6dec9b012c",
-    "0efb9f27-eeb5-48cb-89d6-b95647088627",
-    "629036fd-1109-4ab8-8b5f-9593f16304d7",
-    "af9262fe-92c3-4c6e-970c-3d3045ac26e6",
-    "fca70396-56b3-4d0a-812c-66f3d3c9bc7e",
-    "18e3ffd5-d52c-489e-8190-113128c22092",
-    "f7b7ca02-4cbe-4eb4-b262-2250437fd48b",
-    "c893996e-41e5-43bd-a4fa-52f9587d6b0e",
+    "b120e550-8d34-4ace-9866-31f83f728f2d",
+    "13e11773-1c19-4d8c-9daf-4ba64c33a09e",
+    "477450dc-8adc-4ffc-b5bb-b7917aa8d9fe",
+    "fc3a9906-d361-4ca0-a51a-a5cca2262104",
+    "e4a262ed-7da5-4d29-adf4-2987280a77c7",
+    "a492cb98-6e0d-4fe9-bf68-8c7d82c8366b",
+    "e0a3ef56-4b28-4555-aa68-96ac9cbad39c",
+    "033c640b-fa36-44cc-94d2-578acb571df9",
+    "6a327111-97af-4a76-bf9a-a3b595c5c50b",
+    "52d5025f-374f-4cc5-9bca-e59b6275ac85",
+    "9ff5a1b1-6a2b-4fab-a7a0-a477490cf96a",
+    "6849fdd3-a794-4929-9904-50e6eadd235b",
+    "068bf48b-38aa-49d4-bc7b-d254a8c8acd7",
+    "7359503d-7662-4133-8e12-aaf9fdd7e332",
+    "64b7e668-6051-42b6-a9b4-5bb94b7beb8d",
+    "511efa39-bbea-47dc-9227-4f7a6abbfdfc",
+    "871d0b4c-6ebd-4b15-ba15-69cc8c82c13c",
+    "69326555-bdb0-4fc6-9410-6b4ef6878aed",
+    "99cbfb97-dba7-435f-a3d1-6c2979d89729",
+    "1a1fb684-a2ea-4fd4-b29e-cb181f0a71c4",
+    "25890674-1864-4254-be40-3b1f764fd87d",
+    "25d4c648-ed40-4fff-b5ef-6a7975ca8bbd",
+    "b8132eec-7f62-4f68-802a-23f23f40b286",
+    "5cb61a78-2065-4775-8d71-0a170384cd62",
+    "6c51d94a-6b09-4f3f-84d5-b805b48d6c21",
+    "565a0d05-c9c9-4764-ae77-47d56eb714f3",
+    "c0e4e97f-b371-4330-aa73-5290064158f1",
+    "8a7f426d-a5e4-41c3-ab9c-b73938d691e6",
+    "b2197431-93d2-483b-979b-538d73ffc61f",
+    "fe173a97-2835-485f-b76d-4d1ea36020ee",
+    "e3029b87-4c35-4960-bb56-d71086b41007",
+    "60b0972b-457e-4d3b-b085-0acb514d7174",
+    "7814bfe1-4611-442f-a090-06bcccd3b949",
+    "864d2e79-8c4b-4e33-b184-87ad95e35b53",
+    "4f1e43ae-f212-465c-ac2b-ce1fdf4d8391",
+    "d3e236db-d97d-4484-94c1-b7f3ad9f4beb",
+    "f619f978-4be2-4890-8626-3cc9ebc50605",
+    "905d7329-e08d-4cb2-a3e6-9599198f4192",
+    "b46304cf-71dc-4ac7-a224-e6112dcf6dfc",
+    "2c692e0e-4c2a-435b-a059-20d45cdea819",
+    "3cfc2e92-9e3d-4ed8-929a-81b286057165",
+    "cfc1f288-710c-4a35-9c79-f47bae370c64",
+    "7e8188b2-d3e1-42e4-b952-9bf534d0fb04",
+    "271bea10-0ed4-4848-a3dc-5704e4e2a7c2",
+    "aee700dd-f491-4d01-a004-2c7ba7e1fece",
+    "0e468f4f-9627-4989-890c-a29454fd6d71",
+    "1f019181-ad2a-4f66-a14e-99184785f894",
+    "ac563eba-27d6-4cf8-aa26-a7f4e66b7d06",
+    "dba2d3b8-b9ff-49e0-9349-81d020edde46",
+    "c82027ef-4d6c-40e3-9daf-da6887f24ad4",
+    "ea1c34ca-d03f-42c7-8bc8-216f2143dda8",
+    "baac9de9-d692-4c4a-a20b-4c898e50cbec",
+    "e449b3f1-9cd5-42a9-9edc-21dc7485988a",
+    "5719e10b-bb25-4a90-968d-8baf51cf292c",
+    "ddf1ee1a-03a5-408f-856d-a73ccfd0249a",
+    "80f4cf1c-b13e-4745-9b44-53a4a1484b0d",
+    "d6e0ba3d-5139-4c6b-8f9c-fd69db60821c",
+    "68ec2d69-63f3-4028-9d3e-37e7dbfe3515",
+    "ac759107-2b75-4d2a-8107-f09c47c184b4",
+    "d8ed39d5-40dd-4cab-b280-7aebb0d00cf3",
+    "f611e4e8-be64-4558-9290-30e9a320c2f6",
+    "fd5456e7-1c3f-4fd8-8ad0-e59612779877",
+    "47b5d314-7b25-4a1b-bab3-6766c0fd2e29",
+    "d311e13b-19ba-4fcc-83ec-dd73ff78148f",
+    "2e8a6215-05e0-4693-b982-1dd1cbe288d6",
+    "7175e194-f753-46c8-9391-66329bfc5720",
+    "0a21aa42-310c-4978-adec-9eb525a0bd30",
+    "a665b7a3-6eb1-443a-bdf8-073514520269",
+    "471bfe2c-5bcc-4424-b001-4037a78ed8fb",
+    "9e1caa05-9fcd-4ced-991a-cd165c0cf3b1",
+    "1286ed82-3443-44a3-a27c-0dfd180d7ffb",
+    "8112ec9d-516b-4f99-a365-848dd1cc4dc1",
+    "ceb36456-ca30-4126-baad-c187b494253e",
+    "6f70083b-10a8-4b50-b27f-429c622cc810",
+    "59c03d0d-67e7-49d0-93c9-6fd64ae9fbcc",
+    "42e24221-93fa-40f5-835e-41265c42ecd6",
+    "ee157761-8193-412a-b800-9c13eab3a5cd",
+    "6f0e2d27-aa11-4759-b5d5-3cd0d8d5e0d4",
+    "753a5ce4-c95b-46fd-9a73-50ad3f2e53a9",
+    "296eade3-0e9a-4e72-8fdd-8271808168d4",
+    "66d548f9-a40e-4cfa-926f-6432af5199a3",
+    "c22e9cb5-8af0-4f70-ade8-6c229b91ecf4",
+    "499f6be5-ab94-49e4-bb8c-50fdfeb99013",
+    "d20b66ed-564b-454d-9efd-3b0344eb3a20",
+    "7306b093-5c5c-4d7a-83ef-c688d2ac14e6",
+    "dbce7c1f-5df4-4c6e-a330-c362b185ca00",
+    "db00292f-15e0-470a-abfb-ff0b27e31473",
+    "151a0872-0904-4f25-a274-341a6cf87baa",
+    "470b7f5c-30e6-4d92-8ad7-c61baa8e9f90",
     "2fad4ceb-99cb-4a39-b77e-861003791cba",
     "32cc9c6a-3378-4346-a72c-da681c2eddf0",
     "38aca6ae-fdaf-4db8-84b8-1059aec81e33",
@@ -107760,44 +111505,6 @@
     "1e835c6c-66f7-432e-b23c-ad2173c02664",
     "0b725e17-7076-412b-b543-3ea7d4868b45",
     "80e70845-0a06-4d6a-839e-403b4a3b56a6",
-    "9b6624c1-cc1c-41d5-bd2d-c28063024b08",
-    "76719090-93c7-46d1-b476-d2e138ef49c1",
-    "1c7d5d62-2205-4e47-ae5a-a945766472d1",
-    "3c5164c7-59de-4b32-94b0-f8673aa574b8",
-    "ea5cd512-4efb-455c-b2bc-a5d21433c052",
-    "01276da2-9b58-463e-96d8-f65ed996c93a",
-    "bb0f5a0c-fff9-4a41-ae92-e2007c23f77e",
-    "8a7f426d-a5e4-41c3-ab9c-b73938d691e6",
-    "b2197431-93d2-483b-979b-538d73ffc61f",
-    "fe173a97-2835-485f-b76d-4d1ea36020ee",
-    "e3029b87-4c35-4960-bb56-d71086b41007",
-    "60b0972b-457e-4d3b-b085-0acb514d7174",
-    "7814bfe1-4611-442f-a090-06bcccd3b949",
-    "864d2e79-8c4b-4e33-b184-87ad95e35b53",
-    "51f5e9e3-391f-4655-9c94-fcc24ef1326e",
-    "bde670f7-a339-41e1-bf59-23b592d27e06",
-    "97e0b9c4-515f-4e29-b65a-80ac9992e640",
-    "c0c7399c-f0f2-4f05-966b-58798a92b64d",
-    "5ef729fa-5e4c-4e23-b6bb-94cbc9096801",
-    "855eab4b-3624-4d64-bbeb-7f863f1e243d",
-    "6fff2f5a-2aa1-4021-8cf3-b8b279078755",
-    "d521f9d4-853b-425a-806b-b4214096f802",
-    "e286b1d7-976c-4e00-84ec-2c2542540b64",
-    "632621ea-e6de-4995-a515-73c29b781dd6",
-    "753a5ce4-c95b-46fd-9a73-50ad3f2e53a9",
-    "296eade3-0e9a-4e72-8fdd-8271808168d4",
-    "66d548f9-a40e-4cfa-926f-6432af5199a3",
-    "c22e9cb5-8af0-4f70-ade8-6c229b91ecf4",
-    "499f6be5-ab94-49e4-bb8c-50fdfeb99013",
-    "d20b66ed-564b-454d-9efd-3b0344eb3a20",
-    "7306b093-5c5c-4d7a-83ef-c688d2ac14e6",
-    "98ac399d-1a17-46d5-81eb-8dc0b9ec9b44",
-    "5f3d9297-b5e1-4e27-b860-95304a91d54f",
-    "8e76b48b-cbc2-499f-8f6e-b634afc9433c",
-    "96e041f7-a3eb-45f4-9ba5-f8b3c8c618cb",
-    "3048e77f-8dee-4ab9-9059-0eada5678cf6",
-    "5d2b88f0-8367-431a-8621-d9ed3525b29e",
-    "005d89bf-26a5-4694-b53b-2bdc4a2012bf",
-    "6a7dec95-3db2-49e0-8724-700fa177bf74"
+    "9b6624c1-cc1c-41d5-bd2d-c28063024b08"
   ]
 }
