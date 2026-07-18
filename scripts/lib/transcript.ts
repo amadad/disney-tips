@@ -1,7 +1,6 @@
 import { execFile } from 'child_process';
 import { promisify } from 'util';
 import { existsSync, readFileSync, unlinkSync } from 'fs';
-import { Socket } from 'net';
 
 const execFileAsync = promisify(execFile);
 
@@ -13,9 +12,6 @@ export type Logger = {
 };
 
 export type TranscriptRuntimeConfig = {
-  proxyHost: string;
-  proxyPort: number;
-  proxyUrl?: string;
   denoPath: string;
   strictPreflight: boolean;
   useDenoRuntime: boolean;
@@ -39,17 +35,12 @@ function envBool(value: string | undefined, defaultValue: boolean): boolean {
 
 export function buildTranscriptRuntimeConfig(env: NodeJS.ProcessEnv = process.env): TranscriptRuntimeConfig {
   const home = env.HOME || '';
-  const proxyHost = env.WARP_PROXY_HOST || '127.0.0.1';
-  const proxyPort = Number(env.WARP_PROXY_PORT || '1080');
   const strictPreflight = envBool(env.TRANSCRIPT_STRICT_PREFLIGHT, true);
   const useDenoRuntime = envBool(env.TRANSCRIPT_USE_DENO_RUNTIME, true);
   const timeoutMs = Number(env.TRANSCRIPT_TIMEOUT_MS || '30000');
   const denoPath = env.DENO_PATH || `${home}/.deno/bin/deno`;
 
   return {
-    proxyHost,
-    proxyPort: Number.isFinite(proxyPort) && proxyPort > 0 ? proxyPort : 1080,
-    proxyUrl: `socks5h://${proxyHost}:${Number.isFinite(proxyPort) && proxyPort > 0 ? proxyPort : 1080}`,
     denoPath,
     strictPreflight,
     useDenoRuntime,
@@ -63,45 +54,6 @@ async function commandExists(command: string): Promise<boolean> {
     return true;
   } catch {
     return false;
-  }
-}
-
-async function isProxyPortOpen(host: string, port: number): Promise<boolean> {
-  return new Promise((resolve) => {
-    const socket = new Socket();
-    const done = (ok: boolean) => {
-      socket.removeAllListeners();
-      socket.destroy();
-      resolve(ok);
-    };
-
-    socket.setTimeout(1500);
-    socket.once('connect', () => done(true));
-    socket.once('timeout', () => done(false));
-    socket.once('error', () => done(false));
-    socket.connect(port, host);
-  });
-}
-
-async function isProxyReachable(config: TranscriptRuntimeConfig): Promise<boolean> {
-  if (!config.proxyUrl) return false;
-
-  try {
-    const { stdout } = await execFileAsync(
-      'curl',
-      [
-        '--proxy', config.proxyUrl,
-        '-sS',
-        '-o', '/dev/null',
-        '-w', '%{http_code}',
-        '--max-time', '8',
-        'https://www.youtube.com/robots.txt',
-      ],
-      { timeout: 12000 },
-    );
-    return stdout.trim() === '200';
-  } catch {
-    return isProxyPortOpen(config.proxyHost, config.proxyPort);
   }
 }
 
@@ -121,12 +73,6 @@ export async function runTranscriptPreflight(
   if (config.useDenoRuntime && !existsSync(config.denoPath)) {
     warnings.push(`Deno runtime not found at ${config.denoPath}; continuing without --js-runtimes override`);
     config.useDenoRuntime = false;
-  }
-
-  const proxyOk = await isProxyReachable(config);
-  if (!proxyOk) {
-    failures.push(`WARP proxy at ${config.proxyHost}:${config.proxyPort} is not routing traffic to YouTube`);
-    config.proxyUrl = undefined;
   }
 
   const ok = failures.length === 0 && (config.strictPreflight ? warnings.length === 0 : true);
@@ -190,11 +136,6 @@ export async function fetchTranscriptViaYtdlp(
       '-o', outPath,
       `https://www.youtube.com/watch?v=${videoId}`,
     ];
-
-    if (config.proxyUrl) {
-      args.unshift(config.proxyUrl);
-      args.unshift('--proxy');
-    }
 
     if (config.useDenoRuntime) {
       args.unshift(`deno:${config.denoPath}`);

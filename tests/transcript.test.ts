@@ -12,12 +12,13 @@ test('parseSrv1Transcript decodes entities and flattens whitespace', () => {
   assert.equal(parsed, "Hello & welcome Use <Lightning Lane> 'wisely'");
 });
 
-test('buildTranscriptRuntimeConfig uses socks5h proxy URLs', () => {
-  const config = buildTranscriptRuntimeConfig({
-    HOME: '/home/deploy',
-    WARP_PROXY_HOST: '127.0.0.1',
-    WARP_PROXY_PORT: '1080',
-  });
+test('buildTranscriptRuntimeConfig exposes only active settings', () => {
+  const config = buildTranscriptRuntimeConfig({ HOME: '/home/deploy' });
 
-  assert.equal(config.proxyUrl, 'socks5h://127.0.0.1:1080');
+  assert.deepEqual(config, {
+    denoPath: '/home/deploy/.deno/bin/deno',
+    strictPreflight: true,
+    useDenoRuntime: true,
+    timeoutMs: 30000,
+  });
 });

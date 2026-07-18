@@ -40,20 +40,17 @@ npm test
 - `dist/` and `data/public/` are bind-mounted into the container — pipeline rebuilds go live immediately
 - `data/private/` is mounted writable for decision-plan pilot lead capture and is git-ignored
 - Health endpoint: `https://disney.bound.tips/api/health`
-- Timer: systemd `disney-tips-pipeline.timer` (6 AM + 6 PM UTC)
+- Schedule: none installed; run `npm run pipeline:deploy` manually
 - Deploy-safe pipeline: `npm run pipeline:deploy`
 
 ## Runtime Requirements (transcript fetch)
 
 - `yt-dlp` in PATH
-- SOCKS5 proxy (WARP) reachable at `127.0.0.1:1080` (defaults)
 - Deno runtime at `~/.deno/bin/deno` (default)
 
 Configurable env vars:
 
 ```bash
-WARP_PROXY_HOST=127.0.0.1
-WARP_PROXY_PORT=1080
 DENO_PATH=~/.deno/bin/deno
 TRANSCRIPT_STRICT_PREFLIGHT=true
 TRANSCRIPT_USE_DENO_RUNTIME=true
@@ -90,5 +87,6 @@ design.md                        Frontend style reference; keep the UI Disney-sa
 - `check-staleness` exit codes: `0` = OK, `1` = stale, `2` = error
 - `verify-live` compares local `data/public/tips.json` with what the live site serves. Fails if drift > 5 minutes.
 - YouTube RSS feeds occasionally return transient 500/404 — pipeline continues with available feeds.
+- Direct yt-dlp transcript requests may be bot-blocked from the VPS; treat missing transcripts as unavailable evidence.
 - Decision-plan pilot leads are stored in git-ignored `data/private/planning-requests.jsonl`; set `PLAN_REQUEST_RECIPIENT` before outreach so Resend notifications reach the operator.
 - Set `PLAN_PAYMENT_URL` to return a payment link after planning intake; otherwise use manual follow-up.

@@ -52,8 +52,6 @@ Optional:
 - `PLAN_PAYMENT_URL` – optional payment link returned after a planning request
 - `SITE_URL` (default: `https://disney.bound.tips`)
 - `PORT` (default: `3000`)
-- `WARP_PROXY_HOST` (default: `127.0.0.1`)
-- `WARP_PROXY_PORT` (default: `1080`)
 - `DENO_PATH` (default: `~/.deno/bin/deno`)
 - `TRANSCRIPT_STRICT_PREFLIGHT` (default: `true`)
 - `TRANSCRIPT_USE_DENO_RUNTIME` (default: `true`)
@@ -62,14 +60,14 @@ Optional:
 ## Architecture
 
 ```text
-YouTube RSS → yt-dlp (+ WARP proxy) → data/pipeline/videos.json
+YouTube RSS → yt-dlp → data/pipeline/videos.json
            → Gemini extraction → data/public/tips.json
            → Gemini embeddings → data/public/embeddings.json
            → Vite build → dist/
            → Express server (port 3000) → Traefik → disney.bound.tips
 ```
 
-**Pipeline** (`scripts/`): Runs via systemd timer. Fetches videos from the curated Disney YouTube source roster in `shared/types.ts`, extracts structured tips with Gemini, generates embeddings for semantic search.
+**Pipeline** (`scripts/`): Runs manually via `npm run pipeline:deploy`; no host timer or cron is installed. It fetches videos from the curated Disney YouTube source roster in `shared/types.ts`, extracts structured tips with Gemini, and generates embeddings for semantic search.
 
 **Server** (`server/index.ts`): Express app serving static files from `dist/`, plus API endpoints:
 - `POST /api/ask` – Ask-first sourced preview for a natural-language Disney planning decision
@@ -125,7 +123,6 @@ npm run pilot -- readiness # Check decision-plan pilot env/validation status
 ## Troubleshooting
 
 - Verify yt-dlp: `yt-dlp --version`
-- Verify proxy: `nc -z 127.0.0.1 1080`
 - Verify Deno path: `ls ~/.deno/bin/deno`
 - Check live health: `curl https://disney.bound.tips/api/health`
 - Check container mounts: `docker inspect web-disney --format '{{json .Mounts}}'`

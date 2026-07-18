@@ -123,7 +123,7 @@ function cleanTranscript(text: string): string {
 async function getTranscripts(videoIds: string[], runtime: TranscriptRuntimeConfig): Promise<Map<string, string>> {
   if (videoIds.length === 0) return new Map();
 
-  log.info(`Fetching ${videoIds.length} transcripts via yt-dlp + WARP...`);
+  log.info(`Fetching ${videoIds.length} transcripts via yt-dlp...`);
   const transcripts = new Map<string, string>();
 
   for (const videoId of videoIds) {
@@ -193,7 +193,7 @@ async function main() {
     throw new Error('Transcript runtime preflight failed (set TRANSCRIPT_STRICT_PREFLIGHT=false to allow degraded mode)');
   }
 
-  // Fetch transcripts via yt-dlp + WARP proxy
+  // Fetch transcripts via yt-dlp
   const videoIds = videosToProcess.map(v => v.rssVideo.id);
   const transcripts = await getTranscripts(videoIds, preflight.config);
 
@@ -239,9 +239,9 @@ async function main() {
   log.info(`Done! ${newVideos.length} new videos added (${withTranscripts} with transcripts).`);
   log.info(`Total videos: ${allVideos.length}`);
 
-  // Warn if we found videos but got zero transcripts — likely a proxy/yt-dlp issue
+  // Warn if we found videos but got zero transcripts.
   if (newVideos.length >= 3 && withTranscripts === 0) {
-    log.warn(`0/${newVideos.length} transcripts fetched — WARP proxy may be degraded`);
+    log.warn(`0/${newVideos.length} transcripts fetched — YouTube may be blocking this host`);
   }
 }
 

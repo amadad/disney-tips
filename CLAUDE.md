@@ -35,7 +35,7 @@ npm test
 - **Container**: Express server (Dockerfile), port 3000, behind Traefik
 - **Volumes**: `dist/` and `data/public/` are bind-mounted — pipeline rebuilds go live immediately (no container restart needed); `data/private/` is mounted writable for decision-plan pilot leads
 - **Health**: `https://disney.bound.tips/api/health` returns tip count, embeddings status, semantic search status
-- **Timer**: systemd `disney-tips-pipeline.timer` (daily 10 AM ET / America/New_York)
+- **Schedule**: none installed; run `npm run pipeline:deploy` manually
 - **Deploy**: `npm run pipeline:deploy` (includes verify-live check at the end)
 - **Manual deploy**: `npm run build && npm run verify-live`
 - **Troubleshooting**: The container bind-mounts host `dist/` and `data/public/`, so rebuilding the Docker image alone does not refresh live tips. Re-run the host build (`npm run build`) after data changes. If verify-live fails with STALE, check that `dist/` is bind-mounted (not baked into image). Run `docker inspect web-disney --format '{{json .Mounts}}'` to verify.
@@ -44,10 +44,9 @@ npm test
 
 This is a **batch-first** Disney decision desk with an Express server:
 
-1. **Pipeline** (`scripts/`) - Runs daily via systemd timer (10 AM ET)
-   - `ensure-warp.sh` runs as ExecStartPre — verifies WARP proxy e2e against YouTube, restarts once, then force-recreates the container if needed
+1. **Pipeline** (`scripts/`) - Runs manually; no host timer or cron is installed
    - Fetches videos from 17 Disney YouTube channels via RSS feeds
-   - Extracts transcripts via yt-dlp with WARP proxy (`socks5h://127.0.0.1:1080`)
+   - Attempts transcript extraction directly via yt-dlp; YouTube may block requests from the VPS
    - Backfills previously failed transcripts (max 3 retries per video, then skipped permanently)
    - Uses Gemini 2.5 Flash Lite to extract structured tips with priority/season metadata
    - Generates Gemini embeddings (256-dim, `gemini-embedding-001`) for semantic search, with checkpointed batches + retry-on-429 so reruns resume instead of starting over
@@ -80,7 +79,6 @@ scripts/
   embed-tips.ts              # Gemini embeddings for semantic search (checkpointed, resumable)
   dedupe-tips.ts             # Tip deduplication
   backfill-transcripts.ts    # Retry missing transcripts (max 3 retries then skip)
-  ensure-warp.sh             # Pre-pipeline WARP proxy health check + restart/recreate recovery
   check-staleness.ts         # Freshness + dist sync checks
   verify-live.ts             # Post-deploy live site verification
   prerender.ts               # Inject tips into static HTML
@@ -118,9 +116,9 @@ Tips include:
 ### Data Flow
 
 ```
-ensure-warp.sh → YouTube RSS → yt-dlp + WARP → videos.json → backfill → Gemini API → tips.json + embeddings.json → Static Frontend
-                                                (pipeline/)                            (public/)                          ↑
-                                              (daily 10 AM ET)                                                (dist/ served)
+YouTube RSS → yt-dlp → videos.json → backfill → Gemini API → tips.json + embeddings.json → Static Frontend
+                         (pipeline/)                            (public/)                          ↑
+                                                                                       (dist/ served)
 ```
 
 ## Environment Variables
@@ -142,23 +140,20 @@ SITE_URL=                     # Site URL for RSS feed (default: https://disney.b
 PORT=                         # Server port (default: 3000)
 
 # Transcript runtime (optional overrides)
-WARP_PROXY_HOST=127.0.0.1
-WARP_PROXY_PORT=1080
 DENO_PATH=~/.deno/bin/deno
 TRANSCRIPT_STRICT_PREFLIGHT=true   # fail pipeline if preflight warns/fails
 TRANSCRIPT_USE_DENO_RUNTIME=true
 TRANSCRIPT_TIMEOUT_MS=30000
 ```
 
-Transcripts are fetched via `yt-dlp` using a WARP `socks5h` proxy (`127.0.0.1:1080`) and Deno runtime (`~/.deno/bin/deno`). Gemini handles both extraction and embeddings; no API tokens are needed for transcript fetching.
+Transcripts are attempted directly via `yt-dlp` with the Deno runtime (`~/.deno/bin/deno`). YouTube may bot-block requests from the VPS. Gemini handles both extraction and embeddings; no API tokens are needed for transcript fetching.
 
 ## Transcript Troubleshooting
 
 - Run `yt-dlp --version` to verify binary availability.
-- Verify proxy e2e: `curl --proxy socks5h://127.0.0.1:1080 -s -o /dev/null -w '%{http_code}' https://www.youtube.com/robots.txt` (should return 200).
 - Verify Deno path exists: `ls ~/.deno/bin/deno`.
-- If WARP is unhealthy: `./scripts/ensure-warp.sh` will restart once and then force-recreate `warp-proxy` automatically before the pipeline runs.
-- If the proxy is temporarily down and you want best-effort mode, set `TRANSCRIPT_STRICT_PREFLIGHT=false`.
+- If Deno is unavailable and you want best-effort mode, set `TRANSCRIPT_STRICT_PREFLIGHT=false`.
+- If yt-dlp reports a bot/sign-in wall, record the transcript as unavailable rather than inventing or inferring transcript content.
 - In strict mode, failed preflight exits with non-zero status and stops pipeline chaining.
 - Videos that fail transcript fetch 3 times are permanently skipped (tracked via `transcriptRetries` in videos.json). Most are shorts/live streams without subtitles.
 - `npm run embed` now checkpoints after each batch. If Gemini returns a transient 429, rerun the command and it resumes from the saved `data/public/embeddings.json` + `embeddings.meta.json` state.
